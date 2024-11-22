@@ -67,22 +67,21 @@ fig.add_trace(go.Scatter(
     marker=dict(size=8, color='blue'),
 ))
 
-# Layout adjustments for full screen and zooming
+# Layout adjustments for full-screen view and zooming
 fig.update_layout(
     title="Interactive Diverging and Converging Graph",
     xaxis=dict(
         title="Distance (km)",
         range=[0, 500],  # Show only the next 500 km initially
-        fixedrange=False,  # Allow zooming
+        fixedrange=False,  # Allow zooming horizontally
     ),
     yaxis=dict(
         title="Paths",
-        fixedrange=False,  # Allow zooming vertically as well
+        fixedrange=False,  # Allow zooming vertically
     ),
     showlegend=False,
-    width=1500,  # Full-screen width
-    height=800,  # Full-screen height
-    autosize=True,  # Auto-adjust to screen size
+    autosize=True,  # Automatically adjust size to fill screen
+    margin=dict(l=0, r=0, t=40, b=0),  # Remove unnecessary margins
 )
 
 # Enable Google Maps-like zooming and panning
