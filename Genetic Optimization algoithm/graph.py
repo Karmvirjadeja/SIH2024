@@ -93,13 +93,11 @@ fig.add_trace(go.Scatter(
     hoverinfo='text',
     hovertext=hover_texts  # Include hover text
 ))
-
-# Layout adjustments for full-screen view and zooming
 fig.update_layout(
     title="Interactive Diverging and Converging Graph",
     xaxis=dict(
         title="Distance (km)",
-        range=[0, 500],  # Show only the next 500 km initially
+        range=[0, 500], 
         fixedrange=False,  # Allow zooming horizontally
     ),
     yaxis=dict(
