@@ -2,35 +2,20 @@ import random
 import plotly.graph_objects as go
 
 # Parameters
-total_distance = 8000  # Total distance in km
-node_interval = 111  # Interval between nodes in km
-num_paths = 5  # Number of paths diverging and converging
-levels = total_distance // node_interval  # Number of levels of nodes
-display_window = 500  # Display window size in km
-
-# Constants for fitness calculation
-WIND_SPEED_THRESHOLD = 15  # Wind speed threshold (in knots)
-WAVE_HEIGHT_THRESHOLD = 2  # Wave height threshold (in meters)
-COMFORT_DECREASE_RATE = 10  # Rate of comfort decrease due to wave height and wind speed
-
-# Fitness functions
-def fuel_consumption(distance, wave_height, wind_speed):
-    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
-    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * 0.1)
-    return distance * (1 + wind_resistance + wave_resistance)
-
-def travel_time(distance, wind_speed):
-    wind_effect = 1 - max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
-    return distance / (20 * wind_effect) if wind_effect > 0 else float('inf')
-
-def passenger_comfort(wave_height, wind_speed):
-    comfort = 100 - (wave_height * COMFORT_DECREASE_RATE + wind_speed * COMFORT_DECREASE_RATE)
-    return max(0, comfort)
+total_distance = 8000
+node_interval = 111
+num_paths = 5
+levels = total_distance // node_interval
 
 # Generate node positions, edges, and properties
 node_positions = {}
 node_properties = {}
 edges = []
+
+# Constants for fitness calculation
+WIND_SPEED_THRESHOLD = 15  # Wind speed threshold (in knots)
+WAVE_HEIGHT_THRESHOLD = 2  # Wave height threshold (in meters)
+COMFORT_DECREASE_RATE = 10  # Rate of comfort decrease due to wave height and wind speed
 
 # Start node
 node_positions["Start"] = (0, 0)
@@ -64,35 +49,60 @@ for path in range(1, num_paths + 1):
     # Connect last level of each path to the end node
     edges.append((f"P{path}_L{levels - 1}", "End"))
 
-# Rank nodes and assign fitness
-def rank_nodes():
-    ranked_nodes = {}
-    for level in range(1, levels):
-        level_nodes = [node for node in node_positions if f"_L{level}" in node]
-        node_fitness = []
-        for node in level_nodes:
-            props = node_properties[node]
-            distance = props["distance"]
-            wave_height = props["wave_height"]
-            wind_speed = props["wind_speed"]
+# Fitness Functions
+def fuel_consumption(distance, wave_height, wind_speed):
+    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
+    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * 0.1)
+    fuel = distance * (1 + wind_resistance + wave_resistance)
+    return fuel
 
-            fuel = fuel_consumption(distance, wave_height, wind_speed)
-            time = travel_time(distance, wind_speed)
-            comfort = passenger_comfort(wave_height, wind_speed)
+def travel_time(distance, wind_speed):
+    wind_effect = 1 - max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
+    time = distance / (20 * wind_effect) if wind_effect > 0 else float('inf')
+    return time
 
-            node_fitness.append((node, fuel, time, comfort))
+def passenger_comfort(wave_height, wind_speed):
+    comfort = 100 - (wave_height * COMFORT_DECREASE_RATE + wind_speed * COMFORT_DECREASE_RATE)
+    return max(0, comfort)
 
-        # Sort by fuel (min), time (min), and comfort (max)
-        node_fitness.sort(key=lambda x: (x[1], x[2], -x[3]))
+# Next Step Greedy Algorithm (NSG)
+def nsg_recursive(level, path_count, properties, current_path=[]):
+    if level >= levels:  # Base case: end of levels
+        print("Reached the end of all levels.")
+        return
 
-        # Store rankings for this level
-        ranked_nodes[level] = [(node, idx + 1) for idx, (node, _, _, _) in enumerate(node_fitness)]
-    return ranked_nodes
+    # Get next nodes from all paths
+    next_nodes = []
+    for path in range(1, path_count + 1):
+        node_id = f"P{path}_L{level}"
+        if node_id in properties:
+            next_nodes.append(node_id)
 
-# Get ranked nodes
-ranked_nodes = rank_nodes()
+    # Calculate fitness for the nodes
+    node_fitness = []
+    for node in next_nodes:
+        distance = properties[node]["distance"]
+        wave_height = properties[node]["wave_height"]
+        wind_speed = properties[node]["wind_speed"]
 
-# Plot Graph with Rankings
+        fuel = fuel_consumption(distance, wave_height, wind_speed)
+        time = travel_time(distance, wind_speed)
+        comfort = passenger_comfort(wave_height, wind_speed)
+
+        node_fitness.append((node, fuel, time, comfort))
+
+    # Sort nodes based on fuel (minimize), time (minimize), and comfort (maximize)
+    sorted_nodes = sorted(node_fitness, key=lambda x: (x[1], x[2], -x[3]))
+
+    # Print sorted nodes
+    print(f"Level {level}: Sorted nodes (most optimal to least optimal):")
+    for node, fuel, time, comfort in sorted_nodes:
+        print(f"Node: {node} | Fuel: {fuel:.2f} | Time: {time:.2f} hours | Comfort: {comfort:.2f}")
+
+    # Recursively proceed to the next level
+    nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
+
+# Plot Graph with Plotly
 def plot_graph():
     # Prepare data for Plotly
     edge_x = []
@@ -105,22 +115,6 @@ def plot_graph():
     node_x = [pos[0] for pos in node_positions.values()]
     node_y = [pos[1] for pos in node_positions.values()]
     node_labels = list(node_positions.keys())
-
-    # Determine colors based on rankings
-    colors = []
-    for node in node_labels:
-        for level, ranked_list in ranked_nodes.items():
-            rank = next((rank for n, rank in ranked_list if n == node), None)
-            if rank:
-                if rank == 1:
-                    colors.append("green")
-                elif rank <= len(ranked_list) // 2:
-                    colors.append("yellow")
-                else:
-                    colors.append("red")
-                break
-        else:
-            colors.append("blue")  # Default color for start and end nodes
 
     # Prepare hover text
     hover_texts = [
@@ -147,43 +141,21 @@ def plot_graph():
         mode='markers+text',
         text=node_labels,
         textposition="top center",
-        marker=dict(size=8, color=colors),
+        marker=dict(size=8, color='blue'),
         hoverinfo='text',
         hovertext=hover_texts
     ))
 
-    # Slider steps
-    steps = []
-    for start in range(0, total_distance, display_window):
-        step = dict(
-            method="relayout",
-            args=["xaxis.range", [start, start + display_window]],
-            label=f"{start}-{start + display_window} km"
-        )
-        steps.append(step)
-
-    # Add slider
     fig.update_layout(
-        sliders=[dict(
-            active=0,
-            currentvalue={"prefix": "Visible Range: "},
-            steps=steps
-        )]
-    )
-
-    # Initial layout settings
-    fig.update_layout(
-        title="Interactive Diverging and Converging Graph with Node Rankings",
-        xaxis=dict(title="Distance (km)", range=[0, display_window], fixedrange=False),
+        title="Interactive Diverging and Converging Graph",
+        xaxis=dict(title="Distance (km)", fixedrange=False),
         yaxis=dict(title="Paths", fixedrange=False),
-        showlegend=False,
-        hovermode="closest",
-        dragmode="pan",
-        margin=dict(l=0, r=0, t=40, b=0),
-        autosize=True,
+        showlegend=False
     )
 
     fig.show()
 
-# Plot the graph
+# Run the NSG algorithm and plot the graph
+print("Running NSG algorithm:")
+nsg_recursive(1, num_paths, node_properties)
 plot_graph()

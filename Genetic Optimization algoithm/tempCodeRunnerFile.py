@@ -64,14 +64,11 @@ for path in range(1, num_paths + 1):
     # Connect last level of each path to the end node
     edges.append((f"P{path}_L{levels - 1}", "End"))
 
-# Evaluate nodes and return ranked coordinates
+# Rank nodes and assign fitness
 def rank_nodes():
-    ranked_coordinates = []
+    ranked_nodes = {}
     for level in range(1, levels):
-        # Collect all nodes at this level
         level_nodes = [node for node in node_positions if f"_L{level}" in node]
-
-        # Calculate fitness for each node
         node_fitness = []
         for node in level_nodes:
             props = node_properties[node]
@@ -83,22 +80,32 @@ def rank_nodes():
             time = travel_time(distance, wind_speed)
             comfort = passenger_comfort(wave_height, wind_speed)
 
-            node_fitness.append((node, distance, fuel, time, comfort))
+            node_fitness.append((node, fuel, time, comfort))
 
         # Sort by fuel (min), time (min), and comfort (max)
-        node_fitness.sort(key=lambda x: (x[2], x[3], -x[4]))
+        node_fitness.sort(key=lambda x: (x[1], x[2], -x[3]))
 
-        # Print sorted nodes for this level
-        print(f"Ranked Nodes at Level {level}:")
-        for idx, (node, distance, fuel, time, comfort) in enumerate(node_fitness):
-            print(f"{idx + 1}. {node} | Distance: {distance} km | Fuel: {fuel} | Time: {time} hours | Comfort: {comfort}")
+        # Store rankings for this level
+        ranked_nodes[level] = [(node, idx + 1) for idx, (node, _, _, _) in enumerate(node_fitness)]
+    return ranked_nodes
 
-        # Append sorted coordinates to the ranked list
-        ranked_coordinates.append([node_positions[node] for node, _, _, _, _ in node_fitness])
+# Get ranked nodes
+ranked_nodes = rank_nodes()
 
-    return ranked_coordinates
+# Print level-wise coordinates
+def print_level_coordinates():
+    for level in range(1, levels):
+        level_nodes = [node for node in node_positions if f"_L{level}" in node]
+        print(f"Level {level}:")
+        for node in level_nodes:
+            x, y = node_positions[node]
+            print(f"  Node {node}: Coordinates ({x}, {y})")
+        print()
 
-# Plot Graph with Plotly
+# Print the coordinates of nodes at each level
+print_level_coordinates()
+
+# Plot Graph with Rankings
 def plot_graph():
     # Prepare data for Plotly
     edge_x = []
@@ -111,6 +118,22 @@ def plot_graph():
     node_x = [pos[0] for pos in node_positions.values()]
     node_y = [pos[1] for pos in node_positions.values()]
     node_labels = list(node_positions.keys())
+
+    # Determine colors based on rankings
+    colors = []
+    for node in node_labels:
+        for level, ranked_list in ranked_nodes.items():
+            rank = next((rank for n, rank in ranked_list if n == node), None)
+            if rank:
+                if rank == 1:
+                    colors.append("green")
+                elif rank <= len(ranked_list) // 2:
+                    colors.append("yellow")
+                else:
+                    colors.append("red")
+                break
+        else:
+            colors.append("blue")  # Default color for start and end nodes
 
     # Prepare hover text
     hover_texts = [
@@ -137,7 +160,7 @@ def plot_graph():
         mode='markers+text',
         text=node_labels,
         textposition="top center",
-        marker=dict(size=8, color='blue'),
+        marker=dict(size=8, color=colors),
         hoverinfo='text',
         hovertext=hover_texts
     ))
@@ -163,7 +186,7 @@ def plot_graph():
 
     # Initial layout settings
     fig.update_layout(
-        title="Interactive Diverging and Converging Graph with Slider",
+        title="Interactive Diverging and Converging Graph with Node Rankings",
         xaxis=dict(title="Distance (km)", range=[0, display_window], fixedrange=False),
         yaxis=dict(title="Paths", fixedrange=False),
         showlegend=False,
@@ -174,9 +197,6 @@ def plot_graph():
     )
 
     fig.show()
-
-# Get ranked coordinates
-ranked_coordinates = rank_nodes()
 
 # Plot the graph
 plot_graph()
