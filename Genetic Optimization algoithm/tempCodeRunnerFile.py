@@ -1,5 +1,7 @@
 import random
 import plotly.graph_objects as go
+from threshold import calculate_thresholds
+from resistance import calculate_dynamic_resistance
 
 # Parameters
 total_distance = 8000
@@ -7,23 +9,28 @@ node_interval = 111
 num_paths = 5
 levels = total_distance // node_interval
 
-# Generate node positions, edges, and properties
-node_positions = {}
-node_properties = {}
-edges = []
-
-# Constants for fitness calculation
-WIND_SPEED_THRESHOLD = 15  # Wind speed threshold (in knots)
-WAVE_HEIGHT_THRESHOLD = 2  # Wave height threshold (in meters)
+# Vessel properties for threshold calculation
+vessel_type = "Container Ship"
+size = 5000  # TEU for container ships
+weight = 70000  # Tons
+hull_properties = {"stability_factor": 1.2}
+monsoon = "Southwest"
+current_speed = 2.0  # Knots
+current_direction = "opposing"
+WIND_SPEED_THRESHOLD, WAVE_HEIGHT_THRESHOLD = calculate_thresholds(
+    vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction
+)
 COMFORT_DECREASE_RATE = 10  # Rate of comfort decrease due to wave height and wind speed
+
+# Node positions and edges
+node_positions = {}
+edges = []
 
 # Start node
 node_positions["Start"] = (0, 0)
-node_properties["Start"] = {"distance": 0, "wave_height": 0, "wind_speed": 0}
 
 # End node
 node_positions["End"] = (total_distance, 0)
-node_properties["End"] = {"distance": total_distance, "wave_height": 0, "wind_speed": 0}
 
 # Intermediate nodes
 for path in range(1, num_paths + 1):
@@ -32,13 +39,6 @@ for path in range(1, num_paths + 1):
         x = level * node_interval  # Distance along x-axis
         y = path * 2  # Vertical position based on the path
         node_positions[node_id] = (x, y)
-
-        # Assign random values for wave height and wind speed
-        node_properties[node_id] = {
-            "distance": x,
-            "wave_height": round(random.uniform(0.5, 3.0), 2),  # Random wave height in meters
-            "wind_speed": round(random.uniform(5, 25), 1),  # Random wind speed in knots
-        }
 
         # Connect nodes in the same path
         if level == 1:
@@ -49,10 +49,29 @@ for path in range(1, num_paths + 1):
     # Connect last level of each path to the end node
     edges.append((f"P{path}_L{levels - 1}", "End"))
 
+
+# Function to calculate wave height and wind speed based on position
+def get_node_properties(x, y):
+    """Dynamic wave height and wind speed calculation."""
+    wave_height = round(0.5 + 0.002 * y + random.uniform(0, 1), 2)  # Dynamic wave height
+    wind_speed = round(10 + 0.01 * x + random.uniform(0, 5), 1)  # Dynamic wind speed
+    return wave_height, wind_speed
+
+
+# Node properties
+node_properties = {
+    node: {
+        "distance": x,
+        "wave_height": get_node_properties(x, y)[0],
+        "wind_speed": get_node_properties(x, y)[1],
+    }
+    for node, (x, y) in node_positions.items()
+}
+
 # Fitness Functions
 def fuel_consumption(distance, wave_height, wind_speed):
-    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
-    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * 0.1)
+    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * calculate_dynamic_resistance(wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction))
+    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * calculate_dynamic_resistance(wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction))
     fuel = distance * (1 + wind_resistance + wave_resistance)
     return fuel
 
@@ -91,6 +110,7 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
 
         node_fitness.append((node, fuel, time, comfort))
 
+
     # Sort nodes based on fuel (minimize), time (minimize), and comfort (maximize)
     sorted_nodes = sorted(node_fitness, key=lambda x: (x[1], x[2], -x[3]))
 
@@ -103,10 +123,7 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
 
 # Plot Graph with Plotly
-# Plot Graph with Plotly
-# Plot Graph with Plotly
 def plot_graph():
-    # Scaling factor to increase spacing between nodes
     vertical_spacing_factor = 20
 
     # Adjust node positions for better spacing
@@ -141,7 +158,7 @@ def plot_graph():
         x=edge_x,
         y=edge_y,
         mode='lines',
-        line=dict(color='gray', width=2),  # Slightly thicker lines
+        line=dict(color='gray', width=2),
         hoverinfo='none'
     ))
 
@@ -152,22 +169,20 @@ def plot_graph():
         mode='markers+text',
         text=node_labels,
         textposition="top center",
-        marker=dict(size=12, color='blue'),  # Larger markers
+        marker=dict(size=12, color='blue'),
         hoverinfo='text',
         hovertext=hover_texts
     ))
 
-    # Enable zoom and drag
     fig.update_layout(
         title="Interactive Diverging and Converging Graph",
-        xaxis=dict(title="Distance (km)", fixedrange=False),
-        yaxis=dict(title="Paths", fixedrange=False),
-        dragmode="pan",  # Enable dragging/panning
+        xaxis=dict(title="Distance (km)"),
+        yaxis=dict(title="Paths"),
+        dragmode="pan",
         showlegend=False,
         autosize=False,
-        width=1920,  # Increased width for full-screen display
-        height=1080,  # Increased height for full-screen display
-        margin=dict(l=20, r=20, t=50, b=20),  # Reduced margins for more space
+        width=1920,
+        height=1080,
     )
 
     fig.show()

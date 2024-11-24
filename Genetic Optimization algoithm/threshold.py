@@ -93,3 +93,5 @@ if __name__ == "__main__":
 
     print(f"Calculated Wind Speed Threshold: {wind_threshold} knots")
     print(f"Calculated Wave Height Threshold: {wave_threshold} meters")
+
+
