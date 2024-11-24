@@ -103,18 +103,29 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
 
 # Plot Graph with Plotly
+# Plot Graph with Plotly
+# Plot Graph with Plotly
 def plot_graph():
+    # Scaling factor to increase spacing between nodes
+    vertical_spacing_factor = 20
+
+    # Adjust node positions for better spacing
+    adjusted_positions = {
+        node: (pos[0], pos[1] * vertical_spacing_factor)
+        for node, pos in node_positions.items()
+    }
+
     # Prepare data for Plotly
     edge_x = []
     edge_y = []
     for edge in edges:
         start, end = edge
-        edge_x += [node_positions[start][0], node_positions[end][0], None]
-        edge_y += [node_positions[start][1], node_positions[end][1], None]
+        edge_x += [adjusted_positions[start][0], adjusted_positions[end][0], None]
+        edge_y += [adjusted_positions[start][1], adjusted_positions[end][1], None]
 
-    node_x = [pos[0] for pos in node_positions.values()]
-    node_y = [pos[1] for pos in node_positions.values()]
-    node_labels = list(node_positions.keys())
+    node_x = [pos[0] for pos in adjusted_positions.values()]
+    node_y = [pos[1] for pos in adjusted_positions.values()]
+    node_labels = list(adjusted_positions.keys())
 
     # Prepare hover text
     hover_texts = [
@@ -130,7 +141,7 @@ def plot_graph():
         x=edge_x,
         y=edge_y,
         mode='lines',
-        line=dict(color='gray', width=1),
+        line=dict(color='gray', width=2),  # Slightly thicker lines
         hoverinfo='none'
     ))
 
@@ -141,16 +152,22 @@ def plot_graph():
         mode='markers+text',
         text=node_labels,
         textposition="top center",
-        marker=dict(size=8, color='blue'),
+        marker=dict(size=12, color='blue'),  # Larger markers
         hoverinfo='text',
         hovertext=hover_texts
     ))
 
+    # Enable zoom and drag
     fig.update_layout(
         title="Interactive Diverging and Converging Graph",
         xaxis=dict(title="Distance (km)", fixedrange=False),
         yaxis=dict(title="Paths", fixedrange=False),
-        showlegend=False
+        dragmode="pan",  # Enable dragging/panning
+        showlegend=False,
+        autosize=False,
+        width=1920,  # Increased width for full-screen display
+        height=1080,  # Increased height for full-screen display
+        margin=dict(l=20, r=20, t=50, b=20),  # Reduced margins for more space
     )
 
     fig.show()
