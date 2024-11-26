@@ -2,6 +2,10 @@ import random
 import plotly.graph_objects as go
 from threshold import calculate_thresholds
 from resistance import calculate_dynamic_resistance
+import json
+
+# Storage for node information at each level
+nsg_output = {}
 
 # Parameters
 total_distance = 8000
@@ -78,7 +82,7 @@ def fuel_consumption(distance, wave_height, wind_speed):
     fuel = distance * (1 + wind_resistance + wave_resistance)
     return fuel
 
-def travel_time(distance, wind_speed,wave_height):
+def travel_time(distance, wind_speed, wave_height):
     wind_resistance_factor, wave_resistance_factor = calculate_dynamic_resistance(
         wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction
     )
@@ -90,10 +94,13 @@ def passenger_comfort(wave_height, wind_speed):
     comfort = 100 - (wave_height * COMFORT_DECREASE_RATE + wind_speed * COMFORT_DECREASE_RATE)
     return max(0, comfort)
 
-# Next Step Greedy Algorithm (NSG)
+# Next Step Greedy Algorithm (NSG) with JSON saving
 def nsg_recursive(level, path_count, properties, current_path=[]):
     if level >= levels:  # Base case: end of levels
         print("Reached the end of all levels.")
+        # Save the JSON output to a file
+        with open("nsg_output.json", "w") as file:
+            json.dump(nsg_output, file, indent=4)
         return
 
     # Get next nodes from all paths
@@ -111,19 +118,28 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
         wind_speed = properties[node]["wind_speed"]
         
         fuel = fuel_consumption(distance, wave_height, wind_speed)
-        time = travel_time(distance, wind_speed,wave_height)
+        time = travel_time(distance, wind_speed, wave_height)
         comfort = passenger_comfort(wave_height, wind_speed)
 
         node_fitness.append((node, fuel, time, comfort))
 
-
     # Sort nodes based on fuel (minimize), time (minimize), and comfort (maximize)
     sorted_nodes = sorted(node_fitness, key=lambda x: (x[1], x[2], -x[3]))
 
-    # Print sorted nodes
+    # Print and save sorted nodes
     print(f"Level {level}: Sorted nodes (most optimal to least optimal):")
+    level_output = []
     for node, fuel, time, comfort in sorted_nodes:
         print(f"Node: {node} | Fuel: {fuel:.2f} | Time: {time:.2f} hours | Comfort: {comfort:.2f}")
+        level_output.append({
+            "Node": node,
+            "Fuel": round(fuel, 2),
+            "Time": round(time, 2),
+            "Comfort": round(comfort, 2),
+        })
+
+    # Save level output in the global dictionary
+    nsg_output[f"Level {level}"] = level_output
 
     # Recursively proceed to the next level
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])

@@ -70,13 +70,19 @@ node_properties = {
 
 # Fitness Functions
 def fuel_consumption(distance, wave_height, wind_speed):
-    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * calculate_dynamic_resistance(wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction))
-    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * calculate_dynamic_resistance(wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction))
+    wind_resistance_factor, wave_resistance_factor = calculate_dynamic_resistance(
+        wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction
+    )
+    wind_resistance = max(0, (wind_speed - WIND_SPEED_THRESHOLD) * wind_resistance_factor)
+    wave_resistance = max(0, (wave_height - WAVE_HEIGHT_THRESHOLD) * wave_resistance_factor)
     fuel = distance * (1 + wind_resistance + wave_resistance)
     return fuel
 
-def travel_time(distance, wind_speed):
-    wind_effect = 1 - max(0, (wind_speed - WIND_SPEED_THRESHOLD) * 0.05)
+def travel_time(distance, wind_speed,wave_height):
+    wind_resistance_factor, wave_resistance_factor = calculate_dynamic_resistance(
+        wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction
+    )
+    wind_effect = 1 - max(0, (wind_speed - WIND_SPEED_THRESHOLD) * wind_resistance_factor)
     time = distance / (20 * wind_effect) if wind_effect > 0 else float('inf')
     return time
 
@@ -103,9 +109,9 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
         distance = properties[node]["distance"]
         wave_height = properties[node]["wave_height"]
         wind_speed = properties[node]["wind_speed"]
-
+        
         fuel = fuel_consumption(distance, wave_height, wind_speed)
-        time = travel_time(distance, wind_speed)
+        time = travel_time(distance, wind_speed,wave_height)
         comfort = passenger_comfort(wave_height, wind_speed)
 
         node_fitness.append((node, fuel, time, comfort))
