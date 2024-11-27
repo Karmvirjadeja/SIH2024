@@ -346,6 +346,10 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
 
 # Plot Graph
 def plot_graph_google_maps_style():
+    # Load `final.json` to get the list of nodes to mark red
+    with open("final.json", "r") as file:
+        final_nodes = {entry["Node"] for entry in json.load(file)}
+    
     # Adjust node positions for better spacing
     adjusted_positions = node_positions
 
@@ -360,6 +364,9 @@ def plot_graph_google_maps_style():
     node_x = [pos[0] for pos in adjusted_positions.values()]
     node_y = [pos[1] for pos in adjusted_positions.values()]
     node_labels = list(adjusted_positions.keys())
+
+    # Color nodes based on `final.json`
+    node_colors = ["red" if node in final_nodes else "blue" for node in node_labels]
 
     # Hover text
     hover_texts = [
@@ -376,11 +383,11 @@ def plot_graph_google_maps_style():
         line=dict(color='gray', width=2), hoverinfo='none'
     ))
 
-    # Add nodes with hover text
+    # Add nodes with hover text and colors
     fig.add_trace(go.Scatter(
         x=node_x, y=node_y, mode='markers+text',
         text=node_labels, textposition="top center",
-        marker=dict(size=15, color='blue'),
+        marker=dict(size=15, color=node_colors),
         hoverinfo='text', hovertext=hover_texts
     ))
 

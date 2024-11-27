@@ -72,6 +72,16 @@ except json.JSONDecodeError:
 # Find the optimal path using DP
 optimal_path, optimal_fitness = find_optimal_path_dp(levels_data)
 
+# Save the optimal path to final.json
+output_file_path = "final.json"
+
+try:
+    with open(output_file_path, "w") as output_file:
+        json.dump(optimal_path, output_file, indent=4)
+    print(f"Optimal path successfully saved to {output_file_path}.")
+except IOError:
+    print(f"Error: Unable to write to file {output_file_path}.")
+
 # Print the result
 print("Optimal Path:")
 for node in optimal_path:
