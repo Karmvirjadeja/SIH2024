@@ -162,11 +162,11 @@ def count_red_nodes(final_file, node_positions):
     # Find the path with the maximum count
     max_path, max_count = max(path_counts.items(), key=lambda x: x[1])
 
-    print("Red Node Counts per Path:")
+    print("Green Node Counts per Path:")
     for path, count in path_counts.items():
-        print(f"{path}: {count} red nodes")
+        print(f"{path}: {count} green nodes")
 
-    print(f"\nPath with the maximum red nodes: {max_path} ({max_count} red nodes)")
+    print(f"\nPath with the maximum red nodes: {max_path} ({max_count} green nodes)")
 
     return path_counts, max_path, max_count
 
@@ -394,7 +394,7 @@ def plot_graph_google_maps_style():
     node_labels = list(adjusted_positions.keys())
 
     # Color nodes based on `final.json`
-    node_colors = ["red" if node in final_nodes else "blue" for node in node_labels]
+    node_colors = ["green" if node in final_nodes else "blue" for node in node_labels]
 
     # Hover text
     hover_texts = [

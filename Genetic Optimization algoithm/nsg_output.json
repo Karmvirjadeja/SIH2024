@@ -1,44 +1,44 @@
 {
     "Level 1": [
         {
+            "Node": "P2_L1",
+            "Fuel": 111,
+            "Time": 5.55,
+            "Comfort": 0,
+            "Wave Height": 0.88,
+            "Wind Speed": 14.3
+        },
+        {
             "Node": "P3_L1",
             "Fuel": 111,
             "Time": 5.55,
             "Comfort": 0,
-            "Wave Height": 0.56,
-            "Wind Speed": 12.4
-        },
-        {
-            "Node": "P4_L1",
-            "Fuel": 111,
-            "Time": 5.55,
-            "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 11.6
+            "Wave Height": 0.53,
+            "Wind Speed": 13.4
         },
         {
             "Node": "P5_L1",
             "Fuel": 111,
             "Time": 5.55,
             "Comfort": 0,
-            "Wave Height": 0.87,
-            "Wind Speed": 14.0
+            "Wave Height": 0.94,
+            "Wind Speed": 14.2
         },
         {
             "Node": "P1_L1",
-            "Fuel": 112.02,
-            "Time": 5.6,
+            "Fuel": 113.12,
+            "Time": 5.66,
             "Comfort": 0,
-            "Wave Height": 0.6,
-            "Wind Speed": 15.1
+            "Wave Height": 1.35,
+            "Wind Speed": 15.2
         },
         {
-            "Node": "P2_L1",
-            "Fuel": 121.39,
-            "Time": 6.12,
+            "Node": "P4_L1",
+            "Fuel": 124.79,
+            "Time": 6.34,
             "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 15.8
+            "Wave Height": 1.52,
+            "Wind Speed": 16.0
         }
     ],
     "Level 2": [
@@ -47,838 +47,838 @@
             "Fuel": 222,
             "Time": 11.1,
             "Comfort": 0,
-            "Wave Height": 1.21,
-            "Wind Speed": 15.0
+            "Wave Height": 0.97,
+            "Wind Speed": 13.5
         },
         {
             "Node": "P2_L2",
             "Fuel": 222,
             "Time": 11.1,
             "Comfort": 0,
-            "Wave Height": 1.2,
-            "Wind Speed": 14.5
+            "Wave Height": 1.08,
+            "Wind Speed": 12.9
         },
         {
             "Node": "P4_L2",
             "Fuel": 222,
             "Time": 11.1,
             "Comfort": 0,
-            "Wave Height": 0.77,
-            "Wind Speed": 14.4
-        },
-        {
-            "Node": "P5_L2",
-            "Fuel": 222,
-            "Time": 11.1,
-            "Comfort": 0,
-            "Wave Height": 0.71,
-            "Wind Speed": 13.3
+            "Wave Height": 1.35,
+            "Wind Speed": 14.0
         },
         {
             "Node": "P3_L2",
-            "Fuel": 242.78,
-            "Time": 12.25,
+            "Fuel": 246.1,
+            "Time": 12.45,
             "Comfort": 0,
-            "Wave Height": 0.85,
-            "Wind Speed": 15.8
+            "Wave Height": 1.24,
+            "Wind Speed": 15.9
+        },
+        {
+            "Node": "P5_L2",
+            "Fuel": 246.1,
+            "Time": 12.45,
+            "Comfort": 0,
+            "Wave Height": 1.08,
+            "Wind Speed": 15.9
         }
     ],
     "Level 3": [
         {
-            "Node": "P2_L3",
+            "Node": "P1_L3",
             "Fuel": 333,
             "Time": 16.65,
             "Comfort": 0,
-            "Wave Height": 0.91,
-            "Wind Speed": 13.7
+            "Wave Height": 1.44,
+            "Wind Speed": 14.3
         },
         {
             "Node": "P5_L3",
             "Fuel": 333,
             "Time": 16.65,
             "Comfort": 0,
-            "Wave Height": 0.83,
-            "Wind Speed": 13.6
+            "Wave Height": 0.68,
+            "Wind Speed": 13.4
         },
         {
             "Node": "P3_L3",
-            "Fuel": 339.35,
-            "Time": 16.97,
+            "Fuel": 369.14,
+            "Time": 18.68,
             "Comfort": 0,
-            "Wave Height": 0.9,
-            "Wind Speed": 15.2
+            "Wave Height": 0.72,
+            "Wind Speed": 15.9
+        },
+        {
+            "Node": "P2_L3",
+            "Fuel": 385.51,
+            "Time": 19.77,
+            "Comfort": 0,
+            "Wave Height": 0.53,
+            "Wind Speed": 16.2
         },
         {
             "Node": "P4_L3",
-            "Fuel": 350.68,
-            "Time": 17.58,
+            "Fuel": 463.97,
+            "Time": 27.44,
             "Comfort": 0,
-            "Wave Height": 1.0,
-            "Wind Speed": 15.5
-        },
-        {
-            "Node": "P1_L3",
-            "Fuel": 549.74,
-            "Time": 47.69,
-            "Comfort": 0,
-            "Wave Height": 0.58,
-            "Wind Speed": 18.2
+            "Wave Height": 0.73,
+            "Wind Speed": 17.3
         }
     ],
     "Level 4": [
         {
-            "Node": "P1_L4",
-            "Fuel": 499.14,
-            "Time": 25.35,
-            "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 16.0
-        },
-        {
             "Node": "P3_L4",
-            "Fuel": 566.28,
-            "Time": 30.64,
+            "Fuel": 444,
+            "Time": 22.2,
             "Comfort": 0,
-            "Wave Height": 0.86,
-            "Wind Speed": 16.8
-        },
-        {
-            "Node": "P2_L4",
-            "Fuel": 691.99,
-            "Time": 50.29,
-            "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 17.9
-        },
-        {
-            "Node": "P5_L4",
-            "Fuel": 823.62,
-            "Time": 153.1,
-            "Comfort": 0,
-            "Wave Height": 1.3,
-            "Wind Speed": 18.8
+            "Wave Height": 1.44,
+            "Wind Speed": 14.6
         },
         {
             "Node": "P4_L4",
-            "Fuel": 873.25,
-            "Time": 668.27,
+            "Fuel": 462.22,
+            "Time": 23.15,
             "Comfort": 0,
-            "Wave Height": 0.89,
-            "Wind Speed": 19.1
+            "Wave Height": 1.36,
+            "Wind Speed": 15.4
+        },
+        {
+            "Node": "P2_L4",
+            "Fuel": 514.01,
+            "Time": 26.36,
+            "Comfort": 0,
+            "Wave Height": 0.8,
+            "Wind Speed": 16.2
+        },
+        {
+            "Node": "P1_L4",
+            "Fuel": 678.96,
+            "Time": 47.15,
+            "Comfort": 0,
+            "Wave Height": 1.33,
+            "Wind Speed": 17.8
+        },
+        {
+            "Node": "P5_L4",
+            "Fuel": 792.13,
+            "Time": 102.82,
+            "Comfort": 0,
+            "Wave Height": 1.42,
+            "Wind Speed": 18.6
         }
     ],
     "Level 5": [
         {
             "Node": "P4_L5",
-            "Fuel": 695.96,
-            "Time": 37.2,
+            "Fuel": 606.95,
+            "Time": 30.62,
             "Comfort": 0,
-            "Wave Height": 0.87,
-            "Wind Speed": 16.7
-        },
-        {
-            "Node": "P3_L5",
-            "Fuel": 720.13,
-            "Time": 39.5,
-            "Comfort": 0,
-            "Wave Height": 1.3,
-            "Wind Speed": 16.9
+            "Wave Height": 0.82,
+            "Wind Speed": 15.8
         },
         {
             "Node": "P5_L5",
-            "Fuel": 720.13,
-            "Time": 39.5,
+            "Fuel": 606.95,
+            "Time": 30.62,
             "Comfort": 0,
-            "Wave Height": 0.68,
-            "Wind Speed": 16.9
+            "Wave Height": 1.02,
+            "Wind Speed": 15.8
         },
         {
-            "Node": "P2_L5",
-            "Fuel": 832.82,
-            "Time": 55.56,
+            "Node": "P3_L5",
+            "Fuel": 633.02,
+            "Time": 32.29,
             "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 17.7
+            "Wave Height": 0.65,
+            "Wind Speed": 16.1
         },
         {
             "Node": "P1_L5",
-            "Fuel": 1113.04,
+            "Fuel": 848.71,
+            "Time": 58.94,
+            "Comfort": 0,
+            "Wave Height": 0.7,
+            "Wind Speed": 17.8
+        },
+        {
+            "Node": "P2_L5",
+            "Fuel": 1299.25,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 19.2
+            "Wave Height": 0.83,
+            "Wind Speed": 20.0
         }
     ],
     "Level 6": [
         {
-            "Node": "P4_L6",
-            "Fuel": 945.08,
-            "Time": 57.32,
-            "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 17.4
-        },
-        {
-            "Node": "P3_L6",
-            "Fuel": 962.7,
-            "Time": 60.05,
-            "Comfort": 0,
-            "Wave Height": 1.43,
-            "Wind Speed": 17.5
-        },
-        {
             "Node": "P5_L6",
-            "Fuel": 1078.51,
-            "Time": 87.49,
+            "Fuel": 895.09,
+            "Time": 50.76,
             "Comfort": 0,
-            "Wave Height": 1.4,
-            "Wind Speed": 18.1
+            "Wave Height": 0.57,
+            "Wind Speed": 17.1
         },
         {
-            "Node": "P1_L6",
-            "Fuel": 1235.43,
-            "Time": 229.66,
+            "Node": "P4_L6",
+            "Fuel": 1682.34,
+            "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 18.8
+            "Wave Height": 1.19,
+            "Wind Speed": 20.4
         },
         {
             "Node": "P2_L6",
-            "Fuel": 2060.8,
+            "Fuel": 1951.83,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 21.5
+            "Wave Height": 0.88,
+            "Wind Speed": 21.2
+        },
+        {
+            "Node": "P1_L6",
+            "Fuel": 2024.0,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.92,
+            "Wind Speed": 21.4
+        },
+        {
+            "Node": "P3_L6",
+            "Fuel": 2098.09,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.6,
+            "Wind Speed": 21.6
         }
     ],
     "Level 7": [
         {
-            "Node": "P2_L7",
-            "Fuel": 1282.73,
-            "Time": 111.28,
-            "Comfort": 0,
-            "Wave Height": 1.47,
-            "Wind Speed": 18.2
-        },
-        {
-            "Node": "P1_L7",
-            "Fuel": 1925.95,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.68,
-            "Wind Speed": 20.3
-        },
-        {
             "Node": "P5_L7",
-            "Fuel": 2155.04,
-            "Time": Infinity,
+            "Fuel": 1188.19,
+            "Time": 82.52,
             "Comfort": 0,
-            "Wave Height": 0.78,
-            "Wind Speed": 20.9
+            "Wave Height": 1.21,
+            "Wind Speed": 17.8
+        },
+        {
+            "Node": "P2_L7",
+            "Fuel": 1210.99,
+            "Time": 88.0,
+            "Comfort": 0,
+            "Wave Height": 1.44,
+            "Wind Speed": 17.9
         },
         {
             "Node": "P3_L7",
-            "Fuel": 2195.18,
+            "Fuel": 1469.73,
+            "Time": 358.2,
+            "Comfort": 0,
+            "Wave Height": 0.8,
+            "Wind Speed": 18.9
+        },
+        {
+            "Node": "P1_L7",
+            "Fuel": 1889.73,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 21.0
+            "Wave Height": 0.98,
+            "Wind Speed": 20.2
         },
         {
             "Node": "P4_L7",
-            "Fuel": 2581.61,
+            "Fuel": 1962.73,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.76,
-            "Wind Speed": 21.9
+            "Wave Height": 1.33,
+            "Wind Speed": 20.4
         }
     ],
     "Level 8": [
         {
             "Node": "P3_L8",
-            "Fuel": 2039.33,
-            "Time": Infinity,
+            "Fuel": 1712.77,
+            "Time": 623.6,
             "Comfort": 0,
-            "Wave Height": 1.46,
-            "Wind Speed": 19.9
-        },
-        {
-            "Node": "P2_L8",
-            "Fuel": 2329.12,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.18,
-            "Wind Speed": 20.6
-        },
-        {
-            "Node": "P5_L8",
-            "Fuel": 2417.67,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.85,
-            "Wind Speed": 20.8
-        },
-        {
-            "Node": "P1_L8",
-            "Fuel": 2898.79,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.9,
-            "Wind Speed": 21.8
+            "Wave Height": 1.13,
+            "Wind Speed": 19.0
         },
         {
             "Node": "P4_L8",
-            "Fuel": 4052.83,
+            "Fuel": 2118.93,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.74,
-            "Wind Speed": 23.8
+            "Wave Height": 1.49,
+            "Wind Speed": 20.1
+        },
+        {
+            "Node": "P1_L8",
+            "Fuel": 2602.44,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.04,
+            "Wind Speed": 21.2
+        },
+        {
+            "Node": "P2_L8",
+            "Fuel": 2602.44,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.92,
+            "Wind Speed": 21.2
+        },
+        {
+            "Node": "P5_L8",
+            "Fuel": 2898.79,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.22,
+            "Wind Speed": 21.8
         }
     ],
     "Level 9": [
         {
-            "Node": "P3_L9",
-            "Fuel": 2620.26,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.92,
-            "Wind Speed": 20.6
-        },
-        {
-            "Node": "P1_L9",
+            "Node": "P2_L9",
             "Fuel": 2927.75,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.16,
+            "Wave Height": 1.02,
             "Wind Speed": 21.2
         },
         {
-            "Node": "P4_L9",
-            "Fuel": 3091.21,
+            "Node": "P1_L9",
+            "Fuel": 4416.66,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.43,
-            "Wind Speed": 21.5
+            "Wave Height": 1.05,
+            "Wind Speed": 23.6
         },
         {
-            "Node": "P2_L9",
-            "Fuel": 3378.02,
+            "Node": "P3_L9",
+            "Fuel": 4928.97,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.98,
-            "Wind Speed": 22.0
+            "Wave Height": 1.22,
+            "Wind Speed": 24.3
+        },
+        {
+            "Node": "P4_L9",
+            "Fuel": 5316.48,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.91,
+            "Wind Speed": 24.8
         },
         {
             "Node": "P5_L9",
-            "Fuel": 3558.74,
+            "Fuel": 5316.48,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.13,
-            "Wind Speed": 22.3
+            "Wave Height": 1.03,
+            "Wind Speed": 24.8
         }
     ],
     "Level 10": [
         {
-            "Node": "P3_L10",
-            "Fuel": 4162.14,
+            "Node": "P1_L10",
+            "Fuel": 3312.79,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.49,
-            "Wind Speed": 22.6
+            "Wave Height": 1.08,
+            "Wind Speed": 21.3
         },
         {
             "Node": "P4_L10",
-            "Fuel": 4304.8,
+            "Fuel": 3623.48,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.16,
-            "Wind Speed": 22.8
+            "Wave Height": 1.12,
+            "Wind Speed": 21.8
         },
         {
             "Node": "P2_L10",
-            "Fuel": 4907.4,
+            "Fuel": 5907.2,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 23.6
-        },
-        {
-            "Node": "P1_L10",
-            "Fuel": 6543.56,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.86,
-            "Wind Speed": 25.5
+            "Wave Height": 1.22,
+            "Wind Speed": 24.8
         },
         {
             "Node": "P5_L10",
             "Fuel": 6637.67,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.33,
+            "Wave Height": 0.89,
             "Wind Speed": 25.6
+        },
+        {
+            "Node": "P3_L10",
+            "Fuel": 6924.78,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.9,
+            "Wind Speed": 25.9
         }
     ],
     "Level 11": [
         {
-            "Node": "P1_L11",
-            "Fuel": 4895.72,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.35,
-            "Wind Speed": 23.0
-        },
-        {
-            "Node": "P5_L11",
-            "Fuel": 6024.29,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 24.3
-        },
-        {
             "Node": "P3_L11",
-            "Fuel": 6211.1,
+            "Fuel": 5312.2,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.91,
-            "Wind Speed": 24.5
+            "Wave Height": 0.99,
+            "Wind Speed": 23.5
         },
         {
             "Node": "P4_L11",
-            "Fuel": 6792.64,
+            "Fuel": 6117.26,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 25.1
+            "Wave Height": 0.91,
+            "Wind Speed": 24.4
         },
         {
             "Node": "P2_L11",
-            "Fuel": 6993.52,
+            "Fuel": 7832.2,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.27,
-            "Wind Speed": 25.3
+            "Wave Height": 1.44,
+            "Wind Speed": 26.1
+        },
+        {
+            "Node": "P1_L11",
+            "Fuel": 8050.66,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.2,
+            "Wind Speed": 26.3
+        },
+        {
+            "Node": "P5_L11",
+            "Fuel": 8272.64,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.53,
+            "Wind Speed": 26.5
         }
     ],
     "Level 12": [
         {
-            "Node": "P2_L12",
-            "Fuel": 5702.35,
+            "Node": "P4_L12",
+            "Fuel": 5795.13,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.9,
-            "Wind Speed": 23.4
+            "Wave Height": 0.57,
+            "Wind Speed": 23.5
         },
         {
             "Node": "P1_L12",
             "Fuel": 6673.37,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.03,
+            "Wave Height": 1.33,
             "Wind Speed": 24.4
         },
         {
-            "Node": "P4_L12",
-            "Fuel": 7302.02,
+            "Node": "P5_L12",
+            "Fuel": 6775.75,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 25.0
+            "Wave Height": 0.77,
+            "Wind Speed": 24.5
         },
         {
             "Node": "P3_L12",
-            "Fuel": 10031.69,
+            "Fuel": 8426.5,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.11,
-            "Wind Speed": 27.3
+            "Wave Height": 0.83,
+            "Wind Speed": 26.0
         },
         {
-            "Node": "P5_L12",
-            "Fuel": 11100.06,
+            "Node": "P2_L12",
+            "Fuel": 9774.19,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.49,
-            "Wind Speed": 28.1
+            "Wave Height": 0.7,
+            "Wind Speed": 27.1
         }
     ],
     "Level 13": [
         {
             "Node": "P4_L13",
-            "Fuel": 7910.53,
+            "Fuel": 7452.34,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.63,
-            "Wind Speed": 25.0
-        },
-        {
-            "Node": "P2_L13",
-            "Fuel": 8027.67,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.41,
-            "Wind Speed": 25.1
-        },
-        {
-            "Node": "P3_L13",
-            "Fuel": 9002.21,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.62,
-            "Wind Speed": 25.9
-        },
-        {
-            "Node": "P5_L13",
-            "Fuel": 9909.49,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 26.6
+            "Wave Height": 0.86,
+            "Wind Speed": 24.6
         },
         {
             "Node": "P1_L13",
-            "Fuel": 13885.84,
+            "Fuel": 8027.67,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.19,
-            "Wind Speed": 29.3
+            "Wave Height": 1.26,
+            "Wind Speed": 25.1
+        },
+        {
+            "Node": "P2_L13",
+            "Fuel": 8265.07,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.43,
+            "Wind Speed": 25.3
+        },
+        {
+            "Node": "P3_L13",
+            "Fuel": 9776.76,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.26,
+            "Wind Speed": 26.5
+        },
+        {
+            "Node": "P5_L13",
+            "Fuel": 13565.33,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.71,
+            "Wind Speed": 29.1
         }
     ],
     "Level 14": [
         {
-            "Node": "P5_L14",
-            "Fuel": 9425.6,
+            "Node": "P2_L14",
+            "Fuel": 10387.0,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.39,
-            "Wind Speed": 25.7
-        },
-        {
-            "Node": "P1_L14",
-            "Fuel": 10815.81,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.01,
-            "Wind Speed": 26.7
-        },
-        {
-            "Node": "P4_L14",
-            "Fuel": 11254.69,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.44,
-            "Wind Speed": 27.0
+            "Wave Height": 1.37,
+            "Wind Speed": 26.4
         },
         {
             "Node": "P3_L14",
-            "Fuel": 15128.25,
+            "Fuel": 12474.27,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.58,
-            "Wind Speed": 29.4
+            "Wave Height": 0.68,
+            "Wind Speed": 27.8
         },
         {
-            "Node": "P2_L14",
-            "Fuel": 16016.36,
+            "Node": "P5_L14",
+            "Fuel": 14099.44,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.07,
-            "Wind Speed": 29.9
+            "Wave Height": 1.09,
+            "Wind Speed": 28.8
+        },
+        {
+            "Node": "P1_L14",
+            "Fuel": 16562.66,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.22,
+            "Wind Speed": 30.2
+        },
+        {
+            "Node": "P4_L14",
+            "Fuel": 16562.66,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.14,
+            "Wind Speed": 30.2
         }
     ],
     "Level 15": [
         {
-            "Node": "P1_L15",
-            "Fuel": 14571.58,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.89,
-            "Wind Speed": 28.5
-        },
-        {
-            "Node": "P2_L15",
-            "Fuel": 14571.58,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.46,
-            "Wind Speed": 28.5
-        },
-        {
             "Node": "P3_L15",
-            "Fuel": 16967.68,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 29.8
-        },
-        {
-            "Node": "P5_L15",
-            "Fuel": 17354.29,
+            "Fuel": 12378.08,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 0.99,
-            "Wind Speed": 30.0
+            "Wind Speed": 27.2
         },
         {
             "Node": "P4_L15",
-            "Fuel": 19566.38,
+            "Fuel": 13703.95,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.33,
-            "Wind Speed": 31.1
+            "Wave Height": 1.49,
+            "Wind Speed": 28.0
+        },
+        {
+            "Node": "P5_L15",
+            "Fuel": 14047.41,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.17,
+            "Wind Speed": 28.2
+        },
+        {
+            "Node": "P2_L15",
+            "Fuel": 14927.02,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.22,
+            "Wind Speed": 28.7
+        },
+        {
+            "Node": "P1_L15",
+            "Fuel": 15652.3,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.7,
+            "Wind Speed": 29.1
         }
     ],
     "Level 16": [
         {
-            "Node": "P2_L16",
-            "Fuel": 16500.46,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 29.0
-        },
-        {
             "Node": "P4_L16",
-            "Fuel": 17691.59,
+            "Fuel": 19779.1,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.27,
-            "Wind Speed": 29.6
+            "Wave Height": 1.23,
+            "Wind Speed": 30.6
         },
         {
-            "Node": "P5_L16",
-            "Fuel": 19139.42,
+            "Node": "P2_L16",
+            "Fuel": 20649.91,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 30.3
-        },
-        {
-            "Node": "P3_L16",
-            "Fuel": 21541.18,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.32,
-            "Wind Speed": 31.4
+            "Wave Height": 1.17,
+            "Wind Speed": 31.0
         },
         {
             "Node": "P1_L16",
-            "Fuel": 21767.19,
+            "Fuel": 21994.48,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.97,
-            "Wind Speed": 31.5
+            "Wave Height": 0.73,
+            "Wind Speed": 31.6
+        },
+        {
+            "Node": "P3_L16",
+            "Fuel": 22223.05,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.35,
+            "Wind Speed": 31.7
+        },
+        {
+            "Node": "P5_L16",
+            "Fuel": 24337.74,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.34,
+            "Wind Speed": 32.6
         }
     ],
     "Level 17": [
         {
-            "Node": "P2_L17",
-            "Fuel": 17739.27,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 29.1
-        },
-        {
             "Node": "P3_L17",
-            "Fuel": 17948.16,
+            "Fuel": 21015.29,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.74,
-            "Wind Speed": 29.2
-        },
-        {
-            "Node": "P1_L17",
-            "Fuel": 18797.31,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.36,
-            "Wind Speed": 29.6
+            "Wave Height": 0.64,
+            "Wind Speed": 30.6
         },
         {
             "Node": "P4_L17",
-            "Fuel": 24597.01,
+            "Fuel": 23127.64,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.16,
-            "Wind Speed": 32.1
+            "Wave Height": 0.85,
+            "Wind Speed": 31.5
+        },
+        {
+            "Node": "P1_L17",
+            "Fuel": 24101.78,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.74,
+            "Wind Speed": 31.9
+        },
+        {
+            "Node": "P2_L17",
+            "Fuel": 24846.66,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.19,
+            "Wind Speed": 32.2
         },
         {
             "Node": "P5_L17",
-            "Fuel": 24597.01,
+            "Fuel": 25097.67,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.71,
-            "Wind Speed": 32.1
+            "Wave Height": 0.91,
+            "Wind Speed": 32.3
         }
     ],
     "Level 18": [
         {
-            "Node": "P4_L18",
-            "Fuel": 22010.17,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 30.5
-        },
-        {
-            "Node": "P3_L18",
-            "Fuel": 23231.15,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.44,
-            "Wind Speed": 31.0
-        },
-        {
-            "Node": "P2_L18",
-            "Fuel": 27109.86,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.51,
-            "Wind Speed": 32.5
-        },
-        {
             "Node": "P1_L18",
-            "Fuel": 29310.86,
+            "Fuel": 23729.61,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.73,
-            "Wind Speed": 33.3
+            "Wave Height": 0.61,
+            "Wind Speed": 31.2
         },
         {
             "Node": "P5_L18",
-            "Fuel": 29592.46,
+            "Fuel": 24743.79,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.53,
-            "Wind Speed": 33.4
+            "Wave Height": 0.61,
+            "Wind Speed": 31.6
+        },
+        {
+            "Node": "P2_L18",
+            "Fuel": 25780.99,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.34,
+            "Wind Speed": 32.0
+        },
+        {
+            "Node": "P3_L18",
+            "Fuel": 29875.49,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.21,
+            "Wind Speed": 33.5
+        },
+        {
+            "Node": "P4_L18",
+            "Fuel": 30733.24,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.4,
+            "Wind Speed": 33.8
         }
     ],
     "Level 19": [
         {
-            "Node": "P1_L19",
-            "Fuel": 28332.39,
+            "Node": "P2_L19",
+            "Fuel": 27213.27,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 32.4
-        },
-        {
-            "Node": "P3_L19",
-            "Fuel": 28901.06,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.74,
-            "Wind Speed": 32.6
+            "Wave Height": 0.87,
+            "Wind Speed": 32.0
         },
         {
             "Node": "P4_L19",
-            "Fuel": 29475.81,
+            "Fuel": 27490.77,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.35,
-            "Wind Speed": 32.8
+            "Wave Height": 0.89,
+            "Wind Speed": 32.1
+        },
+        {
+            "Node": "P1_L19",
+            "Fuel": 27769.79,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.17,
+            "Wind Speed": 32.2
         },
         {
             "Node": "P5_L19",
-            "Fuel": 37172.6,
+            "Fuel": 28050.33,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 35.3
+            "Wave Height": 0.9,
+            "Wind Speed": 32.3
         },
         {
-            "Node": "P2_L19",
-            "Fuel": 38159.99,
+            "Node": "P3_L19",
+            "Fuel": 33359.7,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.65,
-            "Wind Speed": 35.6
+            "Wave Height": 1.03,
+            "Wind Speed": 34.1
         }
     ],
     "Level 20": [
         {
-            "Node": "P1_L20",
-            "Fuel": 30122.07,
+            "Node": "P3_L20",
+            "Fuel": 29823.57,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.47,
-            "Wind Speed": 32.5
+            "Wave Height": 1.27,
+            "Wind Speed": 32.4
         },
         {
             "Node": "P4_L20",
-            "Fuel": 31027.16,
+            "Fuel": 40518.06,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.36,
-            "Wind Speed": 32.8
+            "Wave Height": 0.88,
+            "Wind Speed": 35.7
+        },
+        {
+            "Node": "P1_L20",
+            "Fuel": 40869.31,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.26,
+            "Wind Speed": 35.8
         },
         {
             "Node": "P5_L20",
-            "Fuel": 36427.76,
+            "Fuel": 42649.53,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.62,
-            "Wind Speed": 34.5
-        },
-        {
-            "Node": "P3_L20",
-            "Fuel": 44102.48,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 36.7
+            "Wave Height": 0.73,
+            "Wind Speed": 36.3
         },
         {
             "Node": "P2_L20",
-            "Fuel": 45581.0,
+            "Fuel": 44838.54,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 37.1
+            "Wave Height": 0.68,
+            "Wind Speed": 36.9
         }
     ],
     "Level 21": [
         {
-            "Node": "P4_L21",
-            "Fuel": 37902.15,
+            "Node": "P5_L21",
+            "Fuel": 36192.36,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 34.4
+            "Wave Height": 0.88,
+            "Wind Speed": 33.9
         },
         {
             "Node": "P3_L21",
-            "Fuel": 38948.17,
+            "Fuel": 37902.15,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 34.7
+            "Wave Height": 0.54,
+            "Wind Speed": 34.4
         },
         {
-            "Node": "P5_L21",
-            "Fuel": 43283.27,
+            "Node": "P4_L21",
+            "Fuel": 42543.97,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.45,
-            "Wind Speed": 35.9
+            "Wave Height": 1.18,
+            "Wind Speed": 35.7
+        },
+        {
+            "Node": "P2_L21",
+            "Fuel": 45541.45,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.78,
+            "Wind Speed": 36.5
         },
         {
             "Node": "P1_L21",
             "Fuel": 47860.05,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.15,
+            "Wave Height": 0.68,
             "Wind Speed": 37.1
-        },
-        {
-            "Node": "P2_L21",
-            "Fuel": 49042.0,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.65,
-            "Wind Speed": 37.4
         }
     ],
     "Level 22": [
@@ -887,2098 +887,2098 @@
             "Fuel": 42288.55,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
+            "Wave Height": 0.98,
             "Wind Speed": 35.1
         },
         {
-            "Node": "P1_L22",
-            "Fuel": 44569.87,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 35.7
-        },
-        {
             "Node": "P3_L22",
-            "Fuel": 47710.09,
+            "Fuel": 52631.4,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 36.5
-        },
-        {
-            "Node": "P4_L22",
-            "Fuel": 51377.34,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.79,
-            "Wind Speed": 37.4
+            "Wave Height": 1.27,
+            "Wind Speed": 37.7
         },
         {
             "Node": "P5_L22",
-            "Fuel": 51377.34,
+            "Fuel": 53052.94,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.18,
-            "Wind Speed": 37.4
+            "Wave Height": 1.5,
+            "Wind Speed": 37.8
+        },
+        {
+            "Node": "P1_L22",
+            "Fuel": 53476.23,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.57,
+            "Wind Speed": 37.9
+        },
+        {
+            "Node": "P4_L22",
+            "Fuel": 55619.09,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.92,
+            "Wind Speed": 38.4
         }
     ],
     "Level 23": [
         {
-            "Node": "P3_L23",
-            "Fuel": 47813.09,
+            "Node": "P4_L23",
+            "Fuel": 50297.37,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.87,
-            "Wind Speed": 36.0
-        },
-        {
-            "Node": "P2_L23",
-            "Fuel": 49046.96,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.74,
-            "Wind Speed": 36.3
+            "Wave Height": 1.14,
+            "Wind Speed": 36.6
         },
         {
             "Node": "P1_L23",
-            "Fuel": 49461.92,
+            "Fuel": 50717.85,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 36.4
+            "Wave Height": 1.17,
+            "Wind Speed": 36.7
         },
         {
-            "Node": "P4_L23",
-            "Fuel": 59056.2,
+            "Node": "P3_L23",
+            "Fuel": 50717.85,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.67,
-            "Wind Speed": 38.6
+            "Wave Height": 1.04,
+            "Wind Speed": 36.7
+        },
+        {
+            "Node": "P2_L23",
+            "Fuel": 57245.61,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.63,
+            "Wind Speed": 38.2
         },
         {
             "Node": "P5_L23",
-            "Fuel": 62765.61,
+            "Fuel": 63711.34,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.28,
-            "Wind Speed": 39.4
+            "Wave Height": 0.65,
+            "Wind Speed": 39.6
         }
     ],
     "Level 24": [
         {
-            "Node": "P2_L24",
-            "Fuel": 56958.13,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 37.6
-        },
-        {
             "Node": "P4_L24",
-            "Fuel": 58337.71,
+            "Fuel": 57416.07,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 37.9
-        },
-        {
-            "Node": "P5_L24",
-            "Fuel": 60675.37,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.38,
-            "Wind Speed": 38.4
-        },
-        {
-            "Node": "P1_L24",
-            "Fuel": 62100.98,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.97,
-            "Wind Speed": 38.7
+            "Wave Height": 0.82,
+            "Wind Speed": 37.7
         },
         {
             "Node": "P3_L24",
-            "Fuel": 64028.65,
+            "Fuel": 57875.93,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 39.1
+            "Wave Height": 1.28,
+            "Wind Speed": 37.8
+        },
+        {
+            "Node": "P2_L24",
+            "Fuel": 67976.06,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.36,
+            "Wind Speed": 39.9
+        },
+        {
+            "Node": "P1_L24",
+            "Fuel": 69487.99,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.48,
+            "Wind Speed": 40.2
+        },
+        {
+            "Node": "P5_L24",
+            "Fuel": 74127.35,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.65,
+            "Wind Speed": 41.1
         }
     ],
     "Level 25": [
         {
-            "Node": "P1_L25",
-            "Fuel": 70287.42,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 39.8
-        },
-        {
-            "Node": "P4_L25",
-            "Fuel": 71331.38,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 40.0
-        },
-        {
-            "Node": "P5_L25",
-            "Fuel": 75587.11,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 40.8
-        },
-        {
             "Node": "P3_L25",
-            "Fuel": 78862.84,
+            "Fuel": 68223.49,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.22,
-            "Wind Speed": 41.4
+            "Wave Height": 1.09,
+            "Wind Speed": 39.4
         },
         {
             "Node": "P2_L25",
+            "Fuel": 75587.11,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.46,
+            "Wind Speed": 40.8
+        },
+        {
+            "Node": "P5_L25",
+            "Fuel": 78311.89,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.72,
+            "Wind Speed": 41.3
+        },
+        {
+            "Node": "P1_L25",
             "Fuel": 82775.42,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.24,
+            "Wave Height": 0.92,
+            "Wind Speed": 42.1
+        },
+        {
+            "Node": "P4_L25",
+            "Fuel": 82775.42,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.78,
             "Wind Speed": 42.1
         }
     ],
     "Level 26": [
         {
-            "Node": "P5_L26",
-            "Fuel": 73098.92,
+            "Node": "P2_L26",
+            "Fuel": 79737.87,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.39,
-            "Wind Speed": 39.8
-        },
-        {
-            "Node": "P1_L26",
-            "Fuel": 82592.41,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.45,
-            "Wind Speed": 41.5
+            "Wave Height": 0.64,
+            "Wind Speed": 41.0
         },
         {
             "Node": "P4_L26",
-            "Fuel": 87267.73,
+            "Fuel": 79737.87,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.2,
-            "Wind Speed": 42.3
+            "Wave Height": 1.15,
+            "Wind Speed": 41.0
         },
         {
-            "Node": "P3_L26",
+            "Node": "P5_L26",
             "Fuel": 87861.5,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.14,
+            "Wave Height": 1.5,
             "Wind Speed": 42.4
         },
         {
-            "Node": "P2_L26",
+            "Node": "P1_L26",
             "Fuel": 89055.26,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.72,
+            "Wave Height": 1.29,
             "Wind Speed": 42.6
+        },
+        {
+            "Node": "P3_L26",
+            "Fuel": 94530.06,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.21,
+            "Wind Speed": 43.5
         }
     ],
     "Level 27": [
         {
-            "Node": "P5_L27",
-            "Fuel": 85171.86,
+            "Node": "P4_L27",
+            "Fuel": 79318.72,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.34,
-            "Wind Speed": 41.4
+            "Wave Height": 1.52,
+            "Wind Speed": 40.4
+        },
+        {
+            "Node": "P5_L27",
+            "Fuel": 82218.32,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.45,
+            "Wind Speed": 40.9
         },
         {
             "Node": "P3_L27",
-            "Fuel": 85769.05,
+            "Fuel": 98165.84,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 41.5
+            "Wave Height": 1.37,
+            "Wind Speed": 43.5
         },
         {
             "Node": "P2_L27",
-            "Fuel": 86969.88,
+            "Fuel": 100099.8,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.67,
-            "Wind Speed": 41.7
+            "Wave Height": 1.21,
+            "Wind Speed": 43.8
         },
         {
             "Node": "P1_L27",
-            "Fuel": 94985.72,
+            "Fuel": 100748.77,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.79,
-            "Wind Speed": 43.0
-        },
-        {
-            "Node": "P4_L27",
-            "Fuel": 106018.22,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.69,
-            "Wind Speed": 44.7
+            "Wave Height": 0.68,
+            "Wind Speed": 43.9
         }
     ],
     "Level 28": [
         {
-            "Node": "P4_L28",
-            "Fuel": 95905.67,
+            "Node": "P1_L28",
+            "Fuel": 96551.82,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.07,
-            "Wind Speed": 42.6
+            "Wind Speed": 42.7
         },
         {
             "Node": "P2_L28",
-            "Fuel": 107194.61,
+            "Fuel": 97850.84,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.42,
-            "Wind Speed": 44.3
+            "Wave Height": 1.21,
+            "Wind Speed": 42.9
         },
         {
             "Node": "P3_L28",
-            "Fuel": 111333.35,
+            "Fuel": 100475.73,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 44.9
+            "Wave Height": 0.65,
+            "Wind Speed": 43.3
         },
         {
             "Node": "P5_L28",
-            "Fuel": 112030.97,
+            "Fuel": 101801.61,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 45.0
+            "Wave Height": 0.91,
+            "Wind Speed": 43.5
         },
         {
-            "Node": "P1_L28",
-            "Fuel": 115552.64,
+            "Node": "P4_L28",
+            "Fuel": 106512.65,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.95,
-            "Wind Speed": 45.5
+            "Wave Height": 0.97,
+            "Wind Speed": 44.2
         }
     ],
     "Level 29": [
         {
-            "Node": "P1_L29",
-            "Fuel": 117484.1,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 45.2
-        },
-        {
-            "Node": "P4_L29",
-            "Fuel": 119679.52,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.1,
-            "Wind Speed": 45.5
-        },
-        {
-            "Node": "P3_L29",
-            "Fuel": 127148.25,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.71,
-            "Wind Speed": 46.5
-        },
-        {
             "Node": "P2_L29",
-            "Fuel": 128669.8,
+            "Fuel": 97337.09,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 46.7
+            "Wave Height": 0.6,
+            "Wind Speed": 42.3
+        },
+        {
+            "Node": "P1_L29",
+            "Fuel": 97999.36,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.11,
+            "Wind Speed": 42.4
         },
         {
             "Node": "P5_L29",
-            "Fuel": 131740.73,
+            "Fuel": 99330.87,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 47.1
+            "Wave Height": 0.98,
+            "Wind Speed": 42.6
+        },
+        {
+            "Node": "P3_L29",
+            "Fuel": 104064.15,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.64,
+            "Wind Speed": 43.3
+        },
+        {
+            "Node": "P4_L29",
+            "Fuel": 113871.42,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.37,
+            "Wind Speed": 44.7
         }
     ],
     "Level 30": [
         {
-            "Node": "P4_L30",
-            "Fuel": 114120.7,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.92,
-            "Wind Speed": 44.2
-        },
-        {
-            "Node": "P1_L30",
-            "Fuel": 117057.76,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.59,
-            "Wind Speed": 44.6
-        },
-        {
             "Node": "P3_L30",
-            "Fuel": 121535.28,
+            "Fuel": 126099.11,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.02,
-            "Wind Speed": 45.2
+            "Wave Height": 1.41,
+            "Wind Speed": 45.8
         },
         {
             "Node": "P5_L30",
-            "Fuel": 129189.61,
+            "Fuel": 130749.25,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.38,
-            "Wind Speed": 46.2
+            "Wave Height": 0.85,
+            "Wind Speed": 46.4
+        },
+        {
+            "Node": "P4_L30",
+            "Fuel": 131532.67,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.87,
+            "Wind Speed": 46.5
+        },
+        {
+            "Node": "P1_L30",
+            "Fuel": 133106.69,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.09,
+            "Wind Speed": 46.7
         },
         {
             "Node": "P2_L30",
-            "Fuel": 144393.4,
+            "Fuel": 133897.3,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.03,
-            "Wind Speed": 48.1
+            "Wave Height": 1.3,
+            "Wind Speed": 46.8
         }
     ],
     "Level 31": [
         {
-            "Node": "P3_L31",
-            "Fuel": 120197.23,
+            "Node": "P1_L31",
+            "Fuel": 122492.03,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.18,
-            "Wind Speed": 44.5
+            "Wave Height": 1.28,
+            "Wind Speed": 44.8
+        },
+        {
+            "Node": "P3_L31",
+            "Fuel": 129510.22,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.4,
+            "Wind Speed": 45.7
         },
         {
             "Node": "P4_L31",
-            "Fuel": 120959.68,
+            "Fuel": 129510.22,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.3,
-            "Wind Speed": 44.6
+            "Wave Height": 1.11,
+            "Wind Speed": 45.7
         },
         {
             "Node": "P5_L31",
-            "Fuel": 150912.28,
+            "Fuel": 146666.43,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.38,
-            "Wind Speed": 48.3
-        },
-        {
-            "Node": "P1_L31",
-            "Fuel": 151768.88,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 48.4
+            "Wave Height": 1.33,
+            "Wind Speed": 47.8
         },
         {
             "Node": "P2_L31",
-            "Fuel": 153489.52,
+            "Fuel": 147510.65,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.86,
-            "Wind Speed": 48.6
+            "Wave Height": 0.51,
+            "Wind Speed": 47.9
         }
     ],
     "Level 32": [
         {
-            "Node": "P4_L32",
-            "Fuel": 134505.72,
+            "Node": "P1_L32",
+            "Fuel": 138632.78,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.72,
-            "Wind Speed": 45.8
+            "Wave Height": 1.2,
+            "Wind Speed": 46.3
         },
         {
             "Node": "P5_L32",
-            "Fuel": 136974.28,
+            "Fuel": 150528.72,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 46.1
+            "Wave Height": 1.3,
+            "Wind Speed": 47.7
         },
         {
             "Node": "P2_L32",
-            "Fuel": 144518.09,
+            "Fuel": 152269.05,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.1,
-            "Wind Speed": 47.0
-        },
-        {
-            "Node": "P1_L32",
-            "Fuel": 161124.19,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 48.9
+            "Wave Height": 1.19,
+            "Wind Speed": 47.9
         },
         {
             "Node": "P3_L32",
-            "Fuel": 164737.85,
+            "Fuel": 152269.05,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.32,
-            "Wind Speed": 49.3
+            "Wave Height": 1.1,
+            "Wind Speed": 47.9
+        },
+        {
+            "Node": "P4_L32",
+            "Fuel": 170235.07,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.47,
+            "Wind Speed": 49.9
         }
     ],
     "Level 33": [
         {
-            "Node": "P2_L33",
-            "Fuel": 179387.0,
+            "Node": "P1_L33",
+            "Fuel": 150792.08,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 50.3
+            "Wave Height": 1.35,
+            "Wind Speed": 47.2
         },
         {
             "Node": "P5_L33",
-            "Fuel": 185214.25,
+            "Fuel": 176508.98,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.59,
-            "Wind Speed": 50.9
+            "Wave Height": 0.58,
+            "Wind Speed": 50.0
         },
         {
             "Node": "P3_L33",
-            "Fuel": 187177.76,
+            "Fuel": 183261.28,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.0,
-            "Wind Speed": 51.1
+            "Wave Height": 0.75,
+            "Wind Speed": 50.7
         },
         {
-            "Node": "P1_L33",
-            "Fuel": 191136.44,
+            "Node": "P2_L33",
+            "Fuel": 188163.47,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.63,
-            "Wind Speed": 51.5
+            "Wave Height": 1.09,
+            "Wind Speed": 51.2
         },
         {
             "Node": "P4_L33",
-            "Fuel": 191136.44,
+            "Fuel": 189151.83,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 51.5
+            "Wave Height": 0.61,
+            "Wind Speed": 51.3
         }
     ],
     "Level 34": [
         {
-            "Node": "P2_L34",
-            "Fuel": 176000.64,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.23,
-            "Wind Speed": 49.4
-        },
-        {
-            "Node": "P1_L34",
-            "Fuel": 183831.84,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.07,
-            "Wind Speed": 50.2
-        },
-        {
             "Node": "P5_L34",
-            "Fuel": 195904.72,
+            "Fuel": 161785.87,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.42,
-            "Wind Speed": 51.4
-        },
-        {
-            "Node": "P4_L34",
-            "Fuel": 196928.45,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.46,
-            "Wind Speed": 51.5
+            "Wave Height": 1.1,
+            "Wind Speed": 47.9
         },
         {
             "Node": "P3_L34",
-            "Fuel": 202087.89,
+            "Fuel": 165516.7,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.07,
-            "Wind Speed": 52.0
+            "Wave Height": 0.84,
+            "Wind Speed": 48.3
+        },
+        {
+            "Node": "P2_L34",
+            "Fuel": 166456.19,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.27,
+            "Wind Speed": 48.4
+        },
+        {
+            "Node": "P4_L34",
+            "Fuel": 167398.41,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.93,
+            "Wind Speed": 48.5
+        },
+        {
+            "Node": "P1_L34",
+            "Fuel": 173108.78,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.61,
+            "Wind Speed": 49.1
         }
     ],
     "Level 35": [
         {
             "Node": "P4_L35",
-            "Fuel": 182175.03,
+            "Fuel": 176229.58,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.09,
-            "Wind Speed": 49.5
+            "Wave Height": 1.15,
+            "Wind Speed": 48.9
         },
         {
-            "Node": "P5_L35",
+            "Node": "P3_L35",
+            "Fuel": 181177.13,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.49,
+            "Wind Speed": 49.4
+        },
+        {
+            "Node": "P2_L35",
             "Fuel": 184179.23,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.32,
+            "Wave Height": 1.26,
             "Wind Speed": 49.7
         },
         {
             "Node": "P1_L35",
-            "Fuel": 185185.52,
+            "Fuel": 192307.89,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.06,
-            "Wind Speed": 49.8
+            "Wave Height": 0.63,
+            "Wind Speed": 50.5
         },
         {
-            "Node": "P2_L35",
-            "Fuel": 193336.56,
+            "Node": "P5_L35",
+            "Fuel": 223274.99,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 50.6
-        },
-        {
-            "Node": "P3_L35",
-            "Fuel": 209102.28,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.19,
-            "Wind Speed": 52.1
+            "Wave Height": 1.29,
+            "Wind Speed": 53.4
         }
     ],
     "Level 36": [
         {
-            "Node": "P5_L36",
+            "Node": "P1_L36",
             "Fuel": 200985.21,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.17,
+            "Wave Height": 1.23,
             "Wind Speed": 50.8
         },
         {
-            "Node": "P2_L36",
-            "Fuel": 205269.25,
+            "Node": "P5_L36",
+            "Fuel": 209599.31,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.9,
-            "Wind Speed": 51.2
+            "Wave Height": 0.82,
+            "Wind Speed": 51.6
+        },
+        {
+            "Node": "P2_L36",
+            "Fuel": 238866.81,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.18,
+            "Wind Speed": 54.2
         },
         {
             "Node": "P3_L36",
-            "Fuel": 208512.48,
+            "Fuel": 240031.33,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 51.5
-        },
-        {
-            "Node": "P1_L36",
-            "Fuel": 226247.05,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.89,
-            "Wind Speed": 53.1
+            "Wave Height": 1.32,
+            "Wind Speed": 54.3
         },
         {
             "Node": "P4_L36",
-            "Fuel": 234237.53,
+            "Fuel": 240031.33,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.08,
-            "Wind Speed": 53.8
+            "Wave Height": 1.04,
+            "Wind Speed": 54.3
         }
     ],
     "Level 37": [
         {
             "Node": "P1_L37",
-            "Fuel": 223323.46,
+            "Fuel": 216541.49,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.46,
-            "Wind Speed": 52.3
-        },
-        {
-            "Node": "P3_L37",
-            "Fuel": 252727.53,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 54.8
+            "Wave Height": 1.1,
+            "Wind Speed": 51.7
         },
         {
             "Node": "P2_L37",
-            "Fuel": 256380.21,
+            "Fuel": 243117.15,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.52,
-            "Wind Speed": 55.1
-        },
-        {
-            "Node": "P5_L37",
-            "Fuel": 262527.16,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.5,
-            "Wind Speed": 55.6
+            "Wave Height": 1.36,
+            "Wind Speed": 54.0
         },
         {
             "Node": "P4_L37",
-            "Fuel": 263765.42,
+            "Fuel": 252727.53,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.26,
-            "Wind Speed": 55.7
+            "Wave Height": 0.9,
+            "Wind Speed": 54.8
+        },
+        {
+            "Node": "P5_L37",
+            "Fuel": 257603.69,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.38,
+            "Wind Speed": 55.2
+        },
+        {
+            "Node": "P3_L37",
+            "Fuel": 266250.81,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.89,
+            "Wind Speed": 55.9
         }
     ],
     "Level 38": [
         {
-            "Node": "P3_L38",
-            "Fuel": 229359.23,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.12,
-            "Wind Speed": 52.3
-        },
-        {
-            "Node": "P4_L38",
+            "Node": "P5_L38",
             "Fuel": 242412.85,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.42,
+            "Wave Height": 0.6,
             "Wind Speed": 53.4
         },
         {
-            "Node": "P1_L38",
-            "Fuel": 258313.61,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.11,
-            "Wind Speed": 54.7
-        },
-        {
-            "Node": "P5_L38",
-            "Fuel": 287703.03,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.92,
-            "Wind Speed": 57.0
-        },
-        {
             "Node": "P2_L38",
-            "Fuel": 290334.56,
+            "Fuel": 255833.93,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.69,
-            "Wind Speed": 57.2
+            "Wave Height": 0.85,
+            "Wind Speed": 54.5
+        },
+        {
+            "Node": "P3_L38",
+            "Fuel": 264565.95,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.91,
+            "Wind Speed": 55.2
+        },
+        {
+            "Node": "P1_L38",
+            "Fuel": 272168.98,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.58,
+            "Wind Speed": 55.8
+        },
+        {
+            "Node": "P4_L38",
+            "Fuel": 278588.35,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.37,
+            "Wind Speed": 56.3
         }
     ],
     "Level 39": [
         {
-            "Node": "P1_L39",
-            "Fuel": 252511.35,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.19,
-            "Wind Speed": 53.7
-        },
-        {
             "Node": "P3_L39",
-            "Fuel": 263837.31,
+            "Fuel": 248792.13,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.83,
-            "Wind Speed": 54.6
-        },
-        {
-            "Node": "P5_L39",
-            "Fuel": 267668.74,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.27,
-            "Wind Speed": 54.9
+            "Wave Height": 1.21,
+            "Wind Speed": 53.4
         },
         {
             "Node": "P4_L39",
-            "Fuel": 270238.6,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.91,
-            "Wind Speed": 55.1
-        },
-        {
-            "Node": "P2_L39",
-            "Fuel": 276717.82,
+            "Fuel": 253757.32,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.3,
-            "Wind Speed": 55.6
+            "Wind Speed": 53.8
+        },
+        {
+            "Node": "P1_L39",
+            "Fuel": 255006.41,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.32,
+            "Wind Speed": 53.9
+        },
+        {
+            "Node": "P2_L39",
+            "Fuel": 262566.4,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.65,
+            "Wind Speed": 54.5
+        },
+        {
+            "Node": "P5_L39",
+            "Fuel": 278023.01,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.5,
+            "Wind Speed": 55.7
         }
     ],
     "Level 40": [
         {
-            "Node": "P5_L40",
-            "Fuel": 277167.8,
+            "Node": "P1_L40",
+            "Fuel": 269298.88,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 55.1
-        },
-        {
-            "Node": "P3_L40",
-            "Fuel": 294611.94,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.65,
-            "Wind Speed": 56.4
-        },
-        {
-            "Node": "P2_L40",
-            "Fuel": 297343.6,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.22,
-            "Wind Speed": 56.6
+            "Wave Height": 0.79,
+            "Wind Speed": 54.5
         },
         {
             "Node": "P4_L40",
-            "Fuel": 315411.12,
+            "Fuel": 281145.42,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 57.9
+            "Wave Height": 0.95,
+            "Wind Speed": 55.4
         },
         {
-            "Node": "P1_L40",
+            "Node": "P2_L40",
+            "Fuel": 291893.06,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.68,
+            "Wind Speed": 56.2
+        },
+        {
+            "Node": "P5_L40",
+            "Fuel": 314002.13,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.08,
+            "Wind Speed": 57.8
+        },
+        {
+            "Node": "P3_L40",
             "Fuel": 331120.99,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.94,
+            "Wave Height": 1.11,
             "Wind Speed": 59.0
         }
     ],
     "Level 41": [
         {
-            "Node": "P2_L41",
-            "Fuel": 292280.6,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.92,
-            "Wind Speed": 55.7
-        },
-        {
-            "Node": "P1_L41",
-            "Fuel": 329106.02,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.63,
-            "Wind Speed": 58.3
-        },
-        {
-            "Node": "P3_L41",
-            "Fuel": 330566.62,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.72,
-            "Wind Speed": 58.4
-        },
-        {
             "Node": "P5_L41",
-            "Fuel": 332030.49,
+            "Fuel": 301977.24,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.98,
-            "Wind Speed": 58.5
+            "Wave Height": 0.64,
+            "Wind Speed": 56.4
         },
         {
-            "Node": "P4_L41",
-            "Fuel": 358940.56,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.92,
-            "Wind Speed": 60.3
-        }
-    ],
-    "Level 42": [
-        {
-            "Node": "P4_L42",
-            "Fuel": 325284.06,
+            "Node": "P2_L41",
+            "Fuel": 317539.2,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.42,
             "Wind Speed": 57.5
         },
         {
-            "Node": "P2_L42",
-            "Fuel": 352246.27,
+            "Node": "P4_L41",
+            "Fuel": 323296.4,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.41,
-            "Wind Speed": 59.3
+            "Wave Height": 0.85,
+            "Wind Speed": 57.9
         },
+        {
+            "Node": "P1_L41",
+            "Fuel": 349852.57,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.01,
+            "Wind Speed": 59.7
+        },
+        {
+            "Node": "P3_L41",
+            "Fuel": 354381.82,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.48,
+            "Wind Speed": 60.0
+        }
+    ],
+    "Level 42": [
         {
             "Node": "P1_L42",
-            "Fuel": 364578.56,
+            "Fuel": 325284.06,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.4,
-            "Wind Speed": 60.1
-        },
-        {
-            "Node": "P3_L42",
-            "Fuel": 370825.27,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.87,
-            "Wind Speed": 60.5
+            "Wave Height": 1.06,
+            "Wind Speed": 57.5
         },
         {
             "Node": "P5_L42",
-            "Fuel": 375545.55,
+            "Fuel": 344647.67,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 60.8
+            "Wave Height": 0.68,
+            "Wind Speed": 58.8
+        },
+        {
+            "Node": "P2_L42",
+            "Fuel": 364578.56,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.89,
+            "Wind Speed": 60.1
+        },
+        {
+            "Node": "P4_L42",
+            "Fuel": 369258.56,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.33,
+            "Wind Speed": 60.4
+        },
+        {
+            "Node": "P3_L42",
+            "Fuel": 377125.68,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.46,
+            "Wind Speed": 60.9
         }
     ],
     "Level 43": [
         {
             "Node": "P1_L43",
-            "Fuel": 355955.07,
+            "Fuel": 343631.56,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.36,
-            "Wind Speed": 59.0
-        },
-        {
-            "Node": "P3_L43",
-            "Fuel": 370081.91,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 59.9
-        },
-        {
-            "Node": "P5_L43",
-            "Fuel": 390978.77,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.62,
-            "Wind Speed": 61.2
+            "Wave Height": 1.27,
+            "Wind Speed": 58.2
         },
         {
             "Node": "P4_L43",
-            "Fuel": 397525.41,
+            "Fuel": 346691.82,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.84,
+            "Wind Speed": 58.4
+        },
+        {
+            "Node": "P5_L43",
+            "Fuel": 360633.08,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.03,
-            "Wind Speed": 61.6
+            "Wind Speed": 59.3
+        },
+        {
+            "Node": "P3_L43",
+            "Fuel": 381261.89,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.3,
+            "Wind Speed": 60.6
         },
         {
             "Node": "P2_L43",
-            "Fuel": 415812.21,
+            "Fuel": 382872.78,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.08,
-            "Wind Speed": 62.7
+            "Wave Height": 1.11,
+            "Wind Speed": 60.7
         }
     ],
     "Level 44": [
         {
-            "Node": "P5_L44",
-            "Fuel": 375451.54,
+            "Node": "P3_L44",
+            "Fuel": 362644.52,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.99,
-            "Wind Speed": 59.7
+            "Wave Height": 0.74,
+            "Wind Speed": 58.9
         },
         {
             "Node": "P1_L44",
-            "Fuel": 383570.21,
+            "Fuel": 364233.09,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.11,
-            "Wind Speed": 60.2
-        },
-        {
-            "Node": "P2_L44",
-            "Fuel": 405090.19,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.98,
-            "Wind Speed": 61.5
-        },
-        {
-            "Node": "P3_L44",
-            "Fuel": 416924.03,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.43,
-            "Wind Speed": 62.2
+            "Wave Height": 0.86,
+            "Wind Speed": 59.0
         },
         {
             "Node": "P4_L44",
-            "Fuel": 437611.48,
+            "Fuel": 373838.36,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 63.4
+            "Wave Height": 0.81,
+            "Wind Speed": 59.6
+        },
+        {
+            "Node": "P5_L44",
+            "Fuel": 413525.35,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.7,
+            "Wind Speed": 62.0
+        },
+        {
+            "Node": "P2_L44",
+            "Fuel": 430659.4,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.93,
+            "Wind Speed": 63.0
         }
     ],
     "Level 45": [
         {
-            "Node": "P5_L45",
-            "Fuel": 405759.83,
+            "Node": "P4_L45",
+            "Fuel": 397312.79,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.77,
-            "Wind Speed": 61.0
+            "Wave Height": 1.48,
+            "Wind Speed": 60.5
+        },
+        {
+            "Node": "P5_L45",
+            "Fuel": 410871.22,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.95,
+            "Wind Speed": 61.3
         },
         {
             "Node": "P1_L45",
-            "Fuel": 438678.58,
+            "Fuel": 412582.2,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.94,
-            "Wind Speed": 62.9
-        },
-        {
-            "Node": "P4_L45",
-            "Fuel": 456525.72,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.33,
-            "Wind Speed": 63.9
-        },
-        {
-            "Node": "P3_L45",
-            "Fuel": 469232.7,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 64.6
+            "Wave Height": 0.52,
+            "Wind Speed": 61.4
         },
         {
             "Node": "P2_L45",
-            "Fuel": 474732.49,
+            "Fuel": 416014.97,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.55,
-            "Wind Speed": 64.9
+            "Wave Height": 1.4,
+            "Wind Speed": 61.6
+        },
+        {
+            "Node": "P3_L45",
+            "Fuel": 445774.28,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.8,
+            "Wind Speed": 63.3
         }
     ],
     "Level 46": [
         {
-            "Node": "P1_L46",
-            "Fuel": 425259.75,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.14,
-            "Wind Speed": 61.6
-        },
-        {
             "Node": "P3_L46",
-            "Fuel": 448427.0,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 62.9
-        },
-        {
-            "Node": "P5_L46",
             "Fuel": 450234.83,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
+            "Wave Height": 1.07,
             "Wind Speed": 63.0
         },
         {
             "Node": "P2_L46",
-            "Fuel": 483404.42,
+            "Fuel": 457502.91,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.05,
-            "Wind Speed": 64.8
+            "Wave Height": 0.91,
+            "Wind Speed": 63.4
+        },
+        {
+            "Node": "P1_L46",
+            "Fuel": 461159.01,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.95,
+            "Wind Speed": 63.6
+        },
+        {
+            "Node": "P5_L46",
+            "Fuel": 500435.89,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.01,
+            "Wind Speed": 65.7
         },
         {
             "Node": "P4_L46",
-            "Fuel": 502346.66,
+            "Fuel": 504261.11,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 65.8
+            "Wave Height": 0.98,
+            "Wind Speed": 65.9
         }
     ],
     "Level 47": [
         {
-            "Node": "P2_L47",
-            "Fuel": 460022.54,
+            "Node": "P1_L47",
+            "Fuel": 471184.21,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 63.0
+            "Wave Height": 0.93,
+            "Wind Speed": 63.6
+        },
+        {
+            "Node": "P2_L47",
+            "Fuel": 486276.78,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.38,
+            "Wind Speed": 64.4
         },
         {
             "Node": "P4_L47",
-            "Fuel": 476815.75,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.94,
-            "Wind Speed": 63.9
-        },
-        {
-            "Node": "P1_L47",
-            "Fuel": 493913.21,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.18,
-            "Wind Speed": 64.8
-        },
-        {
-            "Node": "P5_L47",
             "Fuel": 523085.11,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.63,
+            "Wave Height": 1.34,
             "Wind Speed": 66.3
         },
         {
-            "Node": "P3_L47",
-            "Fuel": 525059.96,
+            "Node": "P5_L47",
+            "Fuel": 527038.56,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.86,
-            "Wind Speed": 66.4
+            "Wave Height": 0.56,
+            "Wind Speed": 66.5
+        },
+        {
+            "Node": "P3_L47",
+            "Fuel": 531007.02,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.5,
+            "Wind Speed": 66.7
         }
     ],
     "Level 48": [
         {
-            "Node": "P2_L48",
-            "Fuel": 496623.09,
+            "Node": "P3_L48",
+            "Fuel": 498567.07,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.51,
-            "Wind Speed": 64.4
-        },
-        {
-            "Node": "P4_L48",
-            "Fuel": 514256.96,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.85,
-            "Wind Speed": 65.3
-        },
-        {
-            "Node": "P1_L48",
-            "Fuel": 528187.02,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 66.0
+            "Wave Height": 0.66,
+            "Wind Speed": 64.5
         },
         {
             "Node": "P5_L48",
-            "Fuel": 550456.89,
+            "Fuel": 528187.02,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.47,
-            "Wind Speed": 67.1
+            "Wave Height": 1.34,
+            "Wind Speed": 66.0
         },
         {
-            "Node": "P3_L48",
-            "Fuel": 554555.82,
+            "Node": "P2_L48",
+            "Fuel": 552504.44,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 67.3
+            "Wave Height": 0.73,
+            "Wind Speed": 67.2
+        },
+        {
+            "Node": "P4_L48",
+            "Fuel": 562799.73,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.55,
+            "Wind Speed": 67.7
+        },
+        {
+            "Node": "P1_L48",
+            "Fuel": 573190.93,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.11,
+            "Wind Speed": 68.2
         }
     ],
     "Level 49": [
         {
-            "Node": "P4_L49",
-            "Fuel": 512934.58,
+            "Node": "P2_L49",
+            "Fuel": 524970.65,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 64.7
-        },
-        {
-            "Node": "P1_L49",
-            "Fuel": 520942.96,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.4,
-            "Wind Speed": 65.1
+            "Wave Height": 1.11,
+            "Wind Speed": 65.3
         },
         {
             "Node": "P3_L49",
-            "Fuel": 526990.37,
+            "Fuel": 537147.7,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 65.4
+            "Wave Height": 1.14,
+            "Wind Speed": 65.9
+        },
+        {
+            "Node": "P1_L49",
+            "Fuel": 564014.94,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.96,
+            "Wind Speed": 67.2
+        },
+        {
+            "Node": "P4_L49",
+            "Fuel": 572414.94,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.79,
+            "Wind Speed": 67.6
         },
         {
             "Node": "P5_L49",
-            "Fuel": 578756.05,
+            "Fuel": 606641.48,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.64,
-            "Wind Speed": 67.9
-        },
-        {
-            "Node": "P2_L49",
-            "Fuel": 608813.92,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.87,
-            "Wind Speed": 69.3
+            "Wave Height": 0.81,
+            "Wind Speed": 69.2
         }
     ],
     "Level 50": [
         {
-            "Node": "P2_L50",
-            "Fuel": 550194.81,
+            "Node": "P1_L50",
+            "Fuel": 552283.72,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.64,
-            "Wind Speed": 66.0
-        },
-        {
-            "Node": "P3_L50",
-            "Fuel": 564901.09,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.51,
-            "Wind Speed": 66.7
+            "Wave Height": 0.81,
+            "Wind Speed": 66.1
         },
         {
             "Node": "P4_L50",
-            "Fuel": 581948.03,
+            "Fuel": 575525.45,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 67.5
+            "Wave Height": 1.43,
+            "Wind Speed": 67.2
         },
         {
-            "Node": "P1_L50",
-            "Fuel": 590567.4,
+            "Node": "P3_L50",
+            "Fuel": 601431.52,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.11,
-            "Wind Speed": 67.9
+            "Wave Height": 1.12,
+            "Wind Speed": 68.4
+        },
+        {
+            "Node": "P2_L50",
+            "Fuel": 625684.24,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.38,
+            "Wind Speed": 69.5
         },
         {
             "Node": "P5_L50",
-            "Fuel": 632382.54,
+            "Fuel": 634623.3,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.7,
-            "Wind Speed": 69.8
+            "Wave Height": 1.52,
+            "Wind Speed": 69.9
         }
     ],
     "Level 51": [
         {
-            "Node": "P4_L51",
-            "Fuel": 587035.96,
+            "Node": "P2_L51",
+            "Fuel": 589215.56,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 67.2
+            "Wave Height": 0.87,
+            "Wind Speed": 67.3
         },
         {
-            "Node": "P3_L51",
+            "Node": "P4_L51",
             "Fuel": 595778.81,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.51,
+            "Wave Height": 0.75,
             "Wind Speed": 67.6
         },
         {
-            "Node": "P5_L51",
-            "Fuel": 629145.31,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.53,
-            "Wind Speed": 69.1
-        },
-        {
             "Node": "P1_L51",
-            "Fuel": 642748.69,
+            "Fuel": 609015.36,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.2,
-            "Wind Speed": 69.7
+            "Wave Height": 0.69,
+            "Wind Speed": 68.2
         },
         {
-            "Node": "P2_L51",
-            "Fuel": 665747.07,
+            "Node": "P3_L51",
+            "Fuel": 622398.65,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.18,
-            "Wind Speed": 70.7
+            "Wave Height": 0.65,
+            "Wind Speed": 68.8
+        },
+        {
+            "Node": "P5_L51",
+            "Fuel": 640471.27,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.45,
+            "Wind Speed": 69.6
         }
     ],
     "Level 52": [
         {
-            "Node": "P3_L52",
-            "Fuel": 636891.37,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.56,
-            "Wind Speed": 68.9
-        },
-        {
-            "Node": "P4_L52",
-            "Fuel": 636891.37,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.81,
-            "Wind Speed": 68.9
-        },
-        {
             "Node": "P1_L52",
-            "Fuel": 664681.47,
+            "Fuel": 611942.82,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.97,
-            "Wind Speed": 70.1
-        },
-        {
-            "Node": "P2_L52",
-            "Fuel": 667024.33,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.76,
-            "Wind Speed": 70.2
+            "Wave Height": 0.55,
+            "Wind Speed": 67.8
         },
         {
             "Node": "P5_L52",
-            "Fuel": 683540.67,
+            "Fuel": 653029.53,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.18,
-            "Wind Speed": 70.9
+            "Wind Speed": 69.6
+        },
+        {
+            "Node": "P3_L52",
+            "Fuel": 655351.61,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.16,
+            "Wind Speed": 69.7
+        },
+        {
+            "Node": "P2_L52",
+            "Fuel": 685916.77,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.17,
+            "Wind Speed": 71.0
+        },
+        {
+            "Node": "P4_L52",
+            "Fuel": 722057.0,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.63,
+            "Wind Speed": 72.5
         }
     ],
     "Level 53": [
         {
-            "Node": "P1_L53",
-            "Fuel": 663225.3,
+            "Node": "P4_L53",
+            "Fuel": 665587.79,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.86,
-            "Wind Speed": 69.5
-        },
-        {
-            "Node": "P2_L53",
-            "Fuel": 663225.3,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.17,
-            "Wind Speed": 69.5
+            "Wave Height": 1.03,
+            "Wind Speed": 69.6
         },
         {
             "Node": "P3_L53",
-            "Fuel": 663225.3,
+            "Fuel": 687040.86,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.0,
-            "Wind Speed": 69.5
+            "Wave Height": 0.57,
+            "Wind Speed": 70.5
         },
         {
-            "Node": "P4_L53",
-            "Fuel": 677463.81,
+            "Node": "P2_L53",
+            "Fuel": 708837.02,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.19,
+            "Wind Speed": 71.4
+        },
+        {
+            "Node": "P1_L53",
+            "Fuel": 726026.8,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 0.56,
-            "Wind Speed": 70.1
+            "Wind Speed": 72.1
         },
         {
             "Node": "P5_L53",
-            "Fuel": 691854.8,
+            "Fuel": 740926.08,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.75,
-            "Wind Speed": 70.7
+            "Wave Height": 0.67,
+            "Wind Speed": 72.7
         }
     ],
     "Level 54": [
         {
-            "Node": "P4_L54",
+            "Node": "P5_L54",
             "Fuel": 690246.14,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.47,
+            "Wave Height": 1.17,
             "Wind Speed": 70.1
         },
         {
             "Node": "P1_L54",
-            "Fuel": 714769.99,
+            "Fuel": 719726.55,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.89,
-            "Wind Speed": 71.1
-        },
-        {
-            "Node": "P5_L54",
-            "Fuel": 785732.72,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 73.9
-        },
-        {
-            "Node": "P2_L54",
-            "Fuel": 798760.68,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.23,
-            "Wind Speed": 74.4
+            "Wave Height": 0.78,
+            "Wind Speed": 71.3
         },
         {
             "Node": "P3_L54",
-            "Fuel": 804002.07,
+            "Fuel": 790930.96,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.41,
-            "Wind Speed": 74.6
+            "Wave Height": 1.27,
+            "Wind Speed": 74.1
+        },
+        {
+            "Node": "P4_L54",
+            "Fuel": 798760.68,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.19,
+            "Wind Speed": 74.4
+        },
+        {
+            "Node": "P2_L54",
+            "Fuel": 811896.53,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.03,
+            "Wind Speed": 74.9
         }
     ],
     "Level 55": [
         {
-            "Node": "P2_L55",
-            "Fuel": 730528.45,
+            "Node": "P3_L55",
+            "Fuel": 810889.91,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 71.2
+            "Wave Height": 1.5,
+            "Wind Speed": 74.3
         },
         {
             "Node": "P1_L55",
-            "Fuel": 745752.61,
+            "Fuel": 829620.66,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.79,
-            "Wind Speed": 71.8
-        },
-        {
-            "Node": "P3_L55",
-            "Fuel": 758560.29,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 72.3
-        },
-        {
-            "Node": "P4_L55",
-            "Fuel": 795006.41,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.4,
-            "Wind Speed": 73.7
+            "Wave Height": 0.95,
+            "Wind Speed": 75.0
         },
         {
             "Node": "P5_L55",
-            "Fuel": 808231.67,
+            "Fuel": 843131.64,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.84,
+            "Wind Speed": 75.5
+        },
+        {
+            "Node": "P2_L55",
+            "Fuel": 845847.02,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 1.28,
-            "Wind Speed": 74.2
+            "Wind Speed": 75.6
+        },
+        {
+            "Node": "P4_L55",
+            "Fuel": 848566.79,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.21,
+            "Wind Speed": 75.7
         }
     ],
     "Level 56": [
         {
-            "Node": "P3_L56",
-            "Fuel": 790797.03,
+            "Node": "P2_L56",
+            "Fuel": 793449.9,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.47,
-            "Wind Speed": 73.0
+            "Wave Height": 1.16,
+            "Wind Speed": 73.1
+        },
+        {
+            "Node": "P3_L56",
+            "Fuel": 812145.26,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.95,
+            "Wind Speed": 73.8
         },
         {
             "Node": "P1_L56",
-            "Fuel": 817527.08,
+            "Fuel": 814833.93,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.01,
-            "Wind Speed": 74.0
+            "Wave Height": 1.36,
+            "Wind Speed": 73.9
         },
         {
             "Node": "P4_L56",
-            "Fuel": 839233.35,
+            "Fuel": 836504.4,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.37,
-            "Wind Speed": 74.8
-        },
-        {
-            "Node": "P2_L56",
-            "Fuel": 861226.05,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.45,
-            "Wind Speed": 75.6
+            "Wave Height": 0.67,
+            "Wind Speed": 74.7
         },
         {
             "Node": "P5_L56",
             "Fuel": 886310.22,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.55,
+            "Wave Height": 1.02,
             "Wind Speed": 76.5
         }
     ],
     "Level 57": [
         {
-            "Node": "P3_L57",
-            "Fuel": 826647.86,
+            "Node": "P5_L57",
+            "Fuel": 876605.09,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.63,
-            "Wind Speed": 73.8
+            "Wave Height": 0.67,
+            "Wind Speed": 75.6
         },
         {
             "Node": "P4_L57",
-            "Fuel": 879423.77,
+            "Fuel": 893585.49,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.28,
-            "Wind Speed": 75.7
-        },
-        {
-            "Node": "P2_L57",
-            "Fuel": 919363.59,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.66,
-            "Wind Speed": 77.1
-        },
-        {
-            "Node": "P5_L57",
-            "Fuel": 919363.59,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.6,
-            "Wind Speed": 77.1
+            "Wave Height": 1.14,
+            "Wind Speed": 76.2
         },
         {
             "Node": "P1_L57",
-            "Fuel": 936753.98,
+            "Fuel": 910729.89,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.07,
-            "Wind Speed": 77.7
+            "Wave Height": 0.81,
+            "Wind Speed": 76.8
+        },
+        {
+            "Node": "P3_L57",
+            "Fuel": 933844.19,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.13,
+            "Wind Speed": 77.6
+        },
+        {
+            "Node": "P2_L57",
+            "Fuel": 942587.22,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.77,
+            "Wind Speed": 77.9
         }
     ],
     "Level 58": [
         {
             "Node": "P1_L58",
-            "Fuel": 866379.56,
+            "Fuel": 863557.78,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.04,
-            "Wind Speed": 74.7
-        },
-        {
-            "Node": "P4_L58",
-            "Fuel": 866379.56,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.38,
-            "Wind Speed": 74.7
+            "Wave Height": 0.62,
+            "Wind Speed": 74.6
         },
         {
             "Node": "P2_L58",
-            "Fuel": 986063.39,
+            "Fuel": 872037.01,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.57,
-            "Wind Speed": 78.8
+            "Wave Height": 1.03,
+            "Wind Speed": 74.9
+        },
+        {
+            "Node": "P4_L58",
+            "Fuel": 883407.55,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.2,
+            "Wind Speed": 75.3
         },
         {
             "Node": "P5_L58",
-            "Fuel": 992100.95,
+            "Fuel": 950227.43,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.45,
-            "Wind Speed": 79.0
+            "Wave Height": 1.17,
+            "Wind Speed": 77.6
         },
         {
             "Node": "P3_L58",
-            "Fuel": 1001192.05,
+            "Fuel": 995126.68,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.36,
-            "Wind Speed": 79.3
+            "Wave Height": 0.54,
+            "Wind Speed": 79.1
         }
     ],
     "Level 59": [
         {
-            "Node": "P4_L59",
-            "Fuel": 981717.24,
+            "Node": "P1_L59",
+            "Fuel": 919061.77,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 78.1
+            "Wave Height": 1.21,
+            "Wind Speed": 76.0
+        },
+        {
+            "Node": "P3_L59",
+            "Fuel": 975660.46,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.87,
+            "Wind Speed": 77.9
         },
         {
             "Node": "P2_L59",
-            "Fuel": 1030850.45,
+            "Fuel": 996941.7,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.68,
-            "Wind Speed": 79.7
-        },
-        {
-            "Node": "P1_L59",
-            "Fuel": 1040197.32,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.25,
-            "Wind Speed": 80.0
+            "Wave Height": 0.85,
+            "Wind Speed": 78.6
         },
         {
             "Node": "P5_L59",
-            "Fuel": 1046452.14,
+            "Fuel": 996941.7,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.37,
+            "Wind Speed": 78.6
+        },
+        {
+            "Node": "P4_L59",
+            "Fuel": 1049586.62,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.46,
+            "Wind Speed": 80.3
+        }
+    ],
+    "Level 60": [
+        {
+            "Node": "P1_L60",
+            "Fuel": 955643.27,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.78,
+            "Wind Speed": 76.7
+        },
+        {
+            "Node": "P2_L60",
+            "Fuel": 964716.98,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.61,
+            "Wind Speed": 77.0
+        },
+        {
+            "Node": "P3_L60",
+            "Fuel": 976882.41,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.97,
+            "Wind Speed": 77.4
+        },
+        {
+            "Node": "P4_L60",
+            "Fuel": 976882.41,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.19,
+            "Wind Speed": 77.4
+        },
+        {
+            "Node": "P5_L60",
+            "Fuel": 1004535.13,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.4,
+            "Wind Speed": 78.3
+        }
+    ],
+    "Level 61": [
+        {
+            "Node": "P5_L61",
+            "Fuel": 1091661.92,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.53,
+            "Wind Speed": 80.5
+        },
+        {
+            "Node": "P3_L61",
+            "Fuel": 1134361.88,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.14,
+            "Wind Speed": 81.8
+        },
+        {
+            "Node": "P2_L61",
+            "Fuel": 1157695.42,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.15,
+            "Wind Speed": 82.5
+        },
+        {
+            "Node": "P1_L61",
+            "Fuel": 1161048.29,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.87,
+            "Wind Speed": 82.6
+        },
+        {
+            "Node": "P4_L61",
+            "Fuel": 1164406.03,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.32,
+            "Wind Speed": 82.7
+        }
+    ],
+    "Level 62": [
+        {
+            "Node": "P1_L62",
+            "Fuel": 1057292.26,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.77,
+            "Wind Speed": 78.9
+        },
+        {
+            "Node": "P2_L62",
+            "Fuel": 1073489.05,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.97,
+            "Wind Speed": 79.4
+        },
+        {
+            "Node": "P4_L62",
+            "Fuel": 1102955.43,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.48,
+            "Wind Speed": 80.3
+        },
+        {
+            "Node": "P3_L62",
+            "Fuel": 1183494.65,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.3,
+            "Wind Speed": 82.7
+        },
+        {
+            "Node": "P5_L62",
+            "Fuel": 1214432.68,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.32,
+            "Wind Speed": 83.6
+        }
+    ],
+    "Level 63": [
+        {
+            "Node": "P5_L63",
+            "Fuel": 1117398.04,
             "Time": Infinity,
             "Comfort": 0,
             "Wave Height": 0.77,
             "Wind Speed": 80.2
         },
         {
-            "Node": "P3_L59",
-            "Fuel": 1052725.82,
+            "Node": "P1_L63",
+            "Fuel": 1120745.03,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.11,
-            "Wind Speed": 80.4
-        }
-    ],
-    "Level 60": [
-        {
-            "Node": "P2_L60",
-            "Fuel": 986056.82,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.0,
-            "Wind Speed": 77.7
-        },
-        {
-            "Node": "P4_L60",
-            "Fuel": 998356.51,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.67,
-            "Wind Speed": 78.1
-        },
-        {
-            "Node": "P1_L60",
-            "Fuel": 1048322.49,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.14,
-            "Wind Speed": 79.7
-        },
-        {
-            "Node": "P3_L60",
-            "Fuel": 1070568.63,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.62,
-            "Wind Speed": 80.4
-        },
-        {
-            "Node": "P5_L60",
-            "Fuel": 1070568.63,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.01,
-            "Wind Speed": 80.4
-        }
-    ],
-    "Level 61": [
-        {
-            "Node": "P3_L61",
-            "Fuel": 1033899.06,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.02,
-            "Wind Speed": 78.7
-        },
-        {
-            "Node": "P5_L61",
-            "Fuel": 1085165.83,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.41,
+            "Wave Height": 1.23,
             "Wind Speed": 80.3
         },
         {
-            "Node": "P1_L61",
-            "Fuel": 1117841.32,
+            "Node": "P3_L63",
+            "Fuel": 1134183.34,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 81.3
-        },
-        {
-            "Node": "P4_L61",
-            "Fuel": 1117841.32,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.23,
-            "Wind Speed": 81.3
-        },
-        {
-            "Node": "P2_L61",
-            "Fuel": 1154347.43,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.29,
-            "Wind Speed": 82.4
-        }
-    ],
-    "Level 62": [
-        {
-            "Node": "P4_L62",
-            "Fuel": 1076743.27,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.84,
-            "Wind Speed": 79.5
-        },
-        {
-            "Node": "P2_L62",
-            "Fuel": 1119499.07,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.23,
-            "Wind Speed": 80.8
-        },
-        {
-            "Node": "P1_L62",
-            "Fuel": 1149589.79,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.15,
-            "Wind Speed": 81.7
-        },
-        {
-            "Node": "P3_L62",
-            "Fuel": 1173271.16,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.1,
-            "Wind Speed": 82.4
-        },
-        {
-            "Node": "P5_L62",
-            "Fuel": 1200632.89,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.43,
-            "Wind Speed": 83.2
-        }
-    ],
-    "Level 63": [
-        {
-            "Node": "P1_L63",
-            "Fuel": 1154491.85,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.77,
-            "Wind Speed": 81.3
+            "Wave Height": 0.56,
+            "Wind Speed": 80.7
         },
         {
             "Node": "P4_L63",
-            "Fuel": 1213016.97,
+            "Fuel": 1144314.94,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.63,
-            "Wind Speed": 83.0
-        },
-        {
-            "Node": "P3_L63",
-            "Fuel": 1216504.94,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.22,
-            "Wind Speed": 83.1
-        },
-        {
-            "Node": "P5_L63",
-            "Fuel": 1234020.3,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.98,
-            "Wind Speed": 83.6
+            "Wave Height": 1.42,
+            "Wind Speed": 81.0
         },
         {
             "Node": "P2_L63",
-            "Fuel": 1241061.7,
+            "Fuel": 1192194.89,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.31,
-            "Wind Speed": 83.8
+            "Wave Height": 1.21,
+            "Wind Speed": 82.4
         }
     ],
     "Level 64": [
         {
             "Node": "P3_L64",
+            "Fuel": 1162478.67,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.06,
+            "Wind Speed": 81.0
+        },
+        {
+            "Node": "P2_L64",
+            "Fuel": 1193632.12,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.76,
+            "Wind Speed": 81.9
+        },
+        {
+            "Node": "P4_L64",
             "Fuel": 1211118.62,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.27,
+            "Wave Height": 1.26,
             "Wind Speed": 82.4
         },
         {
             "Node": "P1_L64",
-            "Fuel": 1214631.26,
+            "Fuel": 1257181.95,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.28,
-            "Wind Speed": 82.5
-        },
-        {
-            "Node": "P4_L64",
-            "Fuel": 1278733.5,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.67,
-            "Wind Speed": 84.3
-        },
-        {
-            "Node": "P2_L64",
-            "Fuel": 1289578.32,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.09,
-            "Wind Speed": 84.6
+            "Wave Height": 0.64,
+            "Wind Speed": 83.7
         },
         {
             "Node": "P5_L64",
-            "Fuel": 1296833.78,
+            "Fuel": 1315061.93,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.24,
-            "Wind Speed": 84.8
+            "Wave Height": 1.27,
+            "Wind Speed": 85.3
         }
     ],
     "Level 65": [
         {
-            "Node": "P4_L65",
-            "Fuel": 1273195.55,
+            "Node": "P1_L65",
+            "Fuel": 1237182.6,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.4,
-            "Wind Speed": 83.6
+            "Wave Height": 0.99,
+            "Wind Speed": 82.6
         },
         {
-            "Node": "P1_L65",
-            "Fuel": 1309727.98,
+            "Node": "P4_L65",
+            "Fuel": 1240760.52,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.89,
-            "Wind Speed": 84.6
+            "Wave Height": 1.34,
+            "Wind Speed": 82.7
         },
         {
             "Node": "P2_L65",
-            "Fuel": 1309727.98,
+            "Fuel": 1276825.42,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.07,
-            "Wind Speed": 84.6
+            "Wave Height": 0.53,
+            "Wind Speed": 83.7
+        },
+        {
+            "Node": "P3_L65",
+            "Fuel": 1317096.81,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.83,
+            "Wind Speed": 84.8
         },
         {
             "Node": "P5_L65",
             "Fuel": 1384351.29,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.44,
+            "Wave Height": 0.57,
             "Wind Speed": 86.6
-        },
-        {
-            "Node": "P3_L65",
-            "Fuel": 1388137.0,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.7,
-            "Wind Speed": 86.7
         }
     ],
     "Level 66": [
+        {
+            "Node": "P2_L66",
+            "Fuel": 1289102.74,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.41,
+            "Wind Speed": 83.5
+        },
         {
             "Node": "P5_L66",
             "Fuel": 1303856.13,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.36,
+            "Wave Height": 0.9,
             "Wind Speed": 83.9
         },
         {
             "Node": "P1_L66",
-            "Fuel": 1356157.62,
+            "Fuel": 1344863.12,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.21,
-            "Wind Speed": 85.3
-        },
-        {
-            "Node": "P2_L66",
-            "Fuel": 1386508.36,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.32,
-            "Wind Speed": 86.1
+            "Wave Height": 1.07,
+            "Wind Speed": 85.0
         },
         {
             "Node": "P3_L66",
-            "Fuel": 1405649.0,
+            "Fuel": 1378889.02,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.44,
-            "Wind Speed": 86.6
+            "Wave Height": 0.77,
+            "Wind Speed": 85.9
         },
         {
             "Node": "P4_L66",
-            "Fuel": 1452124.56,
+            "Fuel": 1382696.05,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.45,
-            "Wind Speed": 87.8
+            "Wave Height": 0.98,
+            "Wind Speed": 86.0
         }
     ],
     "Level 67": [
         {
-            "Node": "P5_L67",
-            "Fuel": 1361428.67,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.75,
-            "Wind Speed": 84.9
-        },
-        {
-            "Node": "P2_L67",
-            "Fuel": 1407516.06,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.82,
-            "Wind Speed": 86.1
-        },
-        {
             "Node": "P3_L67",
-            "Fuel": 1474126.44,
+            "Fuel": 1346237.56,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.13,
-            "Wind Speed": 87.8
+            "Wave Height": 0.62,
+            "Wind Speed": 84.5
+        },
+        {
+            "Node": "P5_L67",
+            "Fuel": 1350027.31,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.93,
+            "Wind Speed": 84.6
         },
         {
             "Node": "P1_L67",
-            "Fuel": 1486041.86,
+            "Fuel": 1434756.45,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.65,
-            "Wind Speed": 88.1
+            "Wave Height": 0.92,
+            "Wind Speed": 86.8
         },
         {
             "Node": "P4_L67",
-            "Fuel": 1486041.86,
+            "Fuel": 1458314.19,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.96,
-            "Wind Speed": 88.1
+            "Wave Height": 1.52,
+            "Wind Speed": 87.4
+        },
+        {
+            "Node": "P2_L67",
+            "Fuel": 1514031.9,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.16,
+            "Wind Speed": 88.8
         }
     ],
     "Level 68": [
         {
-            "Node": "P2_L68",
-            "Fuel": 1452204.86,
+            "Node": "P1_L68",
+            "Fuel": 1408938.97,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.33,
-            "Wind Speed": 86.7
+            "Wave Height": 0.69,
+            "Wind Speed": 85.6
         },
         {
             "Node": "P4_L68",
-            "Fuel": 1504185.06,
+            "Fuel": 1412845.06,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.16,
-            "Wind Speed": 88.0
+            "Wave Height": 1.49,
+            "Wind Speed": 85.7
         },
         {
-            "Node": "P1_L68",
-            "Fuel": 1536629.39,
+            "Node": "P2_L68",
+            "Fuel": 1432457.02,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.48,
-            "Wind Speed": 88.8
-        },
-        {
-            "Node": "P5_L68",
-            "Fuel": 1548885.68,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.98,
-            "Wind Speed": 89.1
+            "Wave Height": 1.3,
+            "Wind Speed": 86.2
         },
         {
             "Node": "P3_L68",
-            "Fuel": 1590093.23,
+            "Fuel": 1512263.54,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.39,
-            "Wind Speed": 90.1
+            "Wave Height": 0.65,
+            "Wind Speed": 88.2
+        },
+        {
+            "Node": "P5_L68",
+            "Fuel": 1573545.0,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.13,
+            "Wind Speed": 89.7
         }
     ],
     "Level 69": [
         {
+            "Node": "P5_L69",
+            "Fuel": 1473560.81,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.24,
+            "Wind Speed": 86.7
+        },
+        {
             "Node": "P2_L69",
-            "Fuel": 1555092.4,
+            "Fuel": 1571663.41,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.03,
-            "Wind Speed": 88.7
-        },
-        {
-            "Node": "P1_L69",
-            "Fuel": 1600874.99,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.81,
-            "Wind Speed": 89.8
-        },
-        {
-            "Node": "P3_L69",
-            "Fuel": 1630356.78,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.9,
-            "Wind Speed": 90.5
+            "Wave Height": 1.06,
+            "Wind Speed": 89.1
         },
         {
             "Node": "P4_L69",
-            "Fuel": 1634590.52,
+            "Fuel": 1579982.0,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.97,
-            "Wind Speed": 90.6
+            "Wave Height": 0.64,
+            "Wind Speed": 89.3
         },
         {
-            "Node": "P5_L69",
-            "Fuel": 1651580.63,
+            "Node": "P3_L69",
+            "Fuel": 1584149.57,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.58,
-            "Wind Speed": 91.0
+            "Wave Height": 0.94,
+            "Wind Speed": 89.4
+        },
+        {
+            "Node": "P1_L69",
+            "Fuel": 1647324.83,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.55,
+            "Wind Speed": 90.9
         }
     ],
     "Level 70": [
         {
-            "Node": "P4_L70",
-            "Fuel": 1586024.37,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.47,
-            "Wind Speed": 88.9
-        },
-        {
             "Node": "P1_L70",
-            "Fuel": 1594441.14,
+            "Fuel": 1615580.98,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.7,
-            "Wind Speed": 89.1
-        },
-        {
-            "Node": "P5_L70",
-            "Fuel": 1594441.14,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 89.1
+            "Wave Height": 1.44,
+            "Wind Speed": 89.6
         },
         {
             "Node": "P3_L70",
-            "Fuel": 1641133.4,
+            "Fuel": 1624076.08,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.5,
-            "Wind Speed": 90.2
+            "Wave Height": 1.11,
+            "Wind Speed": 89.8
+        },
+        {
+            "Node": "P5_L70",
+            "Fuel": 1628332.02,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.63,
+            "Wind Speed": 89.9
         },
         {
             "Node": "P2_L70",
-            "Fuel": 1666887.22,
+            "Fuel": 1653985.14,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.49,
-            "Wind Speed": 90.8
+            "Wave Height": 1.01,
+            "Wind Speed": 90.5
+        },
+        {
+            "Node": "P4_L70",
+            "Fuel": 1653985.14,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.59,
+            "Wind Speed": 90.5
         }
     ],
     "Level 71": [
         {
-            "Node": "P2_L71",
-            "Fuel": 1608681.86,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 1.34,
-            "Wind Speed": 88.9
-        },
-        {
             "Node": "P3_L71",
-            "Fuel": 1721433.43,
+            "Fuel": 1647277.16,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.61,
-            "Wind Speed": 91.5
+            "Wave Height": 1.31,
+            "Wind Speed": 89.8
         },
         {
-            "Node": "P1_L71",
-            "Fuel": 1783734.63,
+            "Node": "P2_L71",
+            "Fuel": 1655916.31,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 0.88,
-            "Wind Speed": 92.9
-        },
-        {
-            "Node": "P4_L71",
-            "Fuel": 1788227.27,
-            "Time": Infinity,
-            "Comfort": 0,
-            "Wave Height": 0.54,
-            "Wind Speed": 93.0
+            "Wave Height": 1.32,
+            "Wind Speed": 90.0
         },
         {
             "Node": "P5_L71",
-            "Fuel": 1792725.59,
+            "Fuel": 1730265.51,
             "Time": Infinity,
             "Comfort": 0,
-            "Wave Height": 1.1,
-            "Wind Speed": 93.1
+            "Wave Height": 0.61,
+            "Wind Speed": 91.7
+        },
+        {
+            "Node": "P1_L71",
+            "Fuel": 1743556.19,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 1.42,
+            "Wind Speed": 92.0
+        },
+        {
+            "Node": "P4_L71",
+            "Fuel": 1765820.8,
+            "Time": Infinity,
+            "Comfort": 0,
+            "Wave Height": 0.58,
+            "Wind Speed": 92.5
         }
     ]
 }
