@@ -41,7 +41,7 @@ for path in range(1, num_paths + 1):
     for level in range(1, levels):  # Intermediate levels
         node_id = f"P{path}_L{level}"
         x = level * node_interval  # Distance along x-axis
-        y = path * 2  # Vertical position based on the path
+        y = path * 3  # Vertical position based on the path (increased vertical spacing)
         node_positions[node_id] = (x, y)
 
         # Connect nodes in the same path
@@ -145,14 +145,11 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
 
 # Plot Graph with Plotly
-def plot_graph():
-    vertical_spacing_factor = 20
-
+# Plot Graph with Plotly
+# Plot Graph
+def plot_graph_google_maps_style():
     # Adjust node positions for better spacing
-    adjusted_positions = {
-        node: (pos[0], pos[1] * vertical_spacing_factor)
-        for node, pos in node_positions.items()
-    }
+    adjusted_positions = node_positions
 
     # Prepare data for Plotly
     edge_x = []
@@ -166,7 +163,7 @@ def plot_graph():
     node_y = [pos[1] for pos in adjusted_positions.values()]
     node_labels = list(adjusted_positions.keys())
 
-    # Prepare hover text
+    # Hover text
     hover_texts = [
         f"Node: {node}<br>Distance: {props['distance']} km<br>Wave Height: {props['wave_height']} m<br>Wind Speed: {props['wind_speed']} knots"
         for node, props in node_properties.items()
@@ -177,39 +174,29 @@ def plot_graph():
 
     # Add edges
     fig.add_trace(go.Scatter(
-        x=edge_x,
-        y=edge_y,
-        mode='lines',
-        line=dict(color='gray', width=2),
-        hoverinfo='none'
+        x=edge_x, y=edge_y, mode='lines',
+        line=dict(color='gray', width=2), hoverinfo='none'
     ))
 
     # Add nodes with hover text
     fig.add_trace(go.Scatter(
-        x=node_x,
-        y=node_y,
-        mode='markers+text',
-        text=node_labels,
-        textposition="top center",
-        marker=dict(size=12, color='blue'),
-        hoverinfo='text',
-        hovertext=hover_texts
+        x=node_x, y=node_y, mode='markers+text',
+        text=node_labels, textposition="top center",
+        marker=dict(size=15, color='blue'),
+        hoverinfo='text', hovertext=hover_texts
     ))
 
+    # Layout settings
     fig.update_layout(
         title="Interactive Diverging and Converging Graph",
-        xaxis=dict(title="Distance (km)"),
-        yaxis=dict(title="Paths"),
-        dragmode="pan",
-        showlegend=False,
-        autosize=False,
-        width=1920,
-        height=1080,
+        xaxis=dict(title="Distance (km)", showgrid=True),
+        yaxis=dict(title="Paths", showgrid=True),
+        width=6000, height=900,
+        dragmode="pan", showlegend=False
     )
-
     fig.show()
 
-# Run the NSG algorithm and plot the graph
-print("Running NSG algorithm:")
+
+# Run the NSG and plot
 nsg_recursive(1, num_paths, node_properties)
-plot_graph()
+plot_graph_google_maps_style()

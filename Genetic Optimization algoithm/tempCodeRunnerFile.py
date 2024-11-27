@@ -2,6 +2,10 @@ import random
 import plotly.graph_objects as go
 from threshold import calculate_thresholds
 from resistance import calculate_dynamic_resistance
+import json
+
+# Storage for node information at each level
+nsg_output = {}
 
 # Parameters
 total_distance = 8000
@@ -37,7 +41,7 @@ for path in range(1, num_paths + 1):
     for level in range(1, levels):  # Intermediate levels
         node_id = f"P{path}_L{level}"
         x = level * node_interval  # Distance along x-axis
-        y = path * 2  # Vertical position based on the path
+        y = path * 3  # Vertical position based on the path (increased vertical spacing)
         node_positions[node_id] = (x, y)
 
         # Connect nodes in the same path
@@ -78,7 +82,7 @@ def fuel_consumption(distance, wave_height, wind_speed):
     fuel = distance * (1 + wind_resistance + wave_resistance)
     return fuel
 
-def travel_time(distance, wind_speed,wave_height):
+def travel_time(distance, wind_speed, wave_height):
     wind_resistance_factor, wave_resistance_factor = calculate_dynamic_resistance(
         wind_speed, wave_height, vessel_type, size, weight, hull_properties, monsoon, current_speed, current_direction
     )
@@ -90,10 +94,13 @@ def passenger_comfort(wave_height, wind_speed):
     comfort = 100 - (wave_height * COMFORT_DECREASE_RATE + wind_speed * COMFORT_DECREASE_RATE)
     return max(0, comfort)
 
-# Next Step Greedy Algorithm (NSG)
+# Next Step Greedy Algorithm (NSG) with JSON saving
 def nsg_recursive(level, path_count, properties, current_path=[]):
     if level >= levels:  # Base case: end of levels
         print("Reached the end of all levels.")
+        # Save the JSON output to a file
+        with open("nsg_output.json", "w") as file:
+            json.dump(nsg_output, file, indent=4)
         return
 
     # Get next nodes from all paths
@@ -111,32 +118,38 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
         wind_speed = properties[node]["wind_speed"]
         
         fuel = fuel_consumption(distance, wave_height, wind_speed)
-        time = travel_time(distance, wind_speed,wave_height)
+        time = travel_time(distance, wind_speed, wave_height)
         comfort = passenger_comfort(wave_height, wind_speed)
 
         node_fitness.append((node, fuel, time, comfort))
 
-
     # Sort nodes based on fuel (minimize), time (minimize), and comfort (maximize)
     sorted_nodes = sorted(node_fitness, key=lambda x: (x[1], x[2], -x[3]))
 
-    # Print sorted nodes
+    # Print and save sorted nodes
     print(f"Level {level}: Sorted nodes (most optimal to least optimal):")
+    level_output = []
     for node, fuel, time, comfort in sorted_nodes:
         print(f"Node: {node} | Fuel: {fuel:.2f} | Time: {time:.2f} hours | Comfort: {comfort:.2f}")
+        level_output.append({
+            "Node": node,
+            "Fuel": round(fuel, 2),
+            "Time": round(time, 2),
+            "Comfort": round(comfort, 2),
+        })
+
+    # Save level output in the global dictionary
+    nsg_output[f"Level {level}"] = level_output
 
     # Recursively proceed to the next level
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
 
 # Plot Graph with Plotly
-def plot_graph():
-    vertical_spacing_factor = 20
-
+# Plot Graph with Plotly
+# Plot Graph
+def plot_graph_google_maps_style():
     # Adjust node positions for better spacing
-    adjusted_positions = {
-        node: (pos[0], pos[1] * vertical_spacing_factor)
-        for node, pos in node_positions.items()
-    }
+    adjusted_positions = node_positions
 
     # Prepare data for Plotly
     edge_x = []
@@ -150,7 +163,7 @@ def plot_graph():
     node_y = [pos[1] for pos in adjusted_positions.values()]
     node_labels = list(adjusted_positions.keys())
 
-    # Prepare hover text
+    # Hover text
     hover_texts = [
         f"Node: {node}<br>Distance: {props['distance']} km<br>Wave Height: {props['wave_height']} m<br>Wind Speed: {props['wind_speed']} knots"
         for node, props in node_properties.items()
@@ -161,39 +174,29 @@ def plot_graph():
 
     # Add edges
     fig.add_trace(go.Scatter(
-        x=edge_x,
-        y=edge_y,
-        mode='lines',
-        line=dict(color='gray', width=2),
-        hoverinfo='none'
+        x=edge_x, y=edge_y, mode='lines',
+        line=dict(color='gray', width=2), hoverinfo='none'
     ))
 
     # Add nodes with hover text
     fig.add_trace(go.Scatter(
-        x=node_x,
-        y=node_y,
-        mode='markers+text',
-        text=node_labels,
-        textposition="top center",
-        marker=dict(size=12, color='blue'),
-        hoverinfo='text',
-        hovertext=hover_texts
+        x=node_x, y=node_y, mode='markers+text',
+        text=node_labels, textposition="top center",
+        marker=dict(size=15, color='blue'),
+        hoverinfo='text', hovertext=hover_texts
     ))
 
+    # Layout settings
     fig.update_layout(
         title="Interactive Diverging and Converging Graph",
-        xaxis=dict(title="Distance (km)"),
-        yaxis=dict(title="Paths"),
-        dragmode="pan",
-        showlegend=False,
-        autosize=False,
-        width=1920,
-        height=1080,
+        xaxis=dict(title="Distance (km)", showgrid=True),
+        yaxis=dict(title="Paths", showgrid=True),
+        width=6000, height=900,
+        dragmode="pan", showlegend=False
     )
-
     fig.show()
 
-# Run the NSG algorithm and plot the graph
-print("Running NSG algorithm:")
+
+# Run the NSG and plot
 nsg_recursive(1, num_paths, node_properties)
-plot_graph()
+plot_graph_google_maps_style()

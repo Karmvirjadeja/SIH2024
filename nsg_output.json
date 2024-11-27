@@ -1,0 +1,2274 @@
+{
+    "Level 1": [
+        {
+            "Node": "P1_L1",
+            "Fuel": 111,
+            "Time": 5.55,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L1",
+            "Fuel": 111,
+            "Time": 5.55,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L1",
+            "Fuel": 111,
+            "Time": 5.55,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L1",
+            "Fuel": 114.3,
+            "Time": 5.72,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L1",
+            "Fuel": 114.3,
+            "Time": 5.72,
+            "Comfort": 0
+        }
+    ],
+    "Level 2": [
+        {
+            "Node": "P1_L2",
+            "Fuel": 222,
+            "Time": 11.1,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L2",
+            "Fuel": 222,
+            "Time": 11.1,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L2",
+            "Fuel": 226.24,
+            "Time": 11.32,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L2",
+            "Fuel": 226.24,
+            "Time": 11.32,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L2",
+            "Fuel": 239.62,
+            "Time": 12.06,
+            "Comfort": 0
+        }
+    ],
+    "Level 3": [
+        {
+            "Node": "P4_L3",
+            "Fuel": 333,
+            "Time": 16.65,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L3",
+            "Fuel": 333,
+            "Time": 16.65,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L3",
+            "Fuel": 336.06,
+            "Time": 16.8,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L3",
+            "Fuel": 359.43,
+            "Time": 18.09,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L3",
+            "Fuel": 560.47,
+            "Time": 52.54,
+            "Comfort": 0
+        }
+    ],
+    "Level 4": [
+        {
+            "Node": "P2_L4",
+            "Fuel": 473.25,
+            "Time": 23.77,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L4",
+            "Fuel": 521.92,
+            "Time": 26.93,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L4",
+            "Fuel": 776.87,
+            "Time": 88.69,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L4",
+            "Fuel": 807.72,
+            "Time": 122.77,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L4",
+            "Fuel": 890.43,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 5": [
+        {
+            "Node": "P1_L5",
+            "Fuel": 615.24,
+            "Time": 31.13,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L5",
+            "Fuel": 662.69,
+            "Time": 34.43,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L5",
+            "Fuel": 707.85,
+            "Time": 38.3,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L5",
+            "Fuel": 934.12,
+            "Time": 87.57,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L5",
+            "Fuel": 1250.3,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 6": [
+        {
+            "Node": "P4_L6",
+            "Fuel": 911.27,
+            "Time": 52.71,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L6",
+            "Fuel": 1335.65,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L6",
+            "Fuel": 1500.36,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L6",
+            "Fuel": 1559.11,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L6",
+            "Fuel": 1916.47,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 7": [
+        {
+            "Node": "P5_L7",
+            "Fuel": 1558.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L7",
+            "Fuel": 1854.06,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L7",
+            "Fuel": 2277.14,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L7",
+            "Fuel": 2581.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L7",
+            "Fuel": 2673.64,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 8": [
+        {
+            "Node": "P2_L8",
+            "Fuel": 2159.69,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L8",
+            "Fuel": 2201.09,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L8",
+            "Fuel": 3273.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L8",
+            "Fuel": 3329.72,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L8",
+            "Fuel": 3801.56,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 9": [
+        {
+            "Node": "P5_L9",
+            "Fuel": 2822.37,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L9",
+            "Fuel": 3558.74,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L9",
+            "Fuel": 4559.44,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L9",
+            "Fuel": 5081.81,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L9",
+            "Fuel": 5237.54,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 10": [
+        {
+            "Node": "P1_L10",
+            "Fuel": 3496.81,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L10",
+            "Fuel": 3623.48,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L10",
+            "Fuel": 4092.01,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L10",
+            "Fuel": 4524.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L10",
+            "Fuel": 4829.28,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 11": [
+        {
+            "Node": "P4_L11",
+            "Fuel": 4977.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L11",
+            "Fuel": 4977.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L11",
+            "Fuel": 6211.1,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L11",
+            "Fuel": 7197.92,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L11",
+            "Fuel": 8498.14,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 12": [
+        {
+            "Node": "P5_L12",
+            "Fuel": 5702.35,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L12",
+            "Fuel": 6673.37,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L12",
+            "Fuel": 6673.37,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L12",
+            "Fuel": 11100.06,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L12",
+            "Fuel": 11100.06,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 13": [
+        {
+            "Node": "P2_L13",
+            "Fuel": 8628.97,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L13",
+            "Fuel": 9128.71,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L13",
+            "Fuel": 10727.67,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L13",
+            "Fuel": 11438.05,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L13",
+            "Fuel": 11876.76,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 14": [
+        {
+            "Node": "P5_L14",
+            "Fuel": 10528.82,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L14",
+            "Fuel": 10671.75,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L14",
+            "Fuel": 12162.66,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L14",
+            "Fuel": 14953.99,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L14",
+            "Fuel": 17119.02,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 15": [
+        {
+            "Node": "P2_L15",
+            "Fuel": 12058.6,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L15",
+            "Fuel": 13197.76,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L15",
+            "Fuel": 15469.18,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L15",
+            "Fuel": 17160.39,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L15",
+            "Fuel": 17745.7,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 16": [
+        {
+            "Node": "P2_L16",
+            "Fuel": 15922.16,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L16",
+            "Fuel": 19139.42,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L16",
+            "Fuel": 20211.95,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L16",
+            "Fuel": 23150.12,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L16",
+            "Fuel": 23385.09,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 17": [
+        {
+            "Node": "P4_L17",
+            "Fuel": 17325.57,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L17",
+            "Fuel": 17739.27,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L17",
+            "Fuel": 18370.02,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L17",
+            "Fuel": 24597.01,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L17",
+            "Fuel": 24846.66,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 18": [
+        {
+            "Node": "P3_L18",
+            "Fuel": 22010.17,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L18",
+            "Fuel": 27924.45,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L18",
+            "Fuel": 31312.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L18",
+            "Fuel": 31897.03,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L18",
+            "Fuel": 33384.14,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 19": [
+        {
+            "Node": "P2_L19",
+            "Fuel": 25848.54,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L19",
+            "Fuel": 25848.54,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L19",
+            "Fuel": 26937.29,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L19",
+            "Fuel": 26937.29,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L19",
+            "Fuel": 33669.09,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 20": [
+        {
+            "Node": "P5_L20",
+            "Fuel": 32880.51,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L20",
+            "Fuel": 34791.4,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L20",
+            "Fuel": 35768.42,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L20",
+            "Fuel": 41576.6,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L20",
+            "Fuel": 44838.54,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 21": [
+        {
+            "Node": "P2_L21",
+            "Fuel": 34524.53,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L21",
+            "Fuel": 35186.63,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L21",
+            "Fuel": 42912.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L21",
+            "Fuel": 50239.06,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L21",
+            "Fuel": 52267.73,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 22": [
+        {
+            "Node": "P3_L22",
+            "Fuel": 45734.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L22",
+            "Fuel": 46125.91,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L22",
+            "Fuel": 46914.48,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L22",
+            "Fuel": 53052.94,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L22",
+            "Fuel": 53476.23,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 23": [
+        {
+            "Node": "P2_L23",
+            "Fuel": 49878.73,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L23",
+            "Fuel": 59972.52,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L23",
+            "Fuel": 60896.2,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L23",
+            "Fuel": 62765.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L23",
+            "Fuel": 68058.13,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 24": [
+        {
+            "Node": "P2_L24",
+            "Fuel": 57875.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L24",
+            "Fuel": 59267.02,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L24",
+            "Fuel": 60675.37,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L24",
+            "Fuel": 63543.86,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L24",
+            "Fuel": 71017.18,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 25": [
+        {
+            "Node": "P1_L25",
+            "Fuel": 60287.43,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L25",
+            "Fuel": 71331.38,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L25",
+            "Fuel": 77215.98,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L25",
+            "Fuel": 77215.98,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L25",
+            "Fuel": 85055.14,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 26": [
+        {
+            "Node": "P2_L26",
+            "Fuel": 71485.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L26",
+            "Fuel": 71485.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L26",
+            "Fuel": 76935.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L26",
+            "Fuel": 86086.44,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L26",
+            "Fuel": 95769.54,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 27": [
+        {
+            "Node": "P4_L27",
+            "Fuel": 77604.86,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L27",
+            "Fuel": 83983.97,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L27",
+            "Fuel": 91859.55,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L27",
+            "Fuel": 95617.43,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L27",
+            "Fuel": 106018.22,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 28": [
+        {
+            "Node": "P1_L28",
+            "Fuel": 86481.9,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L28",
+            "Fuel": 88326.38,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L28",
+            "Fuel": 91445.25,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L28",
+            "Fuel": 94620.08,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L28",
+            "Fuel": 98503.71,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 29": [
+        {
+            "Node": "P1_L29",
+            "Fuel": 106819.88,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L29",
+            "Fuel": 118213.59,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L29",
+            "Fuel": 122639.2,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L29",
+            "Fuel": 125635.96,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L29",
+            "Fuel": 130969.52,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 30": [
+        {
+            "Node": "P1_L30",
+            "Fuel": 122289.92,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L30",
+            "Fuel": 125332.48,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L30",
+            "Fuel": 136283.51,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L30",
+            "Fuel": 141935.26,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L30",
+            "Fuel": 145217.57,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 31": [
+        {
+            "Node": "P3_L31",
+            "Fuel": 133495.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L31",
+            "Fuel": 134300.51,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L31",
+            "Fuel": 138360.55,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L31",
+            "Fuel": 157834.47,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L31",
+            "Fuel": 157834.47,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 32": [
+        {
+            "Node": "P3_L32",
+            "Fuel": 142823.79,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L32",
+            "Fuel": 151397.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L32",
+            "Fuel": 152269.05,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L32",
+            "Fuel": 163830.6,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L32",
+            "Fuel": 166560.03,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 33": [
+        {
+            "Node": "P5_L33",
+            "Fuel": 157928.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L33",
+            "Fuel": 162474.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L33",
+            "Fuel": 167087.01,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L33",
+            "Fuel": 170824.15,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L33",
+            "Fuel": 177465.68,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 34": [
+        {
+            "Node": "P2_L34",
+            "Fuel": 163645.85,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L34",
+            "Fuel": 186813.38,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L34",
+            "Fuel": 188814.65,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L34",
+            "Fuel": 191836.95,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L34",
+            "Fuel": 194883.7,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 35": [
+        {
+            "Node": "P5_L35",
+            "Fuel": 187206.5,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L35",
+            "Fuel": 211251.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L35",
+            "Fuel": 212330.95,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L35",
+            "Fuel": 221063.8,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L35",
+            "Fuel": 226612.75,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 36": [
+        {
+            "Node": "P2_L36",
+            "Fuel": 193598.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L36",
+            "Fuel": 202051.91,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L36",
+            "Fuel": 218397.54,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L36",
+            "Fuel": 222865.71,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L36",
+            "Fuel": 245897.06,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 37": [
+        {
+            "Node": "P1_L37",
+            "Fuel": 210971.17,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L37",
+            "Fuel": 213190.43,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L37",
+            "Fuel": 215421.51,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L37",
+            "Fuel": 241929.16,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L37",
+            "Fuel": 267497.95,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 38": [
+        {
+            "Node": "P2_L38",
+            "Fuel": 234063.48,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L38",
+            "Fuel": 243617.76,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L38",
+            "Fuel": 258313.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L38",
+            "Fuel": 265825.53,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L38",
+            "Fuel": 270894.22,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 39": [
+        {
+            "Node": "P3_L39",
+            "Fuel": 252511.35,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L39",
+            "Fuel": 258772.38,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L39",
+            "Fuel": 262566.4,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L39",
+            "Fuel": 276717.82,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L39",
+            "Fuel": 285919.63,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 40": [
+        {
+            "Node": "P3_L40",
+            "Fuel": 274532.04,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L40",
+            "Fuel": 277167.8,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L40",
+            "Fuel": 294611.94,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L40",
+            "Fuel": 312596.34,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L40",
+            "Fuel": 329676.84,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 41": [
+        {
+            "Node": "P3_L41",
+            "Fuel": 297801.88,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L41",
+            "Fuel": 303375.58,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L41",
+            "Fuel": 303375.58,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L41",
+            "Fuel": 310416.43,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L41",
+            "Fuel": 327648.7,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 42": [
+        {
+            "Node": "P2_L42",
+            "Fuel": 320896.09,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L42",
+            "Fuel": 347677.04,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L42",
+            "Fuel": 359928.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L42",
+            "Fuel": 363025.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L42",
+            "Fuel": 369258.56,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 43": [
+        {
+            "Node": "P4_L43",
+            "Fuel": 342106.59,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L43",
+            "Fuel": 343631.56,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L43",
+            "Fuel": 400819.36,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L43",
+            "Fuel": 412456.41,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L43",
+            "Fuel": 412456.41,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 44": [
+        {
+            "Node": "P1_L44",
+            "Fuel": 400071.3,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L44",
+            "Fuel": 406770.19,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L44",
+            "Fuel": 418628.64,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L44",
+            "Fuel": 428930.17,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L44",
+            "Fuel": 432392.14,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 45": [
+        {
+            "Node": "P5_L45",
+            "Fuel": 426399.57,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L45",
+            "Fuel": 447557.19,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L45",
+            "Fuel": 449343.71,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L45",
+            "Fuel": 458330.21,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L45",
+            "Fuel": 472895.63,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 46": [
+        {
+            "Node": "P5_L46",
+            "Fuel": 416514.7,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L46",
+            "Fuel": 435875.12,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L46",
+            "Fuel": 479660.09,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L46",
+            "Fuel": 485282.1,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L46",
+            "Fuel": 496625.39,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 47": [
+        {
+            "Node": "P1_L47",
+            "Fuel": 450824.45,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L47",
+            "Fuel": 450824.45,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L47",
+            "Fuel": 476815.75,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L47",
+            "Fuel": 488180.25,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L47",
+            "Fuel": 507421.59,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 48": [
+        {
+            "Node": "P4_L48",
+            "Fuel": 483122.69,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L48",
+            "Fuel": 490814.19,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L48",
+            "Fuel": 552504.44,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L48",
+            "Fuel": 554555.82,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L48",
+            "Fuel": 556611.05,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 49": [
+        {
+            "Node": "P3_L49",
+            "Fuel": 510942.27,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L49",
+            "Fuel": 559838.45,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L49",
+            "Fuel": 574524.72,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L49",
+            "Fuel": 600147.64,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L49",
+            "Fuel": 606641.48,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 50": [
+        {
+            "Node": "P5_L50",
+            "Fuel": 560679.31,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L50",
+            "Fuel": 607997.95,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L50",
+            "Fuel": 621238.69,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L50",
+            "Fuel": 634623.3,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L50",
+            "Fuel": 636868.05,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 51": [
+        {
+            "Node": "P3_L51",
+            "Fuel": 578358.33,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L51",
+            "Fuel": 617921.25,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L51",
+            "Fuel": 640471.27,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L51",
+            "Fuel": 642748.69,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L51",
+            "Fuel": 679741.74,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 52": [
+        {
+            "Node": "P2_L52",
+            "Fuel": 625488.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L52",
+            "Fuel": 646088.24,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L52",
+            "Fuel": 655351.61,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L52",
+            "Fuel": 717184.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L52",
+            "Fuel": 726946.34,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 53": [
+        {
+            "Node": "P3_L53",
+            "Fuel": 665587.79,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L53",
+            "Fuel": 682243.86,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L53",
+            "Fuel": 694268.13,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L53",
+            "Fuel": 708837.02,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L53",
+            "Fuel": 728499.42,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 54": [
+        {
+            "Node": "P4_L54",
+            "Fuel": 727193.76,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L54",
+            "Fuel": 762554.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L54",
+            "Fuel": 801379.22,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L54",
+            "Fuel": 804002.07,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L54",
+            "Fuel": 809260.73,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 55": [
+        {
+            "Node": "P1_L55",
+            "Fuel": 735585.59,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L55",
+            "Fuel": 818891.0,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L55",
+            "Fuel": 851290.97,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L55",
+            "Fuel": 851290.97,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L55",
+            "Fuel": 851290.97,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 56": [
+        {
+            "Node": "P1_L56",
+            "Fuel": 769735.24,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L56",
+            "Fuel": 817527.08,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L56",
+            "Fuel": 841966.77,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L56",
+            "Fuel": 872329.82,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L56",
+            "Fuel": 906070.76,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 57": [
+        {
+            "Node": "P2_L57",
+            "Fuel": 865375.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L57",
+            "Fuel": 890744.04,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L57",
+            "Fuel": 893585.49,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L57",
+            "Fuel": 930938.96,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L57",
+            "Fuel": 936753.98,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 58": [
+        {
+            "Node": "P5_L58",
+            "Fuel": 886261.78,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L58",
+            "Fuel": 891984.13,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L58",
+            "Fuel": 891984.13,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L58",
+            "Fuel": 938430.43,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L58",
+            "Fuel": 962098.58,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 59": [
+        {
+            "Node": "P2_L59",
+            "Fuel": 930835.83,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L59",
+            "Fuel": 930835.83,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L59",
+            "Fuel": 939715.88,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L59",
+            "Fuel": 945659.49,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L59",
+            "Fuel": 1018453.98,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 60": [
+        {
+            "Node": "P5_L60",
+            "Fuel": 958663.04,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L60",
+            "Fuel": 964716.98,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L60",
+            "Fuel": 992197.08,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L60",
+            "Fuel": 1051486.13,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L60",
+            "Fuel": 1106001.56,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 61": [
+        {
+            "Node": "P3_L61",
+            "Fuel": 1014995.79,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L61",
+            "Fuel": 1043416.52,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L61",
+            "Fuel": 1147666.08,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L61",
+            "Fuel": 1151004.32,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L61",
+            "Fuel": 1157695.42,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 62": [
+        {
+            "Node": "P3_L62",
+            "Fuel": 1063756.11,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L62",
+            "Fuel": 1129484.71,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L62",
+            "Fuel": 1142868.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L62",
+            "Fuel": 1173271.16,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L62",
+            "Fuel": 1183494.65,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 63": [
+        {
+            "Node": "P5_L63",
+            "Fuel": 1134183.34,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L63",
+            "Fuel": 1202583.27,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L63",
+            "Fuel": 1202583.27,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L63",
+            "Fuel": 1251661.55,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L63",
+            "Fuel": 1262306.71,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 64": [
+        {
+            "Node": "P1_L64",
+            "Fuel": 1186673.33,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L64",
+            "Fuel": 1218149.02,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L64",
+            "Fuel": 1221671.9,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L64",
+            "Fuel": 1239362.99,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L64",
+            "Fuel": 1296833.78,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 65": [
+        {
+            "Node": "P5_L65",
+            "Fuel": 1240760.52,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L65",
+            "Fuel": 1247931.94,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L65",
+            "Fuel": 1247931.94,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L65",
+            "Fuel": 1265951.4,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L65",
+            "Fuel": 1391927.9,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 66": [
+        {
+            "Node": "P2_L66",
+            "Fuel": 1296468.89,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L66",
+            "Fuel": 1341108.84,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L66",
+            "Fuel": 1348622.68,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L66",
+            "Fuel": 1405649.0,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L66",
+            "Fuel": 1440434.46,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 67": [
+        {
+            "Node": "P3_L67",
+            "Fuel": 1399781.28,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L67",
+            "Fuel": 1411391.48,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L67",
+            "Fuel": 1419158.39,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L67",
+            "Fuel": 1518051.89,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L67",
+            "Fuel": 1526107.95,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 68": [
+        {
+            "Node": "P4_L68",
+            "Fuel": 1484083.99,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L68",
+            "Fuel": 1508221.58,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L68",
+            "Fuel": 1528485.7,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L68",
+            "Fuel": 1561190.88,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L68",
+            "Fuel": 1585948.02,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 69": [
+        {
+            "Node": "P1_L69",
+            "Fuel": 1530401.31,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L69",
+            "Fuel": 1530401.31,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L69",
+            "Fuel": 1588322.65,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L69",
+            "Fuel": 1600874.99,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L69",
+            "Fuel": 1668658.98,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 70": [
+        {
+            "Node": "P4_L70",
+            "Fuel": 1565080.33,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L70",
+            "Fuel": 1636860.68,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L70",
+            "Fuel": 1701538.94,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P3_L70",
+            "Fuel": 1714625.64,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L70",
+            "Fuel": 1736548.69,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ],
+    "Level 71": [
+        {
+            "Node": "P3_L71",
+            "Fuel": 1630066.95,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P2_L71",
+            "Fuel": 1655916.31,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P4_L71",
+            "Fuel": 1739120.29,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P5_L71",
+            "Fuel": 1756897.93,
+            "Time": Infinity,
+            "Comfort": 0
+        },
+        {
+            "Node": "P1_L71",
+            "Fuel": 1774766.37,
+            "Time": Infinity,
+            "Comfort": 0
+        }
+    ]
+}
