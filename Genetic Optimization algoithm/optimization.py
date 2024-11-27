@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 from threshold import calculate_thresholds
 from resistance import calculate_dynamic_resistance
 import json
-
+from collections import Counter
 # Storage for node information at each level
 nsg_output = {}
 
@@ -143,6 +143,34 @@ def nsg_recursive(level, path_count, properties, current_path=[]):
 
     # Recursively proceed to the next level
     nsg_recursive(level + 1, path_count, properties, current_path + [sorted_nodes[0][0]])
+
+
+
+
+def count_red_nodes(final_file, node_positions):
+    # Load the final nodes from the `final.json` file
+    with open(final_file, "r") as file:
+        final_nodes = [entry["Node"] for entry in json.load(file)]
+
+    # Group red nodes by their paths (e.g., P1, P2)
+    path_counts = Counter()
+    for node in final_nodes:
+        if node.startswith("P"):  # Ensure it's a valid path node
+            path = node.split("_")[0]  # Extract path (e.g., P1, P2)
+            path_counts[path] += 1
+
+    # Find the path with the maximum count
+    max_path, max_count = max(path_counts.items(), key=lambda x: x[1])
+
+    print("Red Node Counts per Path:")
+    for path, count in path_counts.items():
+        print(f"{path}: {count} red nodes")
+
+    print(f"\nPath with the maximum red nodes: {max_path} ({max_count} red nodes)")
+
+    return path_counts, max_path, max_count
+
+
 
 # Plot Graph
 def plot_graph_google_maps_style():
@@ -405,3 +433,5 @@ def plot_graph_google_maps_style():
 # Run the NSG and plot
 nsg_recursive(1, num_paths, node_properties)
 plot_graph_google_maps_style()
+final_file = "final.json"  # Path to the final JSON file
+path_counts, max_path, max_count = count_red_nodes(final_file, node_positions)
