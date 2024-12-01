@@ -36,6 +36,10 @@ node_positions["Start"] = (0, 0)
 # End node
 node_positions["End"] = (total_distance, 0)
 
+
+
+
+
 # Intermediate nodes
 for path in range(1, num_paths + 1):
     for level in range(1, levels):  # Intermediate levels
