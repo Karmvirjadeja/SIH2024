@@ -1,119 +1,180 @@
 import React from "react";
+import { MapContainer, TileLayer, Polyline, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
 import Header from "../components/Header";
 
+function generateRouteNodes(route, segmentLength = 111) {
+  const nodes = [route[0]];
+  for (let i = 0; i < route.length - 1; i++) {
+    const start = route[i];
+    const end = route[i + 1];
+    const totalDistance = haversine(start[0], start[1], end[0], end[1]);
+    const numSegments = Math.ceil(totalDistance / segmentLength);
+    for (let j = 1; j < numSegments; j++) {
+      const fraction = j / numSegments;
+      const lat = start[0] + fraction * (end[0] - start[0]);
+      const lon = start[1] + fraction * (end[1] - start[1]);
+      nodes.push([lat, lon]);
+    }
+  }
+  nodes.push(route[route.length - 1]);
+  return nodes;
+}
+
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371; // Radius of Earth in km
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) *
+      Math.cos(lat2 * (Math.PI / 180)) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
 const RouteTracker = () => {
-  return (
-    <>
-      <Header />
-      <div className="relative h-screen">
-        {/* Map in the background */}
-        <div className="absolute inset-0">
-        <iframe
-  title="map"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29483844.347761072!2d76.13923545146208!3d-1.2618664253716902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699e4edc69fffd%3A0x401576d14d2d6c0!2sIndonesia!5e0!3m2!1sen!2sin!4v1602061244774&amp;output=embed&amp;z=5"
-  width="600"
-  height="450"
-  className="w-full h-full border-0"
-  allowFullScreen=""
-  loading="lazy"
-></iframe>
+  const routes = [
+    [
+      [13.0827, 80.2707], // Chennai
+      [10.0, 98.0],       // Andaman Sea
+      [-6.0, 110.0],      // South Java Sea
+      [-31.9505, 115.8605] // Perth
+    ],
+    [
+      [13.0827, 80.2707], // Chennai
+      [12.0, 90.0],       // Bay of Bengal
+      [0.0, 100.0],       // Southern Indian Ocean
+      [-31.9505, 115.8605] // Perth
+    ],
+    [
+      [13.0827, 80.2707], // Chennai
+      [5.0, 90.0],        // Central Indian Ocean
+      [-31.9505, 115.8605] // Perth
+    ],
+    [
+      [13.0827, 80.2707], // Chennai
+      [8.0, 95.0],        // East Indian Ocean
+      [0.0, 105.0],       // South of Indonesia
+      [-31.9505, 115.8605] // Perth
+    ],
+    [
+      [13.0827, 80.2707], // Chennai
+      [10.0, 100.0],      // Bay of Bengal
+      [-5.0, 110.0],      // South Java Sea
+      [-35.0, 120.0],     // South of Australia
+      [-31.9505, 115.8605] // Perth
+    ]
+  ];
 
-        </div>
+  const colors = ["blue", "green", "red", "orange", "purple"];
 
-        <div className="relative z-10 flex h-full">
-          {/* Main Content Section */}
-          <div className="w-2/3 relative p-6">
-            {/* Weather Forecast Section */}
-            <div className="absolute top-5 right-5 bg-blue-200 p-4 rounded-lg shadow-lg backdrop-blur-md z-20">
-              <h4 className="font-bold mb-2 text-center">Weather Forecast</h4>
-              <div className="grid grid-cols-5 gap-2">
-                <div className="text-center">
-                  <p>8:00</p>
-                  <p>☁️</p>
-                  <p>21°C</p>
-                </div>
-                <div className="text-center">
-                  <p>10:00</p>
-                  <p>🌥️</p>
-                  <p>22°C</p>
-                </div>
-                <div className="text-center">
-                  <p>12:00</p>
-                  <p>🌤️</p>
-                  <p>24°C</p>
-                </div>
-                <div className="text-center">
-                  <p>14:00</p>
-                  <p>☀️</p>
-                  <p>26°C</p>
-                </div>
-                <div className="text-center">
-                  <p>Now</p>
-                  <p>☀️</p>
-                  <p>25°C</p>
-                </div>
-              </div>
+return (
+  <>
+  <Header/>
+  <div className="h-screen flex flex-col lg:flex-row">
+    {/* Map Section */}
+    <div className="lg:w-2/3 relative h-2/3 lg:h-full">
+      <MapContainer center={[0, 100]} zoom={4} className="w-full h-full">
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        {routes.map((route, index) => {
+          const routeNodes = generateRouteNodes(route);
+          return (
+            <React.Fragment key={index}>
+              <Polyline
+                positions={route}
+                color={colors[index]}
+                weight={3}
+                dashArray="10, 5"
+              />
+              {routeNodes.map((node, idx) => (
+                <Marker key={idx} position={node}>
+                  <Popup>Node {idx + 1}</Popup>
+                </Marker>
+              ))}
+            </React.Fragment>
+          );
+        })}
+        <Marker position={[13.0827, 80.2707]}>
+          <Popup>Port of Chennai</Popup>
+        </Marker>
+        <Marker position={[-31.9505, 115.8605]}>
+          <Popup>Port of Perth</Popup>
+        </Marker>
+      </MapContainer>
+
+      {/* Weather Forecast */}
+      <div className="absolute top-5 right-5 bg-blue-200 p-4 rounded-lg shadow-lg backdrop-blur-md z-20">
+        <h4 className="font-bold mb-2 text-center">Weather Forecast</h4>
+        <div className="grid grid-cols-5 gap-2">
+          {/* Weather Items */}
+          {["8:00", "10:00", "12:00", "14:00", "Now"].map((time, idx) => (
+            <div className="text-center" key={idx}>
+              <p>{time}</p>
+              <p>{["☁️", "🌥️", "🌤️", "☀️", "☀️"][idx]}</p>
+              <p>{[21, 22, 24, 26, 25][idx]}°C</p>
             </div>
-
-            {/* Controls */}
-            <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-4 z-20">
-              <button className="bg-green-500 text-white p-2 rounded-full shadow-lg">GPS</button>
-              <button className="bg-red-500 text-white p-2 rounded-full shadow-lg">Pause</button>
-              <button className="bg-blue-500 text-white p-2 rounded-full shadow-lg">Route</button>
-            </div>
-          </div>
-
-          {/* Route Details Sidebar */}
-          <div className="w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
-            <h3 className="text-lg font-bold mb-4">Route Details</h3>
-            <div className="border-t pt-4">
-              <div className="flex items-center gap-4 mb-4">
-                <img
-                  src="https://via.placeholder.com/100"
-                  alt="Ship"
-                  className="w-20 h-20 object-cover rounded-md"
-                />
-                <div>
-                  <h4 className="font-semibold">From Vishakhapatnam to Indonesia</h4>
-                  <p>Saturday, 29 June</p>
-                </div>
-              </div>
-              <ul className="space-y-4">
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Port of Vishakhapatnam, India</span>
-                  <span>16:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Bay of Bengal</span>
-                  <span>17:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Andaman Sea</span>
-                  <span>19:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Strait of Malacca</span>
-                  <span>20:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>South China Sea</span>
-                  <span>20:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Strait of Singapore</span>
-                  <span>20:09h</span>
-                </li>
-                <li className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>Port of Batam, Indonesia</span>
-                  <span>20:09h</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-    </>
-  );
-};
 
+      {/* Controls */}
+      <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-4 z-20">
+        {["GPS", "Pause", "Route"].map((control, idx) => (
+          <button
+            key={idx}
+            className={`p-2 rounded-full shadow-lg ${
+              ["bg-green-500", "bg-red-500", "bg-blue-500"][idx]
+            } text-white`}
+          >
+            {control}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    {/* Route Details Sidebar */}
+    <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
+      <h3 className="text-lg font-bold mb-4">Route Details</h3>
+      <div className="border-t pt-4">
+        <div className="flex items-center gap-4 mb-4">
+          <img
+            src="https://via.placeholder.com/100"
+            alt="Ship"
+            className="w-20 h-20 object-cover rounded-md"
+          />
+          <div>
+            <h4 className="font-semibold">From Vishakhapatnam to Indonesia</h4>
+            <p>Saturday, 29 June</p>
+          </div>
+        </div>
+        <ul className="space-y-4">
+          {[
+            "Port of Vishakhapatnam, India",
+            "Bay of Bengal",
+            "Andaman Sea",
+            "Strait of Malacca",
+            "South China Sea",
+            "Strait of Singapore",
+            "Port of Batam, Indonesia",
+          ].map((location, idx) => (
+            <li
+              key={idx}
+              className="border p-2 rounded-lg flex justify-between items-center"
+            >
+              <span>{location}</span>
+              <span>16:09h</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+  </>
+);
+};
 export default RouteTracker;
