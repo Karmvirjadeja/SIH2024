@@ -107,6 +107,7 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { ApiError } from "../utils/ApiError.js";
 import { fetchWeatherApi } from "openmeteo";
+import fs from "fs"; // Import the File System module
 
 // Helper function to form time ranges
 const range = (start, stop, step) =>
@@ -135,16 +136,16 @@ export const getWeatherData = asyncHandler(async (req, res) => {
       "wind_direction_10m",
       "wind_direction_80m",
       "wind_direction_120m",
-      "wind_direction_180m"
+      "wind_direction_180m",
     ],
-    wind_speed_unit: "kn"
+    wind_speed_unit: "kn",
   };
 
   // Params for marine weather data (Marine Open Meteo API)
   const marineParams = {
     latitude,
     longitude,
-    hourly: ["wave_height", "wave_direction"]
+    hourly: ["wave_height", "wave_direction"],
   };
 
   // Define the API URLs
@@ -155,7 +156,7 @@ export const getWeatherData = asyncHandler(async (req, res) => {
     // Fetch both weather and marine data concurrently using Promise.all
     const [weatherResponse, marineResponse] = await Promise.all([
       fetchWeatherApi(weatherUrl, weatherParams),
-      fetchWeatherApi(marineUrl, marineParams)
+      fetchWeatherApi(marineUrl, marineParams),
     ]);
 
     // Process general weather data
@@ -172,23 +173,34 @@ export const getWeatherData = asyncHandler(async (req, res) => {
         latitude: latitudeData,
         longitude: longitudeData,
         timezone,
-        timezoneAbbreviation
+        timezoneAbbreviation,
       },
       hourly: {
-        time: range(Number(hourlyWeather.time()), Number(hourlyWeather.timeEnd()), hourlyWeather.interval()).map(
-          (t) => new Date((t + utcOffsetSeconds) * 1000)
-        ),
-        temperature2m: hourlyWeather.variables(0).valuesArray(),
-        precipitationProbability: hourlyWeather.variables(1).valuesArray(),
-        windSpeed10m: hourlyWeather.variables(2).valuesArray(),
-        windSpeed80m: hourlyWeather.variables(3).valuesArray(),
-        windSpeed120m: hourlyWeather.variables(4).valuesArray(),
-        windSpeed180m: hourlyWeather.variables(5).valuesArray(),
-        windDirection10m: hourlyWeather.variables(6).valuesArray(),
-        windDirection80m: hourlyWeather.variables(7).valuesArray(),
-        windDirection120m: hourlyWeather.variables(8).valuesArray(),
-        windDirection180m: hourlyWeather.variables(9).valuesArray()
-      }
+        time: range(
+          Number(hourlyWeather.time()),
+          Number(hourlyWeather.timeEnd()),
+          hourlyWeather.interval()
+        ).map((t) => new Date(t + utcOffsetSeconds)),
+        temperature2m: hourlyWeather.variables(0).valuesArray().slice(-1)[0],
+        precipitationProbability: hourlyWeather
+          .variables(1)
+          .valuesArray()
+          .slice(-1)[0],
+        windSpeed10m: hourlyWeather.variables(2).valuesArray().slice(-1)[0],
+        windSpeed80m: hourlyWeather.variables(3).valuesArray().slice(-1)[0],
+        windSpeed120m: hourlyWeather.variables(4).valuesArray().slice(-1)[0],
+        windSpeed180m: hourlyWeather.variables(5).valuesArray().slice(-1)[0],
+        windDirection10m: hourlyWeather.variables(6).valuesArray().slice(-1)[0],
+        windDirection80m: hourlyWeather.variables(7).valuesArray().slice(-1)[0],
+        windDirection120m: hourlyWeather
+          .variables(8)
+          .valuesArray()
+          .slice(-1)[0],
+        windDirection180m: hourlyWeather
+          .variables(9)
+          .valuesArray()
+          .slice(-1)[0],
+      },
     };
 
     // Process marine weather data
@@ -197,26 +209,44 @@ export const getWeatherData = asyncHandler(async (req, res) => {
 
     const marineData = {
       hourly: {
-        time: range(Number(hourlyMarine.time()), Number(hourlyMarine.timeEnd()), hourlyMarine.interval()).map(
-          (t) => new Date((t + utcOffsetSeconds) * 1000)
-        ),
-        waveHeight: hourlyMarine.variables(0).valuesArray(),
-        waveDirection: hourlyMarine.variables(1).valuesArray()
-      }
+        time: range(
+          Number(hourlyMarine.time()),
+          Number(hourlyMarine.timeEnd()),
+          hourlyMarine.interval()
+        ).map((t) => new Date((t + utcOffsetSeconds) * 1000)),
+        waveHeight: hourlyMarine.variables(0).valuesArray().slice(-1)[0],
+        waveDirection: hourlyMarine.variables(1).valuesArray().slice(-1)[0],
+      },
     };
 
     // Combine forecast (weather) and marine data into one response
     const combinedData = {
       ...weatherData,
-      marine: marineData
+      marine: marineData,
     };
 
-    // Return the combined data in the response
-    return res.status(200).json(
-      new ApiResponse(200, combinedData, "Weather and Marine data fetched successfully")
+    // Write combined data to a JSON file
+    fs.writeFileSync(
+      "weather_marine_data.json",
+      JSON.stringify(combinedData, null, 2),
+      "utf-8"
     );
+
+    // Return the combined data in the response
+    return res
+      .status(200)
+      .json(
+        new ApiResponse(
+          200,
+          combinedData,
+          "Weather and Marine data fetched successfully"
+        )
+      );
   } catch (error) {
     // Handle any errors that occur during the fetch
-    throw new ApiError(500, `Failed to fetch weather and marine data: ${error.message}`);
+    throw new ApiError(
+      500,
+      `Failed to fetch weather and marine data: ${error.message}`
+    );
   }
 });
