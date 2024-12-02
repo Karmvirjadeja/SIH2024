@@ -1,0 +1,3506 @@
+[
+  {
+    "longitude": 13.0827,
+    "latitude": 80.2707,
+    "waveHeight": 2.68,
+    "waveDirection": 328,
+    "windSpeed": 23.8,
+    "precipitation": 22.43
+  },
+  {
+    "longitude": -31.9505,
+    "latitude": 115.8605,
+    "waveHeight": 2.38,
+    "waveDirection": 128,
+    "windSpeed": 23.42,
+    "precipitation": 12.34
+  },
+  {
+    "longitude": 61.59090909090909,
+    "latitude": -0.3571428571428541,
+    "waveHeight": 3.96,
+    "waveDirection": 9,
+    "windSpeed": 2.69,
+    "precipitation": 33.48
+  },
+  {
+    "longitude": 84.65584415584416,
+    "latitude": 14,
+    "waveHeight": 4.33,
+    "waveDirection": 293,
+    "windSpeed": 26.14,
+    "precipitation": 8.92
+  },
+  {
+    "longitude": 85.14285714285714,
+    "latitude": 9.324675324675326,
+    "waveHeight": 2.22,
+    "waveDirection": 139,
+    "windSpeed": 27.63,
+    "precipitation": 24.7
+  },
+  {
+    "longitude": 82.31818181818181,
+    "latitude": 11.564935064935064,
+    "waveHeight": 3.55,
+    "waveDirection": 163,
+    "windSpeed": 9.68,
+    "precipitation": 46.65
+  },
+  {
+    "longitude": 80.95454545454547,
+    "latitude": 14.779220779220779,
+    "waveHeight": 2.81,
+    "waveDirection": 5,
+    "windSpeed": 10.46,
+    "precipitation": 11.66
+  },
+  {
+    "longitude": 84.36363636363637,
+    "latitude": 15.655844155844157,
+    "waveHeight": 3.69,
+    "waveDirection": 322,
+    "windSpeed": 28.15,
+    "precipitation": 1.32
+  },
+  {
+    "longitude": 86.31168831168831,
+    "latitude": 16.435064935064936,
+    "waveHeight": 0.31,
+    "waveDirection": 255,
+    "windSpeed": 19.71,
+    "precipitation": 33.13
+  },
+  {
+    "longitude": 87.38311688311688,
+    "latitude": 15.75324675324675,
+    "waveHeight": 0.43,
+    "waveDirection": 74,
+    "windSpeed": 29.56,
+    "precipitation": 44.02
+  },
+  {
+    "longitude": 87.5974025974026,
+    "latitude": 14.759740259740255,
+    "waveHeight": 0.5,
+    "waveDirection": 79,
+    "windSpeed": 16.93,
+    "precipitation": 18.09
+  },
+  {
+    "longitude": 87.63636363636364,
+    "latitude": 13.922077922077918,
+    "waveHeight": 2.9,
+    "waveDirection": 118,
+    "windSpeed": 10.9,
+    "precipitation": 20.19
+  },
+  {
+    "longitude": 87.44155844155846,
+    "latitude": 11.97402597402597,
+    "waveHeight": 5,
+    "waveDirection": 254,
+    "windSpeed": 21.65,
+    "precipitation": 42.71
+  },
+  {
+    "longitude": 87.14935064935065,
+    "latitude": 9.889610389610382,
+    "waveHeight": 0,
+    "waveDirection": 211,
+    "windSpeed": 2.88,
+    "precipitation": 18.95
+  },
+  {
+    "longitude": 86.27272727272728,
+    "latitude": 8.058441558441537,
+    "waveHeight": 0.67,
+    "waveDirection": 51,
+    "windSpeed": 11.61,
+    "precipitation": 14.94
+  },
+  {
+    "longitude": 85.98051948051948,
+    "latitude": 11.75974025974024,
+    "waveHeight": 4.45,
+    "waveDirection": 194,
+    "windSpeed": 23.15,
+    "precipitation": 8.07
+  },
+  {
+    "longitude": 85.98051948051948,
+    "latitude": 12.92857142857141,
+    "waveHeight": 0.81,
+    "waveDirection": 336,
+    "windSpeed": 25.64,
+    "precipitation": 44.18
+  },
+  {
+    "longitude": 87.53896103896103,
+    "latitude": 15.363636363636346,
+    "waveHeight": 0.59,
+    "waveDirection": 71,
+    "windSpeed": 19.81,
+    "precipitation": 24.85
+  },
+  {
+    "longitude": 88.02597402597402,
+    "latitude": 17.701298701298683,
+    "waveHeight": 4.32,
+    "waveDirection": 265,
+    "windSpeed": 4.51,
+    "precipitation": 38.45
+  },
+  {
+    "longitude": 87.53896103896103,
+    "latitude": 19.25974025974024,
+    "waveHeight": 1.71,
+    "waveDirection": 22,
+    "windSpeed": 14.57,
+    "precipitation": 13.52
+  },
+  {
+    "longitude": 88.31818181818181,
+    "latitude": 19.94155844155842,
+    "waveHeight": 0.24,
+    "waveDirection": 56,
+    "windSpeed": 24.37,
+    "precipitation": 37.71
+  },
+  {
+    "longitude": 90.26623376623377,
+    "latitude": 20.13636363636362,
+    "waveHeight": 4.19,
+    "waveDirection": 116,
+    "windSpeed": 18.59,
+    "precipitation": 11.64
+  },
+  {
+    "longitude": 90.65584415584415,
+    "latitude": 20.915584415584398,
+    "waveHeight": 4.9,
+    "waveDirection": 358,
+    "windSpeed": 23.46,
+    "precipitation": 46.22
+  },
+  {
+    "longitude": 90.94805194805195,
+    "latitude": 21.889610389610368,
+    "waveHeight": 2.28,
+    "waveDirection": 86,
+    "windSpeed": 5.8,
+    "precipitation": 27.6
+  },
+  {
+    "longitude": 85.98051948051948,
+    "latitude": 19.454545454545432,
+    "waveHeight": 0.77,
+    "waveDirection": 242,
+    "windSpeed": 10.87,
+    "precipitation": 13.2
+  },
+  {
+    "longitude": 85.2987012987013,
+    "latitude": 19.35714285714284,
+    "waveHeight": 3.88,
+    "waveDirection": 31,
+    "windSpeed": 28.34,
+    "precipitation": 4.48
+  },
+  {
+    "longitude": 84.8116883116883,
+    "latitude": 18.285714285714263,
+    "waveHeight": 2.21,
+    "waveDirection": 195,
+    "windSpeed": 28.87,
+    "precipitation": 40.15
+  },
+  {
+    "longitude": 84.32467532467533,
+    "latitude": 17.798701298701282,
+    "waveHeight": 4.37,
+    "waveDirection": 187,
+    "windSpeed": 14.55,
+    "precipitation": 49.42
+  },
+  {
+    "longitude": 83.54545454545453,
+    "latitude": 17.214285714285694,
+    "waveHeight": 4.24,
+    "waveDirection": 271,
+    "windSpeed": 10.79,
+    "precipitation": 5.2
+  },
+  {
+    "longitude": 82.57142857142857,
+    "latitude": 16.824675324675304,
+    "waveHeight": 4,
+    "waveDirection": 292,
+    "windSpeed": 20.11,
+    "precipitation": 41.01
+  },
+  {
+    "longitude": 82.08441558441558,
+    "latitude": 15.948051948051926,
+    "waveHeight": 1.01,
+    "waveDirection": 167,
+    "windSpeed": 27.77,
+    "precipitation": 20.11
+  },
+  {
+    "longitude": 81.3051948051948,
+    "latitude": 15.850649350649327,
+    "waveHeight": 3.11,
+    "waveDirection": 11,
+    "windSpeed": 24.73,
+    "precipitation": 18.26
+  },
+  {
+    "longitude": 80.72077922077922,
+    "latitude": 15.168831168831147,
+    "waveHeight": 0.79,
+    "waveDirection": 117,
+    "windSpeed": 12.01,
+    "precipitation": 9.82
+  },
+  {
+    "longitude": 80.91558441558442,
+    "latitude": 13.999999999999979,
+    "waveHeight": 4.87,
+    "waveDirection": 54,
+    "windSpeed": 7.59,
+    "precipitation": 15.06
+  },
+  {
+    "longitude": 80.91558441558442,
+    "latitude": 13.1233766233766,
+    "waveHeight": 0.35,
+    "waveDirection": 247,
+    "windSpeed": 17.16,
+    "precipitation": 23.06
+  },
+  {
+    "longitude": 80.81818181818181,
+    "latitude": 12.285714285714263,
+    "waveHeight": 4.66,
+    "waveDirection": 192,
+    "windSpeed": 28.65,
+    "precipitation": 1.56
+  },
+  {
+    "longitude": 80.62337662337661,
+    "latitude": 11.116883116883095,
+    "waveHeight": 4.71,
+    "waveDirection": 221,
+    "windSpeed": 21.35,
+    "precipitation": 21.2
+  },
+  {
+    "longitude": 80.52597402597402,
+    "latitude": 10.922077922077897,
+    "waveHeight": 2.81,
+    "waveDirection": 16,
+    "windSpeed": 25.85,
+    "precipitation": 29.92
+  },
+  {
+    "longitude": 81.40259740259741,
+    "latitude": 9.636363636363619,
+    "waveHeight": 1.05,
+    "waveDirection": 321,
+    "windSpeed": 14.53,
+    "precipitation": 17.45
+  },
+  {
+    "longitude": 81.5974025974026,
+    "latitude": 8.56493506493505,
+    "waveHeight": 2.87,
+    "waveDirection": 192,
+    "windSpeed": 2.79,
+    "precipitation": 29.8
+  },
+  {
+    "longitude": 81.8896103896104,
+    "latitude": 7.688311688311671,
+    "waveHeight": 2.66,
+    "waveDirection": 108,
+    "windSpeed": 21.89,
+    "precipitation": 0.93
+  },
+  {
+    "longitude": 82.0844155844156,
+    "latitude": 6.616883116883095,
+    "waveHeight": 0.34,
+    "waveDirection": 67,
+    "windSpeed": 24.07,
+    "precipitation": 35.55
+  },
+  {
+    "longitude": 82.0844155844156,
+    "latitude": 9.636363636363619,
+    "waveHeight": 0.44,
+    "waveDirection": 341,
+    "windSpeed": 13.8,
+    "precipitation": 39.49
+  },
+  {
+    "longitude": 82.0844155844156,
+    "latitude": 10.999999999999979,
+    "waveHeight": 0.69,
+    "waveDirection": 137,
+    "windSpeed": 17.12,
+    "precipitation": 22.76
+  },
+  {
+    "longitude": 82.0844155844156,
+    "latitude": 12.363636363636346,
+    "waveHeight": 3.01,
+    "waveDirection": 20,
+    "windSpeed": 18.77,
+    "precipitation": 49.04
+  },
+  {
+    "longitude": 82.0844155844156,
+    "latitude": 14.409090909090892,
+    "waveHeight": 4.84,
+    "waveDirection": 201,
+    "windSpeed": 19.26,
+    "precipitation": 32.03
+  },
+  {
+    "longitude": 82.57142857142858,
+    "latitude": 15.090909090909072,
+    "waveHeight": 4.79,
+    "waveDirection": 353,
+    "windSpeed": 25.23,
+    "precipitation": 7.68
+  },
+  {
+    "longitude": 84.12987012987014,
+    "latitude": 15.480519480519462,
+    "waveHeight": 0.78,
+    "waveDirection": 100,
+    "windSpeed": 14.54,
+    "precipitation": 22.29
+  },
+  {
+    "longitude": 85.47402597402598,
+    "latitude": 17.03896103896102,
+    "waveHeight": 1.97,
+    "waveDirection": 158,
+    "windSpeed": 0.48,
+    "precipitation": 40.45
+  },
+  {
+    "longitude": 86.44805194805195,
+    "latitude": 17.52597402597401,
+    "waveHeight": 3.7,
+    "waveDirection": 22,
+    "windSpeed": 17.78,
+    "precipitation": 43.28
+  },
+  {
+    "longitude": 86.64285714285715,
+    "latitude": 18.012987012986997,
+    "waveHeight": 2.14,
+    "waveDirection": 125,
+    "windSpeed": 6.53,
+    "precipitation": 17.19
+  },
+  {
+    "longitude": 87.34415584415585,
+    "latitude": 18.597402597402578,
+    "waveHeight": 3.63,
+    "waveDirection": 345,
+    "windSpeed": 27.14,
+    "precipitation": 41.26
+  },
+  {
+    "longitude": 87.53896103896105,
+    "latitude": 20.058441558441544,
+    "waveHeight": 3.29,
+    "waveDirection": 257,
+    "windSpeed": 6.19,
+    "precipitation": 0.77
+  },
+  {
+    "longitude": 89.0974025974026,
+    "latitude": 20.740259740259724,
+    "waveHeight": 0.11,
+    "waveDirection": 312,
+    "windSpeed": 7.52,
+    "precipitation": 22.18
+  },
+  {
+    "longitude": 89.00000000000001,
+    "latitude": 21.227272727272712,
+    "waveHeight": 2.34,
+    "waveDirection": 195,
+    "windSpeed": 7.06,
+    "precipitation": 24.54
+  },
+  {
+    "longitude": 88.41558441558442,
+    "latitude": 21.032467532467514,
+    "waveHeight": 1.11,
+    "waveDirection": 241,
+    "windSpeed": 14.99,
+    "precipitation": 37.22
+  },
+  {
+    "longitude": 90.07142857142858,
+    "latitude": 15.188311688311671,
+    "waveHeight": 0.75,
+    "waveDirection": 114,
+    "windSpeed": 1.7,
+    "precipitation": 31.95
+  },
+  {
+    "longitude": 90.75324675324676,
+    "latitude": 18.20779220779219,
+    "waveHeight": 3.36,
+    "waveDirection": 215,
+    "windSpeed": 24.82,
+    "precipitation": 25.83
+  },
+  {
+    "longitude": 91.04545454545456,
+    "latitude": 19.376623376623357,
+    "waveHeight": 4.2,
+    "waveDirection": 197,
+    "windSpeed": 6.29,
+    "precipitation": 42.51
+  },
+  {
+    "longitude": 91.33766233766235,
+    "latitude": 21.129870129870113,
+    "waveHeight": 3.55,
+    "waveDirection": 179,
+    "windSpeed": 20.32,
+    "precipitation": 48.24
+  },
+  {
+    "longitude": 92.40909090909092,
+    "latitude": 19.376623376623357,
+    "waveHeight": 2.86,
+    "waveDirection": 74,
+    "windSpeed": 25.15,
+    "precipitation": 32.84
+  },
+  {
+    "longitude": 92.50649350649351,
+    "latitude": 18.792207792207776,
+    "waveHeight": 4.72,
+    "waveDirection": 327,
+    "windSpeed": 19.73,
+    "precipitation": 4.73
+  },
+  {
+    "longitude": 92.91558441558442,
+    "latitude": 18.012987012986997,
+    "waveHeight": 3.44,
+    "waveDirection": 95,
+    "windSpeed": 15.71,
+    "precipitation": 30.04
+  },
+  {
+    "longitude": 93.1103896103896,
+    "latitude": 16.941558441558428,
+    "waveHeight": 1.39,
+    "waveDirection": 277,
+    "windSpeed": 28.12,
+    "precipitation": 25.02
+  },
+  {
+    "longitude": 93.3051948051948,
+    "latitude": 16.06493506493505,
+    "waveHeight": 1.38,
+    "waveDirection": 97,
+    "windSpeed": 13.88,
+    "precipitation": 46.12
+  },
+  {
+    "longitude": 92.23376623376623,
+    "latitude": 15.870129870129851,
+    "waveHeight": 4.47,
+    "waveDirection": 94,
+    "windSpeed": 1.9,
+    "precipitation": 33.05
+  },
+  {
+    "longitude": 91.35714285714286,
+    "latitude": 17.623376623376608,
+    "waveHeight": 3.93,
+    "waveDirection": 37,
+    "windSpeed": 9.95,
+    "precipitation": 49.81
+  },
+  {
+    "longitude": 91.35714285714286,
+    "latitude": 18.402597402597387,
+    "waveHeight": 0.58,
+    "waveDirection": 86,
+    "windSpeed": 10.2,
+    "precipitation": 5.26
+  },
+  {
+    "longitude": 92.13636363636364,
+    "latitude": 16.941558441558428,
+    "waveHeight": 3.84,
+    "waveDirection": 50,
+    "windSpeed": 5.82,
+    "precipitation": 22.47
+  },
+  {
+    "longitude": 91.76623376623377,
+    "latitude": 18.577922077922068,
+    "waveHeight": 4.15,
+    "waveDirection": 137,
+    "windSpeed": 6.24,
+    "precipitation": 25.33
+  },
+  {
+    "longitude": 90.1883116883117,
+    "latitude": 17.350649350649334,
+    "waveHeight": 3.28,
+    "waveDirection": 174,
+    "windSpeed": 0.34,
+    "precipitation": 22.93
+  },
+  {
+    "longitude": 88.53246753246754,
+    "latitude": 18.324675324675304,
+    "waveHeight": 2.81,
+    "waveDirection": 325,
+    "windSpeed": 3.59,
+    "precipitation": 44.8
+  },
+  {
+    "longitude": 89.7987012987013,
+    "latitude": 19.39610389610388,
+    "waveHeight": 4.62,
+    "waveDirection": 73,
+    "windSpeed": 27.25,
+    "precipitation": 39.82
+  },
+  {
+    "longitude": 90.3051948051948,
+    "latitude": 17.56493506493505,
+    "waveHeight": 3.19,
+    "waveDirection": 238,
+    "windSpeed": 20.75,
+    "precipitation": 40.21
+  },
+  {
+    "longitude": 90.1103896103896,
+    "latitude": 16.298701298701282,
+    "waveHeight": 0.63,
+    "waveDirection": 78,
+    "windSpeed": 6.16,
+    "precipitation": 32.85
+  },
+  {
+    "longitude": 88.74675324675324,
+    "latitude": 17.272727272727252,
+    "waveHeight": 2.3,
+    "waveDirection": 135,
+    "windSpeed": 13.22,
+    "precipitation": 36.79
+  },
+  {
+    "longitude": 88.55194805194805,
+    "latitude": 15.714285714285694,
+    "waveHeight": 4.23,
+    "waveDirection": 76,
+    "windSpeed": 5.01,
+    "precipitation": 21.95
+  },
+  {
+    "longitude": 90.20779220779221,
+    "latitude": 13.181818181818166,
+    "waveHeight": 0.15,
+    "waveDirection": 323,
+    "windSpeed": 12.32,
+    "precipitation": 40.79
+  },
+  {
+    "longitude": 86.60389610389609,
+    "latitude": 15.032467532467514,
+    "waveHeight": 1.52,
+    "waveDirection": 65,
+    "windSpeed": 20.72,
+    "precipitation": 10.31
+  },
+  {
+    "longitude": 84.55844155844156,
+    "latitude": 12.597402597402578,
+    "waveHeight": 3.59,
+    "waveDirection": 235,
+    "windSpeed": 28.92,
+    "precipitation": 26.77
+  },
+  {
+    "longitude": 84.55844155844156,
+    "latitude": 12.597402597402578,
+    "waveHeight": 4.08,
+    "waveDirection": 275,
+    "windSpeed": 10.44,
+    "precipitation": 48.95
+  },
+  {
+    "longitude": 83.97402597402598,
+    "latitude": 12.207792207792188,
+    "waveHeight": 3.73,
+    "waveDirection": 117,
+    "windSpeed": 17.18,
+    "precipitation": 10.34
+  },
+  {
+    "longitude": 83.48701298701297,
+    "latitude": 13.571428571428555,
+    "waveHeight": 2.62,
+    "waveDirection": 34,
+    "windSpeed": 21.73,
+    "precipitation": 15.14
+  },
+  {
+    "longitude": 83.48701298701297,
+    "latitude": 15.032467532467514,
+    "waveHeight": 1.26,
+    "waveDirection": 294,
+    "windSpeed": 16.15,
+    "precipitation": 47.07
+  },
+  {
+    "longitude": 83.97402597402598,
+    "latitude": 15.811688311688293,
+    "waveHeight": 2.97,
+    "waveDirection": 219,
+    "windSpeed": 16.22,
+    "precipitation": 7.67
+  },
+  {
+    "longitude": 85.62987012987013,
+    "latitude": 11.623376623376608,
+    "waveHeight": 4.19,
+    "waveDirection": 195,
+    "windSpeed": 25.11,
+    "precipitation": 7.84
+  },
+  {
+    "longitude": 84.46103896103895,
+    "latitude": 10.844155844155829,
+    "waveHeight": 2.26,
+    "waveDirection": 175,
+    "windSpeed": 25.32,
+    "precipitation": 47.03
+  },
+  {
+    "longitude": 84.26623376623377,
+    "latitude": 10.06493506493505,
+    "waveHeight": 1.82,
+    "waveDirection": 100,
+    "windSpeed": 12.19,
+    "precipitation": 25.78
+  },
+  {
+    "longitude": 84.55844155844156,
+    "latitude": 8.019480519480503,
+    "waveHeight": 2.37,
+    "waveDirection": 337,
+    "windSpeed": 26.95,
+    "precipitation": 6.12
+  },
+  {
+    "longitude": 83.58441558441558,
+    "latitude": 7.240259740259724,
+    "waveHeight": 1.64,
+    "waveDirection": 196,
+    "windSpeed": 13.69,
+    "precipitation": 34.9
+  },
+  {
+    "longitude": 85.92207792207792,
+    "latitude": 7.142857142857125,
+    "waveHeight": 3.22,
+    "waveDirection": 165,
+    "windSpeed": 26.81,
+    "precipitation": 14.78
+  },
+  {
+    "longitude": 87.67532467532467,
+    "latitude": 7.532467532467514,
+    "waveHeight": 1.56,
+    "waveDirection": 299,
+    "windSpeed": 28.4,
+    "precipitation": 29.46
+  },
+  {
+    "longitude": 87.38311688311688,
+    "latitude": 8.798701298701282,
+    "waveHeight": 3.49,
+    "waveDirection": 239,
+    "windSpeed": 5.99,
+    "precipitation": 39.99
+  },
+  {
+    "longitude": 88.25974025974025,
+    "latitude": 9.870129870129851,
+    "waveHeight": 0.34,
+    "waveDirection": 266,
+    "windSpeed": 18.15,
+    "precipitation": 25.11
+  },
+  {
+    "longitude": 88.25974025974025,
+    "latitude": 10.844155844155829,
+    "waveHeight": 3.53,
+    "waveDirection": 37,
+    "windSpeed": 11.18,
+    "precipitation": 47.99
+  },
+  {
+    "longitude": 88.74675324675324,
+    "latitude": 11.42857142857141,
+    "waveHeight": 0.15,
+    "waveDirection": 174,
+    "windSpeed": 12.63,
+    "precipitation": 43.4
+  },
+  {
+    "longitude": 89.81818181818181,
+    "latitude": 10.551948051948038,
+    "waveHeight": 3.41,
+    "waveDirection": 324,
+    "windSpeed": 0.99,
+    "precipitation": 3.99
+  },
+  {
+    "longitude": 89.81818181818181,
+    "latitude": 9.870129870129851,
+    "waveHeight": 1.41,
+    "waveDirection": 71,
+    "windSpeed": 27.53,
+    "precipitation": 49.07
+  },
+  {
+    "longitude": 90.5,
+    "latitude": 9.870129870129851,
+    "waveHeight": 0.09,
+    "waveDirection": 359,
+    "windSpeed": 25.53,
+    "precipitation": 42.91
+  },
+  {
+    "longitude": 91.72727272727272,
+    "latitude": 10.259740259740248,
+    "waveHeight": 2.46,
+    "waveDirection": 114,
+    "windSpeed": 2.74,
+    "precipitation": 2.07
+  },
+  {
+    "longitude": 91.82467532467533,
+    "latitude": 11.136363636363626,
+    "waveHeight": 1.71,
+    "waveDirection": 74,
+    "windSpeed": 1.34,
+    "precipitation": 40.14
+  },
+  {
+    "longitude": 91.82467532467533,
+    "latitude": 11.623376623376615,
+    "waveHeight": 3.5,
+    "waveDirection": 281,
+    "windSpeed": 6.04,
+    "precipitation": 0.54
+  },
+  {
+    "longitude": 91.82467532467533,
+    "latitude": 12.207792207792195,
+    "waveHeight": 0.19,
+    "waveDirection": 260,
+    "windSpeed": 13.39,
+    "precipitation": 42.32
+  },
+  {
+    "longitude": 91.82467532467533,
+    "latitude": 12.597402597402585,
+    "waveHeight": 2.72,
+    "waveDirection": 39,
+    "windSpeed": 7.59,
+    "precipitation": 29.78
+  },
+  {
+    "longitude": 91.9220779220779,
+    "latitude": 12.987012987012974,
+    "waveHeight": 2.78,
+    "waveDirection": 43,
+    "windSpeed": 13.46,
+    "precipitation": 40.65
+  },
+  {
+    "longitude": 91.53246753246754,
+    "latitude": 13.084415584415574,
+    "waveHeight": 4.5,
+    "waveDirection": 216,
+    "windSpeed": 10.93,
+    "precipitation": 0.35
+  },
+  {
+    "longitude": 90.94805194805194,
+    "latitude": 12.889610389610382,
+    "waveHeight": 1.88,
+    "waveDirection": 63,
+    "windSpeed": 29.96,
+    "precipitation": 29.32
+  },
+  {
+    "longitude": 90.16883116883116,
+    "latitude": 13.863636363636353,
+    "waveHeight": 3.63,
+    "waveDirection": 336,
+    "windSpeed": 29.23,
+    "precipitation": 32.19
+  },
+  {
+    "longitude": 91.04545454545453,
+    "latitude": 14.642857142857132,
+    "waveHeight": 3.84,
+    "waveDirection": 234,
+    "windSpeed": 13.28,
+    "precipitation": 28.31
+  },
+  {
+    "longitude": 91.04545454545453,
+    "latitude": 14.642857142857132,
+    "waveHeight": 1.23,
+    "waveDirection": 12,
+    "windSpeed": 15.56,
+    "precipitation": 17.01
+  },
+  {
+    "longitude": 92.7987012987013,
+    "latitude": 14.155844155844143,
+    "waveHeight": 3.55,
+    "waveDirection": 102,
+    "windSpeed": 29.65,
+    "precipitation": 10.71
+  },
+  {
+    "longitude": 93.20779220779221,
+    "latitude": 14.15584415584415,
+    "waveHeight": 2.61,
+    "waveDirection": 46,
+    "windSpeed": 4.23,
+    "precipitation": 34.19
+  },
+  {
+    "longitude": 93.40259740259741,
+    "latitude": 14.15584415584415,
+    "waveHeight": 0.42,
+    "waveDirection": 343,
+    "windSpeed": 3.24,
+    "precipitation": 44.61
+  },
+  {
+    "longitude": 93.63636363636363,
+    "latitude": 14.15584415584415,
+    "waveHeight": 2.07,
+    "waveDirection": 359,
+    "windSpeed": 5.46,
+    "precipitation": 37.18
+  },
+  {
+    "longitude": 95.3896103896104,
+    "latitude": 14.54545454545454,
+    "waveHeight": 3.33,
+    "waveDirection": 356,
+    "windSpeed": 10.71,
+    "precipitation": 0.53
+  },
+  {
+    "longitude": 95.58441558441558,
+    "latitude": 14.642857142857139,
+    "waveHeight": 1.57,
+    "waveDirection": 8,
+    "windSpeed": 11.77,
+    "precipitation": 5.28
+  },
+  {
+    "longitude": 95.77922077922076,
+    "latitude": 14.93506493506493,
+    "waveHeight": 2.97,
+    "waveDirection": 192,
+    "windSpeed": 26.79,
+    "precipitation": 35.6
+  },
+  {
+    "longitude": 95.97402597402598,
+    "latitude": 15.129870129870127,
+    "waveHeight": 4.49,
+    "waveDirection": 15,
+    "windSpeed": 5.67,
+    "precipitation": 13.31
+  },
+  {
+    "longitude": 96.36363636363635,
+    "latitude": 15.129870129870127,
+    "waveHeight": 3.11,
+    "waveDirection": 241,
+    "windSpeed": 6.97,
+    "precipitation": 36.96
+  },
+  {
+    "longitude": 96.65584415584416,
+    "latitude": 15.129870129870127,
+    "waveHeight": 4.42,
+    "waveDirection": 329,
+    "windSpeed": 0.99,
+    "precipitation": 44.89
+  },
+  {
+    "longitude": 96.75324675324674,
+    "latitude": 14.448051948051948,
+    "waveHeight": 2.43,
+    "waveDirection": 4,
+    "windSpeed": 20.33,
+    "precipitation": 25.95
+  },
+  {
+    "longitude": 96.79220779220779,
+    "latitude": 13.454545454545446,
+    "waveHeight": 1.92,
+    "waveDirection": 309,
+    "windSpeed": 20.44,
+    "precipitation": 23.53
+  },
+  {
+    "longitude": 96.88961038961038,
+    "latitude": 12.480519480519476,
+    "waveHeight": 3.55,
+    "waveDirection": 297,
+    "windSpeed": 22.31,
+    "precipitation": 12.59
+  },
+  {
+    "longitude": 96.8896103896104,
+    "latitude": 12.26623376623376,
+    "waveHeight": 0.74,
+    "waveDirection": 99,
+    "windSpeed": 2.21,
+    "precipitation": 12.91
+  },
+  {
+    "longitude": 96.8896103896104,
+    "latitude": 12.051948051948038,
+    "waveHeight": 0.75,
+    "waveDirection": 152,
+    "windSpeed": 5.54,
+    "precipitation": 48.86
+  },
+  {
+    "longitude": 96.8896103896104,
+    "latitude": 11.896103896103881,
+    "waveHeight": 0.09,
+    "waveDirection": 44,
+    "windSpeed": 11.16,
+    "precipitation": 30.77
+  },
+  {
+    "longitude": 96.8896103896104,
+    "latitude": 11.915584415584405,
+    "waveHeight": 4.37,
+    "waveDirection": 279,
+    "windSpeed": 21.53,
+    "precipitation": 10.66
+  },
+  {
+    "longitude": 96.81168831168831,
+    "latitude": 11.935064935064922,
+    "waveHeight": 0.01,
+    "waveDirection": 58,
+    "windSpeed": 4.69,
+    "precipitation": 20.95
+  },
+  {
+    "longitude": 96.81168831168831,
+    "latitude": 11.896103896103881,
+    "waveHeight": 4.23,
+    "waveDirection": 101,
+    "windSpeed": 14.31,
+    "precipitation": 43.38
+  },
+  {
+    "longitude": 96.5,
+    "latitude": 11.740259740259724,
+    "waveHeight": 4.68,
+    "waveDirection": 293,
+    "windSpeed": 27.99,
+    "precipitation": 11.29
+  },
+  {
+    "longitude": 95.7207792207792,
+    "latitude": 12.519480519480503,
+    "waveHeight": 3.05,
+    "waveDirection": 111,
+    "windSpeed": 26.99,
+    "precipitation": 7.96
+  },
+  {
+    "longitude": 93.87012987012986,
+    "latitude": 11.058441558441544,
+    "waveHeight": 4.17,
+    "waveDirection": 58,
+    "windSpeed": 20.97,
+    "precipitation": 0.84
+  },
+  {
+    "longitude": 93.87012987012986,
+    "latitude": 11.058441558441544,
+    "waveHeight": 2.56,
+    "waveDirection": 251,
+    "windSpeed": 10.58,
+    "precipitation": 27.35
+  },
+  {
+    "longitude": 94.16233766233765,
+    "latitude": 10.084415584415574,
+    "waveHeight": 4.76,
+    "waveDirection": 162,
+    "windSpeed": 16.13,
+    "precipitation": 41.73
+  },
+  {
+    "longitude": 94.35714285714286,
+    "latitude": 11.642857142857132,
+    "waveHeight": 4.12,
+    "waveDirection": 199,
+    "windSpeed": 5.62,
+    "precipitation": 20.41
+  },
+  {
+    "longitude": 94.35714285714286,
+    "latitude": 11.642857142857132,
+    "waveHeight": 3.29,
+    "waveDirection": 46,
+    "windSpeed": 23.5,
+    "precipitation": 4.4
+  },
+  {
+    "longitude": 94.16233766233765,
+    "latitude": 11.155844155844143,
+    "waveHeight": 2.5,
+    "waveDirection": 263,
+    "windSpeed": 20.76,
+    "precipitation": 47.58
+  },
+  {
+    "longitude": 94.06493506493507,
+    "latitude": 10.279220779220765,
+    "waveHeight": 0.24,
+    "waveDirection": 135,
+    "windSpeed": 28.01,
+    "precipitation": 44.62
+  },
+  {
+    "longitude": 93.28571428571428,
+    "latitude": 9.207792207792195,
+    "waveHeight": 1.17,
+    "waveDirection": 270,
+    "windSpeed": 22.9,
+    "precipitation": 26.29
+  },
+  {
+    "longitude": 92.3116883116883,
+    "latitude": 8.623376623376608,
+    "waveHeight": 4.98,
+    "waveDirection": 158,
+    "windSpeed": 3.95,
+    "precipitation": 41.7
+  },
+  {
+    "longitude": 91.43506493506493,
+    "latitude": 8.233766233766218,
+    "waveHeight": 3.02,
+    "waveDirection": 302,
+    "windSpeed": 7.4,
+    "precipitation": 9.4
+  },
+  {
+    "longitude": 90.94805194805195,
+    "latitude": 8.233766233766218,
+    "waveHeight": 0.83,
+    "waveDirection": 347,
+    "windSpeed": 7.14,
+    "precipitation": 30.85
+  },
+  {
+    "longitude": 89.3896103896104,
+    "latitude": 7.259740259740248,
+    "waveHeight": 2.04,
+    "waveDirection": 52,
+    "windSpeed": 15.22,
+    "precipitation": 22.24
+  },
+  {
+    "longitude": 88.9025974025974,
+    "latitude": 6.188311688311671,
+    "waveHeight": 2.89,
+    "waveDirection": 304,
+    "windSpeed": 17.64,
+    "precipitation": 35.74
+  },
+  {
+    "longitude": 88.9025974025974,
+    "latitude": 6.188311688311671,
+    "waveHeight": 5,
+    "waveDirection": 356,
+    "windSpeed": 18.65,
+    "precipitation": 44.22
+  },
+  {
+    "longitude": 88.55194805194805,
+    "latitude": 5.058441558441544,
+    "waveHeight": 1.74,
+    "waveDirection": 148,
+    "windSpeed": 24.06,
+    "precipitation": 15.2
+  },
+  {
+    "longitude": 88.55194805194805,
+    "latitude": 5.097402597402578,
+    "waveHeight": 4.75,
+    "waveDirection": 341,
+    "windSpeed": 15.01,
+    "precipitation": 29.45
+  },
+  {
+    "longitude": 87.38311688311688,
+    "latitude": 5.077922077922061,
+    "waveHeight": 2.72,
+    "waveDirection": 149,
+    "windSpeed": 13.79,
+    "precipitation": 37.47
+  },
+  {
+    "longitude": 86.60389610389609,
+    "latitude": 5.175324675324653,
+    "waveHeight": 0.5,
+    "waveDirection": 302,
+    "windSpeed": 7.41,
+    "precipitation": 8.25
+  },
+  {
+    "longitude": 86.60389610389609,
+    "latitude": 5.175324675324653,
+    "waveHeight": 1.84,
+    "waveDirection": 128,
+    "windSpeed": 5.82,
+    "precipitation": 18.98
+  },
+  {
+    "longitude": 86.56493506493507,
+    "latitude": 5.175324675324653,
+    "waveHeight": 1.93,
+    "waveDirection": 351,
+    "windSpeed": 19.24,
+    "precipitation": 30.36
+  },
+  {
+    "longitude": 86.56493506493507,
+    "latitude": 5.175324675324653,
+    "waveHeight": 4.72,
+    "waveDirection": 8,
+    "windSpeed": 20.11,
+    "precipitation": 40.6
+  },
+  {
+    "longitude": 85.98051948051949,
+    "latitude": 5.272727272727252,
+    "waveHeight": 1.26,
+    "waveDirection": 101,
+    "windSpeed": 21.92,
+    "precipitation": 42.49
+  },
+  {
+    "longitude": 84.92857142857144,
+    "latitude": 5.662337662337642,
+    "waveHeight": 3.92,
+    "waveDirection": 90,
+    "windSpeed": 17.56,
+    "precipitation": 36.62
+  },
+  {
+    "longitude": 84.92857142857144,
+    "latitude": 5.662337662337642,
+    "waveHeight": 4.7,
+    "waveDirection": 251,
+    "windSpeed": 19.74,
+    "precipitation": 47.7
+  },
+  {
+    "longitude": 84.83116883116884,
+    "latitude": 5.759740259740241,
+    "waveHeight": 3.05,
+    "waveDirection": 278,
+    "windSpeed": 27.1,
+    "precipitation": 29.02
+  },
+  {
+    "longitude": 84.92857142857144,
+    "latitude": 5.954545454545432,
+    "waveHeight": 3.34,
+    "waveDirection": 131,
+    "windSpeed": 22.24,
+    "precipitation": 42.33
+  },
+  {
+    "longitude": 85.70779220779222,
+    "latitude": 6.14935064935063,
+    "waveHeight": 3.05,
+    "waveDirection": 288,
+    "windSpeed": 12.67,
+    "precipitation": 4.22
+  },
+  {
+    "longitude": 86.1948051948052,
+    "latitude": 6.441558441558421,
+    "waveHeight": 3.9,
+    "waveDirection": 265,
+    "windSpeed": 25.68,
+    "precipitation": 27.88
+  },
+  {
+    "longitude": 87.46103896103897,
+    "latitude": 7.2207792207792,
+    "waveHeight": 3.42,
+    "waveDirection": 106,
+    "windSpeed": 25.94,
+    "precipitation": 24.65
+  },
+  {
+    "longitude": 87.46103896103897,
+    "latitude": 7.2207792207792,
+    "waveHeight": 4.46,
+    "waveDirection": 41,
+    "windSpeed": 4.03,
+    "precipitation": 23.96
+  },
+  {
+    "longitude": 87.65584415584416,
+    "latitude": 7.2207792207792,
+    "waveHeight": 3.19,
+    "waveDirection": 118,
+    "windSpeed": 25.14,
+    "precipitation": 29.88
+  },
+  {
+    "longitude": 87.85064935064936,
+    "latitude": 7.318181818181799,
+    "waveHeight": 2.62,
+    "waveDirection": 176,
+    "windSpeed": 9.85,
+    "precipitation": 45.34
+  },
+  {
+    "longitude": 90.34415584415586,
+    "latitude": 8.311688311688286,
+    "waveHeight": 1.47,
+    "waveDirection": 117,
+    "windSpeed": 27.96,
+    "precipitation": 16.18
+  },
+  {
+    "longitude": 90.73376623376625,
+    "latitude": 8.603896103896076,
+    "waveHeight": 4.52,
+    "waveDirection": 13,
+    "windSpeed": 23.19,
+    "precipitation": 38.36
+  },
+  {
+    "longitude": 90.69480519480521,
+    "latitude": 9.24675324675323,
+    "waveHeight": 1.53,
+    "waveDirection": 6,
+    "windSpeed": 19.47,
+    "precipitation": 24.14
+  },
+  {
+    "longitude": 90.69480519480521,
+    "latitude": 9.948051948051926,
+    "waveHeight": 4.4,
+    "waveDirection": 6,
+    "windSpeed": 7.98,
+    "precipitation": 37.13
+  },
+  {
+    "longitude": 90.69480519480521,
+    "latitude": 10.454545454545446,
+    "waveHeight": 3.34,
+    "waveDirection": 226,
+    "windSpeed": 1.33,
+    "precipitation": 22.69
+  },
+  {
+    "longitude": 90.8896103896104,
+    "latitude": 10.649350649350637,
+    "waveHeight": 4,
+    "waveDirection": 130,
+    "windSpeed": 21.98,
+    "precipitation": 5.76
+  },
+  {
+    "longitude": 93.81168831168833,
+    "latitude": 11.623376623376615,
+    "waveHeight": 2.62,
+    "waveDirection": 242,
+    "windSpeed": 21.44,
+    "precipitation": 18.64
+  },
+  {
+    "longitude": 93.85064935064938,
+    "latitude": 11.623376623376622,
+    "waveHeight": 2.65,
+    "waveDirection": 49,
+    "windSpeed": 0.85,
+    "precipitation": 20.37
+  },
+  {
+    "longitude": 92.7792207792208,
+    "latitude": 12.207792207792203,
+    "waveHeight": 1.94,
+    "waveDirection": 132,
+    "windSpeed": 17.76,
+    "precipitation": 31.84
+  },
+  {
+    "longitude": 92.7792207792208,
+    "latitude": 12.305194805194802,
+    "waveHeight": 4.27,
+    "waveDirection": 229,
+    "windSpeed": 15.41,
+    "precipitation": 32.75
+  },
+  {
+    "longitude": 92.7792207792208,
+    "latitude": 12.305194805194802,
+    "waveHeight": 2.56,
+    "waveDirection": 57,
+    "windSpeed": 22.84,
+    "precipitation": 11.95
+  },
+  {
+    "longitude": 92.7792207792208,
+    "latitude": 12.305194805194802,
+    "waveHeight": 0.41,
+    "waveDirection": 187,
+    "windSpeed": 20.01,
+    "precipitation": 43.49
+  },
+  {
+    "longitude": 94.24025974025977,
+    "latitude": 7.6298701298701275,
+    "waveHeight": 3.54,
+    "waveDirection": 305,
+    "windSpeed": 12.9,
+    "precipitation": 7.27
+  },
+  {
+    "longitude": 94.20129870129873,
+    "latitude": 7.220779220779214,
+    "waveHeight": 3.44,
+    "waveDirection": 34,
+    "windSpeed": 8.61,
+    "precipitation": 10.64
+  },
+  {
+    "longitude": 93.51948051948054,
+    "latitude": 6.831168831168824,
+    "waveHeight": 0.42,
+    "waveDirection": 56,
+    "windSpeed": 16.52,
+    "precipitation": 10.6
+  },
+  {
+    "longitude": 92.74025974025976,
+    "latitude": 6.538961038961034,
+    "waveHeight": 0.09,
+    "waveDirection": 118,
+    "windSpeed": 25.24,
+    "precipitation": 6.21
+  },
+  {
+    "longitude": 92.25324675324677,
+    "latitude": 5.662337662337656,
+    "waveHeight": 4.87,
+    "waveDirection": 40,
+    "windSpeed": 6.8,
+    "precipitation": 20.16
+  },
+  {
+    "longitude": 92.25324675324677,
+    "latitude": 5.662337662337656,
+    "waveHeight": 3.84,
+    "waveDirection": 220,
+    "windSpeed": 15.32,
+    "precipitation": 49.01
+  },
+  {
+    "longitude": 92.25324675324677,
+    "latitude": 4.590909090909086,
+    "waveHeight": 1.64,
+    "waveDirection": 75,
+    "windSpeed": 8.87,
+    "precipitation": 48.85
+  },
+  {
+    "longitude": 91.961038961039,
+    "latitude": 4.396103896103888,
+    "waveHeight": 2.25,
+    "waveDirection": 199,
+    "windSpeed": 8.79,
+    "precipitation": 38.84
+  },
+  {
+    "longitude": 91.7662337662338,
+    "latitude": 4.396103896103888,
+    "waveHeight": 4.49,
+    "waveDirection": 229,
+    "windSpeed": 1.02,
+    "precipitation": 11.3
+  },
+  {
+    "longitude": 91.66883116883119,
+    "latitude": 4.396103896103888,
+    "waveHeight": 2.69,
+    "waveDirection": 152,
+    "windSpeed": 16.45,
+    "precipitation": 6.42
+  },
+  {
+    "longitude": 91.5714285714286,
+    "latitude": 4.396103896103888,
+    "waveHeight": 1,
+    "waveDirection": 68,
+    "windSpeed": 16.32,
+    "precipitation": 31.4
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": 4.162337662337656,
+    "waveHeight": 3.18,
+    "waveDirection": 177,
+    "windSpeed": 1.79,
+    "precipitation": 38.71
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": 4.162337662337656,
+    "waveHeight": 3.45,
+    "waveDirection": 244,
+    "windSpeed": 0.07,
+    "precipitation": 5.79
+  },
+  {
+    "longitude": 90.42207792207793,
+    "latitude": 3.7727272727272663,
+    "waveHeight": 2.06,
+    "waveDirection": 283,
+    "windSpeed": 24.68,
+    "precipitation": 39.21
+  },
+  {
+    "longitude": 90.32467532467535,
+    "latitude": 3.2857142857142847,
+    "waveHeight": 2.01,
+    "waveDirection": 216,
+    "windSpeed": 0.62,
+    "precipitation": 46.57
+  },
+  {
+    "longitude": 90.22727272727275,
+    "latitude": 2.9935064935064872,
+    "waveHeight": 2.45,
+    "waveDirection": 56,
+    "windSpeed": 14.02,
+    "precipitation": 9.17
+  },
+  {
+    "longitude": 89.74025974025975,
+    "latitude": 2.83766233766233,
+    "waveHeight": 4.37,
+    "waveDirection": 178,
+    "windSpeed": 19.42,
+    "precipitation": 12.58
+  },
+  {
+    "longitude": 89.74025974025975,
+    "latitude": 2.83766233766233,
+    "waveHeight": 2.07,
+    "waveDirection": 5,
+    "windSpeed": 12.27,
+    "precipitation": 40.99
+  },
+  {
+    "longitude": 89.74025974025975,
+    "latitude": 2.83766233766233,
+    "waveHeight": 0.07,
+    "waveDirection": 147,
+    "windSpeed": 24.23,
+    "precipitation": 45.8
+  },
+  {
+    "longitude": 89.64285714285715,
+    "latitude": 2.642857142857139,
+    "waveHeight": 0.54,
+    "waveDirection": 188,
+    "windSpeed": 19.82,
+    "precipitation": 36.7
+  },
+  {
+    "longitude": 89.64285714285715,
+    "latitude": 2.15584415584415,
+    "waveHeight": 2.07,
+    "waveDirection": 16,
+    "windSpeed": 16.03,
+    "precipitation": 6.7
+  },
+  {
+    "longitude": 89.44805194805195,
+    "latitude": 2.058441558441551,
+    "waveHeight": 1.32,
+    "waveDirection": 78,
+    "windSpeed": 21.01,
+    "precipitation": 2.46
+  },
+  {
+    "longitude": 89.44805194805195,
+    "latitude": 2.058441558441551,
+    "waveHeight": 0.29,
+    "waveDirection": 207,
+    "windSpeed": 2.64,
+    "precipitation": 38.36
+  },
+  {
+    "longitude": 89.35064935064936,
+    "latitude": 1.961038961038959,
+    "waveHeight": 2.77,
+    "waveDirection": 324,
+    "windSpeed": 22.3,
+    "precipitation": 1.48
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": 1.961038961038959,
+    "waveHeight": 2.96,
+    "waveDirection": 265,
+    "windSpeed": 26.8,
+    "precipitation": 26.39
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": 1.961038961038959,
+    "waveHeight": 3.33,
+    "waveDirection": 310,
+    "windSpeed": 3.79,
+    "precipitation": 11.73
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": 1.961038961038959,
+    "waveHeight": 3.45,
+    "waveDirection": 267,
+    "windSpeed": 16.2,
+    "precipitation": 22.26
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": 1.961038961038959,
+    "waveHeight": 2.93,
+    "waveDirection": 183,
+    "windSpeed": 24.34,
+    "precipitation": 19.21
+  },
+  {
+    "longitude": 90.81168831168833,
+    "latitude": 0.6948051948051912,
+    "waveHeight": 1,
+    "waveDirection": 19,
+    "windSpeed": 3.44,
+    "precipitation": 34.62
+  },
+  {
+    "longitude": 90.81168831168833,
+    "latitude": 0.6948051948051912,
+    "waveHeight": 4.81,
+    "waveDirection": 175,
+    "windSpeed": 3.14,
+    "precipitation": 22.05
+  },
+  {
+    "longitude": 90.83116883116884,
+    "latitude": 0.6948051948051912,
+    "waveHeight": 3.26,
+    "waveDirection": 220,
+    "windSpeed": 25.28,
+    "precipitation": 4.03
+  },
+  {
+    "longitude": 90.77272727272728,
+    "latitude": 0.6948051948051912,
+    "waveHeight": 3.72,
+    "waveDirection": 168,
+    "windSpeed": 7.79,
+    "precipitation": 9.45
+  },
+  {
+    "longitude": 90.79220779220779,
+    "latitude": 0.6948051948051912,
+    "waveHeight": 4.29,
+    "waveDirection": 138,
+    "windSpeed": 11.94,
+    "precipitation": 1.75
+  },
+  {
+    "longitude": 91.51298701298701,
+    "latitude": 0.597402597402592,
+    "waveHeight": 4.36,
+    "waveDirection": 34,
+    "windSpeed": 21.56,
+    "precipitation": 10.55
+  },
+  {
+    "longitude": 92.05844155844156,
+    "latitude": 0.4999999999999929,
+    "waveHeight": 1.3,
+    "waveDirection": 228,
+    "windSpeed": 19.81,
+    "precipitation": 5.24
+  },
+  {
+    "longitude": 92.54545454545453,
+    "latitude": 0.3051948051948017,
+    "waveHeight": 0.84,
+    "waveDirection": 171,
+    "windSpeed": 1.94,
+    "precipitation": 33.47
+  },
+  {
+    "longitude": 92.54545454545453,
+    "latitude": 0.3051948051948017,
+    "waveHeight": 1.97,
+    "waveDirection": 294,
+    "windSpeed": 22.53,
+    "precipitation": 26.91
+  },
+  {
+    "longitude": 92.64285714285714,
+    "latitude": 0.11038961038960338,
+    "waveHeight": 0.23,
+    "waveDirection": 302,
+    "windSpeed": 4.16,
+    "precipitation": 18.08
+  },
+  {
+    "longitude": 92.64285714285714,
+    "latitude": -0.29870129870130313,
+    "waveHeight": 1.95,
+    "waveDirection": 324,
+    "windSpeed": 18.67,
+    "precipitation": 10.31
+  },
+  {
+    "longitude": 92.64285714285714,
+    "latitude": -0.49350649350650144,
+    "waveHeight": 0.25,
+    "waveDirection": 47,
+    "windSpeed": 22.31,
+    "precipitation": 24.94
+  },
+  {
+    "longitude": 92.64285714285714,
+    "latitude": -0.7857142857142918,
+    "waveHeight": 3.16,
+    "waveDirection": 31,
+    "windSpeed": 7.06,
+    "precipitation": 38.22
+  },
+  {
+    "longitude": 92.54545454545453,
+    "latitude": -0.883116883116891,
+    "waveHeight": 0.68,
+    "waveDirection": 233,
+    "windSpeed": 18.46,
+    "precipitation": 40.57
+  },
+  {
+    "longitude": 92.35064935064935,
+    "latitude": -1.0779220779220822,
+    "waveHeight": 3.01,
+    "waveDirection": 328,
+    "windSpeed": 9.69,
+    "precipitation": 44.43
+  },
+  {
+    "longitude": 92.27272727272727,
+    "latitude": -1.2727272727272805,
+    "waveHeight": 0.14,
+    "waveDirection": 182,
+    "windSpeed": 9.79,
+    "precipitation": 13.23
+  },
+  {
+    "longitude": 91.98051948051948,
+    "latitude": -3.805194805194809,
+    "waveHeight": 1.61,
+    "waveDirection": 356,
+    "windSpeed": 14.03,
+    "precipitation": 11.25
+  },
+  {
+    "longitude": 92.75974025974025,
+    "latitude": -5.0714285714285765,
+    "waveHeight": 4.78,
+    "waveDirection": 304,
+    "windSpeed": 7.51,
+    "precipitation": 3.88
+  },
+  {
+    "longitude": 92.74025974025975,
+    "latitude": -5.0324675324675425,
+    "waveHeight": 3.02,
+    "waveDirection": 132,
+    "windSpeed": 20.64,
+    "precipitation": 5.24
+  },
+  {
+    "longitude": 92.74025974025975,
+    "latitude": -5.0324675324675425,
+    "waveHeight": 2.42,
+    "waveDirection": 57,
+    "windSpeed": 23.21,
+    "precipitation": 15.12
+  },
+  {
+    "longitude": 92.74025974025975,
+    "latitude": -5.0324675324675425,
+    "waveHeight": 2.64,
+    "waveDirection": 270,
+    "windSpeed": 3.63,
+    "precipitation": 2.95
+  },
+  {
+    "longitude": 92.74025974025975,
+    "latitude": -5.0324675324675425,
+    "waveHeight": 3.48,
+    "waveDirection": 230,
+    "windSpeed": 26.64,
+    "precipitation": 12.58
+  },
+  {
+    "longitude": 92.83766233766232,
+    "latitude": -5.129870129870135,
+    "waveHeight": 1.79,
+    "waveDirection": 258,
+    "windSpeed": 12.87,
+    "precipitation": 5.12
+  },
+  {
+    "longitude": 92.83766233766232,
+    "latitude": -5.129870129870135,
+    "waveHeight": 4.81,
+    "waveDirection": 313,
+    "windSpeed": 16.56,
+    "precipitation": 5.84
+  },
+  {
+    "longitude": 92.83766233766232,
+    "latitude": -5.129870129870135,
+    "waveHeight": 2.13,
+    "waveDirection": 310,
+    "windSpeed": 19.27,
+    "precipitation": 27.84
+  },
+  {
+    "longitude": 92.83766233766232,
+    "latitude": -5.129870129870135,
+    "waveHeight": 0.18,
+    "waveDirection": 45,
+    "windSpeed": 1.12,
+    "precipitation": 25.6
+  },
+  {
+    "longitude": 92.83766233766232,
+    "latitude": -5.129870129870135,
+    "waveHeight": 3.19,
+    "waveDirection": 217,
+    "windSpeed": 1.7,
+    "precipitation": 6.81
+  },
+  {
+    "longitude": 94.68831168831167,
+    "latitude": -2.987012987012996,
+    "waveHeight": 1.92,
+    "waveDirection": 200,
+    "windSpeed": 27.79,
+    "precipitation": 4.53
+  },
+  {
+    "longitude": 95.60389610389609,
+    "latitude": -6.571428571428584,
+    "waveHeight": 4.12,
+    "waveDirection": 47,
+    "windSpeed": 20.61,
+    "precipitation": 38.18
+  },
+  {
+    "longitude": 94.29870129870129,
+    "latitude": -5.558441558441572,
+    "waveHeight": 2.21,
+    "waveDirection": 133,
+    "windSpeed": 20.23,
+    "precipitation": 26.32
+  },
+  {
+    "longitude": 92.05844155844154,
+    "latitude": -5.168831168831183,
+    "waveHeight": 4.72,
+    "waveDirection": 209,
+    "windSpeed": 4.56,
+    "precipitation": 47.95
+  },
+  {
+    "longitude": 93.7142857142857,
+    "latitude": -6.727272727272741,
+    "waveHeight": 3.16,
+    "waveDirection": 356,
+    "windSpeed": 26.23,
+    "precipitation": 31.56
+  },
+  {
+    "longitude": 94.43506493506493,
+    "latitude": -8.519480519480524,
+    "waveHeight": 0,
+    "waveDirection": 273,
+    "windSpeed": 2.89,
+    "precipitation": 13.75
+  },
+  {
+    "longitude": 93.07142857142856,
+    "latitude": -6.5714285714285765,
+    "waveHeight": 4.08,
+    "waveDirection": 221,
+    "windSpeed": 23.58,
+    "precipitation": 13.1
+  },
+  {
+    "longitude": 95.7012987012987,
+    "latitude": -9.688311688311693,
+    "waveHeight": 1.29,
+    "waveDirection": 304,
+    "windSpeed": 6.5,
+    "precipitation": 3.05
+  },
+  {
+    "longitude": 97.35714285714285,
+    "latitude": -12.02597402597403,
+    "waveHeight": 4.83,
+    "waveDirection": 122,
+    "windSpeed": 10.56,
+    "precipitation": 3.1
+  },
+  {
+    "longitude": 98.9155844155844,
+    "latitude": -14.071428571428573,
+    "waveHeight": 2.27,
+    "waveDirection": 15,
+    "windSpeed": 20.79,
+    "precipitation": 43.86
+  },
+  {
+    "longitude": 99.30519480519479,
+    "latitude": -14.655844155844157,
+    "waveHeight": 2.37,
+    "waveDirection": 209,
+    "windSpeed": 11.23,
+    "precipitation": 7.5
+  },
+  {
+    "longitude": 100.78571428571428,
+    "latitude": -16.038961038961045,
+    "waveHeight": 1.71,
+    "waveDirection": 168,
+    "windSpeed": 7.41,
+    "precipitation": 11.38
+  },
+  {
+    "longitude": 100.80519480519482,
+    "latitude": -16.077922077922082,
+    "waveHeight": 3.82,
+    "waveDirection": 274,
+    "windSpeed": 22.62,
+    "precipitation": 36.85
+  },
+  {
+    "longitude": 100.76623376623377,
+    "latitude": -16.077922077922082,
+    "waveHeight": 0.05,
+    "waveDirection": 49,
+    "windSpeed": 19.26,
+    "precipitation": 7.56
+  },
+  {
+    "longitude": 100.76623376623377,
+    "latitude": -16.058441558441558,
+    "waveHeight": 3.71,
+    "waveDirection": 357,
+    "windSpeed": 16.22,
+    "precipitation": 22.96
+  },
+  {
+    "longitude": 101.64285714285714,
+    "latitude": -18.103896103896105,
+    "waveHeight": 3.77,
+    "waveDirection": 30,
+    "windSpeed": 6.4,
+    "precipitation": 29.1
+  },
+  {
+    "longitude": 112.31818181818181,
+    "latitude": -27.298701298701296,
+    "waveHeight": 1.35,
+    "waveDirection": 121,
+    "windSpeed": 16.32,
+    "precipitation": 34.94
+  },
+  {
+    "longitude": 105.79220779220779,
+    "latitude": -22.525974025974023,
+    "waveHeight": 2.55,
+    "waveDirection": 163,
+    "windSpeed": 28.67,
+    "precipitation": 2.29
+  },
+  {
+    "longitude": 105.79220779220779,
+    "latitude": -22.525974025974023,
+    "waveHeight": 4.92,
+    "waveDirection": 196,
+    "windSpeed": 10.31,
+    "precipitation": 20.51
+  },
+  {
+    "longitude": 104.7207792207792,
+    "latitude": -21.454545454545453,
+    "waveHeight": 4.05,
+    "waveDirection": 326,
+    "windSpeed": 17.78,
+    "precipitation": 48.36
+  },
+  {
+    "longitude": 104.7207792207792,
+    "latitude": -21.454545454545453,
+    "waveHeight": 3.52,
+    "waveDirection": 253,
+    "windSpeed": 4.35,
+    "precipitation": 7.82
+  },
+  {
+    "longitude": 103.35714285714285,
+    "latitude": -19.896103896103895,
+    "waveHeight": 4.24,
+    "waveDirection": 223,
+    "windSpeed": 8.72,
+    "precipitation": 11.02
+  },
+  {
+    "longitude": 103.35714285714285,
+    "latitude": -19.896103896103895,
+    "waveHeight": 1.66,
+    "waveDirection": 56,
+    "windSpeed": 23.18,
+    "precipitation": 6.46
+  },
+  {
+    "longitude": 105.69480519480518,
+    "latitude": -22.428571428571427,
+    "waveHeight": 2.78,
+    "waveDirection": 158,
+    "windSpeed": 28.32,
+    "precipitation": 47.4
+  },
+  {
+    "longitude": 108.18831168831167,
+    "latitude": -24.668831168831165,
+    "waveHeight": 1.63,
+    "waveDirection": 304,
+    "windSpeed": 18.57,
+    "precipitation": 42.3
+  },
+  {
+    "longitude": 110.9155844155844,
+    "latitude": -28.759740259740255,
+    "waveHeight": 2.26,
+    "waveDirection": 155,
+    "windSpeed": 9.55,
+    "precipitation": 26.81
+  },
+  {
+    "longitude": 110.93506493506491,
+    "latitude": -28.759740259740255,
+    "waveHeight": 4.86,
+    "waveDirection": 223,
+    "windSpeed": 14.54,
+    "precipitation": 6.84
+  },
+  {
+    "longitude": 113.07792207792205,
+    "latitude": -30.610389610389607,
+    "waveHeight": 1.16,
+    "waveDirection": 281,
+    "windSpeed": 14.24,
+    "precipitation": 36.52
+  },
+  {
+    "longitude": 113.56493506493504,
+    "latitude": -30.8051948051948,
+    "waveHeight": 2.26,
+    "waveDirection": 253,
+    "windSpeed": 29.25,
+    "precipitation": 26.61
+  },
+  {
+    "longitude": 115.02597402597401,
+    "latitude": -31.97402597402597,
+    "waveHeight": 1.85,
+    "waveDirection": 174,
+    "windSpeed": 24.61,
+    "precipitation": 25.66
+  },
+  {
+    "longitude": 115.02597402597401,
+    "latitude": -31.97402597402597,
+    "waveHeight": 4.87,
+    "waveDirection": 328,
+    "windSpeed": 20.6,
+    "precipitation": 30.95
+  },
+  {
+    "longitude": 114.14935064935064,
+    "latitude": -29.831168831168828,
+    "waveHeight": 2.37,
+    "waveDirection": 228,
+    "windSpeed": 11.6,
+    "precipitation": 6.37
+  },
+  {
+    "longitude": 111.90909090909089,
+    "latitude": -28.56493506493506,
+    "waveHeight": 0.44,
+    "waveDirection": 153,
+    "windSpeed": 13.87,
+    "precipitation": 36.34
+  },
+  {
+    "longitude": 111.30519480519479,
+    "latitude": -28.467532467532465,
+    "waveHeight": 3.83,
+    "waveDirection": 240,
+    "windSpeed": 4.57,
+    "precipitation": 18.89
+  },
+  {
+    "longitude": 109.06493506493506,
+    "latitude": -27.201298701298697,
+    "waveHeight": 1.43,
+    "waveDirection": 30,
+    "windSpeed": 12.39,
+    "precipitation": 14.87
+  },
+  {
+    "longitude": 109.06493506493506,
+    "latitude": -26.519480519480517,
+    "waveHeight": 3.83,
+    "waveDirection": 278,
+    "windSpeed": 12.63,
+    "precipitation": 0.25
+  },
+  {
+    "longitude": 109.2012987012987,
+    "latitude": -26.03246753246753,
+    "waveHeight": 3.94,
+    "waveDirection": 205,
+    "windSpeed": 26.1,
+    "precipitation": 40.74
+  },
+  {
+    "longitude": 107.44805194805193,
+    "latitude": -23.597402597402596,
+    "waveHeight": 1.32,
+    "waveDirection": 185,
+    "windSpeed": 27.31,
+    "precipitation": 49.7
+  },
+  {
+    "longitude": 106.86363636363635,
+    "latitude": -23.01298701298701,
+    "waveHeight": 3.83,
+    "waveDirection": 135,
+    "windSpeed": 0.17,
+    "precipitation": 34.74
+  },
+  {
+    "longitude": 108.32467532467533,
+    "latitude": -24.766233766233764,
+    "waveHeight": 0.06,
+    "waveDirection": 293,
+    "windSpeed": 5.7,
+    "precipitation": 20.63
+  },
+  {
+    "longitude": 109.98051948051946,
+    "latitude": -26.129870129870127,
+    "waveHeight": 4.59,
+    "waveDirection": 291,
+    "windSpeed": 28.82,
+    "precipitation": 46.1
+  },
+  {
+    "longitude": 109.2012987012987,
+    "latitude": -25.058441558441555,
+    "waveHeight": 0.87,
+    "waveDirection": 231,
+    "windSpeed": 1.59,
+    "precipitation": 24.35
+  },
+  {
+    "longitude": 109.2012987012987,
+    "latitude": -25.058441558441555,
+    "waveHeight": 2.8,
+    "waveDirection": 186,
+    "windSpeed": 3.65,
+    "precipitation": 46.49
+  },
+  {
+    "longitude": 106.27922077922076,
+    "latitude": -22.233766233766232,
+    "waveHeight": 2.69,
+    "waveDirection": 330,
+    "windSpeed": 5.28,
+    "precipitation": 38.18
+  },
+  {
+    "longitude": 105.69480519480518,
+    "latitude": -22.136363636363633,
+    "waveHeight": 0.19,
+    "waveDirection": 59,
+    "windSpeed": 16.42,
+    "precipitation": 21.61
+  },
+  {
+    "longitude": 105.1103896103896,
+    "latitude": -21.649350649350648,
+    "waveHeight": 0.73,
+    "waveDirection": 42,
+    "windSpeed": 19.68,
+    "precipitation": 14.77
+  },
+  {
+    "longitude": 105.1103896103896,
+    "latitude": -21.55194805194805,
+    "waveHeight": 3.3,
+    "waveDirection": 2,
+    "windSpeed": 5.08,
+    "precipitation": 17.51
+  },
+  {
+    "longitude": 103.00649350649348,
+    "latitude": -19.896103896103895,
+    "waveHeight": 1.29,
+    "waveDirection": 235,
+    "windSpeed": 10.28,
+    "precipitation": 41.8
+  },
+  {
+    "longitude": 102.8116883116883,
+    "latitude": -19.896103896103895,
+    "waveHeight": 0.81,
+    "waveDirection": 251,
+    "windSpeed": 15.13,
+    "precipitation": 32.61
+  },
+  {
+    "longitude": 102.03246753246752,
+    "latitude": -19.214285714285715,
+    "waveHeight": 1.77,
+    "waveDirection": 232,
+    "windSpeed": 13.11,
+    "precipitation": 20.65
+  },
+  {
+    "longitude": 101.46753246753246,
+    "latitude": -18.785714285714285,
+    "waveHeight": 2.03,
+    "waveDirection": 143,
+    "windSpeed": 11.56,
+    "precipitation": 38.36
+  },
+  {
+    "longitude": 101.07792207792207,
+    "latitude": -18.298701298701296,
+    "waveHeight": 0.86,
+    "waveDirection": 28,
+    "windSpeed": 6.05,
+    "precipitation": 30.84
+  },
+  {
+    "longitude": 100.59090909090908,
+    "latitude": -17.811688311688314,
+    "waveHeight": 4.07,
+    "waveDirection": 279,
+    "windSpeed": 23.69,
+    "precipitation": 43.71
+  },
+  {
+    "longitude": 100.59090909090908,
+    "latitude": -17.811688311688314,
+    "waveHeight": 0.33,
+    "waveDirection": 334,
+    "windSpeed": 26.1,
+    "precipitation": 9.49
+  },
+  {
+    "longitude": 100.16233766233765,
+    "latitude": -17.324675324675326,
+    "waveHeight": 1.54,
+    "waveDirection": 228,
+    "windSpeed": 17.71,
+    "precipitation": 1.81
+  },
+  {
+    "longitude": 100.16233766233765,
+    "latitude": -17.227272727272727,
+    "waveHeight": 0.41,
+    "waveDirection": 105,
+    "windSpeed": 15.55,
+    "precipitation": 28.09
+  },
+  {
+    "longitude": 99.77272727272727,
+    "latitude": -16.545454545454547,
+    "waveHeight": 4.12,
+    "waveDirection": 55,
+    "windSpeed": 3.29,
+    "precipitation": 7.05
+  },
+  {
+    "longitude": 99.16883116883116,
+    "latitude": -15.70779220779221,
+    "waveHeight": 0.92,
+    "waveDirection": 217,
+    "windSpeed": 26.37,
+    "precipitation": 30.72
+  },
+  {
+    "longitude": 98.38961038961038,
+    "latitude": -15.025974025974023,
+    "waveHeight": 2.33,
+    "waveDirection": 185,
+    "windSpeed": 27.81,
+    "precipitation": 11.47
+  },
+  {
+    "longitude": 97.98051948051949,
+    "latitude": -14.616883116883123,
+    "waveHeight": 1.71,
+    "waveDirection": 139,
+    "windSpeed": 21.19,
+    "precipitation": 42.68
+  },
+  {
+    "longitude": 97.5909090909091,
+    "latitude": -14.227272727272734,
+    "waveHeight": 4.33,
+    "waveDirection": 120,
+    "windSpeed": 5.41,
+    "precipitation": 12.41
+  },
+  {
+    "longitude": 97.5909090909091,
+    "latitude": -14.227272727272734,
+    "waveHeight": 3.93,
+    "waveDirection": 149,
+    "windSpeed": 29.15,
+    "precipitation": 17.36
+  },
+  {
+    "longitude": 97.06493506493507,
+    "latitude": -13.876623376623378,
+    "waveHeight": 0.29,
+    "waveDirection": 135,
+    "windSpeed": 5.81,
+    "precipitation": 49.86
+  },
+  {
+    "longitude": 96.28571428571428,
+    "latitude": -13.27272727272728,
+    "waveHeight": 2.97,
+    "waveDirection": 168,
+    "windSpeed": 1.4,
+    "precipitation": 17.88
+  },
+  {
+    "longitude": 95.3116883116883,
+    "latitude": -12.103896103896112,
+    "waveHeight": 0.93,
+    "waveDirection": 75,
+    "windSpeed": 16.55,
+    "precipitation": 43.99
+  },
+  {
+    "longitude": 94.62987012987013,
+    "latitude": -11.422077922077932,
+    "waveHeight": 2.18,
+    "waveDirection": 326,
+    "windSpeed": 8.27,
+    "precipitation": 12.34
+  },
+  {
+    "longitude": 94.62987012987013,
+    "latitude": -11.324675324675333,
+    "waveHeight": 3.32,
+    "waveDirection": 314,
+    "windSpeed": 26.95,
+    "precipitation": 33.9
+  },
+  {
+    "longitude": 94.24025974025975,
+    "latitude": -10.155844155844164,
+    "waveHeight": 1.75,
+    "waveDirection": 156,
+    "windSpeed": 12.05,
+    "precipitation": 2.08
+  },
+  {
+    "longitude": 94.02597402597404,
+    "latitude": -9.571428571428577,
+    "waveHeight": 2.32,
+    "waveDirection": 284,
+    "windSpeed": 25.59,
+    "precipitation": 14.45
+  },
+  {
+    "longitude": 93.92857142857144,
+    "latitude": -9.474025974025984,
+    "waveHeight": 1.27,
+    "waveDirection": 64,
+    "windSpeed": 23.73,
+    "precipitation": 42.95
+  },
+  {
+    "longitude": 93.92857142857144,
+    "latitude": -9.474025974025984,
+    "waveHeight": 0,
+    "waveDirection": 287,
+    "windSpeed": 11.21,
+    "precipitation": 10.95
+  },
+  {
+    "longitude": 92.75974025974027,
+    "latitude": -7.623376623376629,
+    "waveHeight": 1.75,
+    "waveDirection": 280,
+    "windSpeed": 1.6,
+    "precipitation": 42.66
+  },
+  {
+    "longitude": 92.66233766233768,
+    "latitude": -7.525974025974037,
+    "waveHeight": 0.97,
+    "waveDirection": 129,
+    "windSpeed": 5.15,
+    "precipitation": 48.1
+  },
+  {
+    "longitude": 91.98051948051949,
+    "latitude": -7.155844155844157,
+    "waveHeight": 0.62,
+    "waveDirection": 240,
+    "windSpeed": 4.04,
+    "precipitation": 18.51
+  },
+  {
+    "longitude": 91.8831168831169,
+    "latitude": -7.058441558441565,
+    "waveHeight": 1.15,
+    "waveDirection": 34,
+    "windSpeed": 8.14,
+    "precipitation": 21.62
+  },
+  {
+    "longitude": 91.8831168831169,
+    "latitude": -7.058441558441565,
+    "waveHeight": 0.47,
+    "waveDirection": 322,
+    "windSpeed": 9.41,
+    "precipitation": 11.46
+  },
+  {
+    "longitude": 91.6883116883117,
+    "latitude": -6.668831168831176,
+    "waveHeight": 4.49,
+    "waveDirection": 51,
+    "windSpeed": 21.69,
+    "precipitation": 33.48
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -5.402597402597408,
+    "waveHeight": 1.43,
+    "waveDirection": 200,
+    "windSpeed": 2.45,
+    "precipitation": 0.45
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -5.402597402597408,
+    "waveHeight": 0.37,
+    "waveDirection": 182,
+    "windSpeed": 24.14,
+    "precipitation": 39.53
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -5.305194805194809,
+    "waveHeight": 0.97,
+    "waveDirection": 64,
+    "windSpeed": 29.68,
+    "precipitation": 37.65
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -4.720779220779228,
+    "waveHeight": 0.82,
+    "waveDirection": 247,
+    "windSpeed": 9.51,
+    "precipitation": 10
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -3.7467532467532507,
+    "waveHeight": 3.33,
+    "waveDirection": 119,
+    "windSpeed": 16.27,
+    "precipitation": 45.26
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -3.7467532467532507,
+    "waveHeight": 2.76,
+    "waveDirection": 220,
+    "windSpeed": 13.5,
+    "precipitation": 38.63
+  },
+  {
+    "longitude": 90.90909090909093,
+    "latitude": -3.7467532467532507,
+    "waveHeight": 1.13,
+    "waveDirection": 41,
+    "windSpeed": 27.86,
+    "precipitation": 8.08
+  },
+  {
+    "longitude": 89.93506493506496,
+    "latitude": -2.0909090909090935,
+    "waveHeight": 2.43,
+    "waveDirection": 127,
+    "windSpeed": 6.19,
+    "precipitation": 2.73
+  },
+  {
+    "longitude": 89.93506493506496,
+    "latitude": -2.0909090909090935,
+    "waveHeight": 3.47,
+    "waveDirection": 126,
+    "windSpeed": 15.63,
+    "precipitation": 6.97
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": -1.4090909090909136,
+    "waveHeight": 0.71,
+    "waveDirection": 238,
+    "windSpeed": 6.96,
+    "precipitation": 17.61
+  },
+  {
+    "longitude": 89.25324675324677,
+    "latitude": -1.4090909090909136,
+    "waveHeight": 4.66,
+    "waveDirection": 232,
+    "windSpeed": 21.57,
+    "precipitation": 13.89
+  },
+  {
+    "longitude": 79.31818181818184,
+    "latitude": 1.999999999999993,
+    "waveHeight": 0.95,
+    "waveDirection": 241,
+    "windSpeed": 6.87,
+    "precipitation": 7.61
+  },
+  {
+    "longitude": 82.55194805194807,
+    "latitude": 4.6688311688311614,
+    "waveHeight": 0.96,
+    "waveDirection": 112,
+    "windSpeed": 12.63,
+    "precipitation": 41.69
+  },
+  {
+    "longitude": 83.72077922077924,
+    "latitude": 2.915584415584412,
+    "waveHeight": 0.79,
+    "waveDirection": 313,
+    "windSpeed": 18.4,
+    "precipitation": 14.97
+  },
+  {
+    "longitude": 85.0844155844156,
+    "latitude": 3.0519480519480453,
+    "waveHeight": 4.4,
+    "waveDirection": 134,
+    "windSpeed": 18.54,
+    "precipitation": 34.09
+  },
+  {
+    "longitude": 87.61688311688313,
+    "latitude": 2.857142857142847,
+    "waveHeight": 1.62,
+    "waveDirection": 324,
+    "windSpeed": 26.98,
+    "precipitation": 1.03
+  },
+  {
+    "longitude": 88.00649350649351,
+    "latitude": 0.7142857142857082,
+    "waveHeight": 3.02,
+    "waveDirection": 46,
+    "windSpeed": 18.38,
+    "precipitation": 18.62
+  },
+  {
+    "longitude": 87.61688311688313,
+    "latitude": -0.941558441558449,
+    "waveHeight": 3.16,
+    "waveDirection": 258,
+    "windSpeed": 6.83,
+    "precipitation": 20.68
+  },
+  {
+    "longitude": 88.39610389610391,
+    "latitude": -2.7922077922077975,
+    "waveHeight": 2.08,
+    "waveDirection": 226,
+    "windSpeed": 10.98,
+    "precipitation": 18.32
+  },
+  {
+    "longitude": 83.25324675324677,
+    "latitude": 2.175324675324667,
+    "waveHeight": 0.9,
+    "waveDirection": 188,
+    "windSpeed": 12.36,
+    "precipitation": 1.35
+  },
+  {
+    "longitude": 74.09740259740262,
+    "latitude": 14.83766233766233,
+    "waveHeight": 0.71,
+    "waveDirection": 43,
+    "windSpeed": 8.72,
+    "precipitation": 42.67
+  },
+  {
+    "longitude": 79.46377972676677,
+    "latitude": 6.895935233597562,
+    "waveHeight": 3.78,
+    "waveDirection": 343,
+    "windSpeed": 18.94,
+    "precipitation": 24.96
+  },
+  {
+    "longitude": 79.72309833024123,
+    "latitude": 6.325434305953777,
+    "waveHeight": 4.75,
+    "waveDirection": 189,
+    "windSpeed": 23.08,
+    "precipitation": 29.59
+  },
+  {
+    "longitude": 80.03428065441058,
+    "latitude": 5.889779052116706,
+    "waveHeight": 0.68,
+    "waveDirection": 186,
+    "windSpeed": 5.64,
+    "precipitation": 11.02
+  },
+  {
+    "longitude": 80.55291786135948,
+    "latitude": 5.837915331421817,
+    "waveHeight": 3.42,
+    "waveDirection": 150,
+    "windSpeed": 7.71,
+    "precipitation": 45.07
+  },
+  {
+    "longitude": 81.07155506830837,
+    "latitude": 5.863847191769262,
+    "waveHeight": 4.14,
+    "waveDirection": 105,
+    "windSpeed": 10.61,
+    "precipitation": 36.25
+  },
+  {
+    "longitude": 81.53832855456237,
+    "latitude": 6.0972339348962645,
+    "waveHeight": 0.98,
+    "waveDirection": 269,
+    "windSpeed": 22.96,
+    "precipitation": 40.97
+  },
+  {
+    "longitude": 81.82357901838427,
+    "latitude": 6.408416259065602,
+    "waveHeight": 0.71,
+    "waveDirection": 283,
+    "windSpeed": 24.25,
+    "precipitation": 36.46
+  },
+  {
+    "longitude": 76.18089420460961,
+    "latitude": 11.589754119398378,
+    "waveHeight": 4.52,
+    "waveDirection": 354,
+    "windSpeed": 6.11,
+    "precipitation": 23.8
+  },
+  {
+    "longitude": 79.43729872844955,
+    "latitude": 6.122296888481749,
+    "waveHeight": 0.68,
+    "waveDirection": 349,
+    "windSpeed": 18.46,
+    "precipitation": 1.31
+  },
+  {
+    "longitude": 80.05114392949059,
+    "latitude": 5.177919656110927,
+    "waveHeight": 3.08,
+    "waveDirection": 36,
+    "windSpeed": 1.99,
+    "precipitation": 17.27
+  },
+  {
+    "longitude": 80.2872382375833,
+    "latitude": 5.319576240966548,
+    "waveHeight": 1.32,
+    "waveDirection": 94,
+    "windSpeed": 8.06,
+    "precipitation": 35.79
+  },
+  {
+    "longitude": 80.57055140729454,
+    "latitude": 4.894606486399677,
+    "waveHeight": 0.93,
+    "waveDirection": 223,
+    "windSpeed": 28.72,
+    "precipitation": 7.81
+  },
+  {
+    "longitude": 81.5621475012839,
+    "latitude": 3.997448115647394,
+    "waveHeight": 4.29,
+    "waveDirection": 55,
+    "windSpeed": 20.24,
+    "precipitation": 44.28
+  },
+  {
+    "longitude": 81.75102294775807,
+    "latitude": 3.666916084317606,
+    "waveHeight": 3.55,
+    "waveDirection": 287,
+    "windSpeed": 20.54,
+    "precipitation": 16.94
+  },
+  {
+    "longitude": 82.1287738407064,
+    "latitude": 3.194727468132193,
+    "waveHeight": 0.76,
+    "waveDirection": 61,
+    "windSpeed": 10.28,
+    "precipitation": 28.98
+  },
+  {
+    "longitude": 82.55374359527327,
+    "latitude": 2.6281011287097016,
+    "waveHeight": 1.69,
+    "waveDirection": 4,
+    "windSpeed": 2.52,
+    "precipitation": 2.4
+  },
+  {
+    "longitude": 81.75102294775807,
+    "latitude": 4.752949901544053,
+    "waveHeight": 2.04,
+    "waveDirection": 324,
+    "windSpeed": 27.17,
+    "precipitation": 23.5
+  },
+  {
+    "longitude": 81.0899588850985,
+    "latitude": 5.2723573793480085,
+    "waveHeight": 3.58,
+    "waveDirection": 83,
+    "windSpeed": 3.43,
+    "precipitation": 24.93
+  },
+  {
+    "longitude": 81.42049091642828,
+    "latitude": 4.658512178306971,
+    "waveHeight": 4.32,
+    "waveDirection": 94,
+    "windSpeed": 19.9,
+    "precipitation": 10.45
+  },
+  {
+    "longitude": 82.6009624568918,
+    "latitude": 3.053070883276572,
+    "waveHeight": 4.42,
+    "waveDirection": 242,
+    "windSpeed": 11.55,
+    "precipitation": 7.3
+  },
+  {
+    "longitude": 83.45090196602555,
+    "latitude": 2.2503502357613705,
+    "waveHeight": 0.41,
+    "waveDirection": 320,
+    "windSpeed": 19.04,
+    "precipitation": 33.89
+  },
+  {
+    "longitude": 84.15918489030366,
+    "latitude": 1.3531918650090873,
+    "waveHeight": 1.75,
+    "waveDirection": 2,
+    "windSpeed": 20.22,
+    "precipitation": 26.47
+  },
+  {
+    "longitude": 85.3396564307672,
+    "latitude": 0.4088146326382649,
+    "waveHeight": 1.39,
+    "waveDirection": 82,
+    "windSpeed": 18.66,
+    "precipitation": 3.36
+  },
+  {
+    "longitude": 85.71740732371553,
+    "latitude": -0.15781170678422995,
+    "waveHeight": 4.35,
+    "waveDirection": 315,
+    "windSpeed": 21.44,
+    "precipitation": 37.83
+  },
+  {
+    "longitude": 86.42569024799366,
+    "latitude": -1.149407800773595,
+    "waveHeight": 1.49,
+    "waveDirection": 273,
+    "windSpeed": 22.38,
+    "precipitation": 31.83
+  },
+  {
+    "longitude": 86.7090034177049,
+    "latitude": -2.0465661715258783,
+    "waveHeight": 1.7,
+    "waveDirection": 146,
+    "windSpeed": 4,
+    "precipitation": 37.46
+  },
+  {
+    "longitude": 88.17278812787967,
+    "latitude": -2.660411372566916,
+    "waveHeight": 2.58,
+    "waveDirection": 211,
+    "windSpeed": 19.56,
+    "precipitation": 7.09
+  },
+  {
+    "longitude": 88.55053902082801,
+    "latitude": -3.4631320200821136,
+    "waveHeight": 3.22,
+    "waveDirection": 210,
+    "windSpeed": 2.66,
+    "precipitation": 7.31
+  },
+  {
+    "longitude": 89.30604080672467,
+    "latitude": -4.218633805978774,
+    "waveHeight": 0.08,
+    "waveDirection": 85,
+    "windSpeed": 17.82,
+    "precipitation": 27.61
+  },
+  {
+    "longitude": 89.683791699673,
+    "latitude": -4.794703917724981,
+    "waveHeight": 1.27,
+    "waveDirection": 141,
+    "windSpeed": 6.13,
+    "precipitation": 14.03
+  },
+  {
+    "longitude": 90.40151839627481,
+    "latitude": -5.134679721378474,
+    "waveHeight": 0.08,
+    "waveDirection": 183,
+    "windSpeed": 10.21,
+    "precipitation": 44.54
+  },
+  {
+    "longitude": 89.3627034406669,
+    "latitude": -3.434800703110991,
+    "waveHeight": 0.71,
+    "waveDirection": 140,
+    "windSpeed": 5.87,
+    "precipitation": 39.23
+  },
+  {
+    "longitude": 88.84329596286295,
+    "latitude": -2.254329162647462,
+    "waveHeight": 4.07,
+    "waveDirection": 53,
+    "windSpeed": 12.85,
+    "precipitation": 43.13
+  },
+  {
+    "longitude": 87.94613759211067,
+    "latitude": -0.4127935595243528,
+    "waveHeight": 2.64,
+    "waveDirection": 121,
+    "windSpeed": 3.16,
+    "precipitation": 14.99
+  },
+  {
+    "longitude": 87.56838669916235,
+    "latitude": 0.6260213960835515,
+    "waveHeight": 1.61,
+    "waveDirection": 233,
+    "windSpeed": 17.27,
+    "precipitation": 2.09
+  },
+  {
+    "longitude": 86.62400946679152,
+    "latitude": 1.6648363516914593,
+    "waveHeight": 0.8,
+    "waveDirection": 322,
+    "windSpeed": 20.29,
+    "precipitation": 1.87
+  },
+  {
+    "longitude": 85.72685109603924,
+    "latitude": 2.798089030536449,
+    "waveHeight": 4.33,
+    "waveDirection": 306,
+    "windSpeed": 23.92,
+    "precipitation": 42.85
+  },
+  {
+    "longitude": 85.72685109603924,
+    "latitude": 2.798089030536449,
+    "waveHeight": 4.26,
+    "waveDirection": 335,
+    "windSpeed": 9.68,
+    "precipitation": 7.08
+  },
+  {
+    "longitude": 84.30084147515927,
+    "latitude": 3.8369039861443532,
+    "waveHeight": 1.06,
+    "waveDirection": 81,
+    "windSpeed": 2.72,
+    "precipitation": 49.38
+  },
+  {
+    "longitude": 84.39527919839637,
+    "latitude": 4.592405772041012,
+    "waveHeight": 2.78,
+    "waveDirection": 130,
+    "windSpeed": 25.32,
+    "precipitation": 26.91
+  },
+  {
+    "longitude": 84.58415464487052,
+    "latitude": 5.300688696319131,
+    "waveHeight": 1.47,
+    "waveDirection": 355,
+    "windSpeed": 1.97,
+    "precipitation": 24.91
+  },
+  {
+    "longitude": 84.58415464487052,
+    "latitude": 5.914533897360165,
+    "waveHeight": 0.37,
+    "waveDirection": 15,
+    "windSpeed": 12.59,
+    "precipitation": 19.88
+  },
+  {
+    "longitude": 83.49812082764409,
+    "latitude": 8.46435242476139,
+    "waveHeight": 1.3,
+    "waveDirection": 237,
+    "windSpeed": 11.47,
+    "precipitation": 11.06
+  },
+  {
+    "longitude": 83.49812082764409,
+    "latitude": 8.558790147998472,
+    "waveHeight": 3.57,
+    "waveDirection": 211,
+    "windSpeed": 9.3,
+    "precipitation": 37.61
+  },
+  {
+    "longitude": 83.63977741249971,
+    "latitude": 9.125416487420967,
+    "waveHeight": 4.89,
+    "waveDirection": 75,
+    "windSpeed": 19.45,
+    "precipitation": 32.53
+  },
+  {
+    "longitude": 87.46450520360155,
+    "latitude": 4.120217155855602,
+    "waveHeight": 2.85,
+    "waveDirection": 303,
+    "windSpeed": 15.43,
+    "precipitation": 14.78
+  },
+  {
+    "longitude": 87.93669381978695,
+    "latitude": 4.403530325566848,
+    "waveHeight": 3.91,
+    "waveDirection": 214,
+    "windSpeed": 10.12,
+    "precipitation": 38.37
+  },
+  {
+    "longitude": 90.43929348556964,
+    "latitude": 3.6008096780516468,
+    "waveHeight": 1.3,
+    "waveDirection": 23,
+    "windSpeed": 5.2,
+    "precipitation": 9.12
+  },
+  {
+    "longitude": 90.91148210175504,
+    "latitude": 2.0898061062583295,
+    "waveHeight": 3.42,
+    "waveDirection": 287,
+    "windSpeed": 14.82,
+    "precipitation": 32.26
+  },
+  {
+    "longitude": 90.53373120880673,
+    "latitude": 0.8621157041762579,
+    "waveHeight": 4.98,
+    "waveDirection": 83,
+    "windSpeed": 20.63,
+    "precipitation": 30.76
+  },
+  {
+    "longitude": 90.53373120880673,
+    "latitude": -1.1871828900684314,
+    "waveHeight": 2.76,
+    "waveDirection": 168,
+    "windSpeed": 5.75,
+    "precipitation": 14.5
+  },
+  {
+    "longitude": 90.6281689320438,
+    "latitude": -1.3760583365425951,
+    "waveHeight": 3.5,
+    "waveDirection": 330,
+    "windSpeed": 9.73,
+    "precipitation": 39.42
+  },
+  {
+    "longitude": 90.89259455710763,
+    "latitude": -2.6792989172143287,
+    "waveHeight": 4.69,
+    "waveDirection": 32,
+    "windSpeed": 23.93,
+    "precipitation": 17.81
+  },
+  {
+    "longitude": 90.89259455710763,
+    "latitude": -2.6604113725669123,
+    "waveHeight": 0.79,
+    "waveDirection": 4,
+    "windSpeed": 22.52,
+    "precipitation": 25.91
+  },
+  {
+    "longitude": 89.00384009236599,
+    "latitude": -1.9521284482887964,
+    "waveHeight": 0.01,
+    "waveDirection": 119,
+    "windSpeed": 8.94,
+    "precipitation": 44.92
+  },
+  {
+    "longitude": 89.28715326207723,
+    "latitude": -2.2826604796185848,
+    "waveHeight": 1.67,
+    "waveDirection": 14,
+    "windSpeed": 7.81,
+    "precipitation": 42.63
+  },
+  {
+    "longitude": 89.66490415502557,
+    "latitude": -2.4715359260927485,
+    "waveHeight": 3.56,
+    "waveDirection": 345,
+    "windSpeed": 6.48,
+    "precipitation": 26.49
+  },
+  {
+    "longitude": 90.15598031585839,
+    "latitude": -3.1892626226945744,
+    "waveHeight": 0.97,
+    "waveDirection": 112,
+    "windSpeed": 14.36,
+    "precipitation": 6.1
+  },
+  {
+    "longitude": 90.16542408818209,
+    "latitude": -3.1987063950182844,
+    "waveHeight": 0.65,
+    "waveDirection": 87,
+    "windSpeed": 23.43,
+    "precipitation": 0.73
+  },
+  {
+    "longitude": 86.3879151586988,
+    "latitude": 1.2870854587431282,
+    "waveHeight": 1.37,
+    "waveDirection": 330,
+    "windSpeed": 9.43,
+    "precipitation": 25.89
+  },
+  {
+    "longitude": 85.5851945111836,
+    "latitude": 1.9953683830212476,
+    "waveHeight": 1.06,
+    "waveDirection": 343,
+    "windSpeed": 23.42,
+    "precipitation": 12.54
+  },
+  {
+    "longitude": 84.87691158690548,
+    "latitude": 2.2786815527324933,
+    "waveHeight": 2.21,
+    "waveDirection": 41,
+    "windSpeed": 26.25,
+    "precipitation": 36.32
+  },
+  {
+    "longitude": 85.53797564956506,
+    "latitude": 1.6648363516914593,
+    "waveHeight": 3.46,
+    "waveDirection": 229,
+    "windSpeed": 29.31,
+    "precipitation": 33.38
+  },
+  {
+    "longitude": 84.5463795555757,
+    "latitude": 1.8064929365470839,
+    "waveHeight": 0.83,
+    "waveDirection": 195,
+    "windSpeed": 12.96,
+    "precipitation": 44.57
+  },
+  {
+    "longitude": 84.73525500204985,
+    "latitude": 2.325900414351036,
+    "waveHeight": 0.66,
+    "waveDirection": 185,
+    "windSpeed": 13.68,
+    "precipitation": 38.79
+  },
+  {
+    "longitude": 85.72685109603923,
+    "latitude": 3.8369039861443532,
+    "waveHeight": 2.21,
+    "waveDirection": 259,
+    "windSpeed": 8.95,
+    "precipitation": 22.47
+  },
+  {
+    "longitude": 85.63241337280215,
+    "latitude": 4.875718941752261,
+    "waveHeight": 3.76,
+    "waveDirection": 36,
+    "windSpeed": 7.22,
+    "precipitation": 34.34
+  },
+  {
+    "longitude": 84.73525500204985,
+    "latitude": 4.970156664989343,
+    "waveHeight": 2.28,
+    "waveDirection": 327,
+    "windSpeed": 24.47,
+    "precipitation": 37.84
+  },
+  {
+    "longitude": 86.01016426575046,
+    "latitude": 3.2702776467218584,
+    "waveHeight": 1.35,
+    "waveDirection": 219,
+    "windSpeed": 24.74,
+    "precipitation": 42.47
+  },
+  {
+    "longitude": 86.43513402031735,
+    "latitude": 3.695247401288732,
+    "waveHeight": 4.88,
+    "waveDirection": 219,
+    "windSpeed": 25.62,
+    "precipitation": 6.05
+  },
+  {
+    "longitude": 89.07939027095566,
+    "latitude": 2.892526753773531,
+    "waveHeight": 2.05,
+    "waveDirection": 112,
+    "windSpeed": 21.79,
+    "precipitation": 23.51
+  },
+  {
+    "longitude": 88.47498884223833,
+    "latitude": 3.506371954814565,
+    "waveHeight": 3.59,
+    "waveDirection": 88,
+    "windSpeed": 1.98,
+    "precipitation": 44.51
+  },
+  {
+    "longitude": 88.14445681090854,
+    "latitude": 4.356311463948309,
+    "waveHeight": 0.21,
+    "waveDirection": 245,
+    "windSpeed": 23.56,
+    "precipitation": 26.81
+  },
+  {
+    "longitude": 90.59983761507269,
+    "latitude": 5.1118132498449675,
+    "waveHeight": 2.59,
+    "waveDirection": 260,
+    "windSpeed": 2.8,
+    "precipitation": 31.08
+  },
+  {
+    "longitude": 88.80552087356811,
+    "latitude": 7.095005437823698,
+    "waveHeight": 1.89,
+    "waveDirection": 110,
+    "windSpeed": 7.38,
+    "precipitation": 3.01
+  },
+  {
+    "longitude": 88.94717745842374,
+    "latitude": 8.322695839905766,
+    "waveHeight": 3.68,
+    "waveDirection": 118,
+    "windSpeed": 17.69,
+    "precipitation": 45.85
+  },
+  {
+    "longitude": 84.17807243495108,
+    "latitude": 7.236662022679319,
+    "waveHeight": 4.68,
+    "waveDirection": 213,
+    "windSpeed": 9.93,
+    "precipitation": 18.85
+  },
+  {
+    "longitude": 84.74469877437357,
+    "latitude": 6.90612999134953,
+    "waveHeight": 4.36,
+    "waveDirection": 63,
+    "windSpeed": 15.21,
+    "precipitation": 1.68
+  },
+  {
+    "longitude": 83.23369520258026,
+    "latitude": 6.008971620597251,
+    "waveHeight": 0.86,
+    "waveDirection": 86,
+    "windSpeed": 6.92,
+    "precipitation": 32.87
+  },
+  {
+    "longitude": 83.42257064905442,
+    "latitude": 4.9229378033708,
+    "waveHeight": 0.66,
+    "waveDirection": 115,
+    "windSpeed": 3.38,
+    "precipitation": 29.26
+  },
+  {
+    "longitude": 83.2809140641988,
+    "latitude": 5.725658450886002,
+    "waveHeight": 2.79,
+    "waveDirection": 79,
+    "windSpeed": 5.59,
+    "precipitation": 13.41
+  },
+  {
+    "longitude": 83.2809140641988,
+    "latitude": 7.425537469153486,
+    "waveHeight": 1.61,
+    "waveDirection": 73,
+    "windSpeed": 5.5,
+    "precipitation": 31.19
+  },
+  {
+    "longitude": 82.61985000153922,
+    "latitude": 8.369914701524308,
+    "waveHeight": 0.79,
+    "waveDirection": 358,
+    "windSpeed": 18.56,
+    "precipitation": 22.83
+  },
+  {
+    "longitude": 88.38055111900124,
+    "latitude": 1.9953683830212476,
+    "waveHeight": 4.61,
+    "waveDirection": 121,
+    "windSpeed": 7.51,
+    "precipitation": 18.82
+  },
+  {
+    "longitude": 89.08883404327936,
+    "latitude": 0.7204591193206369,
+    "waveHeight": 0.76,
+    "waveDirection": 22,
+    "windSpeed": 19.03,
+    "precipitation": 16
+  },
+  {
+    "longitude": 90.7414941999283,
+    "latitude": -0.8377633140912231,
+    "waveHeight": 4.12,
+    "waveDirection": 86,
+    "windSpeed": 11.84,
+    "precipitation": 13.02
+  },
+  {
+    "longitude": 106.87747035573123,
+    "latitude": -17.87485242030697,
+    "waveHeight": 0.97,
+    "waveDirection": 336,
+    "windSpeed": 21.29,
+    "precipitation": 29.04
+  },
+  {
+    "longitude": 105.4401724757456,
+    "latitude": -19.51747856886197,
+    "waveHeight": 3.15,
+    "waveDirection": 270,
+    "windSpeed": 8.19,
+    "precipitation": 13.32
+  },
+  {
+    "longitude": 108.52009650428623,
+    "latitude": -22.084081925979163,
+    "waveHeight": 1.56,
+    "waveDirection": 107,
+    "windSpeed": 23.61,
+    "precipitation": 17.49
+  },
+  {
+    "longitude": 110.88137159283404,
+    "latitude": -24.650685283096355,
+    "waveHeight": 3.45,
+    "waveDirection": 5,
+    "windSpeed": 20.83,
+    "precipitation": 4.3
+  },
+  {
+    "longitude": 111.80534880139624,
+    "latitude": -25.779990760227918,
+    "waveHeight": 0.36,
+    "waveDirection": 197,
+    "windSpeed": 26.04,
+    "precipitation": 23.94
+  },
+  {
+    "longitude": 113.44797494995125,
+    "latitude": -28.14126584877573,
+    "waveHeight": 4.32,
+    "waveDirection": 244,
+    "windSpeed": 22.8,
+    "precipitation": 23.67
+  },
+  {
+    "longitude": 114.37195215851342,
+    "latitude": -29.270571325907294,
+    "waveHeight": 1.85,
+    "waveDirection": 298,
+    "windSpeed": 4.78,
+    "precipitation": 8.71
+  },
+  {
+    "longitude": 106.77480622144654,
+    "latitude": -20.646784045993535,
+    "waveHeight": 3.47,
+    "waveDirection": 288,
+    "windSpeed": 21.72,
+    "precipitation": 33.95
+  },
+  {
+    "longitude": 105.85082901288435,
+    "latitude": -19.414814434577284,
+    "waveHeight": 0.03,
+    "waveDirection": 322,
+    "windSpeed": 22.6,
+    "precipitation": 7
+  },
+  {
+    "longitude": 102.87356911862841,
+    "latitude": -15.924233868897907,
+    "waveHeight": 3.34,
+    "waveDirection": 192,
+    "windSpeed": 14.99,
+    "precipitation": 42.93
+  },
+  {
+    "longitude": 101.64159950721216,
+    "latitude": -14.178943586058217,
+    "waveHeight": 0.31,
+    "waveDirection": 74,
+    "windSpeed": 18.2,
+    "precipitation": 46.15
+  },
+  {
+    "longitude": 99.6909809558031,
+    "latitude": -10.996355423232899,
+    "waveHeight": 1.1,
+    "waveDirection": 45,
+    "windSpeed": 19.45,
+    "precipitation": 25.07
+  },
+  {
+    "longitude": 97.32970586725527,
+    "latitude": -8.943072737539147,
+    "waveHeight": 3.98,
+    "waveDirection": 337,
+    "windSpeed": 24.11,
+    "precipitation": 29.35
+  },
+  {
+    "longitude": 97.02171346440122,
+    "latitude": -8.019095528976955,
+    "waveHeight": 1.17,
+    "waveDirection": 23,
+    "windSpeed": 26.55,
+    "precipitation": 32.62
+  },
+  {
+    "longitude": 96.09773625583902,
+    "latitude": -4.836507366151643,
+    "waveHeight": 4.7,
+    "waveDirection": 177,
+    "windSpeed": 25,
+    "precipitation": 2.67
+  },
+  {
+    "longitude": 95.68707971870028,
+    "latitude": -2.4752322776038227,
+    "waveHeight": 1.76,
+    "waveDirection": 303,
+    "windSpeed": 19.7,
+    "precipitation": 5.49
+  },
+  {
+    "longitude": 95.78974385298497,
+    "latitude": -4.220522560443513,
+    "waveHeight": 0.15,
+    "waveDirection": 206,
+    "windSpeed": 15.67,
+    "precipitation": 18.18
+  },
+  {
+    "longitude": 93.32580463015246,
+    "latitude": -2.167239874749761,
+    "waveHeight": 4.92,
+    "waveDirection": 155,
+    "windSpeed": 12.79,
+    "precipitation": 48.36
+  },
+  {
+    "longitude": 93.32580463015246,
+    "latitude": -1.345926800472263,
+    "waveHeight": 4.13,
+    "waveDirection": 85,
+    "windSpeed": 17.33,
+    "precipitation": 11.51
+  },
+  {
+    "longitude": 93.32580463015246,
+    "latitude": 1.4260048252143065,
+    "waveHeight": 4.35,
+    "waveDirection": 324,
+    "windSpeed": 12.19,
+    "precipitation": 31.91
+  },
+  {
+    "longitude": 88.70591858734151,
+    "latitude": 3.0686309737693094,
+    "waveHeight": 4.33,
+    "waveDirection": 75,
+    "windSpeed": 7.25,
+    "precipitation": 3.23
+  },
+  {
+    "longitude": 98.56167547867153,
+    "latitude": -11.30434782608696,
+    "waveHeight": 3.58,
+    "waveDirection": 314,
+    "windSpeed": 14.83,
+    "precipitation": 15.39
+  },
+  {
+    "longitude": 103.48955392433653,
+    "latitude": -17.87485242030697,
+    "waveHeight": 3.81,
+    "waveDirection": 68,
+    "windSpeed": 14.53,
+    "precipitation": 4.38
+  },
+  {
+    "longitude": 104.31086699861403,
+    "latitude": -16.642882808890718,
+    "waveHeight": 1.02,
+    "waveDirection": 85,
+    "windSpeed": 17.19,
+    "precipitation": 33.9
+  }
+]
