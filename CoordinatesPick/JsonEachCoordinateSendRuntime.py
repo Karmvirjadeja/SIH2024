@@ -1,6 +1,12 @@
 import json
 import os
 
+
+# It it traverse through json and provides each points s
+
+
+
+
 def process_coordinates(data):
     """
     Process the latitude and longitude points.

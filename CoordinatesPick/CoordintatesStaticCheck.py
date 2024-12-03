@@ -2,6 +2,9 @@ import json
 import os
 import requests
 
+
+# Input is Latitude and Longitude json
+#Output is a Descriptor json corresponding input files 
 def convert_to_dms(degrees):
     is_negative = degrees < 0
     degrees = abs(degrees)

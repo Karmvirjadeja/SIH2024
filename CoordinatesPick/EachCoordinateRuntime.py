@@ -1,5 +1,6 @@
 import math
 
+#  It takes two coordinate and outputs num_points coordinates between them 
 def generate_intermediate_coordinates(start_lat, start_lon, end_lat, end_lon, num_points=5):
     """
     Generate intermediate latitude and longitude points between two coordinates.
