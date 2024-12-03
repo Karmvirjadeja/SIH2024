@@ -1,0 +1,163 @@
+[
+    {
+        "Latitude": 13.083324030787121,
+        "Longitude": 80.29357910156251,
+        "Latitude_DMS": "13\u00b04'60\"N",
+        "Longitude_DMS": "80\u00b017'37\"N",
+        "Landmark": "unnamed road, Zone 5 Royapuram, Chennai - 600001, Tamil Nadu, India"
+    },
+    {
+        "Latitude": 11.918079872696568,
+        "Longitude": 81.65588378906251,
+        "Latitude_DMS": "11\u00b055'5\"N",
+        "Longitude_DMS": "81\u00b039'21\"N",
+        "Landmark": "Bay of Bengal"
+    },
+    {
+        "Latitude": 10.540470979598547,
+        "Longitude": 82.7490234375,
+        "Latitude_DMS": "10\u00b032'26\"N",
+        "Longitude_DMS": "82\u00b044'56\"N",
+        "Landmark": "Bay of Bengal"
+    },
+    {
+        "Latitude": 8.252264571092859,
+        "Longitude": 84.55078125,
+        "Latitude_DMS": "8\u00b015'8\"N",
+        "Longitude_DMS": "84\u00b033'3\"N",
+        "Landmark": "Bay of Bengal"
+    },
+    {
+        "Latitude": 4.58463836477998,
+        "Longitude": 86.396484375,
+        "Latitude_DMS": "4\u00b035'5\"N",
+        "Longitude_DMS": "86\u00b023'47\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": 1.7843031954362896,
+        "Longitude": 88.494873046875,
+        "Latitude_DMS": "1\u00b047'3\"N",
+        "Longitude_DMS": "88\u00b029'42\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -2.0018508912102275,
+        "Longitude": 90.74707031250001,
+        "Latitude_DMS": "2\u00b00'7\"S",
+        "Longitude_DMS": "90\u00b044'49\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -6.611408253528709,
+        "Longitude": 92.68066406250001,
+        "Latitude_DMS": "6\u00b036'41\"S",
+        "Longitude_DMS": "92\u00b040'50\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -11.399264088311147,
+        "Longitude": 94.57031250000001,
+        "Latitude_DMS": "11\u00b023'57\"S",
+        "Longitude_DMS": "94\u00b034'13\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -18.136716583015694,
+        "Longitude": 97.64648437500001,
+        "Latitude_DMS": "18\u00b08'12\"S",
+        "Longitude_DMS": "97\u00b038'47\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -22.720457009025893,
+        "Longitude": 101.86523437500001,
+        "Latitude_DMS": "22\u00b043'14\"S",
+        "Longitude_DMS": "101\u00b051'55\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -13.459079575009808,
+        "Longitude": 95.537109375,
+        "Latitude_DMS": "13\u00b027'33\"S",
+        "Longitude_DMS": "95\u00b032'14\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -14.907630165799663,
+        "Longitude": 96.41601562500001,
+        "Latitude_DMS": "14\u00b054'27\"S",
+        "Longitude_DMS": "96\u00b024'58\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -19.77187296079673,
+        "Longitude": 99.93164062500001,
+        "Latitude_DMS": "19\u00b046'19\"S",
+        "Longitude_DMS": "99\u00b055'54\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -25.209911213827688,
+        "Longitude": 104.677734375,
+        "Latitude_DMS": "25\u00b012'36\"S",
+        "Longitude_DMS": "104\u00b040'40\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -27.49365405370312,
+        "Longitude": 106.96289062500001,
+        "Latitude_DMS": "27\u00b029'37\"S",
+        "Longitude_DMS": "106\u00b057'46\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -28.656851034203406,
+        "Longitude": 108.369140625,
+        "Latitude_DMS": "28\u00b039'25\"S",
+        "Longitude_DMS": "108\u00b022'9\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -29.27202470909843,
+        "Longitude": 109.68750000000001,
+        "Latitude_DMS": "29\u00b016'19\"S",
+        "Longitude_DMS": "109\u00b041'15\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -31.62064369245057,
+        "Longitude": 112.58789062500001,
+        "Latitude_DMS": "31\u00b037'14\"S",
+        "Longitude_DMS": "112\u00b035'16\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -31.92943755974919,
+        "Longitude": 113.89526367187501,
+        "Latitude_DMS": "31\u00b055'46\"S",
+        "Longitude_DMS": "113\u00b053'43\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -32.06919256174994,
+        "Longitude": 114.796142578125,
+        "Latitude_DMS": "32\u00b04'9\"S",
+        "Longitude_DMS": "114\u00b047'46\"N",
+        "Landmark": "Indian Ocean"
+    },
+    {
+        "Latitude": -32.013316123593775,
+        "Longitude": 115.36743164062501,
+        "Latitude_DMS": "32\u00b00'48\"S",
+        "Longitude_DMS": "115\u00b022'3\"N",
+        "Landmark": "Australia"
+    },
+    {
+        "Latitude": -31.946481595259232,
+        "Longitude": 115.70526123046876,
+        "Latitude_DMS": "31\u00b056'47\"S",
+        "Longitude_DMS": "115\u00b042'19\"N",
+        "Landmark": "Perth, City of Perth, Australia"
+    }
+]
