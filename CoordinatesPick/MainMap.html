@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leaflet Map with Markers</title>
+    <title>Leaflet Map with Markers and Compass</title>
     <!-- Include Leaflet CSS -->
     <link
       rel="stylesheet"
@@ -14,11 +14,37 @@
         width: 100%;
         height: 500px;
       }
+      #compass {
+        position: absolute;
+        top: 700px; /* Move the compass below the map */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: #000;
+        border: 2px solid #000;
+        transition: transform 0.1s ease-in-out;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
     <h1>Map with Coordinates and Descriptors</h1>
     <div id="map"></div>
+
+    <div id="compass">N</div>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
@@ -50,16 +76,58 @@
             const marker = L.marker([latitude, longitude]).addTo(map);
 
             // Add a popup with the descriptor information
-            marker.bindPopup(`
-                        <strong>Latitude:</strong> ${latitude_dms}<br>
-                        <strong>Longitude:</strong> ${longitude_dms}<br>
-                        <strong>Landmark:</strong> ${landmark}
-                    `);
+            marker.bindPopup(` 
+              <strong>Latitude:</strong> ${latitude_dms}<br>
+              <strong>Longitude:</strong> ${longitude_dms}<br>
+              <strong>Landmark:</strong> ${landmark}
+            `);
           });
         })
         .catch((error) => {
           console.error("Error loading descriptor.json:", error);
         });
+
+      // Function to calculate the bearing (angle) between two lat/lng points
+      function calculateBearing(lat1, lng1, lat2, lng2) {
+        const dLat = (lat2 - lat1) * (Math.PI / 180);
+        const dLon = (lng2 - lng1) * (Math.PI / 180);
+
+        const y = Math.sin(dLon) * Math.cos(lat2 * (Math.PI / 180));
+        const x =
+          Math.cos(lat1 * (Math.PI / 180)) * Math.sin(lat2 * (Math.PI / 180)) -
+          Math.sin(lat1 * (Math.PI / 180)) *
+            Math.cos(lat2 * (Math.PI / 180)) *
+            Math.cos(dLon);
+
+        const bearing = Math.atan2(y, x) * (180 / Math.PI);
+        return (bearing + 360) % 360; // Normalize to [0, 360]
+      }
+
+      // Get the center of the map
+      const mapCenter = map.getCenter();
+
+      // Handle cursor movement and update compass direction
+      map.on("mousemove", (e) => {
+        const cursorLat = e.latlng.lat;
+        const cursorLng = e.latlng.lng;
+
+        // Calculate the bearing (angle) from the map's center to the cursor
+        const bearing = calculateBearing(
+          mapCenter.lat,
+          mapCenter.lng,
+          cursorLat,
+          cursorLng
+        );
+
+        // Rotate the compass to match the bearing
+        const compass = document.getElementById("compass");
+        compass.style.transform = `rotate(${bearing}deg)`;
+
+        // Update the compass text with the direction
+        const directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
+        const directionIndex = Math.floor((bearing + 22.5) / 45) % 8;
+        compass.textContent = directions[directionIndex];
+      });
     </script>
   </body>
 </html>
