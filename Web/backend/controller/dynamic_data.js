@@ -122,13 +122,15 @@ export const getWeatherData = asyncHandler(async (req, res) => {
     throw new ApiError(400, "Latitude and Longitude are required");
   }
 
-  // Params for general weather data (Open Meteo API) including precipitation
+  // Params for general weather data (Open Meteo API) including precipitation and snow rate
   const weatherParams = {
     latitude,
     longitude,
     hourly: [
       "temperature_2m",
       "precipitation_probability",
+      "precipitation",
+      "snowfall",
       "wind_speed_10m",
       "wind_speed_80m",
       "wind_speed_120m",
@@ -186,18 +188,13 @@ export const getWeatherData = asyncHandler(async (req, res) => {
           .variables(1)
           .valuesArray()
           .slice(-1)[0],
-        windSpeed10m: hourlyWeather.variables(2).valuesArray().slice(-1)[0],
-        windSpeed80m: hourlyWeather.variables(3).valuesArray().slice(-1)[0],
-        windSpeed120m: hourlyWeather.variables(4).valuesArray().slice(-1)[0],
-        windSpeed180m: hourlyWeather.variables(5).valuesArray().slice(-1)[0],
-        windDirection10m: hourlyWeather.variables(6).valuesArray().slice(-1)[0],
-        windDirection80m: hourlyWeather.variables(7).valuesArray().slice(-1)[0],
-        windDirection120m: hourlyWeather
-          .variables(8)
-          .valuesArray()
-          .slice(-1)[0],
+        precipitation: hourlyWeather.variables(2).valuesArray().slice(-1)[0], // mm/hr
+        snowfall: hourlyWeather.variables(3).valuesArray().slice(-1)[0], // mm/hr
+
+        windSpeed180m: hourlyWeather.variables(7).valuesArray().slice(-1)[0],
+
         windDirection180m: hourlyWeather
-          .variables(9)
+          .variables(11)
           .valuesArray()
           .slice(-1)[0],
       },
