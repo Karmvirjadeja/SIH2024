@@ -19,133 +19,85 @@
     </style>
   </head>
   <body>
-    <h3>Click on the map to add markers, and then download the coordinates</h3>
+    <h3>Map Visualization of JSON Coordinates</h3>
     <div id="map"></div>
-    <button onclick="downloadCoordinates()">Download Coordinates</button>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-      var map = L.map("map").setView([5.0, 90.0], 3); // Default center on the Indian Ocean
+      // Initialize the map and set the initial view
+      var map = L.map("map").setView([13.0827, 80.2707], 4); // Default to Chennai view
 
-      // Tile layer for the map
+      // Add tile layer
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map);
 
-      var coordinates = [];
+      // Function to fetch the list of JSON files from the server
+      async function fetchJsonFiles() {
+        try {
+          const response = await fetch("http://localhost:3000/get-json-files");
+          if (!response.ok) {
+            throw new Error("Failed to fetch JSON files");
+          }
+          return await response.json();
+        } catch (error) {
+          console.error(error);
+          return [];
+        }
+      }
 
-      // Add a click event to add markers and save coordinates
-      map.on("click", function (e) {
-        var lat = e.latlng.lat;
-        var lon = e.latlng.lng;
-        coordinates.push({ Latitude: lat, Longitude: lon });
+      // Function to fetch and display markers from each JSON file
+      async function loadMarkers() {
+        const jsonFiles = await fetchJsonFiles();
 
-        // Add marker to the map
-        L.marker([lat, lon])
-          .addTo(map)
-          .bindPopup("Lat: " + lat + ", Lon: " + lon)
-          .openPopup();
-      });
-
-      // Function to download coordinates as a JSON file
-      function downloadCoordinates() {
-        if (coordinates.length === 0) {
-          alert("No coordinates to download.");
+        if (jsonFiles.length === 0) {
+          console.log("No JSON files found.");
           return;
         }
 
-        // Create a Blob from the coordinates array
-        const blob = new Blob([JSON.stringify(coordinates, null, 2)], {
-          type: "application/json",
-        });
+        let latlngs = [];
 
-        // Create a link to download the file
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = "coordinates.json";
-        link.click();
+        for (const file of jsonFiles) {
+          try {
+            const response = await fetch(
+              `http://localhost:3000/chennai-perth/${file}`
+            );
+            if (response.ok) {
+              const data = await response.json();
+
+              // Log the data to inspect its structure
+              console.log(`Data from ${file}:`, data);
+
+              data.forEach((point) => {
+                if (point.Latitude && point.Longitude) {
+                  const marker = L.marker([point.Latitude, point.Longitude])
+                    .addTo(map)
+                    .bindPopup(
+                      `Lat: ${point.Latitude}, Lon: ${point.Longitude}`
+                    );
+
+                  // Track marker locations for map bounds adjustment
+                  latlngs.push([point.Latitude, point.Longitude]);
+                }
+              });
+            } else {
+              console.error(`Failed to load ${file}: ${response.statusText}`);
+            }
+          } catch (error) {
+            console.error(`Error loading ${file}:`, error);
+          }
+        }
+
+        // Adjust map bounds to fit all markers
+        if (latlngs.length > 0) {
+          var bounds = L.latLngBounds(latlngs);
+          map.fitBounds(bounds);
+        }
       }
 
-      // Predefined list of important ports in the Indian Ocean
-      const importantPorts = [
-        // Existing ports
-        { name: "Port of Colombo", latitude: 6.9271, longitude: 79.8612 },
-        { name: "Port of Mombasa", latitude: -4.055, longitude: 39.663 },
-        { name: "Port of Chittagong", latitude: 22.307, longitude: 91.821 },
-        { name: "Port of Durban", latitude: -29.8579, longitude: 31.0292 },
-        { name: "Port of Mumbai", latitude: 18.9607, longitude: 72.9492 },
-        { name: "Port of Fremantle", latitude: -32.056, longitude: 115.743 },
-        { name: "Port of Singapore", latitude: 1.3521, longitude: 103.8198 },
-        { name: "Port of Muscat", latitude: 23.6143, longitude: 58.5453 },
-        // Additional ports
-        {
-          name: "Jawaharlal Nehru Port",
-          latitude: 18.9827,
-          longitude: 72.8989,
-        },
-        { name: "Chennai Port", latitude: 13.1406, longitude: 80.2965 },
-        { name: "Mundra Port", latitude: 22.7959, longitude: 69.3651 },
-        { name: "Visakhapatnam Port", latitude: 17.6868, longitude: 83.2185 },
-        { name: "Cochin Port", latitude: 9.9756, longitude: 76.2875 },
-        { name: "Kolkata Port", latitude: 22.5697, longitude: 88.3404 },
-        { name: "Tuticorin Port", latitude: 8.7644, longitude: 78.1341 },
-        { name: "Paradip Port", latitude: 20.2983, longitude: 86.6041 },
-        { name: "Kandla Port", latitude: 22.3078, longitude: 70.1855 },
-        { name: "Mangalore Port", latitude: 12.8694, longitude: 74.8462 },
-        { name: "Mormugao Port", latitude: 15.48, longitude: 73.814 },
-        { name: "Port Blair", latitude: 11.6234, longitude: 92.7265 },
-        { name: "Krishnapatnam Port", latitude: 14.068, longitude: 80.1876 },
-        { name: "Sohar Port", latitude: 24.3667, longitude: 56.6417 },
-        { name: "Salalah Port", latitude: 17.017, longitude: 54.095 },
-        { name: "Djibouti Port", latitude: 11.582, longitude: 43.1456 },
-        { name: "Port of Victoria", latitude: -4.6167, longitude: 55.45 },
-        { name: "Hambantota Port", latitude: -6.1244, longitude: 81.1183 },
-        { name: "Tanjung Priok Port", latitude: -6.1455, longitude: 106.8828 },
-        { name: "Port of Maputo", latitude: -25.9667, longitude: 32.5833 },
-        {
-          name: "Port of Dar es Salaam",
-          latitude: -6.7924,
-          longitude: 39.2083,
-        },
-        // Newly added ports
-        { name: "Port of Rotterdam", latitude: 51.9225, longitude: 4.47917 },
-        { name: "Port of Antwerp", latitude: 51.2206, longitude: 4.4006 },
-        { name: "Port of Hamburg", latitude: 53.5511, longitude: 9.9937 },
-        { name: "Port of Shanghai", latitude: 31.2304, longitude: 121.4737 },
-        {
-          name: "Port of Ningbo-Zhoushan",
-          latitude: 29.8683,
-          longitude: 121.544,
-        },
-        { name: "Port of Los Angeles", latitude: 33.7405, longitude: -118.272 },
-        { name: "Port of Long Beach", latitude: 33.7669, longitude: -118.189 },
-        {
-          name: "Port of New York/New Jersey",
-          latitude: 40.7128,
-          longitude: -74.006,
-        },
-        { name: "Port of Hong Kong", latitude: 22.3193, longitude: 114.1694 },
-        { name: "Port of Busan", latitude: 35.1796, longitude: 129.0756 },
-        { name: "Port of Jebel Ali", latitude: 25.0627, longitude: 55.1363 },
-        { name: "Port of Sydney", latitude: -33.8688, longitude: 151.2093 },
-        { name: "Port of Tokyo", latitude: 35.6895, longitude: 139.6917 },
-        { name: "Port of Manila", latitude: 14.5995, longitude: 120.9842 },
-      ];
-
-      // Add green markers for important ports
-      importantPorts.forEach((port) => {
-        const greenIcon = L.icon({
-          iconUrl:
-            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x-green.png",
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-        });
-
-        L.marker([port.latitude, port.longitude], { icon: greenIcon })
-          .addTo(map)
-          .bindPopup(`<b>${port.name}</b>`);
-      });
+      // Call the function to load markers
+      loadMarkers();
     </script>
   </body>
 </html>
