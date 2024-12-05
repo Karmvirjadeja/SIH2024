@@ -1,50 +1,46 @@
-import json
-import os
+from flask import Flask, request, jsonify
+import requests
 
 
-# It it traverse through json and provides each points s
+"Here takes the name and it gives us the content of longitude and latitiude "
+app = Flask(__name__)
 
-
-
-
-def process_coordinates(data):
-    """
-    Process the latitude and longitude points.
-    Assumes data is a list of dictionaries with 'Latitude' and 'Longitude' keys.
-    """
-    if not isinstance(data, list):
-        raise ValueError("JSON structure must be a list of coordinate objects.")
+@app.route('/shortest-distances', methods=['GET'])
+def shortest_distances():
+    # Get the 'input_name' query parameter from the request
+    input_name = request.args.get('input_name', '')
     
-    for point in data:
-        if 'Latitude' not in point or 'Longitude' not in point:
-            raise ValueError("Each coordinate object must have 'Latitude' and 'Longitude' keys.")
+    if not input_name:
+        return jsonify({"error": "input_name query parameter is required"}), 400
+
+    # Define the external API URL
+    external_url = f"http://127.0.0.1:8000/shortest-distances/?input_name={input_name}"
+    
+    try:
+        # Make the GET request to the external URL
+        response = requests.get(external_url)
+        response.raise_for_status()  # Raise an HTTPError for bad responses (4xx and 5xx)
         
-        latitude = point['Latitude']
-        longitude = point['Longitude']
-        print(f"Processing point: Latitude = {latitude}, Longitude = {longitude}")
+        # Extract the JSON content from the response
+        response_json = response.json()
+        
+        # Extract shortest_distances key content
+        shortest_distances = response_json.get('shortest_distances', [])
+        
+        if not shortest_distances:
+            return jsonify({"key_content": "No shortest_distances found"}), 404
+        
+        # Extract specific key content, such as the file and distance of the first item
+        key_content = {
+            "file": shortest_distances[0].get('file', 'File not found'),
+            "distance": shortest_distances[0].get('distance', 'Distance not found'),
+            "content": shortest_distances[0].get('content', 'Content not found')
+        }
+        
+        return jsonify({"key_content": key_content})
     
-    return len(data)
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": str(e)}), 500
 
-
-if __name__ == "__main__":
-    # Define the path to the JSON file
-    json_file_path = os.path.join('chennai-perth', 'path1.json')  # Adjust the path as needed
-    
-    try:
-        # Open and read the JSON file
-        with open(json_file_path, 'r') as file:
-            data = json.load(file)
-            print("JSON file successfully loaded.")
-    except FileNotFoundError:
-        print(f"File not found: {json_file_path}")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"Invalid JSON format: {e}")
-        exit(1)
-    
-    try:
-        # Process the data
-        count = process_coordinates(data)
-        print(f"Processed {count} coordinate points.")
-    except ValueError as e:
-        print(f"Error processing coordinates: {e}")
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)
