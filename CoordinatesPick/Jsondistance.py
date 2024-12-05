@@ -7,6 +7,16 @@ import re
 
 app = FastAPI()
 
+
+#http://127.0.0.1:8000/shortest-distances/?input_name=chennai-perth
+
+#uvicorn Jsondistance:app --reload
+
+
+
+
+
+
 def haversine(lat1, lon1, lat2, lon2):
     """
     Calculate the great-circle distance between two points on the Earth.
