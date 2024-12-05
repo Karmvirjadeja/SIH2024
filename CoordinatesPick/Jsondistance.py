@@ -85,5 +85,6 @@ def get_shortest_distances(input_name: str = Query(..., description="Base name o
         raise HTTPException(status_code=404, detail=f"No files matching the pattern '{input_name}<number>.json' were found.")
     
     # Sort results by distance and return the top three
-    sorted_results = sorted(results, key=lambda x: x["distance"])[:3]
-    return {"shortest_distances": sorted_results}
+    
+    return {"shortest_distances": results}
+
