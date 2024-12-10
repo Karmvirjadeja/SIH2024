@@ -1,0 +1,177 @@
+[
+  {
+    "wind_speed": 16.06816291809082,
+    "wind_direction": 34.65138244628906,
+    "wave_height": 1.7400000095367432,
+    "wave_direction": 64,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 21.705827713012695,
+    "wind_direction": 70.10448455810547,
+    "wave_height": 2.5799999237060547,
+    "wave_direction": 60,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 18.725547790527344,
+    "wind_direction": 94.76355743408203,
+    "wave_height": 2.259999990463257,
+    "wave_direction": 78,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 15.861066818237305,
+    "wind_direction": 109.32328033447266,
+    "wave_height": 2.140000104904175,
+    "wave_direction": 105,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 15.630698204040527,
+    "wind_direction": 111.13990020751953,
+    "wave_height": 1.8799999952316284,
+    "wave_direction": 159,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 17.587186813354492,
+    "wind_direction": 110.03730010986328,
+    "wave_height": 1.5800000429153442,
+    "wave_direction": 178,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 16.46307373046875,
+    "wind_direction": 112.93213653564453,
+    "wave_height": 1.4600000381469727,
+    "wave_direction": 197,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 9.684147834777832,
+    "wind_direction": 128.480224609375,
+    "wave_height": 1.4199999570846558,
+    "wave_direction": 210,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 7.008615016937256,
+    "wind_direction": 183.1797637939453,
+    "wave_height": 1.6399999856948853,
+    "wave_direction": 216,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 6.088285446166992,
+    "wind_direction": 196.69932556152344,
+    "wave_height": 1.7200000286102295,
+    "wave_direction": 220,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 2.7831554412841797,
+    "wind_direction": 192.09474182128906,
+    "wave_height": 1.8799999952316284,
+    "wave_direction": 224,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 3.504307508468628,
+    "wind_direction": 356.8202209472656,
+    "wave_height": 1.9600000381469727,
+    "wave_direction": 232,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 10.440792083740234,
+    "wind_direction": 331.0491027832031,
+    "wave_height": 2.0799999237060547,
+    "wave_direction": 227,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 11.977903366088867,
+    "wind_direction": 311.7106628417969,
+    "wave_height": 2.0799999237060547,
+    "wave_direction": 223,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 11.235664367675781,
+    "wind_direction": 307.2664794921875,
+    "wave_height": 2.140000104904175,
+    "wave_direction": 223,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 4.280863285064697,
+    "wind_direction": 320.5275573730469,
+    "wave_height": 2.2200000286102295,
+    "wave_direction": 219,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 0.8014658093452454,
+    "wind_direction": 194.03627014160156,
+    "wave_height": 2.4800000190734863,
+    "wave_direction": 216,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 4.701521873474121,
+    "wind_direction": 82.87508392333984,
+    "wave_height": 2.8399999141693115,
+    "wave_direction": 209,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 14.191363334655762,
+    "wind_direction": 143.9148406982422,
+    "wave_height": 3.119999885559082,
+    "wave_direction": 205,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 16.30162239074707,
+    "wind_direction": 149.1534881591797,
+    "wave_height": 3.380000114440918,
+    "wave_direction": 204,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 20.77727699279785,
+    "wind_direction": 153.91445922851562,
+    "wave_height": 3.5999999046325684,
+    "wave_direction": 204,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 22.34401512145996,
+    "wind_direction": 152.54335021972656,
+    "wave_height": 3.700000047683716,
+    "wave_direction": 204,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 21.647430419921875,
+    "wind_direction": 152.7447509765625,
+    "wave_height": 3.740000009536743,
+    "wave_direction": 213,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 13.899476051330566,
+    "wind_direction": 132.1658172607422,
+    "wave_height": 3.7200000286102295,
+    "wave_direction": 226,
+    "current_speed": 0
+  },
+  {
+    "wind_speed": 12.684207916259766,
+    "wind_direction": 74.89884948730469,
+    "wave_height": 1.4800000190734863,
+    "wave_direction": 239,
+    "current_speed": 0
+  }
+]
