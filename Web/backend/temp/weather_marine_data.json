@@ -1,7 +1,7 @@
 {
   "location": {
-    "latitude": -1.75,
-    "longitude": 90.875,
+    "latitude": -29.875,
+    "longitude": 110.75,
     "timezone": null,
     "timezoneAbbreviation": null
   },
@@ -176,12 +176,12 @@
       "1970-01-21T01:46:26.400Z",
       "1970-01-21T01:46:30.000Z"
     ],
-    "temperature2m": 28.200000762939453,
-    "precipitationProbability": 30,
+    "temperature2m": 19.549999237060547,
+    "precipitationProbability": 0,
     "precipitation": 0,
     "snowfall": 0,
-    "windSpeed180m": 15.34033489227295,
-    "windDirection180m": 261.25390625
+    "windSpeed180m": 13.012118339538574,
+    "windDirection180m": 166.17132568359375
   },
   "marine": {
     "hourly": {
@@ -355,8 +355,8 @@
         "2024-12-16T22:00:00.000Z",
         "2024-12-16T23:00:00.000Z"
       ],
-      "waveHeight": 2.440000057220459,
-      "waveDirection": 227
+      "waveHeight": 3.440000057220459,
+      "waveDirection": 222
     }
   }
 }
