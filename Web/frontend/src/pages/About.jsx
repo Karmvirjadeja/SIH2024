@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 p-4">
-            <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="bg-white rounded-lg shadow-md px-6 py-9">
               <h2 className="text-2xl font-bold text-blue-600 mb-4">Our Mission</h2>
               <p className="text-gray-700">
                 To be the leading provider of maritime solutions, ensuring safe and efficient operations across the world's oceans.
@@ -24,7 +24,7 @@ const About = () => {
             </div>
           </div>
           <div className="w-full md:w-1/3 p-4">
-            <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="bg-white rounded-lg shadow-md px-6 py-9">
               <h2 className="text-2xl font-bold text-blue-600 mb-4">Our Vision</h2>
               <p className="text-gray-700">
                 To innovate and lead the maritime industry by setting standards in quality, safety, and environmental care.
