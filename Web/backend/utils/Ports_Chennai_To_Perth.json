@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Chennai Port",
+        "country": "India",
+        "latitude": 13.0827,
+        "longitude": 80.2707
+    },
+    {
+        "name": "Tuticorin Port (Thoothukudi)",
+        "country": "India",
+        "latitude": 8.7642,
+        "longitude": 78.1348
+    },
+    {
+        "name": "Cochin Port",
+        "country": "India",
+        "latitude": 9.964,
+        "longitude": 76.2596
+    },
+    {
+        "name": "Colombo Port",
+        "country": "Sri Lanka",
+        "latitude": 6.9271,
+        "longitude": 79.8612
+    },
+    {
+        "name": "Hambantota Port",
+        "country": "Sri Lanka",
+        "latitude": 6.1241,
+        "longitude": 81.1185
+    },
+    {
+        "name": "Mal\u00e9 Port",
+        "country": "Maldives",
+        "latitude": 4.1755,
+        "longitude": 73.5093
+    },
+    {
+        "name": "Belawan Port",
+        "country": "Indonesia",
+        "latitude": 3.7701,
+        "longitude": 98.6832
+    },
+    {
+        "name": "Jakarta Port (Tanjung Priok)",
+        "country": "Indonesia",
+        "latitude": -6.1177,
+        "longitude": 106.8761
+    },
+    {
+        "name": "Surabaya Port (Tanjung Perak)",
+        "country": "Indonesia",
+        "latitude": -7.2161,
+        "longitude": 112.7275
+    },
+    {
+        "name": "Benoa Port, Bali",
+        "country": "Indonesia",
+        "latitude": -8.7395,
+        "longitude": 115.2126
+    },
+    {
+        "name": "Darwin Port",
+        "country": "Australia",
+        "latitude": -12.4634,
+        "longitude": 130.8456
+    },
+    {
+        "name": "Fremantle Port (near Perth)",
+        "country": "Australia",
+        "latitude": -32.0566,
+        "longitude": 115.7441
+    },
+    {
+        "name": "Victoria Port",
+        "country": "Seychelles",
+        "latitude": -4.619,
+        "longitude": 55.4551
+    },
+    {
+        "name": "Port Louis",
+        "country": "Mauritius",
+        "latitude": -20.1619,
+        "longitude": 57.4989
+    },
+    {
+        "name": "Port Hedland",
+        "country": "Australia",
+        "latitude": -20.3104,
+        "longitude": 118.6017
+    }
+]
