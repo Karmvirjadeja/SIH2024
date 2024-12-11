@@ -2,80 +2,76 @@ import React from 'react';
 import { IoLocationSharp } from 'react-icons/io5';
 import ProgressBar from '../components/ProgressBar';
 import Header from '../components/Header';
+import backgroundImage from '../assets/Sea.jpg'; // Import the image from your local assets folder
 
 const OptimizedRoute = () => {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div
+      className="bg-gradient-to-r from-blue-100 to-blue-400 min-h-screen flex flex-col bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
       <Header />
       <ProgressBar currentStep={3} />
 
-      <div className="p-8 max-w-6xl mx-auto">
+      <div className="flex-1 flex flex-col justify-center items-center px-6 py-10 md:px-16">
         {/* Location Inputs Section */}
-        <div className="flex justify-center items-center space-x-16 my-8">
-          {/* Vishakhapatnam Section */}
-          <div className="flex flex-col items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-16 w-full max-w-6xl mx-auto">
+          {/* Source (Chennai) Section */}
+          <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
+            <h2 className="text-3xl font-bold text-blue-600 mb-4">Source</h2>
             <input
-              className="border-b-2 border-blue-500 text-center mb-2 w-48 py-2 text-gray-800 font-semibold focus:border-blue-700 outline-none transition-all"
+              className="border-b-2 border-blue-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-gray-800 focus:outline-none"
               type="text"
-              value="Vishakhapatnam"
+              value="Chennai"
               readOnly
             />
             <input
-              className="border-b-2 border-gray-300 text-center mb-2 w-48 py-2 text-gray-600 outline-none"
+              className="border-b-2 border-gray-300 text-center mb-4 w-full py-3 text-gray-600 text-xl focus:outline-none"
               type="text"
-              value="17°56'32.6\N"
+              value="13°05'15.2\N"
               readOnly
             />
             <input
-              className="border-b-2 border-gray-300 text-center w-48 py-2 text-gray-600 outline-none"
+              className="border-b-2 border-gray-300 text-center w-full py-3 text-gray-600 text-xl focus:outline-none"
               type="text"
-              value="83°28'34.9\E"
+              value="80°17'56.6\E"
               readOnly
             />
           </div>
 
           {/* Location Icon */}
           <div className="flex items-center">
-            <IoLocationSharp className="text-blue-500" size={32} />
+            <IoLocationSharp className="text-blue-500" size={50} />
           </div>
 
-          {/* Indonesia Section */}
-          <div className="flex flex-col items-center">
+          {/* Destination (Perth) Section */}
+          <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
+            <h2 className="text-3xl font-bold text-red-600 mb-4">Destination</h2>
             <input
-              className="border-b-2 border-red-500 text-center mb-2 w-48 py-2 text-red-600 font-semibold focus:border-red-700 outline-none transition-all"
+              className="border-b-2 border-red-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-red-600 focus:outline-none"
               type="text"
-              value="Indonesia"
+              value="Perth"
               readOnly
             />
             <input
-              className="border-b-2 border-red-300 text-center mb-2 w-48 py-2 text-red-500 outline-none"
+              className="border-b-2 border-red-300 text-center mb-4 w-full py-3 text-red-500 text-xl focus:outline-none"
               type="text"
-              value="1°35'05.3\N"
+              value="31°57'45.2\N"
               readOnly
             />
             <input
-              className="border-b-2 border-red-300 text-center w-48 py-2 text-red-500 outline-none"
+              className="border-b-2 border-red-300 text-center w-full py-3 text-red-500 text-xl focus:outline-none"
               type="text"
-              value="98°45'52.3\E"
+              value="115°51'30.5\E"
               readOnly
             />
           </div>
         </div>
+      </div>
 
-        {/* Map Section */}
-        <div className="mt-4 flex justify-center">
-  <iframe
-            title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29483844.347761072!2d76.13923545146208!3d-1.2618664253716902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699e4edc69fffd%3A0x401576d14d2d6c0!2sIndonesia!5e0!3m2!1sen!2sin!4v1602061244774!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            className="border-0 rounded-lg shadow-lg"
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-        </div>
-        </div>
+      {/* Footer (optional) */}
+      {/* <footer className="bg-blue-500 text-white text-center py-4">Optimized Route - Chennai to Perth</footer> */}
+    </div>
   );
 };
 

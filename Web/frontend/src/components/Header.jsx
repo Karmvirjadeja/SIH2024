@@ -28,12 +28,7 @@ const Header = () => {
         <Link to="/maps" className="hover:text-blue-300">Map</Link>
         <Link to="/about" className="hover:text-blue-300">About</Link>
         <Link to="/faqs" className="hover:text-blue-300">FAQ'S</Link>
-        <a
-          href="#contact"
-          className="bg-white text-blue-600 py-2 px-4 rounded-md hover:bg-gray-200"
-        >
-          Contact Us
-        </a>
+        
       </nav>
 
       {/* Hamburger Menu Button */}
@@ -53,13 +48,7 @@ const Header = () => {
             <Link to="/maps" className="hover:text-blue-300" onClick={toggleMenu}>Map</Link>
             <Link to="/about" className="hover:text-blue-300" onClick={toggleMenu}>About</Link>
             <Link to="/faqs" className="hover:text-blue-300" onClick={toggleMenu}>FAQ'S</Link>
-            <a
-              href="#contact"
-              className="bg-white text-blue-600 py-2 px-4 rounded-md hover:bg-gray-200"
-              onClick={toggleMenu}
-            >
-              Contact Us
-            </a>
+       
           </nav>
         </div>
       )}
