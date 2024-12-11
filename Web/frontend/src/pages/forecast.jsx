@@ -178,6 +178,8 @@
 
 // export default ForecastData;
 import React from "react";
+import Header from '../components/Header';
+import backgroundImage from '../assets/Sea.jpg';
 import { Line, Bubble } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -331,13 +333,29 @@ const ForecastData = () => {
   };
 
   return (
-    <div className="forecast-data">
-      <h1 className="text-center text-2xl font-bold mb-4">Forecast Data</h1>
-      <div className="line-chart mb-8">
-        <Line data={lineChartData} options={lineChartOptions} />
-      </div>
-      <div className="bubble-chart">
-        <Bubble data={bubbleChartData} options={bubbleChartOptions} />
+    <div>
+      <Header />
+      <div
+        className="bg-cover bg-center min-h-screen py-12 px-4"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <div className="forecast-data max-w-6xl mx-auto bg-white bg-opacity-90 shadow-lg rounded-lg p-8">
+          <h1 className="text-center text-3xl font-bold mb-6 text-gray-800">Forecast Data</h1>
+
+          <div className="line-chart mb-12">
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Line Chart</h2>
+            <div className="overflow-x-auto">
+              <Line data={lineChartData} options={lineChartOptions} className="rounded-lg shadow-md" />
+            </div>
+          </div>
+
+          <div className="bubble-chart">
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Bubble Chart</h2>
+            <div className="overflow-x-auto">
+              <Bubble data={bubbleChartData} options={bubbleChartOptions} className="rounded-lg shadow-md" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
