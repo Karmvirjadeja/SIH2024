@@ -2,9 +2,16 @@ import React from 'react';
 import { IoLocationSharp } from 'react-icons/io5';
 import ProgressBar from '../components/ProgressBar';
 import Header from '../components/Header';
-import backgroundImage from '../assets/Sea.jpg'; // Import the image from your local assets folder
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import backgroundImage from '../assets/Sea.jpg'; 
 
 const OptimizedRoute = () => {
+  const navigate = useNavigate(); // Initialize navigate
+
+  const handleGoClick = () => {
+    navigate('/maps'); // Redirect to MapsComponent
+  };
+
   return (
     <div
       className="bg-gradient-to-r from-blue-100 to-blue-400 min-h-screen flex flex-col bg-cover bg-center"
@@ -67,10 +74,15 @@ const OptimizedRoute = () => {
             />
           </div>
         </div>
-      </div>
 
-      {/* Footer (optional) */}
-      {/* <footer className="bg-blue-500 text-white text-center py-4">Optimized Route - Chennai to Perth</footer> */}
+        {/* GO Button */}
+        <button
+          onClick={handleGoClick}
+          className="mt-12 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-10 py-5 rounded-full text-2xl font-bold shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 transform hover:scale-110 transition-all duration-300"
+        >
+          GO
+        </button>
+      </div>
     </div>
   );
 };
