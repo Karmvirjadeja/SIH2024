@@ -57,61 +57,38 @@ const RouteTracker = () => {
   // Example routes with latitudes and longitudes
   const routes = [
     [
-    //   { latitude: 13.07, longitude: 80.29 },
-    //   { latitude: 11.35, longitude: 81.82 },
-    //   { latitude: 9.45, longitude: 83.23 },
-    //   { latitude: 6.4, longitude: 85.42 },
-    //   { latitude: 2.55, longitude: 87.8 },
-    //   { latitude: -1.5, longitude: 90.7 },
-    //   { latitude: -5.43, longitude: 92.42 },
-    //   { latitude: -10.48, longitude: 97.55 },
-    //   { latitude: -14.51, longitude: 101.42 },
-    //   { latitude: -18.81, longitude: 104.67 },
-    //   { latitude: -23.48, longitude: 108.1 },
-    //   { latitude: -27.2, longitude: 111.0 },
-    //   { latitude: -30.9, longitude: 114.72 },
-    //   { latitude: -32.07, longitude: 115.65 }
-    // ],
-    // [
-    //   { latitude: 13.07, longitude: 80.29 },
-    //   { latitude: 11.52, longitude: 84.37 },
-    //   { latitude: 8.7, longitude: 88.85 },
-    //   { latitude: 5.13, longitude: 94.87 },
-    //   { latitude: -2.8, longitude: 100.98 },
-    //   { latitude: -7.27, longitude: 105.86 },
-    //   { latitude: -8.36, longitude: 109.77 },
-    //   { latitude: -13.19, longitude: 110.3 },
-    //   { latitude: -18.6, longitude: 110.96 },
-    //   { latitude: -24.56, longitude: 111.79 },
-    //   { latitude: -28.65, longitude: 113.64 },
-    //   { latitude: -30.9, longitude: 114.43 },
-    //   { latitude: -32.07, longitude: 115.65 }
+      { latitude: 13.07, longitude: 80.29 },
+      { latitude: 11.35, longitude: 81.82 },
+      { latitude: 9.45, longitude: 83.23 },
+      { latitude: 6.4, longitude: 85.42 },
+      { latitude: 2.55, longitude: 87.8 },
+      { latitude: -1.5, longitude: 90.7 },
+      { latitude: -5.43, longitude: 92.42 },
+      { latitude: -10.48, longitude: 97.55 },
+      { latitude: -14.51, longitude: 101.42 },
+      { latitude: -18.81, longitude: 104.67 },
+      { latitude: -23.48, longitude: 108.1 },
+      { latitude: -27.2, longitude: 111.0 },
+      { latitude: -30.9, longitude: 114.72 },
+      { latitude: -32.07, longitude: 115.65 }
+    ],
+    [
+      { latitude: 13.07, longitude: 80.29 },
+      { latitude: 11.52, longitude: 84.37 },
+      { latitude: 8.7, longitude: 88.85 },
+      { latitude: 5.13, longitude: 94.87 },
+      { latitude: -2.8, longitude: 100.98 },
+      { latitude: -7.27, longitude: 105.86 },
+      { latitude: -8.36, longitude: 109.77 },
+      { latitude: -13.19, longitude: 110.3 },
+      { latitude: -18.6, longitude: 110.96 },
+      { latitude: -24.56, longitude: 111.79 },
+      { latitude: -28.65, longitude: 113.64 },
+      { latitude: -30.9, longitude: 114.43 },
+      { latitude: -32.07, longitude: 115.65 },
 
 
-    {
-      "latitude": 12.983683022674901,
-      "longitude": 80.70556640625001
-},
-{
-      "latitude": 11.09270498052075,
-      "longitude": 81.89208984375001
-},
-{
-      "latitude": -7.9498927650376405,
-      "longitude": 98.21777343750001
-},
-{
-      "latitude": -17.85224431942475,
-      "longitude": 104.45800781250001
-},
-{
-      "latitude": -20.590623612561537,
-      "longitude": 108.23730468750001
-},
-{
-      "latitude": -22.227073362856476,
-      "longitude": 109.42382812500001
-}
+
     ]
   ];
 
