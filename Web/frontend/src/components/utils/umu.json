@@ -1,0 +1,1502 @@
+[
+    {
+        "timestamp": "2024-12-11 04:30:45",
+        "wave_height": 3.28,
+        "wind_speed": 18.76,
+        "ocean_current": 1.92
+    },
+    {
+        "timestamp": "2024-12-11 22:21:45",
+        "wave_height": 3.5,
+        "wind_speed": 6.8,
+        "ocean_current": 1.55
+    },
+    {
+        "timestamp": "2024-12-11 21:17:45",
+        "wave_height": 2.03,
+        "wind_speed": 11.71,
+        "ocean_current": 2.74
+    },
+    {
+        "timestamp": "2024-12-11 03:38:45",
+        "wave_height": 0.92,
+        "wind_speed": 20.9,
+        "ocean_current": 1.4
+    },
+    {
+        "timestamp": "2024-12-11 15:19:45",
+        "wave_height": 3.55,
+        "wind_speed": 14.09,
+        "ocean_current": 1.83
+    },
+    {
+        "timestamp": "2024-12-11 04:47:45",
+        "wave_height": 2.18,
+        "wind_speed": 19.84,
+        "ocean_current": 0.28
+    },
+    {
+        "timestamp": "2024-12-11 20:36:45",
+        "wave_height": 3.36,
+        "wind_speed": 11.84,
+        "ocean_current": 0.46
+    },
+    {
+        "timestamp": "2024-12-11 07:48:45",
+        "wave_height": 1.82,
+        "wind_speed": 24.07,
+        "ocean_current": 1.33
+    },
+    {
+        "timestamp": "2024-12-11 01:03:45",
+        "wave_height": 3.08,
+        "wind_speed": 12.56,
+        "ocean_current": 0.36
+    },
+    {
+        "timestamp": "2024-12-11 18:44:45",
+        "wave_height": 3.83,
+        "wind_speed": 18.65,
+        "ocean_current": 1.9
+    },
+    {
+        "timestamp": "2024-12-11 09:30:45",
+        "wave_height": 3.44,
+        "wind_speed": 6.45,
+        "ocean_current": 2.02
+    },
+    {
+        "timestamp": "2024-12-11 07:20:45",
+        "wave_height": 0.96,
+        "wind_speed": 6.01,
+        "ocean_current": 0.99
+    },
+    {
+        "timestamp": "2024-12-11 16:46:45",
+        "wave_height": 1.93,
+        "wind_speed": 20.3,
+        "ocean_current": 0.66
+    },
+    {
+        "timestamp": "2024-12-11 09:37:45",
+        "wave_height": 3.0,
+        "wind_speed": 20.1,
+        "ocean_current": 1.86
+    },
+    {
+        "timestamp": "2024-12-11 07:15:45",
+        "wave_height": 3.04,
+        "wind_speed": 15.14,
+        "ocean_current": 1.57
+    },
+    {
+        "timestamp": "2024-12-11 14:57:45",
+        "wave_height": 3.82,
+        "wind_speed": 5.6,
+        "ocean_current": 0.26
+    },
+    {
+        "timestamp": "2024-12-11 21:19:45",
+        "wave_height": 1.85,
+        "wind_speed": 6.66,
+        "ocean_current": 0.78
+    },
+    {
+        "timestamp": "2024-12-11 23:00:45",
+        "wave_height": 2.12,
+        "wind_speed": 19.82,
+        "ocean_current": 2.49
+    },
+    {
+        "timestamp": "2024-12-11 01:21:45",
+        "wave_height": 3.84,
+        "wind_speed": 12.26,
+        "ocean_current": 0.91
+    },
+    {
+        "timestamp": "2024-12-11 09:37:45",
+        "wave_height": 3.25,
+        "wind_speed": 23.49,
+        "ocean_current": 1.41
+    },
+    {
+        "timestamp": "2024-12-11 04:03:45",
+        "wave_height": 3.89,
+        "wind_speed": 11.37,
+        "ocean_current": 1.17
+    },
+    {
+        "timestamp": "2024-12-11 14:46:45",
+        "wave_height": 3.11,
+        "wind_speed": 17.77,
+        "ocean_current": 0.96
+    },
+    {
+        "timestamp": "2024-12-11 00:35:45",
+        "wave_height": 2.07,
+        "wind_speed": 18.16,
+        "ocean_current": 1.25
+    },
+    {
+        "timestamp": "2024-12-11 04:19:45",
+        "wave_height": 3.36,
+        "wind_speed": 6.34,
+        "ocean_current": 2.51
+    },
+    {
+        "timestamp": "2024-12-11 03:39:45",
+        "wave_height": 3.4,
+        "wind_speed": 23.93,
+        "ocean_current": 1.49
+    },
+    {
+        "timestamp": "2024-12-11 21:30:45",
+        "wave_height": 3.78,
+        "wind_speed": 9.77,
+        "ocean_current": 2.77
+    },
+    {
+        "timestamp": "2024-12-11 22:45:45",
+        "wave_height": 0.55,
+        "wind_speed": 15.82,
+        "ocean_current": 1.65
+    },
+    {
+        "timestamp": "2024-12-11 22:44:45",
+        "wave_height": 3.3,
+        "wind_speed": 24.24,
+        "ocean_current": 0.54
+    },
+    {
+        "timestamp": "2024-12-11 03:39:45",
+        "wave_height": 2.64,
+        "wind_speed": 21.26,
+        "ocean_current": 2.8
+    },
+    {
+        "timestamp": "2024-12-11 12:57:45",
+        "wave_height": 3.29,
+        "wind_speed": 21.82,
+        "ocean_current": 2.28
+    },
+    {
+        "timestamp": "2024-12-11 20:36:45",
+        "wave_height": 1.84,
+        "wind_speed": 9.71,
+        "ocean_current": 2.07
+    },
+    {
+        "timestamp": "2024-12-11 06:49:45",
+        "wave_height": 0.54,
+        "wind_speed": 11.05,
+        "ocean_current": 1.89
+    },
+    {
+        "timestamp": "2024-12-11 14:02:45",
+        "wave_height": 1.33,
+        "wind_speed": 10.85,
+        "ocean_current": 1.47
+    },
+    {
+        "timestamp": "2024-12-11 10:11:45",
+        "wave_height": 2.1,
+        "wind_speed": 8.55,
+        "ocean_current": 1.37
+    },
+    {
+        "timestamp": "2024-12-11 16:22:45",
+        "wave_height": 1.9,
+        "wind_speed": 8.81,
+        "ocean_current": 2.23
+    },
+    {
+        "timestamp": "2024-12-11 16:25:45",
+        "wave_height": 2.92,
+        "wind_speed": 13.64,
+        "ocean_current": 1.67
+    },
+    {
+        "timestamp": "2024-12-11 12:17:45",
+        "wave_height": 1.34,
+        "wind_speed": 10.7,
+        "ocean_current": 1.57
+    },
+    {
+        "timestamp": "2024-12-11 11:32:45",
+        "wave_height": 2.3,
+        "wind_speed": 22.84,
+        "ocean_current": 1.59
+    },
+    {
+        "timestamp": "2024-12-11 18:32:45",
+        "wave_height": 3.75,
+        "wind_speed": 21.34,
+        "ocean_current": 1.72
+    },
+    {
+        "timestamp": "2024-12-11 07:00:45",
+        "wave_height": 0.83,
+        "wind_speed": 10.93,
+        "ocean_current": 2.1
+    },
+    {
+        "timestamp": "2024-12-11 14:11:45",
+        "wave_height": 3.5,
+        "wind_speed": 9.12,
+        "ocean_current": 1.87
+    },
+    {
+        "timestamp": "2024-12-11 02:58:45",
+        "wave_height": 3.84,
+        "wind_speed": 22.82,
+        "ocean_current": 0.14
+    },
+    {
+        "timestamp": "2024-12-11 17:18:45",
+        "wave_height": 0.51,
+        "wind_speed": 17.17,
+        "ocean_current": 2.71
+    },
+    {
+        "timestamp": "2024-12-11 21:44:45",
+        "wave_height": 1.33,
+        "wind_speed": 6.34,
+        "ocean_current": 0.78
+    },
+    {
+        "timestamp": "2024-12-11 16:10:45",
+        "wave_height": 1.12,
+        "wind_speed": 5.79,
+        "ocean_current": 0.53
+    },
+    {
+        "timestamp": "2024-12-11 04:50:45",
+        "wave_height": 1.59,
+        "wind_speed": 11.12,
+        "ocean_current": 0.41
+    },
+    {
+        "timestamp": "2024-12-11 20:40:45",
+        "wave_height": 3.61,
+        "wind_speed": 24.68,
+        "ocean_current": 2.73
+    },
+    {
+        "timestamp": "2024-12-11 23:25:45",
+        "wave_height": 2.86,
+        "wind_speed": 8.6,
+        "ocean_current": 2.72
+    },
+    {
+        "timestamp": "2024-12-11 20:46:45",
+        "wave_height": 1.2,
+        "wind_speed": 11.88,
+        "ocean_current": 2.36
+    },
+    {
+        "timestamp": "2024-12-11 03:36:45",
+        "wave_height": 0.58,
+        "wind_speed": 10.99,
+        "ocean_current": 1.14
+    },
+    {
+        "timestamp": "2024-12-10 02:56:45",
+        "wave_height": 1.01,
+        "wind_speed": 22.76,
+        "ocean_current": 2.66
+    },
+    {
+        "timestamp": "2024-12-10 21:45:45",
+        "wave_height": 1.17,
+        "wind_speed": 15.64,
+        "ocean_current": 0.94
+    },
+    {
+        "timestamp": "2024-12-10 06:10:45",
+        "wave_height": 2.27,
+        "wind_speed": 16.64,
+        "ocean_current": 0.83
+    },
+    {
+        "timestamp": "2024-12-10 23:42:45",
+        "wave_height": 3.68,
+        "wind_speed": 15.26,
+        "ocean_current": 2.57
+    },
+    {
+        "timestamp": "2024-12-10 17:35:45",
+        "wave_height": 2.92,
+        "wind_speed": 6.61,
+        "ocean_current": 0.27
+    },
+    {
+        "timestamp": "2024-12-10 16:23:45",
+        "wave_height": 1.5,
+        "wind_speed": 24.35,
+        "ocean_current": 0.9
+    },
+    {
+        "timestamp": "2024-12-10 05:57:45",
+        "wave_height": 3.35,
+        "wind_speed": 19.62,
+        "ocean_current": 1.68
+    },
+    {
+        "timestamp": "2024-12-10 01:41:45",
+        "wave_height": 3.82,
+        "wind_speed": 11.22,
+        "ocean_current": 0.89
+    },
+    {
+        "timestamp": "2024-12-10 15:04:45",
+        "wave_height": 1.27,
+        "wind_speed": 19.59,
+        "ocean_current": 0.33
+    },
+    {
+        "timestamp": "2024-12-10 23:19:45",
+        "wave_height": 3.18,
+        "wind_speed": 6.99,
+        "ocean_current": 1.92
+    },
+    {
+        "timestamp": "2024-12-10 02:41:45",
+        "wave_height": 1.0,
+        "wind_speed": 10.67,
+        "ocean_current": 1.57
+    },
+    {
+        "timestamp": "2024-12-10 18:24:45",
+        "wave_height": 3.13,
+        "wind_speed": 9.49,
+        "ocean_current": 1.64
+    },
+    {
+        "timestamp": "2024-12-10 18:10:45",
+        "wave_height": 3.29,
+        "wind_speed": 8.82,
+        "ocean_current": 1.06
+    },
+    {
+        "timestamp": "2024-12-10 17:03:45",
+        "wave_height": 3.96,
+        "wind_speed": 6.5,
+        "ocean_current": 0.99
+    },
+    {
+        "timestamp": "2024-12-10 09:49:45",
+        "wave_height": 0.52,
+        "wind_speed": 11.76,
+        "ocean_current": 0.88
+    },
+    {
+        "timestamp": "2024-12-10 09:28:45",
+        "wave_height": 3.63,
+        "wind_speed": 8.43,
+        "ocean_current": 0.82
+    },
+    {
+        "timestamp": "2024-12-10 13:50:45",
+        "wave_height": 1.21,
+        "wind_speed": 8.25,
+        "ocean_current": 0.41
+    },
+    {
+        "timestamp": "2024-12-10 20:34:45",
+        "wave_height": 3.45,
+        "wind_speed": 11.56,
+        "ocean_current": 0.55
+    },
+    {
+        "timestamp": "2024-12-10 19:52:45",
+        "wave_height": 1.08,
+        "wind_speed": 6.51,
+        "ocean_current": 1.96
+    },
+    {
+        "timestamp": "2024-12-10 13:34:45",
+        "wave_height": 3.0,
+        "wind_speed": 20.04,
+        "ocean_current": 2.5
+    },
+    {
+        "timestamp": "2024-12-10 21:20:45",
+        "wave_height": 2.02,
+        "wind_speed": 20.12,
+        "ocean_current": 2.16
+    },
+    {
+        "timestamp": "2024-12-10 02:03:45",
+        "wave_height": 3.54,
+        "wind_speed": 20.89,
+        "ocean_current": 2.83
+    },
+    {
+        "timestamp": "2024-12-10 09:13:45",
+        "wave_height": 1.07,
+        "wind_speed": 23.68,
+        "ocean_current": 2.99
+    },
+    {
+        "timestamp": "2024-12-10 18:35:45",
+        "wave_height": 3.48,
+        "wind_speed": 11.38,
+        "ocean_current": 2.79
+    },
+    {
+        "timestamp": "2024-12-10 19:13:45",
+        "wave_height": 0.82,
+        "wind_speed": 12.52,
+        "ocean_current": 2.55
+    },
+    {
+        "timestamp": "2024-12-10 12:24:45",
+        "wave_height": 1.04,
+        "wind_speed": 11.3,
+        "ocean_current": 1.34
+    },
+    {
+        "timestamp": "2024-12-10 01:26:45",
+        "wave_height": 3.13,
+        "wind_speed": 21.36,
+        "ocean_current": 2.73
+    },
+    {
+        "timestamp": "2024-12-10 17:58:45",
+        "wave_height": 3.38,
+        "wind_speed": 5.8,
+        "ocean_current": 0.17
+    },
+    {
+        "timestamp": "2024-12-10 17:38:45",
+        "wave_height": 2.91,
+        "wind_speed": 8.12,
+        "ocean_current": 0.38
+    },
+    {
+        "timestamp": "2024-12-10 06:02:45",
+        "wave_height": 2.32,
+        "wind_speed": 10.08,
+        "ocean_current": 1.75
+    },
+    {
+        "timestamp": "2024-12-10 02:45:45",
+        "wave_height": 3.16,
+        "wind_speed": 12.36,
+        "ocean_current": 2.02
+    },
+    {
+        "timestamp": "2024-12-10 23:32:45",
+        "wave_height": 0.65,
+        "wind_speed": 15.44,
+        "ocean_current": 0.4
+    },
+    {
+        "timestamp": "2024-12-10 12:01:45",
+        "wave_height": 2.78,
+        "wind_speed": 19.67,
+        "ocean_current": 1.43
+    },
+    {
+        "timestamp": "2024-12-10 21:48:45",
+        "wave_height": 1.11,
+        "wind_speed": 6.58,
+        "ocean_current": 1.18
+    },
+    {
+        "timestamp": "2024-12-10 20:56:45",
+        "wave_height": 0.84,
+        "wind_speed": 6.42,
+        "ocean_current": 0.64
+    },
+    {
+        "timestamp": "2024-12-10 10:46:45",
+        "wave_height": 2.09,
+        "wind_speed": 6.87,
+        "ocean_current": 1.99
+    },
+    {
+        "timestamp": "2024-12-10 13:51:45",
+        "wave_height": 3.49,
+        "wind_speed": 21.81,
+        "ocean_current": 1.77
+    },
+    {
+        "timestamp": "2024-12-10 14:31:45",
+        "wave_height": 1.24,
+        "wind_speed": 18.9,
+        "ocean_current": 0.93
+    },
+    {
+        "timestamp": "2024-12-10 16:36:45",
+        "wave_height": 1.51,
+        "wind_speed": 13.22,
+        "ocean_current": 1.49
+    },
+    {
+        "timestamp": "2024-12-10 06:03:45",
+        "wave_height": 3.81,
+        "wind_speed": 7.99,
+        "ocean_current": 0.9
+    },
+    {
+        "timestamp": "2024-12-10 16:47:45",
+        "wave_height": 1.29,
+        "wind_speed": 19.1,
+        "ocean_current": 1.79
+    },
+    {
+        "timestamp": "2024-12-10 02:47:45",
+        "wave_height": 3.28,
+        "wind_speed": 7.53,
+        "ocean_current": 1.3
+    },
+    {
+        "timestamp": "2024-12-10 13:07:45",
+        "wave_height": 1.63,
+        "wind_speed": 17.42,
+        "ocean_current": 0.67
+    },
+    {
+        "timestamp": "2024-12-10 16:26:45",
+        "wave_height": 3.66,
+        "wind_speed": 18.53,
+        "ocean_current": 1.73
+    },
+    {
+        "timestamp": "2024-12-10 04:56:45",
+        "wave_height": 0.59,
+        "wind_speed": 6.37,
+        "ocean_current": 1.01
+    },
+    {
+        "timestamp": "2024-12-10 02:08:45",
+        "wave_height": 1.69,
+        "wind_speed": 11.0,
+        "ocean_current": 1.25
+    },
+    {
+        "timestamp": "2024-12-09 23:43:45",
+        "wave_height": 2.48,
+        "wind_speed": 12.13,
+        "ocean_current": 1.68
+    },
+    {
+        "timestamp": "2024-12-10 21:30:45",
+        "wave_height": 2.96,
+        "wind_speed": 8.51,
+        "ocean_current": 1.72
+    },
+    {
+        "timestamp": "2024-12-10 01:12:45",
+        "wave_height": 0.81,
+        "wind_speed": 14.42,
+        "ocean_current": 0.55
+    },
+    {
+        "timestamp": "2024-12-10 04:30:45",
+        "wave_height": 2.4,
+        "wind_speed": 8.78,
+        "ocean_current": 0.81
+    },
+    {
+        "timestamp": "2024-12-09 06:50:45",
+        "wave_height": 2.57,
+        "wind_speed": 14.05,
+        "ocean_current": 0.25
+    },
+    {
+        "timestamp": "2024-12-09 15:11:45",
+        "wave_height": 1.67,
+        "wind_speed": 23.77,
+        "ocean_current": 1.71
+    },
+    {
+        "timestamp": "2024-12-09 12:01:45",
+        "wave_height": 1.43,
+        "wind_speed": 23.41,
+        "ocean_current": 0.97
+    },
+    {
+        "timestamp": "2024-12-09 20:58:45",
+        "wave_height": 3.66,
+        "wind_speed": 10.46,
+        "ocean_current": 0.56
+    },
+    {
+        "timestamp": "2024-12-09 14:55:45",
+        "wave_height": 1.93,
+        "wind_speed": 19.99,
+        "ocean_current": 2.22
+    },
+    {
+        "timestamp": "2024-12-09 22:22:45",
+        "wave_height": 3.36,
+        "wind_speed": 6.45,
+        "ocean_current": 1.6
+    },
+    {
+        "timestamp": "2024-12-09 18:55:45",
+        "wave_height": 0.73,
+        "wind_speed": 12.5,
+        "ocean_current": 1.74
+    },
+    {
+        "timestamp": "2024-12-09 16:33:45",
+        "wave_height": 1.74,
+        "wind_speed": 16.77,
+        "ocean_current": 0.61
+    },
+    {
+        "timestamp": "2024-12-09 16:36:45",
+        "wave_height": 1.95,
+        "wind_speed": 23.79,
+        "ocean_current": 2.16
+    },
+    {
+        "timestamp": "2024-12-09 23:19:45",
+        "wave_height": 1.67,
+        "wind_speed": 11.73,
+        "ocean_current": 2.75
+    },
+    {
+        "timestamp": "2024-12-09 08:20:45",
+        "wave_height": 3.19,
+        "wind_speed": 18.84,
+        "ocean_current": 2.82
+    },
+    {
+        "timestamp": "2024-12-09 16:21:45",
+        "wave_height": 0.73,
+        "wind_speed": 13.96,
+        "ocean_current": 1.63
+    },
+    {
+        "timestamp": "2024-12-09 08:53:45",
+        "wave_height": 1.49,
+        "wind_speed": 20.27,
+        "ocean_current": 2.09
+    },
+    {
+        "timestamp": "2024-12-09 01:38:45",
+        "wave_height": 2.26,
+        "wind_speed": 18.74,
+        "ocean_current": 2.54
+    },
+    {
+        "timestamp": "2024-12-09 10:48:45",
+        "wave_height": 3.27,
+        "wind_speed": 13.32,
+        "ocean_current": 1.55
+    },
+    {
+        "timestamp": "2024-12-09 04:30:45",
+        "wave_height": 3.43,
+        "wind_speed": 9.89,
+        "ocean_current": 0.53
+    },
+    {
+        "timestamp": "2024-12-09 20:58:45",
+        "wave_height": 3.36,
+        "wind_speed": 23.6,
+        "ocean_current": 0.61
+    },
+    {
+        "timestamp": "2024-12-09 09:35:45",
+        "wave_height": 3.84,
+        "wind_speed": 7.94,
+        "ocean_current": 1.72
+    },
+    {
+        "timestamp": "2024-12-09 11:31:45",
+        "wave_height": 3.77,
+        "wind_speed": 11.17,
+        "ocean_current": 0.17
+    },
+    {
+        "timestamp": "2024-12-09 09:12:45",
+        "wave_height": 3.31,
+        "wind_speed": 16.36,
+        "ocean_current": 0.48
+    },
+    {
+        "timestamp": "2024-12-09 00:01:45",
+        "wave_height": 0.82,
+        "wind_speed": 21.61,
+        "ocean_current": 0.99
+    },
+    {
+        "timestamp": "2024-12-09 06:23:45",
+        "wave_height": 3.84,
+        "wind_speed": 7.78,
+        "ocean_current": 2.85
+    },
+    {
+        "timestamp": "2024-12-09 14:47:45",
+        "wave_height": 3.02,
+        "wind_speed": 11.04,
+        "ocean_current": 2.83
+    },
+    {
+        "timestamp": "2024-12-09 19:58:45",
+        "wave_height": 2.13,
+        "wind_speed": 13.9,
+        "ocean_current": 2.34
+    },
+    {
+        "timestamp": "2024-12-09 17:25:45",
+        "wave_height": 1.75,
+        "wind_speed": 11.43,
+        "ocean_current": 0.14
+    },
+    {
+        "timestamp": "2024-12-09 22:13:45",
+        "wave_height": 2.78,
+        "wind_speed": 7.16,
+        "ocean_current": 2.62
+    },
+    {
+        "timestamp": "2024-12-09 11:33:45",
+        "wave_height": 3.24,
+        "wind_speed": 13.09,
+        "ocean_current": 0.45
+    },
+    {
+        "timestamp": "2024-12-09 20:07:45",
+        "wave_height": 2.88,
+        "wind_speed": 5.41,
+        "ocean_current": 1.17
+    },
+    {
+        "timestamp": "2024-12-09 12:51:45",
+        "wave_height": 1.25,
+        "wind_speed": 19.44,
+        "ocean_current": 2.19
+    },
+    {
+        "timestamp": "2024-12-09 01:46:45",
+        "wave_height": 2.74,
+        "wind_speed": 14.79,
+        "ocean_current": 0.86
+    },
+    {
+        "timestamp": "2024-12-09 23:27:45",
+        "wave_height": 3.58,
+        "wind_speed": 8.26,
+        "ocean_current": 1.01
+    },
+    {
+        "timestamp": "2024-12-09 13:38:45",
+        "wave_height": 2.41,
+        "wind_speed": 14.87,
+        "ocean_current": 2.27
+    },
+    {
+        "timestamp": "2024-12-09 01:01:45",
+        "wave_height": 3.58,
+        "wind_speed": 21.33,
+        "ocean_current": 0.42
+    },
+    {
+        "timestamp": "2024-12-09 06:14:45",
+        "wave_height": 3.54,
+        "wind_speed": 9.55,
+        "ocean_current": 0.8
+    },
+    {
+        "timestamp": "2024-12-09 03:31:45",
+        "wave_height": 1.18,
+        "wind_speed": 6.12,
+        "ocean_current": 1.49
+    },
+    {
+        "timestamp": "2024-12-09 01:16:45",
+        "wave_height": 2.38,
+        "wind_speed": 8.54,
+        "ocean_current": 2.71
+    },
+    {
+        "timestamp": "2024-12-09 06:49:45",
+        "wave_height": 1.88,
+        "wind_speed": 23.16,
+        "ocean_current": 2.71
+    },
+    {
+        "timestamp": "2024-12-09 06:17:45",
+        "wave_height": 1.51,
+        "wind_speed": 6.62,
+        "ocean_current": 1.69
+    },
+    {
+        "timestamp": "2024-12-09 10:20:45",
+        "wave_height": 1.94,
+        "wind_speed": 17.05,
+        "ocean_current": 2.43
+    },
+    {
+        "timestamp": "2024-12-09 15:10:45",
+        "wave_height": 1.87,
+        "wind_speed": 19.02,
+        "ocean_current": 1.29
+    },
+    {
+        "timestamp": "2024-12-09 02:21:45",
+        "wave_height": 2.56,
+        "wind_speed": 10.46,
+        "ocean_current": 1.64
+    },
+    {
+        "timestamp": "2024-12-09 15:26:45",
+        "wave_height": 1.39,
+        "wind_speed": 6.34,
+        "ocean_current": 2.08
+    },
+    {
+        "timestamp": "2024-12-09 13:01:45",
+        "wave_height": 3.03,
+        "wind_speed": 9.15,
+        "ocean_current": 1.63
+    },
+    {
+        "timestamp": "2024-12-09 11:13:45",
+        "wave_height": 2.6,
+        "wind_speed": 22.61,
+        "ocean_current": 0.95
+    },
+    {
+        "timestamp": "2024-12-09 02:29:45",
+        "wave_height": 3.01,
+        "wind_speed": 11.25,
+        "ocean_current": 1.68
+    },
+    {
+        "timestamp": "2024-12-09 13:15:45",
+        "wave_height": 3.82,
+        "wind_speed": 6.46,
+        "ocean_current": 0.64
+    },
+    {
+        "timestamp": "2024-12-09 03:33:45",
+        "wave_height": 3.35,
+        "wind_speed": 18.14,
+        "ocean_current": 0.63
+    },
+    {
+        "timestamp": "2024-12-09 22:42:45",
+        "wave_height": 2.91,
+        "wind_speed": 15.77,
+        "ocean_current": 1.37
+    },
+    {
+        "timestamp": "2024-12-09 10:18:45",
+        "wave_height": 3.84,
+        "wind_speed": 21.45,
+        "ocean_current": 2.49
+    },
+    {
+        "timestamp": "2024-12-09 17:15:45",
+        "wave_height": 2.97,
+        "wind_speed": 24.14,
+        "ocean_current": 2.36
+    },
+    {
+        "timestamp": "2024-12-08 11:49:45",
+        "wave_height": 2.84,
+        "wind_speed": 21.04,
+        "ocean_current": 1.06
+    },
+    {
+        "timestamp": "2024-12-08 18:23:45",
+        "wave_height": 1.57,
+        "wind_speed": 12.07,
+        "ocean_current": 0.74
+    },
+    {
+        "timestamp": "2024-12-07 23:52:45",
+        "wave_height": 0.51,
+        "wind_speed": 9.04,
+        "ocean_current": 0.66
+    },
+    {
+        "timestamp": "2024-12-08 18:38:45",
+        "wave_height": 2.35,
+        "wind_speed": 22.81,
+        "ocean_current": 0.98
+    },
+    {
+        "timestamp": "2024-12-08 00:07:45",
+        "wave_height": 3.22,
+        "wind_speed": 20.74,
+        "ocean_current": 0.48
+    },
+    {
+        "timestamp": "2024-12-08 07:03:45",
+        "wave_height": 3.79,
+        "wind_speed": 15.05,
+        "ocean_current": 0.37
+    },
+    {
+        "timestamp": "2024-12-08 03:45:45",
+        "wave_height": 1.57,
+        "wind_speed": 5.44,
+        "ocean_current": 2.5
+    },
+    {
+        "timestamp": "2024-12-08 22:00:45",
+        "wave_height": 0.96,
+        "wind_speed": 24.65,
+        "ocean_current": 1.44
+    },
+    {
+        "timestamp": "2024-12-08 07:15:45",
+        "wave_height": 3.66,
+        "wind_speed": 5.88,
+        "ocean_current": 2.88
+    },
+    {
+        "timestamp": "2024-12-08 11:31:45",
+        "wave_height": 2.86,
+        "wind_speed": 15.37,
+        "ocean_current": 2.01
+    },
+    {
+        "timestamp": "2024-12-08 14:15:45",
+        "wave_height": 2.96,
+        "wind_speed": 8.15,
+        "ocean_current": 0.88
+    },
+    {
+        "timestamp": "2024-12-08 14:52:45",
+        "wave_height": 3.45,
+        "wind_speed": 6.06,
+        "ocean_current": 2.29
+    },
+    {
+        "timestamp": "2024-12-08 05:38:45",
+        "wave_height": 1.55,
+        "wind_speed": 14.96,
+        "ocean_current": 0.45
+    },
+    {
+        "timestamp": "2024-12-08 04:18:45",
+        "wave_height": 1.79,
+        "wind_speed": 23.83,
+        "ocean_current": 0.83
+    },
+    {
+        "timestamp": "2024-12-08 02:51:45",
+        "wave_height": 3.61,
+        "wind_speed": 12.91,
+        "ocean_current": 0.28
+    },
+    {
+        "timestamp": "2024-12-08 00:01:45",
+        "wave_height": 1.12,
+        "wind_speed": 10.54,
+        "ocean_current": 2.28
+    },
+    {
+        "timestamp": "2024-12-08 02:27:45",
+        "wave_height": 0.65,
+        "wind_speed": 7.32,
+        "ocean_current": 1.77
+    },
+    {
+        "timestamp": "2024-12-08 15:24:45",
+        "wave_height": 0.63,
+        "wind_speed": 10.48,
+        "ocean_current": 0.23
+    },
+    {
+        "timestamp": "2024-12-08 15:54:45",
+        "wave_height": 2.61,
+        "wind_speed": 17.0,
+        "ocean_current": 0.66
+    },
+    {
+        "timestamp": "2024-12-08 14:35:45",
+        "wave_height": 3.93,
+        "wind_speed": 18.61,
+        "ocean_current": 1.53
+    },
+    {
+        "timestamp": "2024-12-08 21:52:45",
+        "wave_height": 2.79,
+        "wind_speed": 6.0,
+        "ocean_current": 2.11
+    },
+    {
+        "timestamp": "2024-12-08 17:29:45",
+        "wave_height": 3.04,
+        "wind_speed": 24.46,
+        "ocean_current": 2.53
+    },
+    {
+        "timestamp": "2024-12-08 20:43:45",
+        "wave_height": 1.76,
+        "wind_speed": 13.78,
+        "ocean_current": 0.93
+    },
+    {
+        "timestamp": "2024-12-08 17:04:45",
+        "wave_height": 0.77,
+        "wind_speed": 22.52,
+        "ocean_current": 2.4
+    },
+    {
+        "timestamp": "2024-12-08 19:04:45",
+        "wave_height": 2.51,
+        "wind_speed": 14.53,
+        "ocean_current": 0.48
+    },
+    {
+        "timestamp": "2024-12-08 10:29:45",
+        "wave_height": 2.87,
+        "wind_speed": 13.65,
+        "ocean_current": 1.33
+    },
+    {
+        "timestamp": "2024-12-08 08:14:45",
+        "wave_height": 1.41,
+        "wind_speed": 24.69,
+        "ocean_current": 0.35
+    },
+    {
+        "timestamp": "2024-12-08 03:56:45",
+        "wave_height": 2.36,
+        "wind_speed": 9.34,
+        "ocean_current": 1.44
+    },
+    {
+        "timestamp": "2024-12-08 01:18:45",
+        "wave_height": 2.94,
+        "wind_speed": 16.11,
+        "ocean_current": 1.92
+    },
+    {
+        "timestamp": "2024-12-08 04:11:45",
+        "wave_height": 2.82,
+        "wind_speed": 5.77,
+        "ocean_current": 1.72
+    },
+    {
+        "timestamp": "2024-12-08 17:33:45",
+        "wave_height": 3.28,
+        "wind_speed": 24.56,
+        "ocean_current": 1.72
+    },
+    {
+        "timestamp": "2024-12-08 20:55:45",
+        "wave_height": 3.34,
+        "wind_speed": 18.07,
+        "ocean_current": 0.6
+    },
+    {
+        "timestamp": "2024-12-08 14:15:45",
+        "wave_height": 1.81,
+        "wind_speed": 24.4,
+        "ocean_current": 2.88
+    },
+    {
+        "timestamp": "2024-12-08 07:02:45",
+        "wave_height": 2.5,
+        "wind_speed": 19.55,
+        "ocean_current": 2.39
+    },
+    {
+        "timestamp": "2024-12-08 16:13:45",
+        "wave_height": 2.66,
+        "wind_speed": 15.99,
+        "ocean_current": 1.9
+    },
+    {
+        "timestamp": "2024-12-08 20:02:45",
+        "wave_height": 3.4,
+        "wind_speed": 23.27,
+        "ocean_current": 1.34
+    },
+    {
+        "timestamp": "2024-12-08 13:56:45",
+        "wave_height": 0.63,
+        "wind_speed": 6.75,
+        "ocean_current": 0.8
+    },
+    {
+        "timestamp": "2024-12-08 16:32:45",
+        "wave_height": 1.99,
+        "wind_speed": 17.54,
+        "ocean_current": 0.38
+    },
+    {
+        "timestamp": "2024-12-08 13:08:45",
+        "wave_height": 3.94,
+        "wind_speed": 21.56,
+        "ocean_current": 1.97
+    },
+    {
+        "timestamp": "2024-12-08 16:29:45",
+        "wave_height": 1.58,
+        "wind_speed": 19.92,
+        "ocean_current": 2.41
+    },
+    {
+        "timestamp": "2024-12-08 07:26:45",
+        "wave_height": 3.37,
+        "wind_speed": 11.11,
+        "ocean_current": 1.75
+    },
+    {
+        "timestamp": "2024-12-08 01:48:45",
+        "wave_height": 1.51,
+        "wind_speed": 9.31,
+        "ocean_current": 1.55
+    },
+    {
+        "timestamp": "2024-12-08 11:30:45",
+        "wave_height": 1.85,
+        "wind_speed": 9.35,
+        "ocean_current": 1.69
+    },
+    {
+        "timestamp": "2024-12-08 04:37:45",
+        "wave_height": 2.43,
+        "wind_speed": 6.47,
+        "ocean_current": 2.13
+    },
+    {
+        "timestamp": "2024-12-08 05:45:45",
+        "wave_height": 1.73,
+        "wind_speed": 6.15,
+        "ocean_current": 0.93
+    },
+    {
+        "timestamp": "2024-12-08 02:55:45",
+        "wave_height": 1.13,
+        "wind_speed": 12.24,
+        "ocean_current": 1.42
+    },
+    {
+        "timestamp": "2024-12-08 05:40:45",
+        "wave_height": 1.72,
+        "wind_speed": 14.75,
+        "ocean_current": 1.97
+    },
+    {
+        "timestamp": "2024-12-08 03:32:45",
+        "wave_height": 2.26,
+        "wind_speed": 8.81,
+        "ocean_current": 1.22
+    },
+    {
+        "timestamp": "2024-12-08 21:01:45",
+        "wave_height": 1.63,
+        "wind_speed": 9.6,
+        "ocean_current": 0.38
+    },
+    {
+        "timestamp": "2024-12-08 12:16:45",
+        "wave_height": 3.08,
+        "wind_speed": 7.85,
+        "ocean_current": 1.89
+    },
+    {
+        "timestamp": "2024-12-07 19:06:45",
+        "wave_height": 3.39,
+        "wind_speed": 20.5,
+        "ocean_current": 2.11
+    },
+    {
+        "timestamp": "2024-12-07 20:33:45",
+        "wave_height": 1.2,
+        "wind_speed": 11.5,
+        "ocean_current": 2.61
+    },
+    {
+        "timestamp": "2024-12-07 16:49:45",
+        "wave_height": 3.89,
+        "wind_speed": 20.06,
+        "ocean_current": 0.15
+    },
+    {
+        "timestamp": "2024-12-07 22:55:45",
+        "wave_height": 3.86,
+        "wind_speed": 13.51,
+        "ocean_current": 2.76
+    },
+    {
+        "timestamp": "2024-12-07 08:48:45",
+        "wave_height": 1.4,
+        "wind_speed": 17.14,
+        "ocean_current": 0.27
+    },
+    {
+        "timestamp": "2024-12-07 19:55:45",
+        "wave_height": 3.26,
+        "wind_speed": 11.53,
+        "ocean_current": 0.24
+    },
+    {
+        "timestamp": "2024-12-07 13:23:45",
+        "wave_height": 2.21,
+        "wind_speed": 22.77,
+        "ocean_current": 2.8
+    },
+    {
+        "timestamp": "2024-12-07 06:30:45",
+        "wave_height": 3.13,
+        "wind_speed": 14.36,
+        "ocean_current": 1.36
+    },
+    {
+        "timestamp": "2024-12-07 18:23:45",
+        "wave_height": 3.17,
+        "wind_speed": 13.37,
+        "ocean_current": 0.89
+    },
+    {
+        "timestamp": "2024-12-07 06:33:45",
+        "wave_height": 3.49,
+        "wind_speed": 20.3,
+        "ocean_current": 2.46
+    },
+    {
+        "timestamp": "2024-12-07 00:27:45",
+        "wave_height": 1.76,
+        "wind_speed": 17.37,
+        "ocean_current": 0.17
+    },
+    {
+        "timestamp": "2024-12-07 21:16:45",
+        "wave_height": 2.45,
+        "wind_speed": 10.95,
+        "ocean_current": 0.62
+    },
+    {
+        "timestamp": "2024-12-07 05:20:45",
+        "wave_height": 2.98,
+        "wind_speed": 6.16,
+        "ocean_current": 0.4
+    },
+    {
+        "timestamp": "2024-12-07 22:40:45",
+        "wave_height": 2.08,
+        "wind_speed": 21.7,
+        "ocean_current": 2.88
+    },
+    {
+        "timestamp": "2024-12-07 06:56:45",
+        "wave_height": 3.61,
+        "wind_speed": 10.45,
+        "ocean_current": 2.84
+    },
+    {
+        "timestamp": "2024-12-07 18:25:45",
+        "wave_height": 0.69,
+        "wind_speed": 8.49,
+        "ocean_current": 2.88
+    },
+    {
+        "timestamp": "2024-12-07 11:49:45",
+        "wave_height": 1.05,
+        "wind_speed": 17.86,
+        "ocean_current": 1.42
+    },
+    {
+        "timestamp": "2024-12-07 21:20:45",
+        "wave_height": 2.35,
+        "wind_speed": 21.66,
+        "ocean_current": 2.29
+    },
+    {
+        "timestamp": "2024-12-07 19:59:45",
+        "wave_height": 3.85,
+        "wind_speed": 6.92,
+        "ocean_current": 0.46
+    },
+    {
+        "timestamp": "2024-12-07 11:06:45",
+        "wave_height": 3.24,
+        "wind_speed": 7.42,
+        "ocean_current": 1.12
+    },
+    {
+        "timestamp": "2024-12-07 14:39:45",
+        "wave_height": 1.25,
+        "wind_speed": 12.61,
+        "ocean_current": 1.94
+    },
+    {
+        "timestamp": "2024-12-07 02:56:45",
+        "wave_height": 3.52,
+        "wind_speed": 22.18,
+        "ocean_current": 1.37
+    },
+    {
+        "timestamp": "2024-12-07 15:44:45",
+        "wave_height": 3.81,
+        "wind_speed": 9.78,
+        "ocean_current": 1.01
+    },
+    {
+        "timestamp": "2024-12-07 23:11:45",
+        "wave_height": 3.55,
+        "wind_speed": 17.47,
+        "ocean_current": 1.2
+    },
+    {
+        "timestamp": "2024-12-07 01:09:45",
+        "wave_height": 1.06,
+        "wind_speed": 15.3,
+        "ocean_current": 2.24
+    },
+    {
+        "timestamp": "2024-12-07 12:18:45",
+        "wave_height": 2.35,
+        "wind_speed": 10.2,
+        "ocean_current": 2.07
+    },
+    {
+        "timestamp": "2024-12-07 19:08:45",
+        "wave_height": 3.4,
+        "wind_speed": 15.04,
+        "ocean_current": 2.9
+    },
+    {
+        "timestamp": "2024-12-07 11:37:45",
+        "wave_height": 2.06,
+        "wind_speed": 16.03,
+        "ocean_current": 0.63
+    },
+    {
+        "timestamp": "2024-12-07 05:28:45",
+        "wave_height": 3.34,
+        "wind_speed": 23.81,
+        "ocean_current": 0.28
+    },
+    {
+        "timestamp": "2024-12-07 14:31:45",
+        "wave_height": 1.83,
+        "wind_speed": 23.29,
+        "ocean_current": 0.37
+    },
+    {
+        "timestamp": "2024-12-07 15:40:45",
+        "wave_height": 0.6,
+        "wind_speed": 16.97,
+        "ocean_current": 0.44
+    },
+    {
+        "timestamp": "2024-12-07 09:17:45",
+        "wave_height": 3.26,
+        "wind_speed": 7.57,
+        "ocean_current": 1.6
+    },
+    {
+        "timestamp": "2024-12-07 17:50:45",
+        "wave_height": 0.79,
+        "wind_speed": 19.19,
+        "ocean_current": 2.98
+    },
+    {
+        "timestamp": "2024-12-07 12:44:45",
+        "wave_height": 1.9,
+        "wind_speed": 23.13,
+        "ocean_current": 0.57
+    },
+    {
+        "timestamp": "2024-12-07 17:37:45",
+        "wave_height": 3.82,
+        "wind_speed": 23.55,
+        "ocean_current": 0.12
+    },
+    {
+        "timestamp": "2024-12-07 07:54:45",
+        "wave_height": 3.18,
+        "wind_speed": 9.25,
+        "ocean_current": 2.89
+    },
+    {
+        "timestamp": "2024-12-07 19:28:45",
+        "wave_height": 3.78,
+        "wind_speed": 20.22,
+        "ocean_current": 0.21
+    },
+    {
+        "timestamp": "2024-12-07 04:38:45",
+        "wave_height": 1.61,
+        "wind_speed": 5.08,
+        "ocean_current": 0.97
+    },
+    {
+        "timestamp": "2024-12-07 22:54:45",
+        "wave_height": 3.17,
+        "wind_speed": 14.86,
+        "ocean_current": 1.36
+    },
+    {
+        "timestamp": "2024-12-07 04:27:45",
+        "wave_height": 1.89,
+        "wind_speed": 7.71,
+        "ocean_current": 2.63
+    },
+    {
+        "timestamp": "2024-12-07 10:19:45",
+        "wave_height": 3.42,
+        "wind_speed": 13.95,
+        "ocean_current": 1.28
+    },
+    {
+        "timestamp": "2024-12-07 20:53:45",
+        "wave_height": 1.54,
+        "wind_speed": 22.53,
+        "ocean_current": 2.32
+    },
+    {
+        "timestamp": "2024-12-07 16:34:45",
+        "wave_height": 1.82,
+        "wind_speed": 13.86,
+        "ocean_current": 0.35
+    },
+    {
+        "timestamp": "2024-12-07 06:22:45",
+        "wave_height": 2.33,
+        "wind_speed": 11.29,
+        "ocean_current": 2.21
+    },
+    {
+        "timestamp": "2024-12-07 22:49:45",
+        "wave_height": 3.86,
+        "wind_speed": 19.92,
+        "ocean_current": 1.89
+    },
+    {
+        "timestamp": "2024-12-07 04:16:45",
+        "wave_height": 3.09,
+        "wind_speed": 12.88,
+        "ocean_current": 0.35
+    },
+    {
+        "timestamp": "2024-12-07 09:06:45",
+        "wave_height": 2.02,
+        "wind_speed": 21.26,
+        "ocean_current": 2.62
+    },
+    {
+        "timestamp": "2024-12-07 05:37:45",
+        "wave_height": 2.24,
+        "wind_speed": 11.14,
+        "ocean_current": 2.36
+    },
+    {
+        "timestamp": "2024-12-07 15:47:45",
+        "wave_height": 0.73,
+        "wind_speed": 20.9,
+        "ocean_current": 1.78
+    },
+    {
+        "timestamp": "2024-12-07 02:34:45",
+        "wave_height": 1.89,
+        "wind_speed": 12.02,
+        "ocean_current": 1.16
+    }
+]

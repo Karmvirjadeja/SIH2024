@@ -192,7 +192,7 @@ import {
 } from "chart.js";
 
 // Import the data.json file
-import data from "../components/utils/indian_ocean_dummy_data (1)";
+import data from "../components/utils/umu.json";
 
 ChartJS.register(
   CategoryScale,
