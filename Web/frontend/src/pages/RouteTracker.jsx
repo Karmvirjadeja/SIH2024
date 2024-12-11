@@ -1,191 +1,12 @@
-// import React from "react";
-// import { MapContainer, TileLayer, Polyline, Marker, Popup } from "react-leaflet";
-// import "leaflet/dist/leaflet.css";
-// import Header from "../components/Header";
-
-// function generateRouteNodes(route, segmentLength = 111) {
-//   const nodes = [route[0]];
-//   for (let i = 0; i < route.length - 1; i++) {
-//     const start = route[i];
-//     const end = route[i + 1];
-//     const totalDistance = haversine(start[0], start[1], end[0], end[1]);
-//     const numSegments = Math.ceil(totalDistance / segmentLength);
-//     for (let j = 1; j < numSegments; j++) {
-//       const fraction = j / numSegments;
-//       const lat = start[0] + fraction * (end[0] - start[0]);
-//       const lon = start[1] + fraction * (end[1] - start[1]);
-//       nodes.push([lat, lon]);
-//     }
-//   }
-//   nodes.push(route[route.length - 1]);
-//   return nodes;
-// }
-
-// function haversine(lat1, lon1, lat2, lon2) {
-//   const R = 6371; // Radius of Earth in km
-//   const dLat = (lat2 - lat1) * (Math.PI / 180);
-//   const dLon = (lon2 - lon1) * (Math.PI / 180);
-//   const a =
-//     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-//     Math.cos(lat1 * (Math.PI / 180)) *
-//       Math.cos(lat2 * (Math.PI / 180)) *
-//       Math.sin(dLon / 2) * Math.sin(dLon / 2);
-//   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-//   return R * c;
-// }
-
-// const RouteTracker = () => {
-//   const routes = [
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [10.0, 98.0],       // Andaman Sea
-//       [-6.0, 110.0],      // South Java Sea
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [12.0, 90.0],       // Bay of Bengal
-//       [0.0, 100.0],       // Southern Indian Ocean
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [5.0, 90.0],        // Central Indian Ocean
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [8.0, 95.0],        // East Indian Ocean
-//       [0.0, 105.0],       // South of Indonesia
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [10.0, 100.0],      // Bay of Bengal
-//       [-5.0, 110.0],      // South Java Sea
-//       [-35.0, 120.0],     // South of Australia
-//       [-31.9505, 115.8605] // Perth
-//     ]
-//   ];
-
-//   const colors = ["blue", "green", "red", "orange", "purple"];
-
-// return (
-//   <>
-//   <Header/>
-//   <div className="h-screen flex flex-col lg:flex-row">
-//     {/* Map Section */}
-//     <div className="lg:w-2/3 relative h-2/3 lg:h-full">
-//       <MapContainer center={[0, 100]} zoom={4} className="w-full h-full">
-//         <TileLayer
-//           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-//           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-//         />
-//         {routes.map((route, index) => {
-//           const routeNodes = generateRouteNodes(route);
-//           return (
-//             <React.Fragment key={index}>
-//               <Polyline
-//                 positions={route}
-//                 color={colors[index]}
-//                 weight={3}
-//                 dashArray="10, 5"
-//               />
-//               {routeNodes.map((node, idx) => (
-//                 <Marker key={idx} position={node}>
-//                   <Popup>Node {idx + 1}</Popup>
-//                 </Marker>
-//               ))}
-//             </React.Fragment>
-//           );
-//         })}
-//         <Marker position={[13.0827, 80.2707]}>
-//           <Popup>Port of Chennai</Popup>
-//         </Marker>
-//         <Marker position={[-31.9505, 115.8605]}>
-//           <Popup>Port of Perth</Popup>
-//         </Marker>
-//       </MapContainer>
-
-//       {/* Weather Forecast */}
-//       <div className="absolute top-5 right-5 bg-blue-200 p-4 rounded-lg shadow-lg backdrop-blur-md z-20">
-//         <h4 className="font-bold mb-2 text-center">Weather Forecast</h4>
-//         <div className="grid grid-cols-5 gap-2">
-//           {/* Weather Items */}
-//           {["8:00", "10:00", "12:00", "14:00", "Now"].map((time, idx) => (
-//             <div className="text-center" key={idx}>
-//               <p>{time}</p>
-//               <p>{["☁️", "🌥️", "🌤️", "☀️", "☀️"][idx]}</p>
-//               <p>{[21, 22, 24, 26, 25][idx]}°C</p>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-
-//       {/* Controls */}
-//       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-4 z-20">
-//         {["GPS", "Pause", "Route"].map((control, idx) => (
-//           <button
-//             key={idx}
-//             className={`p-2 rounded-full shadow-lg ${
-//               ["bg-green-500", "bg-red-500", "bg-blue-500"][idx]
-//             } text-white`}
-//           >
-//             {control}
-//           </button>
-//         ))}
-//       </div>
-//     </div>
-
-//     {/* Route Details Sidebar */}
-//     <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
-//       <h3 className="text-lg font-bold mb-4">Route Details</h3>
-//       <div className="border-t pt-4">
-//         <div className="flex items-center gap-4 mb-4">
-//           <img
-//             src="https://via.placeholder.com/100"
-//             alt="Ship"
-//             className="w-20 h-20 object-cover rounded-md"
-//           />
-//           <div>
-//             <h4 className="font-semibold">From Vishakhapatnam to Indonesia</h4>
-//             <p>Saturday, 29 June</p>
-//           </div>
-//         </div>
-//         <ul className="space-y-4">
-//           {[
-//             "Port of Vishakhapatnam, India",
-//             "Bay of Bengal",
-//             "Andaman Sea",
-//             "Strait of Malacca",
-//             "South China Sea",
-//             "Strait of Singapore",
-//             "Port of Batam, Indonesia",
-//           ].map((location, idx) => (
-//             <li
-//               key={idx}
-//               className="border p-2 rounded-lg flex justify-between items-center"
-//             >
-//               <span>{location}</span>
-//               <span>16:09h</span>
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     </div>
-//   </div>
-//   </>
-// );
-// };
-// export default RouteTracker;
-// import React from "react";
+// import React, { useEffect, useState } from "react";
 // import { MapContainer, TileLayer, Polyline, Marker, Popup } from "react-leaflet";
 // import "leaflet/dist/leaflet.css";
 // import Header from "../components/Header"; // Adjust the path as necessary
-// import axios from 'axios';
-// import { ToastContainer, toast } from 'react-toastify'; // Import ToastContainer and toast
-// import 'react-toastify/dist/ReactToastify.css'; // Import CSS for toast notifications
+// import axios from "axios";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
+// // Generate nodes based on route segments
 // function generateRouteNodes(route, segmentLength = 111) {
 //   const nodes = [route[0]];
 //   for (let i = 0; i < route.length - 1; i++) {
@@ -204,6 +25,7 @@
 //   return nodes;
 // }
 
+// // Haversine formula to calculate distance between two points
 // function haversine(lat1, lon1, lat2, lon2) {
 //   const R = 6371; // Radius of Earth in km
 //   const dLat = (lat2 - lat1) * (Math.PI / 180);
@@ -218,80 +40,126 @@
 // }
 
 // const RouteTracker = () => {
+//   const [userLocation, setUserLocation] = useState(null);
+  
+//   // Example routes with latitudes and longitudes
 //   const routes = [
 //     [
-//       [13.0827, 80.2707], // Chennai
-//       [10.0, 98.0],       // Andaman Sea
-//       [-6.0, 110.0],      // South Java Sea
-//       [-31.9505, 115.8605] // Perth
+//       { latitude: 13.07, longitude: 80.29 },
+//       { latitude: 11.35, longitude: 81.82 },
+//       { latitude: 9.45, longitude: 83.23 },
+//       { latitude: 6.4, longitude: 85.42 },
+//       { latitude: 2.55, longitude: 87.8 },
+//       { latitude: -1.5, longitude: 90.7 },
+//       { latitude: -5.43, longitude: 92.42 },
+//       { latitude: -10.48, longitude: 97.55 },
+//       { latitude: -14.51, longitude: 101.42 },
+//       { latitude: -18.81, longitude: 104.67 },
+//       { latitude: -23.48, longitude: 108.1 },
+//       { latitude: -27.2, longitude: 111.0 },
+//       { latitude: -30.9, longitude: 114.72 },
+//       { latitude: -32.07, longitude: 115.65 }
 //     ],
 //     [
-//       [13.0827, 80.2707], // Chennai
-//       [12.0, 90.0],       // Bay of Bengal
-//       [0.0, 100.0],       // Southern Indian Ocean
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [5.0, 90.0],        // Central Indian Ocean
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [8.0, 95.0],        // East Indian Ocean
-//       [0.0, 105.0],       // South of Indonesia
-//       [-31.9505, 115.8605] // Perth
-//     ],
-//     [
-//       [13.0827, 80.2707], // Chennai
-//       [10.0, 100.0],      // Bay of Bengal
-//       [-5.0, 110.0],      // South Java Sea
-//       [-35.0, 120.0],     // South of Australia
-//       [-31.9505, 115.8605] // Perth
+//       { latitude: 13.07, longitude: 80.29 },
+//       { latitude: 11.52, longitude: 84.37 },
+//       { latitude: 8.7, longitude: 88.85 },
+//       { latitude: 5.13, longitude: 94.87 },
+//       { latitude: -2.8, longitude: 100.98 },
+//       { latitude: -7.27, longitude: 105.86 },
+//       { latitude: -8.36, longitude: 109.77 },
+//       { latitude: -13.19, longitude: 110.3 },
+//       { latitude: -18.6, longitude: 110.96 },
+//       { latitude: -24.56, longitude: 111.79 },
+//       { latitude: -28.65, longitude: 113.64 },
+//       { latitude: -30.9, longitude: 114.43 },
+//       { latitude: -32.07, longitude: 115.65 }
 //     ]
 //   ];
 
-//   const colors = ["blue", "green", "red", "orange", "purple"];
+//   const colors = ["blue", "green"];
 
+//   // Handle SOS button click
 //   const handleSOS = () => {
-//     navigator.geolocation.getCurrentPosition((position) => {
-//       const { latitude, longitude } = position.coords;
-//       axios.post('http://localhost:8000/api/v1/savelocation', { latitude, longitude })
-//         .then(response => {
-//           console.log('Location saved:', response.data);
-//           toast.success('Your location has been sent successfully!'); // Show success toast
-//         })
-//         .catch(error => {
-//           console.error('Error saving location:', error);
-//           toast.error('Error sending location!'); // Show error toast
-//         });
-//     }, (error) => {
-//       console.error('Error getting location:', error);
-//       toast.error('Unable to retrieve your location!'); // Show error toast for geolocation failure
-//     });
+//     navigator.geolocation.getCurrentPosition(
+//       (position) => {
+//         const { latitude, longitude } = position.coords;
+//         axios
+//           .post("http://localhost:8000/api/v1/savelocation", { latitude, longitude })
+//           .then((response) => {
+//             console.log("Location saved:", response.data);
+//             toast.success("Your location has been sent successfully!");
+//           })
+//           .catch((error) => {
+//             console.error("Error saving location:", error);
+//             toast.error("Error sending location!");
+//           });
+//       },
+//       (error) => {
+//         console.error("Error getting location:", error);
+//         toast.error("Unable to retrieve your location!");
+//       }
+//     );
 //   };
 
-// return (
+//   // Get current location of the user
+//   useEffect(() => {
+//     if (navigator.geolocation) {
+//       navigator.geolocation.getCurrentPosition((position) => {
+//         setUserLocation({
+//           lat: position.coords.latitude,
+//           lon: position.coords.longitude
+//         });
+//       });
+//     }
+//   }, []);
+
+//   return (
 //     <>
 //       <Header />
-      
+
 //       {/* Toast Container */}
 //       <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} closeOnClick draggable pauseOnHover />
 
-//       <div className="h-screen flex flex-col lg:flex-row">
+//       <div className="h-screen flex flex-col lg:flex-row relative">
+//         {/* Controls */}
+//         <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex gap-4 z-50">
+//           {["GPS", "Pause", "Route"].map((control, idx) => (
+//             <button
+//               key={idx}
+//               className={`p-2 rounded-full shadow-lg ${
+//                 ["bg-green-500", "bg-red-500", "bg-blue-500"][idx]
+//               } text-white`}
+//             >
+//               {control}
+//             </button>
+//           ))}
+//         </div>
+
+//         {/* SOS Button */}
+//         <div className="absolute bottom-20 left-5 z-50">
+//           <button onClick={handleSOS} className="p-4 bg-red-500 text-white rounded-full shadow-lg">
+//             SOS
+//           </button>
+//         </div>
+
 //         {/* Map Section */}
-//         <div className="lg:w-2/3 relative h-2/3 lg:h-full">
-//           <MapContainer center={[0, 100]} zoom={4} className="w-full h-full">
+//         <div className="lg:w-2/3 relative h-2/3 lg:h-full z-10">
+//           <MapContainer
+//             center={userLocation ? [userLocation.lat, userLocation.lon] : [0, 100]}
+//             zoom={4}
+//             className="w-full h-full"
+//           >
 //             <TileLayer
 //               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 //               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 //             />
 //             {routes.map((route, index) => {
-//               const routeNodes = generateRouteNodes(route);
+//               const routeNodes = generateRouteNodes(route.map(r => [r.latitude, r.longitude]));
 //               return (
 //                 <React.Fragment key={index}>
 //                   <Polyline
-//                     positions={route}
+//                     positions={routeNodes}
 //                     color={colors[index]}
 //                     weight={3}
 //                     dashArray="10, 5"
@@ -304,81 +172,18 @@
 //                 </React.Fragment>
 //               );
 //             })}
-//             <Marker position={[13.0827, 80.2707]}>
-//               <Popup>Port of Chennai</Popup>
-//             </Marker>
-//             <Marker position={[-31.9505, 115.8605]}>
-//               <Popup>Port of Perth</Popup>
-//             </Marker>
 //           </MapContainer>
-
-//           {/* Weather Forecast */}
-//           <div className="absolute top-5 right-5 bg-blue-200 p-4 rounded-lg shadow-lg backdrop-blur-md z-20">
-//             <h4 className="font-bold mb-2 text-center">Weather Forecast</h4>
-//             <div className="grid grid-cols-5 gap-2">
-//               {/* Weather Items */}
-//               {["8:00", "10:00", "12:00", "14:00", "Now"].map((time, idx) => (
-//                 <div className="text-center" key={idx}>
-//                   <p>{time}</p>
-//                   <p>{["☁️", "🌥️", "🌤️", "☀️", "☀️"][idx]}</p>
-//                   <p>{[21, 22, 24, 26, 25][idx]}°C</p>
-//                 </div>
-//               ))}
-//             </div>
-//           </div>
-
-//           {/* Controls */}
-//           <div className="absolute top-5 left-1/2 transform -translate-x-1/2 flex gap-4 z-50">
-//   {["GPS", "Pause", "Route"].map((control, idx) => (
-//     <button
-//       key={idx}
-//       className={`p-3 rounded-full shadow-lg ${
-//         ["bg-green-500", "bg-red-500", "bg-blue-500"][idx]
-//       } text-white hover:scale-105 transition-transform`}
-//     >
-//       {control}
-//     </button>
-//   ))}
-// </div>
-
-//           {/* SOS Button */}
-//           <div className="absolute top-5 left-5 z-50">
-//   <button
-//     onClick={handleSOS}
-//     className="p-4 bg-red-500 text-white rounded-full shadow-lg hover:scale-105 transition-transform"
-//   >
-//     SOS
-//   </button>
-// </div>
+//         </div>
 
 //         {/* Route Details Sidebar */}
 //         <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
 //           <h3 className="text-lg font-bold mb-4">Route Details</h3>
 //           <div className="border-t pt-4">
-//             <div className="flex items-center gap-4 mb-4">
-//               <img
-//                 src="https://via.placeholder.com/100"
-//                 alt="Ship"
-//                 className="w-20 h-20 object-cover rounded-md"
-//               />
-//               <div>
-//                 <h4 className="font-semibold">From Vishakhapatnam to Indonesia</h4>
-//                 <p>Saturday, June XX</p> {/* Update date as needed */}
-//               </div>
-//             </div>
 //             <ul className="space-y-4">
-//               {[
-//                 "Port of Vishakhapatnam, India",
-//                 "Bay of Bengal",
-//                 "Andaman Sea",
-//                 "Strait of Malacca",
-//                 "South China Sea",
-//                 "Strait of Singapore",
-//                 "Port of Batam, Indonesia",
-//               ].map((location, idx) => (
+//               {["Port A", "Point B", "Destination"].map((location, idx) => (
 //                 <li key={idx} className="border p-2 rounded-lg flex justify-between items-center">
 //                   <span>{location}</span>
-//                   <span>16:09h</span> {/* Update time as needed */}
+//                   <span>Time</span>
 //                 </li>
 //               ))}
 //             </ul>
@@ -386,12 +191,11 @@
 //         </div>
 //       </div>
 //     </>
-// );
+//   );
 // };
 
 // export default RouteTracker;
-
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Polyline, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Header from "../components/Header"; // Adjust the path as necessary
@@ -399,8 +203,9 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+// Generate nodes based on route segments
 function generateRouteNodes(route, segmentLength = 111) {
-  const nodes = [route[0]];
+  const nodes = [route[0]]; // Always add the first point
   for (let i = 0; i < route.length - 1; i++) {
     const start = route[i];
     const end = route[i + 1];
@@ -413,10 +218,11 @@ function generateRouteNodes(route, segmentLength = 111) {
       nodes.push([lat, lon]);
     }
   }
-  nodes.push(route[route.length - 1]);
+  nodes.push(route[route.length - 1]); // Always add the last point
   return nodes;
 }
 
+// Haversine formula to calculate distance between two points
 function haversine(lat1, lon1, lat2, lon2) {
   const R = 6371; // Radius of Earth in km
   const dLat = (lat2 - lat1) * (Math.PI / 180);
@@ -431,23 +237,46 @@ function haversine(lat1, lon1, lat2, lon2) {
 }
 
 const RouteTracker = () => {
+  const [userLocation, setUserLocation] = useState(null);
+
+  // Example routes with latitudes and longitudes
   const routes = [
     [
-      [13.0827, 80.2707], // Chennai
-      [10.0, 98.0], // Andaman Sea
-      [-6.0, 110.0], // South Java Sea
-      [-31.9505, 115.8605], // Perth
+      { latitude: 13.07, longitude: 80.29 },
+      { latitude: 11.35, longitude: 81.82 },
+      { latitude: 9.45, longitude: 83.23 },
+      { latitude: 6.4, longitude: 85.42 },
+      { latitude: 2.55, longitude: 87.8 },
+      { latitude: -1.5, longitude: 90.7 },
+      { latitude: -5.43, longitude: 92.42 },
+      { latitude: -10.48, longitude: 97.55 },
+      { latitude: -14.51, longitude: 101.42 },
+      { latitude: -18.81, longitude: 104.67 },
+      { latitude: -23.48, longitude: 108.1 },
+      { latitude: -27.2, longitude: 111.0 },
+      { latitude: -30.9, longitude: 114.72 },
+      { latitude: -32.07, longitude: 115.65 }
     ],
     [
-      [13.0827, 80.2707], // Chennai
-      [12.0, 90.0], // Bay of Bengal
-      [0.0, 100.0], // Southern Indian Ocean
-      [-31.9505, 115.8605], // Perth
-    ],
+      { latitude: 13.07, longitude: 80.29 },
+      { latitude: 11.52, longitude: 84.37 },
+      { latitude: 8.7, longitude: 88.85 },
+      { latitude: 5.13, longitude: 94.87 },
+      { latitude: -2.8, longitude: 100.98 },
+      { latitude: -7.27, longitude: 105.86 },
+      { latitude: -8.36, longitude: 109.77 },
+      { latitude: -13.19, longitude: 110.3 },
+      { latitude: -18.6, longitude: 110.96 },
+      { latitude: -24.56, longitude: 111.79 },
+      { latitude: -28.65, longitude: 113.64 },
+      { latitude: -30.9, longitude: 114.43 },
+      { latitude: -32.07, longitude: 115.65 }
+    ]
   ];
 
   const colors = ["blue", "green"];
 
+  // Handle SOS button click
   const handleSOS = () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
@@ -470,6 +299,18 @@ const RouteTracker = () => {
     );
   };
 
+  // Get current location of the user
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setUserLocation({
+          lat: position.coords.latitude,
+          lon: position.coords.longitude
+        });
+      });
+    }
+  }, []);
+
   return (
     <>
       <Header />
@@ -483,9 +324,7 @@ const RouteTracker = () => {
           {["GPS", "Pause", "Route"].map((control, idx) => (
             <button
               key={idx}
-              className={`p-2 rounded-full shadow-lg ${
-                ["bg-green-500", "bg-red-500", "bg-blue-500"][idx]
-              } text-white`}
+              className={`p-2 rounded-full shadow-lg ${["bg-green-500", "bg-red-500", "bg-blue-500"][idx]} text-white`}
             >
               {control}
             </button>
@@ -501,26 +340,32 @@ const RouteTracker = () => {
 
         {/* Map Section */}
         <div className="lg:w-2/3 relative h-2/3 lg:h-full z-10">
-          <MapContainer center={[0, 100]} zoom={4} className="w-full h-full">
+          <MapContainer
+            center={userLocation ? [userLocation.lat, userLocation.lon] : [0, 100]}
+            zoom={4}
+            className="w-full h-full"
+          >
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             {routes.map((route, index) => {
-              const routeNodes = generateRouteNodes(route);
+              const routeNodes = generateRouteNodes(route.map(r => [r.latitude, r.longitude]));
               return (
                 <React.Fragment key={index}>
                   <Polyline
-                    positions={route}
+                    positions={routeNodes}
                     color={colors[index]}
                     weight={3}
                     dashArray="10, 5"
                   />
-                  {routeNodes.map((node, idx) => (
-                    <Marker key={idx} position={node}>
-                      <Popup>Node {idx + 1}</Popup>
-                    </Marker>
-                  ))}
+                  {/* Only render marker for first and last node */}
+                  <Marker position={routeNodes[0]}>
+                    <Popup>Source</Popup>
+                  </Marker>
+                  <Marker position={routeNodes[routeNodes.length - 1]}>
+                    <Popup>Destination</Popup>
+                  </Marker>
                 </React.Fragment>
               );
             })}
