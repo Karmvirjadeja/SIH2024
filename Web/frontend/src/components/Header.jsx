@@ -26,6 +26,8 @@ const Header = () => {
       <nav className="hidden md:flex items-center justify-center flex-grow space-x-8 text-white">
         <Link to="/" className="hover:text-blue-300">Home</Link>
         <Link to="/maps" className="hover:text-blue-300">Map</Link>
+        <Link to="/forecast" className="hover:text-blue-300">
+        Forecast Data</Link>
         <Link to="/about" className="hover:text-blue-300">About</Link>
         <Link to="/faqs" className="hover:text-blue-300">FAQ'S</Link>
         
@@ -46,6 +48,7 @@ const Header = () => {
           <nav className="flex flex-col items-center py-4 space-y-4">
             <Link to="/" className="hover:text-blue-300" onClick={toggleMenu}>Home</Link>
             <Link to="/maps" className="hover:text-blue-300" onClick={toggleMenu}>Map</Link>
+            <Link to="/forecast" className="hover:text-blue-300" onClick={toggleMenu}>Forecast Data</Link>
             <Link to="/about" className="hover:text-blue-300" onClick={toggleMenu}>About</Link>
             <Link to="/faqs" className="hover:text-blue-300" onClick={toggleMenu}>FAQ'S</Link>
        

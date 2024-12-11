@@ -9,6 +9,7 @@ import RouteTracker from "./pages/RouteTracker";
 import EnginePowerSpeed from "./pages/EnginePowerSpeed";
 // import SelectPriorities from "./pages/SelectPriorities";
 import OptimzePath from "./pages/OptimzePath";
+import Forecast from "./pages/forecast";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
         <Route path="/" element={<ShipSelectionPage/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/forecast" element={<Forecast/>} />
         <Route path="/faqs" element={<FAQ/>} />
           <Route path="/enter-locations" element={<OptimizedRoute />} />
           <Route path="/select-ship" element={<ShipSelectionPage />} />
