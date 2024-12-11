@@ -280,7 +280,7 @@ const RouteTracker = () => {
             })}
 
             {/* Piracy Location Markers */}
-            // Piracy Location Markers
+            
 {piracyLocations.map((location, index) => (
   <Marker key={index} position={[location.latitude, location.longitude]} icon={piracyIcon}>
     <Popup> Piracy Zone - 
