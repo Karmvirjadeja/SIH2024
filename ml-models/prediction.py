@@ -4,7 +4,7 @@ import time
 import joblib
 import pandas as pd
 import numpy as np
-import requests
+import math
 import json
 
 # Storm Severity: Based on a combination of wind speed, wave height, and precipitation
@@ -354,6 +354,87 @@ def calculate_disaster_radius(weather_data: dict):
     disaster_radius = min(base_radius, 100.0)
 
     return round(disaster_radius, 2)
+
+@app.get("/disaster_radius")
+def calculate_disaster_radius(weather_data: dict):
+    """
+    Calculate disaster radius based on weather conditions to determine the affected area.
+
+    Args:
+        weather_data (dict): Dictionary containing weather data at a coordinate.
+            - wave_height (float): Wave height in meters.
+            - wind_speed (float): Wind speed in m/s.
+            - precipitation (float): Precipitation in mm/hr.
+            - ocean_current (float): Speed of ocean current in m/s.
+
+    Returns:
+        float: Disaster radius in kilometers.
+    """
+    # Extract weather data
+    wave_height = weather_data.get("wave_height", 0)
+    wind_speed = weather_data.get("wind_speed", 0)
+    precipitation = weather_data.get("precipitation", 0)
+    ocean_current = weather_data.get("ocean_current", 0)
+
+    # Define thresholds for dangerous conditions (example values)
+    WAVE_HEIGHT_THRESHOLD = 4.0  # in meters
+    WIND_SPEED_THRESHOLD = 15.0  # in m/s
+    PRECIPITATION_THRESHOLD = 20.0  # in mm/hr
+    OCEAN_CURRENT_THRESHOLD = 2.0  # in m/s
+
+    # Base radius calculation (in km)
+    base_radius = 10.0
+
+    # Increase radius based on severity of weather conditions
+    if wave_height >= WAVE_HEIGHT_THRESHOLD:
+        base_radius += (wave_height - WAVE_HEIGHT_THRESHOLD) * 3  # Increase per meter
+    if wind_speed >= WIND_SPEED_THRESHOLD:
+        base_radius += (wind_speed - WIND_SPEED_THRESHOLD) * 2  # Increase per m/s
+    if precipitation >= PRECIPITATION_THRESHOLD:
+        base_radius += (precipitation - PRECIPITATION_THRESHOLD) * 0.5  # Increase per mm/hr
+    if ocean_current >= OCEAN_CURRENT_THRESHOLD:
+        base_radius += (ocean_current - OCEAN_CURRENT_THRESHOLD) * 4  # Increase per m/s
+
+    # Limit the maximum radius to a cap (e.g., 100 km)
+    disaster_radius = min(base_radius, 100.0)
+
+    return round(disaster_radius, 2)
+
+@app.get("/avoid_cyclone")
+def avoid_cyclone(current_coordinates, cyclone_direction, distance):
+    """
+    Calculate new coordinates to avoid the cyclone by moving in the opposite direction.
+
+    Args:
+        current_coordinates (tuple): Current (latitude, longitude) of the ship.
+        cyclone_direction (float): Cyclone movement direction in degrees (0-360).
+        speed (float): Ship's speed in km/hr.
+        time (float): Time to travel in hours.
+
+    Returns:
+        tuple: New (latitude, longitude) coordinates after avoiding the cyclone.
+    """
+    # Earth radius in km
+    EARTH_RADIUS = 6371.0
+
+    # Calculate the opposite direction of the cyclone
+    opposite_direction = (cyclone_direction + 180) % 360
+
+    # Convert direction to radians
+    angle_rad = math.radians(opposite_direction)
+
+    # Distance traveled in the given time
+    # distance = speed * time
+
+    # Calculate change in coordinates
+    delta_lat = (distance / EARTH_RADIUS) * math.cos(angle_rad)
+    delta_lon = (distance / (EARTH_RADIUS * math.cos(math.radians(current_coordinates[0])))) * math.sin(angle_rad)
+
+    # Update coordinates
+    new_lat = current_coordinates[0] + math.degrees(delta_lat)
+    new_lon = current_coordinates[1] + math.degrees(delta_lon)
+
+    return round(new_lat, 6), round(new_lon, 6)
 
 if __name__ == "__main__":
     
