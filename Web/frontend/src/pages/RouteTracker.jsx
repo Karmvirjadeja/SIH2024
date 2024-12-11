@@ -53,6 +53,7 @@ function haversine(lat1, lon1, lat2, lon2) {
 
 const RouteTracker = () => {
   const [userLocation, setUserLocation] = useState(null);
+  const [port, setPort] = useState(null);
 
   // Example routes with latitudes and longitudes
   const routes = [
@@ -154,10 +155,12 @@ const RouteTracker = () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
+        
         axios
           .post("http://localhost:8000/api/v1/nearest-port", { latitude, longitude })
           .then((response) => {
-            console.log("Location saved:", response.data);
+            console.log("Location saved:", response.data.port.latitude);
+            setPort(response.data.port);
             toast.success("Here is your nearest PORT!");
           })
           .catch((error) => {
@@ -260,6 +263,12 @@ const RouteTracker = () => {
     </Popup>
   </Marker>
 ))}
+
+{port && (
+              <Marker position={[port.latitude, port.longitude]}>
+                <Popup>Nearest port: Latitude {port.latitude}, Longitude {port.longitude}</Popup>
+              </Marker>
+            )}
           </MapContainer>
         </div>
         <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
