@@ -5,7 +5,19 @@ import Header from "../components/Header"; // Adjust the path as necessary
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { DivIcon } from 'leaflet';
 
+const piracyIcon = new DivIcon({
+  className: 'piracy-icon',
+  html: '🏴‍☠️',
+  iconSize: [50, 50], // increased icon size
+  iconAnchor: [25, 50], // adjusted icon anchor
+  popupAnchor: [0, -60], // adjusted popup anchor
+  style: {
+    fontSize: '50px',
+    textAlign: 'center'
+  }
+});
 // Generate nodes based on route segments
 function generateRouteNodes(route, segmentLength = 111) {
   const nodes = [route[0]]; // Always add the first point
@@ -207,17 +219,15 @@ const RouteTracker = () => {
             })}
 
             {/* Piracy Location Markers */}
-            {piracyLocations.map((location, index) => (
-              <Marker key={index} position={[location.latitude, location.longitude]}>
-                <Popup>💀 Piracy Zone -
-
-                Latitude: {location.latitude}
-                
-                Longitude: {location.longitude}
-
-                </Popup>
-              </Marker>
-            ))}
+            // Piracy Location Markers
+{piracyLocations.map((location, index) => (
+  <Marker key={index} position={[location.latitude, location.longitude]} icon={piracyIcon}>
+    <Popup> Piracy Zone - 
+    Latitude: {location.latitude}
+    Longitude: {location.longitude}
+    </Popup>
+  </Marker>
+))}
           </MapContainer>
         </div>
         <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
