@@ -198,8 +198,17 @@ def detect_disaster(data: dict):
     }
 
     for weather, coordinate in zip(weather_json, coordinate_json):
-        if ship_sizes[Ship_Size[0]]['Wind_Speed_knots'] < weather['wind_speed'] or \
-            ship_sizes[Ship_Size[0]]['Wave_Height_m'] < weather['wave_height']:
+        row = {
+            'Wave_Height_m': weather['wave_height'],
+            'Wind_Speed_knots': weather['wind_speed'],
+            'Precipitation_mm_hr': 36.5,
+        }
+        # print(row)
+        severity_score, severity_level = determine_storm_severity(row)
+
+        print(severity_score, severity_level)
+        if ship_sizes[Ship_Size[0]]['Wind_Speed_knots'] > weather['wind_speed'] or \
+            ship_sizes[Ship_Size[0]]['Wave_Height_m'] > weather['wave_height']:
             # data = {
             #     "Ship_Size" : Ship_Size,
             #     "Fuel_Level_tonnes" : Fuel_Level_tonnes,
@@ -209,19 +218,13 @@ def detect_disaster(data: dict):
             #     "Wave_Height_m" : weather['wave_height'],
             #     "Distance_to_Disaster_km" : 149.46,
             # }
-            row = {
-                'Wave_Height_m': weather['wave_height'],
-                'Wind_Speed_knots': weather['wind_speed'],
-                'Precipitation_mm_hr': weather['precipitation'],
-            }
-            print(row)
-            severity_score, severity_level = determine_storm_severity(row)
-
-            print(severity_score, severity_level)
+            print("Move with full speed.")
+            coordinate['severity_score'] = severity_score
+            coordinate['severity_level'] = severity_level
+            return_coordinates.append(coordinate)
 
         else:
-            print("Move with full speed.")
-            return_coordinates.append(coordinate)
+            print("Eliminating coordinate : ", coordinate['Latitude'], coordinate['Latitude'])
 
     with open('return_json.json', 'w') as file:
         json.dump(return_coordinates, file)
