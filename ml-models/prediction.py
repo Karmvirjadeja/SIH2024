@@ -28,6 +28,7 @@ async def predicting(inputs: dict):
 
     Engine_Power_kW, 
     Speed_knots, 
+    Ship_Size
     Wind_Direction_degrees, 
     Wave_Direction_degrees, 
     Wind_Speed_knots, 
@@ -154,7 +155,7 @@ async def predict_speed(inputs):
     print("Total time taken : ", end-start)
     return result[0][0]
 
-@app.get("/detect_disaster")
+@app.get("/detect_disaster_static")
 def detect_disaster(data: dict):
 
     '''
@@ -230,10 +231,90 @@ def detect_disaster(data: dict):
         json.dump(return_coordinates, file)
         print("File saved successfully")
 
-    return {"coordinates": return_coordinates}
+    return {"coordinates_data": return_coordinates}
+
+@app.get("/detect_disaster_dynamic")
+def detect_disaster(data: dict):
+
+    '''
+    "inputs" contain latitude, logitude and weather.  
+    
+    data = {
+        "Ship_Size" : "Medium",
+        "Fuel_Level_tonnes" : 53.26,
+        "Ship_Load_%" : 75.0,
+        "Wind_Speed_knots" : 14.95,
+        "Precipitation_mm_hr" : 36.5,
+        "Wave_Height_m" : 7.14,
+        "Adjusted_Speed_knots" : 6.9,
+    }
+    
+    data['Storm_Severity'] = determine_storm_severity(data['Wave_Height_m'], data['Wind_Speed_knots'], data['Precipitation_mm_hr'])
+
+    Output:
+    Model outputs the coordinate that are safe to sail with respect to weather.
+
+    '''
+
+    weather_json = data['weather_json']
+    coordinate_json = data['coordinate_json']
+
+    Ship_Size = "Medium",
+    Fuel_Level_tonnes =  53.26,
+    Ship_Load = 75.0,
+    Distance_to_Disaster_km = 149.46,
+    Precipitation_mm_hr = 36.5,
+
+    return_coordinates = []
+    
+    print(type(Ship_Size))
+
+    ship_sizes = {
+        "Small" : {"Wind_Speed_knots": 30, "Wave_Height_m": 4},
+        "Medium" : {"Wind_Speed_knots": 35, "Wave_Height_m": 6},
+        "Large" : {"Wind_Speed_knots": 40, "Wave_Height_m": 7},
+        "Very Large" : {"Wind_Speed_knots": 50, "Wave_Height_m": 7},
+    }
+
+    for weather, coordinate in zip(weather_json, coordinate_json):
+        row = {
+            'Wave_Height_m': weather['wave_height'],
+            'Wind_Speed_knots': weather['wind_speed'],
+            'Precipitation_mm_hr': 36.5,
+        }
+        # print(row)
+        severity_score, severity_level = determine_storm_severity(row)
+
+        print(severity_score, severity_level)
+        if ship_sizes[Ship_Size[0]]['Wind_Speed_knots'] < weather['wind_speed'] or \
+            ship_sizes[Ship_Size[0]]['Wave_Height_m'] < weather['wave_height']:
+            # data = {
+            #     "Ship_Size" : Ship_Size,
+            #     "Fuel_Level_tonnes" : Fuel_Level_tonnes,
+            #     "Ship_Load_%" : Ship_Load,
+            #     "Wind_Speed_knots" : weather['wind_speed'],
+            #     "Precipitation_mm_hr" : weather['precipitation'],
+            #     "Wave_Height_m" : weather['wave_height'],
+            #     "Distance_to_Disaster_km" : 149.46,
+            # }
+            print("Move with full speed.")
+            coordinate['severity_score'] = severity_score
+            coordinate['severity_level'] = severity_level
+            return_coordinates.append(coordinate)
+            print("Eliminating coordinate : ", coordinate['Latitude'], coordinate['Latitude'])
+
+        else:
+            print("Safe Coordinates : ", coordinate['Latitude'], coordinate['Latitude'])
+
+    with open('return_json.json', 'w') as file:
+        json.dump(return_coordinates, file)
+        print("File saved successfully")
+
+    return {"coordinates_data": return_coordinates}
     
 
 if __name__ == "__main__":
+    
     # Load the pipeline from the file for Speed
     loaded_pipeline = joblib.load('ship_speed_pipeline.pkl')
 
