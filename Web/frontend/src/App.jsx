@@ -8,7 +8,7 @@ import FuelConsumption from "./pages/FuelConsumption";
 import RouteTracker from "./pages/RouteTracker";
 import EnginePowerSpeed from "./pages/EnginePowerSpeed";
 // import SelectPriorities from "./pages/SelectPriorities";
-import OptimzePath from "./pages/OptimzePath";
+// import OptimzePath from "./pages/OptimzePath";
 import Forecast from "./pages/forecast";
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/maps" element={<RouteTracker/>} />
           <Route path="/engine-power-speed" element={<EnginePowerSpeed/>} />
           {/* <Route path="/select-priorities" element={<SelectPriorities/>} /> */}
-          <Route path="/optimize-path" element={<OptimzePath/>}/>
+          {/* <Route path="/optimize-path" element={<OptimzePath/>}/> */}
         </Routes>
       </Router>
     </>

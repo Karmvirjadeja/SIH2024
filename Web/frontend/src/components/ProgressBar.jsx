@@ -11,7 +11,7 @@ const ProgressBar = ({ currentStep }) => {
     { name: 'Engine Power & Speed', path: '/engine-power-speed' },
     { name: 'Enter the Locations', path: '/enter-locations' },
     // { name: 'Select Your Priorities', path: '/select-priorities' },
-    { name: 'RouteTracker', path: '/optimize-path' },
+    // { name: 'RouteTracker', path: '/optimize-path' },
   ];
 
   const handleStepClick = (path) => {

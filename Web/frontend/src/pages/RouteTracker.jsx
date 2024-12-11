@@ -223,7 +223,7 @@ const RouteTracker = () => {
 
       <div className="h-screen flex flex-col lg:flex-row relative">
         {/* Controls */}
-        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex gap-4 z-50">
+        {/* <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex gap-4 z-50">
           {["GPS", "Pause", "Route"].map((control, idx) => (
             <button
               key={idx}
@@ -232,23 +232,23 @@ const RouteTracker = () => {
               {control}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* SOS Button */}
-        <div className="absolute bottom-20 left-5 z-50">
+        <div className="mx-1 absolute bottom-20 left-20 z-50">
           <button onClick={handleSOS} className="p-4 bg-red-500 text-white rounded-full shadow-lg">
             SOS
           </button>
         </div>
 
         {/* NearestPort Button */}
-        <div className="absolute bottom-20 left-80 z-50">
+        <div className="absolute bottom-20 left-40 z-50">
           <button onClick={handleNearestPort} className="p-4 bg-red-500 text-white rounded-full shadow-lg">
            Nearest PORT 
           </button>
         </div>
         {/* Map Section */}
-        <div className="lg:w-2/3 relative h-2/3 lg:h-full z-10">
+        <div className="w-full relative h-full lg:h-full z-10">
           <MapContainer
             center={userLocation ? [userLocation.lat, userLocation.lon] : [0, 100]}
             zoom={4}
@@ -297,19 +297,8 @@ const RouteTracker = () => {
             )}
           </MapContainer>
         </div>
-        <div className="lg:w-1/3 bg-gray-100 p-4 overflow-y-auto relative z-20">
-          <h3 className="text-lg font-bold mb-4">Route Details</h3>
-          <div className="border-t pt-4">
-            <ul className="space-y-4">
-              {["Chennai", "Sri Lanka", "Perth"].map((location, idx) => (
-                <li key={idx} className="border p-2 rounded-lg flex justify-between items-center">
-                  <span>{location}</span>
-                  <span>Time</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+        
+        
       </div>
     </>
   );
