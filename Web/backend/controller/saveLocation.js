@@ -67,6 +67,7 @@ export const findNearestPort = asyncHandler(async (req, res) => {
         }
     });
 
+    console.log(nearestPort.name);
     if (!nearestPort) {
         return res.status(404).json({ error: "No ports found." });
     }
