@@ -107,10 +107,8 @@ async def predicting(inputs: dict):
 
     return {"fuel": fuel}
 
-
-
 @app.get("/predict_speed")
-async def predict_speed(inputs):
+async def predict_speed(inputs: dict):
     start = time.time_ns()
     # Wrap scalar values in lists
     inputs = {key: [value] for key, value in inputs.items()}
