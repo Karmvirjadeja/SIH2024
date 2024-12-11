@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import Header from '../components/Header';
+import backgroundImage from '../assets/Sea.jpg';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -40,7 +41,8 @@ const FAQ = () => {
   return (
     <>
     <Header/>
-    <div className="bg-gray-100 min-h-screen py-12">
+    <div className="bg-gray-100 min-h-screen py-12"
+    style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-blue-600 mb-6">Frequently Asked Questions</h1>

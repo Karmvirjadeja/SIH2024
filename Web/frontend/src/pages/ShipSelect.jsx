@@ -3,6 +3,7 @@ import { FaCheckCircle, FaShip } from 'react-icons/fa';
 import { AiOutlineMenu } from 'react-icons/ai';
 import ProgressBar from '../components/ProgressBar';
 import Header from '../components/Header';
+import backgroundImage from '../assets/Sea.jpg';
 
 const ShipSelectionPage = () => {
   const [selectedShip, setSelectedShip] = useState('Containers');
@@ -29,7 +30,8 @@ const ShipSelectionPage = () => {
   return (
     <>
       <Header />
-      <div className="bg-gray-50 min-h-screen">
+      <div className="bg-gray-50 min-h-screen"
+      style={{ backgroundImage: `url(${backgroundImage})` }}>
         <ProgressBar currentStep={0} />
         {/* Instruction Section */}
         <div className="text-center py-12">

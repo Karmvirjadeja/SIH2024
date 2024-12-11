@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import ProgressBar from '../components/ProgressBar';
+import backgroundImage from '../assets/Sea.jpg';
 
 const EnginePowerSpeed = () => {
   const [enginePower, setEnginePower] = useState(5000); // Engine power in horsepower
@@ -15,7 +16,8 @@ const EnginePowerSpeed = () => {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen"
+    style={{ backgroundImage: `url(${backgroundImage})` }}>
       <Header />
       <ProgressBar currentStep={2} />
 
