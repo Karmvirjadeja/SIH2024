@@ -1,64 +1,74 @@
-import React, { useState } from 'react';
-import Header from '../components/Header';
-import ProgressBar from '../components/ProgressBar';
-import backgroundImage from '../assets/Sea.jpg';
+import React, { useState } from "react";
+import Header from "../components/Header";
+import ProgressBar from "../components/ProgressBar";
+import backgroundImage from "../assets/Sea.jpg";
 
 const EnginePowerSpeed = () => {
-  const [enginePower, setEnginePower] = useState(5000); // Engine power in horsepower
-  const [speed, setSpeed] = useState(300); // Speed in knots
+  const [enginePower, setEnginePower] = useState(""); // Initialize as empty string
+  const [speed, setSpeed] = useState(""); // Initialize as empty string
 
   const handlePowerChange = (e) => {
-    setEnginePower(e.target.value);
+    const value = e.target.value;
+    setEnginePower(value);
   };
 
   const handleSpeedChange = (e) => {
-    setSpeed(e.target.value);
+    const value = e.target.value;
+    setSpeed(value);
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen"
-    style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div
+      className="bg-gray-50 min-h-screen"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
       <Header />
       <ProgressBar currentStep={2} />
 
       <div className="max-w-4xl mx-auto p-8">
         {/* Engine Power Section */}
         <div className="bg-white shadow-md rounded-lg p-6 text-center mb-12">
-          <h3 className="text-3xl font-semibold text-blue-600 mb-6">Engine Power</h3>
+          <h3 className="text-3xl font-semibold text-blue-600 mb-6">
+            Engine Power
+          </h3>
           <input
-            type="range"
-            min="1000"
-            max="10000"
-            step="500"
+            type="number"
+            min="0"
+            max="7457" // Maximum horsepower converted to kilowatts (10000 HP * 0.7457)
+            step="10"
             value={enginePower}
             onChange={handlePowerChange}
-            className="w-full h-2 bg-blue-200 rounded-lg appearance-none cursor-pointer"
+            placeholder="Enter engine power in kilowatts"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-lg text-gray-700 placeholder-gray-400"
           />
-          <div className="flex justify-between mt-6 text-gray-500 text-lg">
-            <span>1,000 HP</span>
-            <span>5,000 HP</span>
-            <span>10,000 HP</span>
-          </div>
           <p className="mt-4 text-lg text-gray-700">
-            Selected Power: <span className="font-bold text-blue-600">{enginePower} HP</span>
+            Entered Power:{" "}
+            <span className="font-bold text-blue-600">
+              {enginePower
+                ? `${enginePower} kW (${(enginePower / 0.7457).toFixed(2)} HP)`
+                : "None entered"}
+            </span>
           </p>
         </div>
 
         {/* Speed Section */}
         <div className="bg-white shadow-md rounded-lg p-6 text-center">
           <h3 className="text-3xl font-semibold text-blue-600 mb-6">Speed</h3>
-          <select
+          <input
+            type="number"
+            min="0"
+            max="50"
+            step="1"
             value={speed}
             onChange={handleSpeedChange}
-            className="border border-blue-500 p-3 rounded-md w-full max-w-sm mx-auto text-lg text-gray-800 bg-gray-50 hover:bg-blue-50 transition duration-300"
-          >
-            <option value={100}>10 Knots</option>
-            <option value={200}>20 Knots</option>
-            <option value={300}>30 Knots</option>
-            <option value={400}>40 Knots</option>
-          </select>
+            placeholder="Enter speed in knots"
+            className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-lg text-gray-700 placeholder-gray-400"
+          />
           <p className="mt-4 text-lg text-gray-700">
-            Selected Speed: <span className="font-bold text-blue-600">{speed} Knots</span>
+            Entered Speed:{" "}
+            <span className="font-bold text-blue-600">
+              {speed ? `${speed} Knots` : "None entered"}
+            </span>
           </p>
         </div>
       </div>
