@@ -13,7 +13,7 @@ const OptimizedRoute = () => {
     setLoading(true); // Set loading to true when GO button is clicked
     setTimeout(() => {
       navigate('/maps'); // Redirect to MapsComponent after the loader
-    }, 3000); // 3 seconds loader time (you can adjust this)
+    }, 10000); // 10 seconds loader time (you can adjust this)
   };
 
   return (
