@@ -12,19 +12,18 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { DivIcon } from "leaflet";
-import data from "../components/utils/processed_coordinates.json";
-
+// import data from "../components/utils/processed_coordinates.json";
 
 const piracyIcon = new DivIcon({
-  className: 'piracy-icon',
-  html: '🏴‍☠️',
+  className: "piracy-icon",
+  html: "🏴‍☠️",
   iconSize: [100, 80], // increased icon size
   iconAnchor: [25, 50], // adjusted icon anchor
   popupAnchor: [0, -60], // adjusted popup anchor
   style: {
-    fontSize: '50px',
-    textAlign: 'center'
-  }
+    fontSize: "50px",
+    textAlign: "center",
+  },
 });
 
 const RouteTracker = () => {
@@ -33,68 +32,74 @@ const RouteTracker = () => {
   const [showPortMarker, setShowPortMarker] = useState(false); // State to control marker visibility
   const [markers, setMarkers] = useState([]); // State to hold the markers to be displayed
   const [reRoutingInProgress, setReRoutingInProgress] = useState(false); // Flag to control routing
-
+  const [route, setRoute] = useState([]);
 
   const piracyLocations = [
-    { latitude: 22.30183, longitude: 91.70650 }, // Chattogram Anchorage
-    { latitude: 22.28283, longitude: 91.71000 },
-    { latitude: 22.23333, longitude: 91.70000 },
+    { latitude: 22.30183, longitude: 91.7065 }, // Chattogram Anchorage
+    { latitude: 22.28283, longitude: 91.71 },
+    { latitude: 22.23333, longitude: 91.7 },
     { latitude: 22.16333, longitude: 91.77333 },
-    { latitude: 21.92900, longitude: 91.71133 },
-    { latitude: 21.92000, longitude: 91.74300 },
-    { latitude: 21.84750, longitude: 91.69733 },
-    { latitude: 21.83200, longitude: 91.71400 },
-    { latitude: 21.81167, longitude: 91.78500 },
+    { latitude: 21.929, longitude: 91.71133 },
+    { latitude: 21.92, longitude: 91.743 },
+    { latitude: 21.8475, longitude: 91.69733 },
+    { latitude: 21.832, longitude: 91.714 },
+    { latitude: 21.81167, longitude: 91.785 },
     { latitude: 21.39067, longitude: 91.81067 }, // Chattogram Anchorage
     { latitude: 17.05533, longitude: 82.41033 }, // Kakinada Anchorage
     { latitude: 17.03233, longitude: 82.36067 },
-    { latitude: 3.79768, longitude: 98.71800 }, // Belawan Port
-    { latitude: 3.89850, longitude: 98.80000 },
-    { latitude: 1.71850, longitude: 101.40833 }, // Dumai Anchorage
-    { latitude: 1.70700, longitude: 101.47167 },
-    { latitude: 1.70000, longitude: 101.48333 },
+    { latitude: 3.79768, longitude: 98.718 }, // Belawan Port
+    { latitude: 3.8985, longitude: 98.8 },
+    { latitude: 1.7185, longitude: 101.40833 }, // Dumai Anchorage
+    { latitude: 1.707, longitude: 101.47167 },
+    { latitude: 1.7, longitude: 101.48333 },
     { latitude: 1.70885, longitude: 101.49383 },
     { latitude: 1.17775, longitude: 103.47667 }, // Singapore Straits
     { latitude: 1.15667, longitude: 103.46225 },
-    { latitude: 1.13833, longitude: 103.48250 },
+    { latitude: 1.13833, longitude: 103.4825 },
     { latitude: 1.13333, longitude: 103.48333 },
     { latitude: 1.12667, longitude: 103.49167 },
     { latitude: 12.75517, longitude: 63.77033 }, // Arabian Sea
-    { latitude: 12.64375, longitude: 48.40100 }, // Gulf of Aden
-    { latitude: 6.35000, longitude: 50.10000 }, // Around Somalia
+    { latitude: 12.64375, longitude: 48.401 }, // Gulf of Aden
+    { latitude: 6.35, longitude: 50.1 }, // Around Somalia
     { latitude: 5.86667, longitude: 57.23333 },
     { latitude: 0.58333, longitude: 61.31667 },
-    { latitude: -1.26667, longitude: 51.11667 }
+    { latitude: -1.26667, longitude: 51.11667 },
   ];
 
-
   const parts = [
-    
     [
       { latitude: 13.07, longitude: 80.29 },
       { latitude: 11.52, longitude: 84.37 },
-      { latitude: -28.65, longitude: 113.64 }
+      { latitude: -28.65, longitude: 113.64 },
     ],
     [
       { latitude: -30.9, longitude: 114.43 },
       { latitude: -32.07, longitude: 115.65 },
-    ],[
-    {
-      "latitude": -20.917913562620523,
-      "longitude": 108.47460937500001
-  }],
-  [{
-      "latitude": -21.245203512679513,
-      "longitude": 108.71191406250001
-  }],
-  [{
-      "latitude": -21.5724934627385,
-      "longitude": 108.94921875000001
-  }],
-  [{
-      "latitude": -21.89978341279749,
-      "longitude": 109.18652343750001
-  }]
+    ],
+    [
+      {
+        latitude: -20.917913562620523,
+        longitude: 108.47460937500001,
+      },
+    ],
+    [
+      {
+        latitude: -21.245203512679513,
+        longitude: 108.71191406250001,
+      },
+    ],
+    [
+      {
+        latitude: -21.5724934627385,
+        longitude: 108.94921875000001,
+      },
+    ],
+    [
+      {
+        latitude: -21.89978341279749,
+        longitude: 109.18652343750001,
+      },
+    ],
   ];
 
   const routes = [
@@ -127,13 +132,93 @@ const RouteTracker = () => {
       { latitude: -24.56, longitude: 111.79 },
       { latitude: -28.65, longitude: 113.64 },
       { latitude: -30.9, longitude: 114.43 },
-      
+
       { latitude: -32.07, longitude: 115.65 },
     ],
   ];
 
   const colors = ["blue", "green"];
+  //handle re routing
 
+  // const handleReRoute = async () => {
+  //   try{
+  //     const response = await axios.get("http://192.168.137.98:5000/get_coordinates");
+  
+  //     if (!response.ok) {
+  //       throw new Error(`HTTP error! status: ${response.status}`);
+  //     }
+  
+  //     const data = await response.json();
+  //     console.log(typeof data) // Converts the response body to JSON
+  //     console.log(data);
+  //     console.log(response)
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+   
+   
+  // }
+  // const handleReRoute = async () => {
+  //   try {
+  //     const response = await fetch("http://10.42.0.1:5000/get_coordinates");
+  
+  //     if (!response.ok) {
+  //       throw new Error(`HTTP error! status: ${response.status}`);
+  //     }
+  
+  //     const reader = response.body.getReader();
+  //     const decoder = new TextDecoder();
+  //     let done = false;
+  
+  //     while (!done) {
+  //       const { value, done: isDone } = await reader.read();
+  //       done = isDone;
+  
+  //       if (value) {
+  //         const chunk = decoder.decode(value, { stream: true });
+  //         console.log(chunk); // Each chunk is one point in JSON format
+  //         // You can process the JSON here:
+  //         const data = JSON.parse(chunk);
+          
+  //         setRoute(data);
+  //       }
+  //     }
+  //   } catch (error) {
+  //     console.error("Error while streaming:", error);
+  //   }
+  // };
+  const handleReRoute = async () => {
+    try {
+      const response = await fetch("http://10.42.0.1:5000/get_coordinates");
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let done = false;
+  
+      while (!done) {
+        const { value, done: isDone } = await reader.read();
+        done = isDone;
+  
+        if (value) {
+          const chunk = decoder.decode(value, { stream: true });
+          console.log(chunk); // Each chunk is one point in JSON format
+          const data = JSON.parse(chunk);
+  
+          // Append new data to the existing route array
+          setRoute((prevRoute) => [...prevRoute, data]);
+        }
+      }
+    } catch (error) {
+      console.error("Error while streaming:", error);
+    }
+  };
+  
+   
+  
   // Handle SOS button click
   const handleSOS = () => {
     navigator.geolocation.getCurrentPosition(
@@ -160,7 +245,7 @@ const RouteTracker = () => {
     );
   };
 
-    const handleNearestPort = () => {
+  const handleNearestPort = () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         // const { latitude, longitude } = position.coords;
@@ -175,7 +260,7 @@ const RouteTracker = () => {
           .then((response) => {
             console.log("Location saved:", response.data.port.latitude);
             setPort(response.data.port);
-            setShowPortMarker(true)
+            setShowPortMarker(true);
             toast.success("Here is your nearest PORT!");
           })
           .catch((error) => {
@@ -205,7 +290,7 @@ const RouteTracker = () => {
   const handleReRouting = () => {
     setReRoutingInProgress(true);
     setMarkers([]); // Clear existing markers
-  
+
     // Flatten all coordinates from the JSON
     const allCoordinates = data.flatMap((route) => [
       route.start, // Start point
@@ -215,29 +300,34 @@ const RouteTracker = () => {
     console.log("Flattened Coordinates:", allCoordinates);
     const delayPerMarker = 10000; // 10 seconds between markers
     const holdDuration = 50000; // 50-second hold after every 5 markers
-  
+
     const processMarkers = async () => {
       for (let i = 0; i < allCoordinates.length; i++) {
         // Add marker with a delay
         setTimeout(() => {
           setMarkers((prevMarkers) => [
             ...prevMarkers,
-            { id: `marker-${i}`, position: [allCoordinates[i].latitude, allCoordinates[i].longitude] },
+            {
+              id: `marker-${i}`,
+              position: [
+                allCoordinates[i].latitude,
+                allCoordinates[i].longitude,
+              ],
+            },
           ]);
         }, (i % 5) * delayPerMarker);
-  
+
         // Pause for 30 seconds after every 5 markers
         if ((i + 1) % 5 === 0 || i === allCoordinates.length - 1) {
-          await new Promise((resolve) => setTimeout(resolve, holdDuration + delayPerMarker));
+          await new Promise((resolve) =>
+            setTimeout(resolve, holdDuration + delayPerMarker)
+          );
         }
       }
     };
-  
+
     processMarkers();
   };
-  
-  
-  
 
   return (
     <>
@@ -277,10 +367,10 @@ const RouteTracker = () => {
         {/* ReRouting Button */}
         <div className="absolute bottom-20 left-80 z-50">
           <button
-            onClick={handleReRouting}
+            onClick={handleReRoute}
             className="p-4 bg-green-500 text-white rounded-full shadow-lg"
           >
-            ReRouting
+            Real-time-Routing
           </button>
         </div>
 
@@ -325,22 +415,38 @@ const RouteTracker = () => {
               </Marker>
             ))}
 
-            
-
             {/* Show the nearest port marker */}
             {showPortMarker && port && (
-              <Marker position={[port.latitude, port.longitude]} >
+              <Marker position={[port.latitude, port.longitude]}>
                 <Popup>Nearest Port</Popup>
               </Marker>
             )}
- {piracyLocations.map((location, index) => (
-  <Marker key={index} position={[location.latitude, location.longitude]} icon={piracyIcon}>
-    <Popup> Piracy Zone - 
-    Latitude: {location.latitude}
-    Longitude: {location.longitude}
-    </Popup>
-  </Marker>
-))}
+            {piracyLocations.map((location, index) => (
+              <Marker
+                key={index}
+                position={[location.latitude, location.longitude]}
+                icon={piracyIcon}
+              >
+                <Popup>
+                  {" "}
+                  Piracy Zone - Latitude: {location.latitude}
+                  Longitude: {location.longitude}
+                </Popup>
+              </Marker>
+            ))}
+            {/* {route &&
+        route.map((point, index) => (
+          <Marker key={index} position={[point.latitude, point.longitude]}>
+            <Popup>
+              Marker: [{point.latitude}, {point.longitude}]
+            </Popup>
+          </Marker>
+        ))} */}
+        {route.length > 1 && (
+        <Polyline positions={route.map((point) => [point.latitude, point.longitude])} color="red" dashArray="10, 5" >
+          <Popup>Route Polyline</Popup>
+        </Polyline>
+      )}
           </MapContainer>
         </div>
       </div>
