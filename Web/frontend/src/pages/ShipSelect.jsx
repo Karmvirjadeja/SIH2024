@@ -50,8 +50,13 @@ const ShipSelectionPage = () => {
     };
   }, [selectedShip]);
 
-  const handleNext = () => {
-    navigate("/fuel-consumption", { state: { selectedShip } });
+  const handleShipSelect = (shipName) => {
+    setSelectedShip(shipName);
+
+    // If the selected ship is not "SCI Chennai", navigate to fuel-consumption page immediately
+    if (shipName !== "SCI Chennai") {
+      navigate("/fuel-consumption", { state: { selectedShip: shipName } });
+    }
   };
 
   return (
@@ -85,7 +90,8 @@ const ShipSelectionPage = () => {
                 {ships.map((ship) => (
                   <button
                     key={ship.name}
-                    onClick={() => setSelectedShip(ship.name)}
+                    onClick={() => handleShipSelect(ship.name)} // Call handleShipSelect on click
+                    disabled={selectedShip !== null} // Disable other ship buttons after selection
                     className={`p-4 w-full max-w-xs rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 flex items-center justify-start space-x-4 ${
                       selectedShip === ship.name
                         ? "bg-blue-500 text-white shadow-lg ring ring-blue-200 ring-offset-2"
@@ -105,7 +111,7 @@ const ShipSelectionPage = () => {
             </>
           ) : (
             <div
-              className="mt-[-40px] p-6 max-w-md bg-white rounded-lg shadow-xl text-left flex flex-col  justify-center"
+              className="mt-[-40px] p-6 max-w-md bg-white rounded-lg shadow-xl text-left flex flex-col justify-center"
               style={{ position: "relative" }}
             >
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
@@ -140,7 +146,7 @@ const ShipSelectionPage = () => {
 
               <div className="flex justify-center w-full mt-4">
                 <button
-                  onClick={handleNext}
+                  onClick={() => navigate("/fuel-consumption", { state: { selectedShip } })}
                   className="py-2 px-6 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300"
                 >
                   Next
