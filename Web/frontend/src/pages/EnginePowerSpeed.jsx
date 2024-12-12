@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import Header from "../components/Header";
 import ProgressBar from "../components/ProgressBar";
 import backgroundImage from "../assets/Sea.jpg";
@@ -6,6 +7,8 @@ import backgroundImage from "../assets/Sea.jpg";
 const EnginePowerSpeed = () => {
   const [enginePower, setEnginePower] = useState(""); // Initialize as empty string
   const [speed, setSpeed] = useState(""); // Initialize as empty string
+
+  const navigate = useNavigate(); // Hook for navigation
 
   const handlePowerChange = (e) => {
     const value = e.target.value;
@@ -15,6 +18,13 @@ const EnginePowerSpeed = () => {
   const handleSpeedChange = (e) => {
     const value = e.target.value;
     setSpeed(value);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter" && enginePower && speed) {
+      // Navigate to the OptimizedPath page when Enter is pressed and both fields are filled
+      navigate("/enter-locations");
+    }
   };
 
   return (
@@ -39,6 +49,7 @@ const EnginePowerSpeed = () => {
             value={enginePower}
             onChange={handlePowerChange}
             placeholder="Enter engine power in kilowatts"
+            onKeyPress={handleKeyPress} // Attach the keypress handler
             className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-lg text-gray-700 placeholder-gray-400"
           />
           <p className="mt-4 text-lg text-gray-700">
@@ -62,6 +73,7 @@ const EnginePowerSpeed = () => {
             value={speed}
             onChange={handleSpeedChange}
             placeholder="Enter speed in knots"
+            onKeyPress={handleKeyPress} // Attach the keypress handler
             className="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-lg text-gray-700 placeholder-gray-400"
           />
           <p className="mt-4 text-lg text-gray-700">

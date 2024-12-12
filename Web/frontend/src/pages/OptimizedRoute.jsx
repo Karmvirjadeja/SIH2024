@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoLocationSharp } from 'react-icons/io5';
 import ProgressBar from '../components/ProgressBar';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import backgroundImage from '../assets/Sea.jpg'; 
+import backgroundImage from '../assets/Sea.jpg';
 
 const OptimizedRoute = () => {
   const navigate = useNavigate(); // Initialize navigate
+  const [loading, setLoading] = useState(false); // State to track loading
 
   const handleGoClick = () => {
-    navigate('/maps'); // Redirect to MapsComponent
+    setLoading(true); // Set loading to true when GO button is clicked
+    setTimeout(() => {
+      navigate('/maps'); // Redirect to MapsComponent after the loader
+    }, 3000); // 3 seconds loader time (you can adjust this)
   };
 
   return (
@@ -20,69 +24,82 @@ const OptimizedRoute = () => {
       <Header />
       <ProgressBar currentStep={3} />
 
-      <div className="flex-1 flex flex-col justify-center items-center px-6 py-10 md:px-16">
-        {/* Location Inputs Section */}
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-16 w-full max-w-6xl mx-auto">
-          {/* Source (Chennai) Section */}
-          <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
-            <h2 className="text-3xl font-bold text-blue-600 mb-4">Source</h2>
-            <input
-              className="border-b-2 border-blue-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-gray-800 focus:outline-none"
-              type="text"
-              value="Chennai"
-              readOnly
-            />
-            <input
-              className="border-b-2 border-gray-300 text-center mb-4 w-full py-3 text-gray-600 text-xl focus:outline-none"
-              type="text"
-              value="13°05'15.2\N"
-              readOnly
-            />
-            <input
-              className="border-b-2 border-gray-300 text-center w-full py-3 text-gray-600 text-xl focus:outline-none"
-              type="text"
-              value="80°17'56.6\E"
-              readOnly
-            />
+      {/* Show loader if loading is true */}
+      {loading ? (
+        <div className="flex-1 flex flex-col justify-center items-center space-y-6">
+          {/* Bouncing Dots Loader */}
+          <div className="flex items-center justify-center space-x-3">
+            <div className="dot bg-blue-500 w-6 h-6 rounded-full animate-bounce1"></div>
+            <div className="dot bg-red-500 w-6 h-6 rounded-full animate-bounce2"></div>
+            <div className="dot bg-green-500 w-6 h-6 rounded-full animate-bounce3"></div>
           </div>
-
-          {/* Location Icon */}
-          <div className="flex items-center">
-            <IoLocationSharp className="text-blue-500" size={50} />
-          </div>
-
-          {/* Destination (Perth) Section */}
-          <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
-            <h2 className="text-3xl font-bold text-red-600 mb-4">Destination</h2>
-            <input
-              className="border-b-2 border-red-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-red-600 focus:outline-none"
-              type="text"
-              value="Perth"
-              readOnly
-            />
-            <input
-              className="border-b-2 border-red-300 text-center mb-4 w-full py-3 text-red-500 text-xl focus:outline-none"
-              type="text"
-              value="31°57'45.2\N"
-              readOnly
-            />
-            <input
-              className="border-b-2 border-red-300 text-center w-full py-3 text-red-500 text-xl focus:outline-none"
-              type="text"
-              value="115°51'30.5\E"
-              readOnly
-            />
-          </div>
+          <p className="text-white text-xl animate-fadeIn">Loading...</p>
         </div>
+      ) : (
+        <div className="flex-1 flex flex-col justify-center items-center px-6 py-10 md:px-16">
+          {/* Location Inputs Section */}
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-16 w-full max-w-6xl mx-auto">
+            {/* Source (Chennai) Section */}
+            <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
+              <h2 className="text-3xl font-bold text-blue-600 mb-4">Source</h2>
+              <input
+                className="border-b-2 border-blue-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-gray-800 focus:outline-none"
+                type="text"
+                value="Chennai"
+                readOnly
+              />
+              <input
+                className="border-b-2 border-gray-300 text-center mb-4 w-full py-3 text-gray-600 text-xl focus:outline-none"
+                type="text"
+                value="13°05'15.2\N"
+                readOnly
+              />
+              <input
+                className="border-b-2 border-gray-300 text-center w-full py-3 text-gray-600 text-xl focus:outline-none"
+                type="text"
+                value="80°17'56.6\E"
+                readOnly
+              />
+            </div>
 
-        {/* GO Button */}
-        <button
-          onClick={handleGoClick}
-          className="mt-12 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-10 py-5 rounded-full text-2xl font-bold shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 transform hover:scale-110 transition-all duration-300"
-        >
-          GO
-        </button>
-      </div>
+            {/* Location Icon */}
+            <div className="flex items-center">
+              <IoLocationSharp className="text-blue-500" size={50} />
+            </div>
+
+            {/* Destination (Perth) Section */}
+            <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg rounded-2xl p-6 transition-all transform hover:scale-105 hover:shadow-xl">
+              <h2 className="text-3xl font-bold text-red-600 mb-4">Destination</h2>
+              <input
+                className="border-b-2 border-red-500 text-center mb-4 w-full py-4 text-2xl font-semibold text-red-600 focus:outline-none"
+                type="text"
+                value="Perth"
+                readOnly
+              />
+              <input
+                className="border-b-2 border-red-300 text-center mb-4 w-full py-3 text-red-500 text-xl focus:outline-none"
+                type="text"
+                value="31°57'45.2\N"
+                readOnly
+              />
+              <input
+                className="border-b-2 border-red-300 text-center w-full py-3 text-red-500 text-xl focus:outline-none"
+                type="text"
+                value="115°51'30.5\E"
+                readOnly
+              />
+            </div>
+          </div>
+
+          {/* GO Button */}
+          <button
+            onClick={handleGoClick}
+            className="mt-12 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-10 py-5 rounded-full text-2xl font-bold shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 transform hover:scale-110 transition-all duration-300"
+          >
+            GO
+          </button>
+        </div>
+      )}
     </div>
   );
 };

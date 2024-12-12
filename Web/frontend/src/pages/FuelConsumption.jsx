@@ -1,13 +1,22 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import Header from "../components/Header";
 import ProgressBar from "../components/ProgressBar";
 import backgroundImage from "../assets/Sea.jpg";
 
 const FuelConsumption = () => {
-  const [fuelCapacityTones, setFuelCapacityTones] = useState(""); // Initialize state as an empty string
+  const [fuelCapacityTones, setFuelCapacityTones] = useState(""); // Initialize state
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const handleFuelChange = (e) => {
     setFuelCapacityTones(e.target.value);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" && fuelCapacityTones) {
+      // Navigate to the Engine Power and Speed page
+      navigate("/engine-power-speed", { state: { fuelCapacityTones } });
+    }
   };
 
   return (
@@ -29,7 +38,7 @@ const FuelConsumption = () => {
             Fuel Capacity
           </h2>
 
-          <form className="space-y-8">
+          <form className="space-y-8" onKeyDown={handleKeyDown}>
             <label className="block text-xl font-medium text-gray-700">
               Enter Fuel Capacity (in tones):
             </label>
