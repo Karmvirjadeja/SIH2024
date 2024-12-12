@@ -43,7 +43,23 @@ const RouteTracker = () => {
     [
       { latitude: -30.9, longitude: 114.43 },
       { latitude: -32.07, longitude: 115.65 },
-    ]
+    ],[
+    {
+      "latitude": -20.917913562620523,
+      "longitude": 108.47460937500001
+  }],
+  [{
+      "latitude": -21.245203512679513,
+      "longitude": 108.71191406250001
+  }],
+  [{
+      "latitude": -21.5724934627385,
+      "longitude": 108.94921875000001
+  }],
+  [{
+      "latitude": -21.89978341279749,
+      "longitude": 109.18652343750001
+  }]
   ];
 
   const routes = [
@@ -76,6 +92,7 @@ const RouteTracker = () => {
       { latitude: -24.56, longitude: 111.79 },
       { latitude: -28.65, longitude: 113.64 },
       { latitude: -30.9, longitude: 114.43 },
+      
       { latitude: -32.07, longitude: 115.65 },
     ],
   ];
@@ -159,9 +176,9 @@ const RouteTracker = () => {
       ...route.intermediate, // Intermediate points
       route.end, // End point
     ]);
-  
-    const delayPerMarker = 100; // 5 seconds between markers
-    const holdDuration = 5000; // 30-second hold after every 5 markers
+    console.log("Flattened Coordinates:", allCoordinates);
+    const delayPerMarker = 10000; // 10 seconds between markers
+    const holdDuration = 50000; // 50-second hold after every 5 markers
   
     const processMarkers = async () => {
       for (let i = 0; i < allCoordinates.length; i++) {
@@ -182,6 +199,7 @@ const RouteTracker = () => {
   
     processMarkers();
   };
+  
   
   
 
@@ -267,9 +285,11 @@ const RouteTracker = () => {
             {/* Display sequential markers */}
             {markers.map((marker) => (
               <Marker key={marker.id} position={marker.position}>
-                <Popup>Marker {marker.id + 1}</Popup>
+                <Popup>Marker {marker.id}</Popup>
               </Marker>
             ))}
+
+            
 
             {/* Show the nearest port marker */}
             {showPortMarker && port && (
@@ -277,6 +297,7 @@ const RouteTracker = () => {
                 <Popup>Nearest Port</Popup>
               </Marker>
             )}
+   
           </MapContainer>
         </div>
       </div>
